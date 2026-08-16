@@ -1,0 +1,302 @@
+{
+  "groups": {
+    "convenience": [
+      "9",
+      "10"
+    ],
+    "cafe": [
+      "11",
+      "15"
+    ],
+    "ramen": [
+      "12",
+      "40"
+    ],
+    "transit": [
+      "13",
+      "48"
+    ],
+    "school": [
+      "18",
+      "19"
+    ],
+    "civic": [
+      "20",
+      "23"
+    ],
+    "medical": [
+      "16",
+      "17"
+    ],
+    "office": [
+      "14",
+      "28"
+    ],
+    "sports": [
+      "41",
+      "47"
+    ],
+    "beauty": [
+      "42",
+      "43"
+    ],
+    "home": [
+      "1",
+      "4"
+    ],
+    "culture": [
+      "24",
+      "45"
+    ],
+    "entertainment": [
+      "38",
+      "39"
+    ]
+  },
+  "zone_groups": {
+    "konbini": "convenience",
+    "station": "transit",
+    "ramen": "ramen",
+    "cafe": "cafe",
+    "cafeClassic": "cafe",
+    "cafeLounge": "cafe",
+    "maidCafe": "cafe",
+    "mangaBookshop": "culture",
+    "mangaCafe": "cafe",
+    "animalCafe": "cafe",
+    "classroom": "school",
+    "library": "school",
+    "calligraphyStudio": "school",
+    "origamiWorkshop": "school",
+    "kimonoDressing": "culture",
+    "ikebanaStudio": "culture",
+    "potteryStudio": "culture",
+    "kintsugiWorkshop": "culture",
+    "ukiyoEStudio": "culture",
+    "samuraiDojo": "culture",
+    "sumoDojo": "sports",
+    "sushiClass": "ramen",
+    "ramenClass": "ramen",
+    "teaCeremony": "culture",
+    "matchaTeaRoom": "culture",
+    "templeMain": "culture",
+    "templeHall": "culture",
+    "templeRoom": "culture",
+    "theatre": "entertainment",
+    "karaoke": "entertainment",
+    "arcade": "entertainment",
+    "hotpotRestaurant": "ramen",
+    "restaurant": "ramen",
+    "restaurantCounter": "ramen",
+    "restaurantIzakaya": "ramen",
+    "sentoBathhouse": "beauty",
+    "spa": "beauty",
+    "massageStudio": "beauty",
+    "sauna": "beauty",
+    "ryokan": "home",
+    "policeStation": "civic",
+    "embassy": "civic",
+    "hospital": "medical",
+    "footballGround": "sports",
+    "tennisCourt": "sports",
+    "stadium": "sports",
+    "townhouse": "home",
+    "apartment": "home",
+    "familyHome": "home",
+    "office": "office",
+    "officeTech": "office",
+    "officeTraining": "office",
+    "tokyoOffice": "office",
+    "supermarket": "convenience",
+    "gym": "sports",
+    "zumbaStudio": "sports"
+  },
+  "zones": {
+    "town": {
+      "npcs": [
+        {
+          "id": "traveller",
+          "position": [
+            6288,
+            672
+          ]
+        },
+        {
+          "id": "teacher",
+          "position": [
+            5712,
+            672
+          ]
+        },
+        {
+          "id": "old_lady",
+          "position": [
+            2448,
+            1152
+          ]
+        },
+        {
+          "id": "store_server",
+          "position": [
+            1440,
+            672
+          ]
+        },
+        {
+          "id": "1",
+          "position": [
+            1872,
+            672
+          ],
+          "path": [
+            [
+              1872,
+              672
+            ],
+            [
+              2160,
+              672
+            ],
+            [
+              2160,
+              816
+            ],
+            [
+              1872,
+              816
+            ]
+          ],
+          "speed": 20
+        },
+        {
+          "id": "2",
+          "position": [
+            2160,
+            1120
+          ],
+          "path": [
+            [
+              2160,
+              1120
+            ],
+            [
+              2688,
+              1120
+            ]
+          ],
+          "speed": 18
+        },
+        {
+          "id": "3",
+          "position": [
+            3024,
+            672
+          ],
+          "path": [
+            [
+              2880,
+              672
+            ],
+            [
+              3264,
+              672
+            ]
+          ],
+          "speed": 26
+        },
+        {
+          "id": "7",
+          "position": [
+            2064,
+            1152
+          ],
+          "path": [
+            [
+              2064,
+              1152
+            ],
+            [
+              2352,
+              1152
+            ]
+          ],
+          "speed": 22
+        },
+        {
+          "id": "13",
+          "position": [
+            4752,
+            672
+          ],
+          "path": [
+            [
+              4560,
+              672
+            ],
+            [
+              4944,
+              672
+            ]
+          ],
+          "speed": 24
+        },
+        {
+          "id": "36",
+          "position": [
+            5856,
+            672
+          ],
+          "path": [
+            [
+              5664,
+              672
+            ],
+            [
+              6048,
+              672
+            ]
+          ],
+          "speed": 20
+        },
+        {
+          "id": "45",
+          "position": [
+            1056,
+            980
+          ]
+        },
+        {
+          "id": "50",
+          "position": [
+            1056,
+            1056
+          ]
+        }
+      ]
+    },
+    "classroom": {
+      "npc_ids": [
+        "19",
+        "3"
+      ]
+    },
+    "library": {
+      "npc_ids": [
+        "37",
+        "31"
+      ]
+    },
+    "calligraphyStudio": {
+      "npc_ids": [
+        "18",
+        "3"
+      ]
+    },
+    "origamiWorkshop": {
+      "npc_ids": [
+        "18",
+        "31"
+      ]
+    }
+  }
+}

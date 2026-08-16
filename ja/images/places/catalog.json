@@ -1,0 +1,4696 @@
+{
+  "version": 1,
+  "sourceRoot": "assets/ja/images/places",
+  "runtimeRoot": "assets/ja/images/tiles/places",
+  "places": [
+    {
+      "zoneId": "town",
+      "displayName": "Town / まち",
+      "mapJson": "assets/ja/images/tiles/tokyo_city/tokyo_city.tmj",
+      "runtimeImage": "assets/ja/images/tiles/tokyo_city/tokyo_city.png",
+      "bgm": "bgm_town.mp3",
+      "width": 7776,
+      "height": 2304,
+      "requiredLevel": 1
+    },
+    {
+      "zoneId": "konbini",
+      "displayName": "Konbini / コンビニ",
+      "mapJson": "assets/ja/images/tiles/places/konbini.json",
+      "runtimeImage": "assets/ja/images/tiles/places/konbini.png",
+      "bgm": "bgm_konbini.mp3",
+      "width": 1177,
+      "height": 939,
+      "requiredLevel": 1
+    },
+    {
+      "zoneId": "station",
+      "displayName": "Station / えき",
+      "mapJson": "assets/ja/images/tiles/places/station.json",
+      "runtimeImage": "assets/ja/images/tiles/places/station.png",
+      "bgm": "bgm_station.mp3",
+      "width": 1306,
+      "height": 1030,
+      "requiredLevel": 1
+    },
+    {
+      "zoneId": "ramen",
+      "displayName": "Ramen Shop / ラーメンや",
+      "mapJson": "assets/ja/images/tiles/places/ramen.json",
+      "runtimeImage": "assets/ja/images/tiles/places/ramen.png",
+      "bgm": "bgm_ramen.mp3",
+      "width": 1269,
+      "height": 986,
+      "requiredLevel": 3
+    },
+    {
+      "source": "culture/library.jpeg",
+      "slug": "library",
+      "zoneId": "library",
+      "category": "culture",
+      "displayName": "Library / としょかん",
+      "npcId": "teacher",
+      "requiredLevel": 1,
+      "width": 1307,
+      "height": 720,
+      "runtimeImage": "assets/ja/images/tiles/places/library.png",
+      "runtimeJson": "assets/ja/images/tiles/places/library.json",
+      "normalizedConfig": {
+        "collisions": [
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.045
+          ],
+          [
+            0.0,
+            0.0,
+            0.03,
+            1.0
+          ],
+          [
+            0.97,
+            0.0,
+            0.03,
+            1.0
+          ],
+          [
+            0.0,
+            0.955,
+            0.435,
+            0.045
+          ],
+          [
+            0.565,
+            0.955,
+            0.435,
+            0.045
+          ],
+          [
+            0.23,
+            0.14,
+            0.54,
+            0.1
+          ],
+          [
+            0.28,
+            0.4,
+            0.18,
+            0.39
+          ],
+          [
+            0.54,
+            0.4,
+            0.18,
+            0.39
+          ]
+        ],
+        "doors": [
+          {
+            "rect": [
+              0.435,
+              0.895,
+              0.13,
+              0.06
+            ],
+            "targetZone": "town",
+            "targetSpawn": "spawn_station",
+            "requiredLevel": 1
+          }
+        ],
+        "spawns": [
+          {
+            "name": "default",
+            "at": [
+              0.5,
+              0.5
+            ]
+          }
+        ],
+        "npcs": [
+          {
+            "npcId": "teacher",
+            "at": [
+              0.5,
+              0.78
+            ]
+          }
+        ]
+      },
+      "originalSource": "01_library.jpeg"
+    },
+    {
+      "source": "retail/manga-bookshop.jpeg",
+      "slug": "manga-bookshop",
+      "zoneId": "mangaBookshop",
+      "category": "retail",
+      "displayName": "Manga Bookshop / まんがや",
+      "npcId": "store_server",
+      "requiredLevel": 1,
+      "width": 1374,
+      "height": 768,
+      "runtimeImage": "assets/ja/images/tiles/places/manga-bookshop.png",
+      "runtimeJson": "assets/ja/images/tiles/places/manga-bookshop.json",
+      "normalizedConfig": {
+        "collisions": [
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.045
+          ],
+          [
+            0.0,
+            0.0,
+            0.03,
+            1.0
+          ],
+          [
+            0.97,
+            0.0,
+            0.03,
+            1.0
+          ],
+          [
+            0.0,
+            0.955,
+            0.435,
+            0.045
+          ],
+          [
+            0.565,
+            0.955,
+            0.435,
+            0.045
+          ],
+          [
+            0.22,
+            0.14,
+            0.56,
+            0.12
+          ],
+          [
+            0.26,
+            0.4,
+            0.18,
+            0.13
+          ],
+          [
+            0.56,
+            0.4,
+            0.18,
+            0.13
+          ]
+        ],
+        "doors": [
+          {
+            "rect": [
+              0.435,
+              0.895,
+              0.13,
+              0.06
+            ],
+            "targetZone": "town",
+            "targetSpawn": "spawn_station",
+            "requiredLevel": 1
+          }
+        ],
+        "spawns": [
+          {
+            "name": "default",
+            "at": [
+              0.5,
+              0.5
+            ]
+          }
+        ],
+        "npcs": [
+          {
+            "npcId": "store_server",
+            "at": [
+              0.5,
+              0.7
+            ]
+          }
+        ]
+      },
+      "originalSource": "01_manga_shop.jpeg"
+    },
+    {
+      "source": "food/maid-cafe.jpeg",
+      "slug": "maid-cafe",
+      "zoneId": "maidCafe",
+      "category": "food",
+      "displayName": "Maid Cafe / メイドカフェ",
+      "npcId": "store_server",
+      "requiredLevel": 1,
+      "width": 1308,
+      "height": 728,
+      "runtimeImage": "assets/ja/images/tiles/places/maid-cafe.png",
+      "runtimeJson": "assets/ja/images/tiles/places/maid-cafe.json",
+      "normalizedConfig": {
+        "collisions": [
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.045
+          ],
+          [
+            0.0,
+            0.0,
+            0.03,
+            1.0
+          ],
+          [
+            0.97,
+            0.0,
+            0.03,
+            1.0
+          ],
+          [
+            0.0,
+            0.955,
+            0.435,
+            0.045
+          ],
+          [
+            0.565,
+            0.955,
+            0.435,
+            0.045
+          ]
+        ],
+        "doors": [
+          {
+            "rect": [
+              0.435,
+              0.895,
+              0.13,
+              0.06
+            ],
+            "targetZone": "town",
+            "targetSpawn": "spawn_station",
+            "requiredLevel": 1
+          }
+        ],
+        "spawns": [
+          {
+            "name": "default",
+            "at": [
+              0.5,
+              0.5
+            ]
+          }
+        ],
+        "npcs": [
+          {
+            "npcId": "store_server",
+            "at": [
+              0.5,
+              0.7
+            ]
+          }
+        ]
+      },
+      "originalSource": "02_maid_cafe.jpeg"
+    },
+    {
+      "source": "sports/zumba-studio.jpeg",
+      "slug": "zumba-studio",
+      "zoneId": "zumbaStudio",
+      "category": "sports",
+      "displayName": "Zumba Studio / ズンバスタジオ",
+      "npcId": "traveller",
+      "requiredLevel": 1,
+      "width": 1330,
+      "height": 724,
+      "runtimeImage": "assets/ja/images/tiles/places/zumba-studio.png",
+      "runtimeJson": "assets/ja/images/tiles/places/zumba-studio.json",
+      "normalizedConfig": {
+        "collisions": [
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.035
+          ],
+          [
+            0.0,
+            0.0,
+            0.025,
+            1.0
+          ],
+          [
+            0.975,
+            0.0,
+            0.025,
+            1.0
+          ],
+          [
+            0.0,
+            0.965,
+            0.435,
+            0.035
+          ],
+          [
+            0.565,
+            0.965,
+            0.435,
+            0.035
+          ]
+        ],
+        "doors": [
+          {
+            "rect": [
+              0.435,
+              0.895,
+              0.13,
+              0.06
+            ],
+            "targetZone": "town",
+            "targetSpawn": "spawn_station",
+            "requiredLevel": 1
+          }
+        ],
+        "spawns": [
+          {
+            "name": "default",
+            "at": [
+              0.5,
+              0.5
+            ]
+          }
+        ],
+        "npcs": [
+          {
+            "npcId": "traveller",
+            "at": [
+              0.5,
+              0.7
+            ]
+          }
+        ]
+      },
+      "originalSource": "03_zumba_class.jpeg"
+    },
+    {
+      "source": "culture/tea-ceremony.jpeg",
+      "slug": "tea-ceremony",
+      "zoneId": "teaCeremony",
+      "category": "culture",
+      "displayName": "Tea Ceremony / さどう",
+      "npcId": "old_lady",
+      "requiredLevel": 1,
+      "width": 1321,
+      "height": 691,
+      "runtimeImage": "assets/ja/images/tiles/places/tea-ceremony.png",
+      "runtimeJson": "assets/ja/images/tiles/places/tea-ceremony.json",
+      "normalizedConfig": {
+        "collisions": [
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.045
+          ],
+          [
+            0.0,
+            0.0,
+            0.03,
+            1.0
+          ],
+          [
+            0.97,
+            0.0,
+            0.03,
+            1.0
+          ],
+          [
+            0.0,
+            0.955,
+            0.435,
+            0.045
+          ],
+          [
+            0.565,
+            0.955,
+            0.435,
+            0.045
+          ]
+        ],
+        "doors": [
+          {
+            "rect": [
+              0.435,
+              0.895,
+              0.13,
+              0.06
+            ],
+            "targetZone": "town",
+            "targetSpawn": "spawn_station",
+            "requiredLevel": 1
+          }
+        ],
+        "spawns": [
+          {
+            "name": "default",
+            "at": [
+              0.5,
+              0.5
+            ]
+          }
+        ],
+        "npcs": [
+          {
+            "npcId": "old_lady",
+            "at": [
+              0.5,
+              0.7
+            ]
+          }
+        ]
+      },
+      "originalSource": "04_sado_tea_ceremony.jpeg"
+    },
+    {
+      "source": "culture/kimono-dressing.jpeg",
+      "slug": "kimono-dressing",
+      "zoneId": "kimonoDressing",
+      "category": "culture",
+      "displayName": "Kimono Dressing / きものや",
+      "npcId": "store_server",
+      "requiredLevel": 1,
+      "width": 1330,
+      "height": 723,
+      "runtimeImage": "assets/ja/images/tiles/places/kimono-dressing.png",
+      "runtimeJson": "assets/ja/images/tiles/places/kimono-dressing.json",
+      "normalizedConfig": {
+        "collisions": [
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.045
+          ],
+          [
+            0.0,
+            0.0,
+            0.03,
+            1.0
+          ],
+          [
+            0.97,
+            0.0,
+            0.03,
+            1.0
+          ],
+          [
+            0.0,
+            0.955,
+            0.435,
+            0.045
+          ],
+          [
+            0.565,
+            0.955,
+            0.435,
+            0.045
+          ]
+        ],
+        "doors": [
+          {
+            "rect": [
+              0.435,
+              0.895,
+              0.13,
+              0.06
+            ],
+            "targetZone": "town",
+            "targetSpawn": "spawn_station",
+            "requiredLevel": 1
+          }
+        ],
+        "spawns": [
+          {
+            "name": "default",
+            "at": [
+              0.5,
+              0.5
+            ]
+          }
+        ],
+        "npcs": [
+          {
+            "npcId": "store_server",
+            "at": [
+              0.5,
+              0.7
+            ]
+          }
+        ]
+      },
+      "originalSource": "05_kimono_yukata_dressing.jpeg"
+    },
+    {
+      "source": "culture/calligraphy-studio.jpeg",
+      "slug": "calligraphy-studio",
+      "zoneId": "calligraphyStudio",
+      "category": "culture",
+      "displayName": "Calligraphy Studio / しょどう",
+      "npcId": "teacher",
+      "requiredLevel": 1,
+      "width": 1284,
+      "height": 698,
+      "runtimeImage": "assets/ja/images/tiles/places/calligraphy-studio.png",
+      "runtimeJson": "assets/ja/images/tiles/places/calligraphy-studio.json",
+      "normalizedConfig": {
+        "collisions": [
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.045
+          ],
+          [
+            0.0,
+            0.0,
+            0.03,
+            1.0
+          ],
+          [
+            0.97,
+            0.0,
+            0.03,
+            1.0
+          ],
+          [
+            0.0,
+            0.955,
+            0.435,
+            0.045
+          ],
+          [
+            0.565,
+            0.955,
+            0.435,
+            0.045
+          ]
+        ],
+        "doors": [
+          {
+            "rect": [
+              0.435,
+              0.895,
+              0.13,
+              0.06
+            ],
+            "targetZone": "town",
+            "targetSpawn": "spawn_station",
+            "requiredLevel": 1
+          }
+        ],
+        "spawns": [
+          {
+            "name": "default",
+            "at": [
+              0.5,
+              0.5
+            ]
+          }
+        ],
+        "npcs": [
+          {
+            "npcId": "teacher",
+            "at": [
+              0.5,
+              0.7
+            ]
+          }
+        ]
+      },
+      "originalSource": "06_shodo_calligraphy.jpeg"
+    },
+    {
+      "source": "culture/origami-workshop.jpeg",
+      "slug": "origami-workshop",
+      "zoneId": "origamiWorkshop",
+      "category": "culture",
+      "displayName": "Origami Workshop / おりがみこうぼう",
+      "npcId": "teacher",
+      "requiredLevel": 1,
+      "width": 1286,
+      "height": 744,
+      "runtimeImage": "assets/ja/images/tiles/places/origami-workshop.png",
+      "runtimeJson": "assets/ja/images/tiles/places/origami-workshop.json",
+      "normalizedConfig": {
+        "collisions": [
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.045
+          ],
+          [
+            0.0,
+            0.0,
+            0.03,
+            1.0
+          ],
+          [
+            0.97,
+            0.0,
+            0.03,
+            1.0
+          ],
+          [
+            0.0,
+            0.955,
+            0.435,
+            0.045
+          ],
+          [
+            0.565,
+            0.955,
+            0.435,
+            0.045
+          ]
+        ],
+        "doors": [
+          {
+            "rect": [
+              0.435,
+              0.895,
+              0.13,
+              0.06
+            ],
+            "targetZone": "town",
+            "targetSpawn": "spawn_station",
+            "requiredLevel": 1
+          }
+        ],
+        "spawns": [
+          {
+            "name": "default",
+            "at": [
+              0.5,
+              0.5
+            ]
+          }
+        ],
+        "npcs": [
+          {
+            "npcId": "teacher",
+            "at": [
+              0.5,
+              0.7
+            ]
+          }
+        ]
+      },
+      "originalSource": "07_origami_workshop.jpeg"
+    },
+    {
+      "source": "culture/ikebana-studio.jpeg",
+      "slug": "ikebana-studio",
+      "zoneId": "ikebanaStudio",
+      "category": "culture",
+      "displayName": "Ikebana Studio / いけばな",
+      "npcId": "old_lady",
+      "requiredLevel": 1,
+      "width": 1373,
+      "height": 714,
+      "runtimeImage": "assets/ja/images/tiles/places/ikebana-studio.png",
+      "runtimeJson": "assets/ja/images/tiles/places/ikebana-studio.json",
+      "normalizedConfig": {
+        "collisions": [
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.045
+          ],
+          [
+            0.0,
+            0.0,
+            0.03,
+            1.0
+          ],
+          [
+            0.97,
+            0.0,
+            0.03,
+            1.0
+          ],
+          [
+            0.0,
+            0.955,
+            0.435,
+            0.045
+          ],
+          [
+            0.565,
+            0.955,
+            0.435,
+            0.045
+          ]
+        ],
+        "doors": [
+          {
+            "rect": [
+              0.435,
+              0.895,
+              0.13,
+              0.06
+            ],
+            "targetZone": "town",
+            "targetSpawn": "spawn_station",
+            "requiredLevel": 1
+          }
+        ],
+        "spawns": [
+          {
+            "name": "default",
+            "at": [
+              0.5,
+              0.5
+            ]
+          }
+        ],
+        "npcs": [
+          {
+            "npcId": "old_lady",
+            "at": [
+              0.5,
+              0.7
+            ]
+          }
+        ]
+      },
+      "originalSource": "08_ikebana_flower_arranging.jpeg"
+    },
+    {
+      "source": "culture/pottery-studio.jpeg",
+      "slug": "pottery-studio",
+      "zoneId": "potteryStudio",
+      "category": "culture",
+      "displayName": "Pottery Studio / とうげいこうぼう",
+      "npcId": "store_server",
+      "requiredLevel": 1,
+      "width": 1314,
+      "height": 744,
+      "runtimeImage": "assets/ja/images/tiles/places/pottery-studio.png",
+      "runtimeJson": "assets/ja/images/tiles/places/pottery-studio.json",
+      "normalizedConfig": {
+        "collisions": [
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.045
+          ],
+          [
+            0.0,
+            0.0,
+            0.03,
+            1.0
+          ],
+          [
+            0.97,
+            0.0,
+            0.03,
+            1.0
+          ],
+          [
+            0.0,
+            0.955,
+            0.435,
+            0.045
+          ],
+          [
+            0.565,
+            0.955,
+            0.435,
+            0.045
+          ]
+        ],
+        "doors": [
+          {
+            "rect": [
+              0.435,
+              0.895,
+              0.13,
+              0.06
+            ],
+            "targetZone": "town",
+            "targetSpawn": "spawn_station",
+            "requiredLevel": 1
+          }
+        ],
+        "spawns": [
+          {
+            "name": "default",
+            "at": [
+              0.5,
+              0.5
+            ]
+          }
+        ],
+        "npcs": [
+          {
+            "npcId": "store_server",
+            "at": [
+              0.5,
+              0.7
+            ]
+          }
+        ]
+      },
+      "originalSource": "09_pottery_ceramic_painting.jpeg"
+    },
+    {
+      "source": "culture/kintsugi-workshop.jpeg",
+      "slug": "kintsugi-workshop",
+      "zoneId": "kintsugiWorkshop",
+      "category": "culture",
+      "displayName": "Kintsugi Workshop / きんつぎこうぼう",
+      "npcId": "old_lady",
+      "requiredLevel": 1,
+      "width": 1306,
+      "height": 712,
+      "runtimeImage": "assets/ja/images/tiles/places/kintsugi-workshop.png",
+      "runtimeJson": "assets/ja/images/tiles/places/kintsugi-workshop.json",
+      "normalizedConfig": {
+        "collisions": [
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.045
+          ],
+          [
+            0.0,
+            0.0,
+            0.03,
+            1.0
+          ],
+          [
+            0.97,
+            0.0,
+            0.03,
+            1.0
+          ],
+          [
+            0.0,
+            0.955,
+            0.435,
+            0.045
+          ],
+          [
+            0.565,
+            0.955,
+            0.435,
+            0.045
+          ]
+        ],
+        "doors": [
+          {
+            "rect": [
+              0.435,
+              0.895,
+              0.13,
+              0.06
+            ],
+            "targetZone": "town",
+            "targetSpawn": "spawn_station",
+            "requiredLevel": 1
+          }
+        ],
+        "spawns": [
+          {
+            "name": "default",
+            "at": [
+              0.5,
+              0.5
+            ]
+          }
+        ],
+        "npcs": [
+          {
+            "npcId": "old_lady",
+            "at": [
+              0.5,
+              0.7
+            ]
+          }
+        ]
+      },
+      "originalSource": "10_kintsugi_pottery_repair.jpeg"
+    },
+    {
+      "source": "culture/ukiyo-e-studio.jpeg",
+      "slug": "ukiyo-e-studio",
+      "zoneId": "ukiyoEStudio",
+      "category": "culture",
+      "displayName": "Ukiyo-e Studio / うきよえこうぼう",
+      "npcId": "teacher",
+      "requiredLevel": 1,
+      "width": 1354,
+      "height": 689,
+      "runtimeImage": "assets/ja/images/tiles/places/ukiyo-e-studio.png",
+      "runtimeJson": "assets/ja/images/tiles/places/ukiyo-e-studio.json",
+      "normalizedConfig": {
+        "collisions": [
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.045
+          ],
+          [
+            0.0,
+            0.0,
+            0.03,
+            1.0
+          ],
+          [
+            0.97,
+            0.0,
+            0.03,
+            1.0
+          ],
+          [
+            0.0,
+            0.955,
+            0.435,
+            0.045
+          ],
+          [
+            0.565,
+            0.955,
+            0.435,
+            0.045
+          ]
+        ],
+        "doors": [
+          {
+            "rect": [
+              0.435,
+              0.895,
+              0.13,
+              0.06
+            ],
+            "targetZone": "town",
+            "targetSpawn": "spawn_station",
+            "requiredLevel": 1
+          }
+        ],
+        "spawns": [
+          {
+            "name": "default",
+            "at": [
+              0.5,
+              0.5
+            ]
+          }
+        ],
+        "npcs": [
+          {
+            "npcId": "teacher",
+            "at": [
+              0.5,
+              0.7
+            ]
+          }
+        ]
+      },
+      "originalSource": "11_ukiyo_e_woodblock_printing.jpeg"
+    },
+    {
+      "source": "sports/samurai-dojo.jpeg",
+      "slug": "samurai-dojo",
+      "zoneId": "samuraiDojo",
+      "category": "sports",
+      "displayName": "Samurai Dojo / さむらいどうじょう",
+      "npcId": "traveller",
+      "requiredLevel": 1,
+      "width": 1332,
+      "height": 734,
+      "runtimeImage": "assets/ja/images/tiles/places/samurai-dojo.png",
+      "runtimeJson": "assets/ja/images/tiles/places/samurai-dojo.json",
+      "normalizedConfig": {
+        "collisions": [
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.035
+          ],
+          [
+            0.0,
+            0.0,
+            0.025,
+            1.0
+          ],
+          [
+            0.975,
+            0.0,
+            0.025,
+            1.0
+          ],
+          [
+            0.0,
+            0.965,
+            0.435,
+            0.035
+          ],
+          [
+            0.565,
+            0.965,
+            0.435,
+            0.035
+          ]
+        ],
+        "doors": [
+          {
+            "rect": [
+              0.435,
+              0.895,
+              0.13,
+              0.06
+            ],
+            "targetZone": "town",
+            "targetSpawn": "spawn_station",
+            "requiredLevel": 1
+          }
+        ],
+        "spawns": [
+          {
+            "name": "default",
+            "at": [
+              0.5,
+              0.5
+            ]
+          }
+        ],
+        "npcs": [
+          {
+            "npcId": "traveller",
+            "at": [
+              0.5,
+              0.7
+            ]
+          }
+        ]
+      },
+      "originalSource": "16_samurai_ninja_experience.jpeg"
+    },
+    {
+      "source": "sports/sumo-dojo.jpeg",
+      "slug": "sumo-dojo",
+      "zoneId": "sumoDojo",
+      "category": "sports",
+      "displayName": "Sumo Dojo / すもうどうじょう",
+      "npcId": "traveller",
+      "requiredLevel": 1,
+      "width": 1375,
+      "height": 768,
+      "runtimeImage": "assets/ja/images/tiles/places/sumo-dojo.png",
+      "runtimeJson": "assets/ja/images/tiles/places/sumo-dojo.json",
+      "normalizedConfig": {
+        "collisions": [
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.035
+          ],
+          [
+            0.0,
+            0.0,
+            0.025,
+            1.0
+          ],
+          [
+            0.975,
+            0.0,
+            0.025,
+            1.0
+          ],
+          [
+            0.0,
+            0.965,
+            0.435,
+            0.035
+          ],
+          [
+            0.565,
+            0.965,
+            0.435,
+            0.035
+          ]
+        ],
+        "doors": [
+          {
+            "rect": [
+              0.435,
+              0.895,
+              0.13,
+              0.06
+            ],
+            "targetZone": "town",
+            "targetSpawn": "spawn_station",
+            "requiredLevel": 1
+          }
+        ],
+        "spawns": [
+          {
+            "name": "default",
+            "at": [
+              0.5,
+              0.5
+            ]
+          }
+        ],
+        "npcs": [
+          {
+            "npcId": "traveller",
+            "at": [
+              0.5,
+              0.7
+            ]
+          }
+        ]
+      },
+      "originalSource": "17_indoor_sumo_practice.jpeg"
+    },
+    {
+      "source": "food/sushi-class.jpeg",
+      "slug": "sushi-class",
+      "zoneId": "sushiClass",
+      "category": "food",
+      "displayName": "Sushi Class / すしきょうしつ",
+      "npcId": "ramen_chef",
+      "requiredLevel": 1,
+      "width": 1376,
+      "height": 768,
+      "runtimeImage": "assets/ja/images/tiles/places/sushi-class.png",
+      "runtimeJson": "assets/ja/images/tiles/places/sushi-class.json",
+      "normalizedConfig": {
+        "collisions": [
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.045
+          ],
+          [
+            0.0,
+            0.0,
+            0.03,
+            1.0
+          ],
+          [
+            0.97,
+            0.0,
+            0.03,
+            1.0
+          ],
+          [
+            0.0,
+            0.955,
+            0.435,
+            0.045
+          ],
+          [
+            0.565,
+            0.955,
+            0.435,
+            0.045
+          ]
+        ],
+        "doors": [
+          {
+            "rect": [
+              0.435,
+              0.895,
+              0.13,
+              0.06
+            ],
+            "targetZone": "town",
+            "targetSpawn": "spawn_station",
+            "requiredLevel": 1
+          }
+        ],
+        "spawns": [
+          {
+            "name": "default",
+            "at": [
+              0.5,
+              0.5
+            ]
+          }
+        ],
+        "npcs": [
+          {
+            "npcId": "ramen_chef",
+            "at": [
+              0.5,
+              0.7
+            ]
+          }
+        ]
+      },
+      "originalSource": "19_sushi_making_class.jpeg"
+    },
+    {
+      "source": "food/ramen-class.jpeg",
+      "slug": "ramen-class",
+      "zoneId": "ramenClass",
+      "category": "food",
+      "displayName": "Ramen Class / ラーメンきょうしつ",
+      "npcId": "ramen_chef",
+      "requiredLevel": 3,
+      "width": 1330,
+      "height": 718,
+      "runtimeImage": "assets/ja/images/tiles/places/ramen-class.png",
+      "runtimeJson": "assets/ja/images/tiles/places/ramen-class.json",
+      "normalizedConfig": {
+        "collisions": [
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.045
+          ],
+          [
+            0.0,
+            0.0,
+            0.03,
+            1.0
+          ],
+          [
+            0.97,
+            0.0,
+            0.03,
+            1.0
+          ],
+          [
+            0.0,
+            0.955,
+            0.435,
+            0.045
+          ],
+          [
+            0.565,
+            0.955,
+            0.435,
+            0.045
+          ]
+        ],
+        "doors": [
+          {
+            "rect": [
+              0.435,
+              0.895,
+              0.13,
+              0.06
+            ],
+            "targetZone": "town",
+            "targetSpawn": "spawn_station",
+            "requiredLevel": 1
+          }
+        ],
+        "spawns": [
+          {
+            "name": "default",
+            "at": [
+              0.5,
+              0.5
+            ]
+          }
+        ],
+        "npcs": [
+          {
+            "npcId": "ramen_chef",
+            "at": [
+              0.5,
+              0.7
+            ]
+          }
+        ]
+      },
+      "originalSource": "20_ramen_making_class.jpeg"
+    },
+    {
+      "source": "food/matcha-tea-room.jpeg",
+      "slug": "matcha-tea-room",
+      "zoneId": "matchaTeaRoom",
+      "category": "food",
+      "displayName": "Matcha Tea Room / まっちゃのへや",
+      "npcId": "old_lady",
+      "requiredLevel": 1,
+      "width": 1332,
+      "height": 740,
+      "runtimeImage": "assets/ja/images/tiles/places/matcha-tea-room.png",
+      "runtimeJson": "assets/ja/images/tiles/places/matcha-tea-room.json",
+      "normalizedConfig": {
+        "collisions": [
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.045
+          ],
+          [
+            0.0,
+            0.0,
+            0.03,
+            1.0
+          ],
+          [
+            0.97,
+            0.0,
+            0.03,
+            1.0
+          ],
+          [
+            0.0,
+            0.955,
+            0.435,
+            0.045
+          ],
+          [
+            0.565,
+            0.955,
+            0.435,
+            0.045
+          ]
+        ],
+        "doors": [
+          {
+            "rect": [
+              0.435,
+              0.895,
+              0.13,
+              0.06
+            ],
+            "targetZone": "town",
+            "targetSpawn": "spawn_station",
+            "requiredLevel": 1
+          }
+        ],
+        "spawns": [
+          {
+            "name": "default",
+            "at": [
+              0.5,
+              0.5
+            ]
+          }
+        ],
+        "npcs": [
+          {
+            "npcId": "old_lady",
+            "at": [
+              0.5,
+              0.7
+            ]
+          }
+        ]
+      },
+      "originalSource": "23_matcha_preparation.jpeg"
+    },
+    {
+      "source": "entertainment/theatre.jpeg",
+      "slug": "theatre",
+      "zoneId": "theatre",
+      "category": "entertainment",
+      "displayName": "Theatre / げきじょう",
+      "npcId": "traveller",
+      "requiredLevel": 1,
+      "width": 1306,
+      "height": 746,
+      "runtimeImage": "assets/ja/images/tiles/places/theatre.png",
+      "runtimeJson": "assets/ja/images/tiles/places/theatre.json",
+      "normalizedConfig": {
+        "collisions": [
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.045
+          ],
+          [
+            0.0,
+            0.0,
+            0.03,
+            1.0
+          ],
+          [
+            0.97,
+            0.0,
+            0.03,
+            1.0
+          ],
+          [
+            0.0,
+            0.955,
+            0.435,
+            0.045
+          ],
+          [
+            0.565,
+            0.955,
+            0.435,
+            0.045
+          ],
+          [
+            0.16,
+            0.08,
+            0.68,
+            0.17
+          ],
+          [
+            0.1,
+            0.3,
+            0.13,
+            0.4
+          ],
+          [
+            0.77,
+            0.3,
+            0.13,
+            0.4
+          ]
+        ],
+        "doors": [
+          {
+            "rect": [
+              0.435,
+              0.895,
+              0.13,
+              0.06
+            ],
+            "targetZone": "town",
+            "targetSpawn": "spawn_station",
+            "requiredLevel": 1
+          }
+        ],
+        "spawns": [
+          {
+            "name": "default",
+            "at": [
+              0.5,
+              0.5
+            ]
+          }
+        ],
+        "npcs": [
+          {
+            "npcId": "traveller",
+            "at": [
+              0.5,
+              0.7
+            ]
+          }
+        ]
+      },
+      "originalSource": "25_theater.jpeg"
+    },
+    {
+      "source": "entertainment/karaoke.jpeg",
+      "slug": "karaoke",
+      "zoneId": "karaoke",
+      "category": "entertainment",
+      "displayName": "Karaoke Room / カラオケ",
+      "npcId": "store_server",
+      "requiredLevel": 1,
+      "width": 1376,
+      "height": 768,
+      "runtimeImage": "assets/ja/images/tiles/places/karaoke.png",
+      "runtimeJson": "assets/ja/images/tiles/places/karaoke.json",
+      "normalizedConfig": {
+        "collisions": [
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.045
+          ],
+          [
+            0.0,
+            0.0,
+            0.03,
+            1.0
+          ],
+          [
+            0.97,
+            0.0,
+            0.03,
+            1.0
+          ],
+          [
+            0.0,
+            0.955,
+            0.435,
+            0.045
+          ],
+          [
+            0.565,
+            0.955,
+            0.435,
+            0.045
+          ]
+        ],
+        "doors": [
+          {
+            "rect": [
+              0.435,
+              0.895,
+              0.13,
+              0.06
+            ],
+            "targetZone": "town",
+            "targetSpawn": "spawn_station",
+            "requiredLevel": 1
+          }
+        ],
+        "spawns": [
+          {
+            "name": "default",
+            "at": [
+              0.5,
+              0.5
+            ]
+          }
+        ],
+        "npcs": [
+          {
+            "npcId": "store_server",
+            "at": [
+              0.5,
+              0.7
+            ]
+          }
+        ]
+      },
+      "originalSource": "26_karaoke_room.jpeg"
+    },
+    {
+      "source": "entertainment/arcade.jpeg",
+      "slug": "arcade",
+      "zoneId": "arcade",
+      "category": "entertainment",
+      "displayName": "Arcade / ゲームセンター",
+      "npcId": "traveller",
+      "requiredLevel": 1,
+      "width": 1330,
+      "height": 685,
+      "runtimeImage": "assets/ja/images/tiles/places/arcade.png",
+      "runtimeJson": "assets/ja/images/tiles/places/arcade.json",
+      "normalizedConfig": {
+        "collisions": [
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.045
+          ],
+          [
+            0.0,
+            0.0,
+            0.03,
+            1.0
+          ],
+          [
+            0.97,
+            0.0,
+            0.03,
+            1.0
+          ],
+          [
+            0.0,
+            0.955,
+            0.435,
+            0.045
+          ],
+          [
+            0.565,
+            0.955,
+            0.435,
+            0.045
+          ],
+          [
+            0.08,
+            0.1,
+            0.84,
+            0.12
+          ],
+          [
+            0.1,
+            0.36,
+            0.16,
+            0.23
+          ],
+          [
+            0.74,
+            0.36,
+            0.16,
+            0.23
+          ]
+        ],
+        "doors": [
+          {
+            "rect": [
+              0.435,
+              0.895,
+              0.13,
+              0.06
+            ],
+            "targetZone": "town",
+            "targetSpawn": "spawn_station",
+            "requiredLevel": 1
+          }
+        ],
+        "spawns": [
+          {
+            "name": "default",
+            "at": [
+              0.5,
+              0.5
+            ]
+          }
+        ],
+        "npcs": [
+          {
+            "npcId": "traveller",
+            "at": [
+              0.5,
+              0.7
+            ]
+          }
+        ]
+      },
+      "originalSource": "27_arcade.jpeg"
+    },
+    {
+      "source": "food/hotpot-restaurant.jpeg",
+      "slug": "hotpot-restaurant",
+      "zoneId": "hotpotRestaurant",
+      "category": "food",
+      "displayName": "Hotpot Restaurant / なべや",
+      "npcId": "ramen_chef",
+      "requiredLevel": 1,
+      "width": 1308,
+      "height": 737,
+      "runtimeImage": "assets/ja/images/tiles/places/hotpot-restaurant.png",
+      "runtimeJson": "assets/ja/images/tiles/places/hotpot-restaurant.json",
+      "normalizedConfig": {
+        "collisions": [
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.045
+          ],
+          [
+            0.0,
+            0.0,
+            0.03,
+            1.0
+          ],
+          [
+            0.97,
+            0.0,
+            0.03,
+            1.0
+          ],
+          [
+            0.0,
+            0.955,
+            0.435,
+            0.045
+          ],
+          [
+            0.565,
+            0.955,
+            0.435,
+            0.045
+          ]
+        ],
+        "doors": [
+          {
+            "rect": [
+              0.435,
+              0.895,
+              0.13,
+              0.06
+            ],
+            "targetZone": "town",
+            "targetSpawn": "spawn_station",
+            "requiredLevel": 1
+          }
+        ],
+        "spawns": [
+          {
+            "name": "default",
+            "at": [
+              0.5,
+              0.5
+            ]
+          }
+        ],
+        "npcs": [
+          {
+            "npcId": "ramen_chef",
+            "at": [
+              0.5,
+              0.7
+            ]
+          }
+        ]
+      },
+      "originalSource": "28_hotpot_restaurant.jpeg"
+    },
+    {
+      "source": "wellness/sento-bathhouse.jpeg",
+      "slug": "sento-bathhouse",
+      "zoneId": "sentoBathhouse",
+      "category": "wellness",
+      "displayName": "Sento Bathhouse / せんとう",
+      "npcId": "old_lady",
+      "requiredLevel": 1,
+      "width": 1374,
+      "height": 730,
+      "runtimeImage": "assets/ja/images/tiles/places/sento-bathhouse.png",
+      "runtimeJson": "assets/ja/images/tiles/places/sento-bathhouse.json",
+      "normalizedConfig": {
+        "collisions": [
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.045
+          ],
+          [
+            0.0,
+            0.0,
+            0.03,
+            1.0
+          ],
+          [
+            0.97,
+            0.0,
+            0.03,
+            1.0
+          ],
+          [
+            0.0,
+            0.955,
+            0.435,
+            0.045
+          ],
+          [
+            0.565,
+            0.955,
+            0.435,
+            0.045
+          ],
+          [
+            0.18,
+            0.12,
+            0.64,
+            0.28
+          ],
+          [
+            0.1,
+            0.58,
+            0.22,
+            0.16
+          ],
+          [
+            0.68,
+            0.58,
+            0.22,
+            0.16
+          ]
+        ],
+        "doors": [
+          {
+            "rect": [
+              0.435,
+              0.895,
+              0.13,
+              0.06
+            ],
+            "targetZone": "town",
+            "targetSpawn": "spawn_station",
+            "requiredLevel": 1
+          }
+        ],
+        "spawns": [
+          {
+            "name": "default",
+            "at": [
+              0.5,
+              0.5
+            ]
+          }
+        ],
+        "npcs": [
+          {
+            "npcId": "old_lady",
+            "at": [
+              0.5,
+              0.7
+            ]
+          }
+        ]
+      },
+      "originalSource": "29_onsen_sento_bathhouse.jpeg"
+    },
+    {
+      "source": "wellness/spa.jpeg",
+      "slug": "spa",
+      "zoneId": "spa",
+      "category": "wellness",
+      "displayName": "Spa Complex / スパ",
+      "npcId": "old_lady",
+      "requiredLevel": 1,
+      "width": 1330,
+      "height": 717,
+      "runtimeImage": "assets/ja/images/tiles/places/spa.png",
+      "runtimeJson": "assets/ja/images/tiles/places/spa.json",
+      "normalizedConfig": {
+        "collisions": [
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.045
+          ],
+          [
+            0.0,
+            0.0,
+            0.03,
+            1.0
+          ],
+          [
+            0.97,
+            0.0,
+            0.03,
+            1.0
+          ],
+          [
+            0.0,
+            0.955,
+            0.435,
+            0.045
+          ],
+          [
+            0.565,
+            0.955,
+            0.435,
+            0.045
+          ],
+          [
+            0.18,
+            0.14,
+            0.36,
+            0.28
+          ],
+          [
+            0.6,
+            0.14,
+            0.25,
+            0.28
+          ],
+          [
+            0.12,
+            0.6,
+            0.23,
+            0.16
+          ]
+        ],
+        "doors": [
+          {
+            "rect": [
+              0.435,
+              0.895,
+              0.13,
+              0.06
+            ],
+            "targetZone": "town",
+            "targetSpawn": "spawn_station",
+            "requiredLevel": 1
+          }
+        ],
+        "spawns": [
+          {
+            "name": "default",
+            "at": [
+              0.5,
+              0.5
+            ]
+          }
+        ],
+        "npcs": [
+          {
+            "npcId": "old_lady",
+            "at": [
+              0.5,
+              0.7
+            ]
+          }
+        ]
+      },
+      "originalSource": "30_indoor_spa_complex.jpeg"
+    },
+    {
+      "source": "wellness/massage-studio.jpeg",
+      "slug": "massage-studio",
+      "zoneId": "massageStudio",
+      "category": "wellness",
+      "displayName": "Massage Studio / マッサージや",
+      "npcId": "old_lady",
+      "requiredLevel": 1,
+      "width": 1376,
+      "height": 768,
+      "runtimeImage": "assets/ja/images/tiles/places/massage-studio.png",
+      "runtimeJson": "assets/ja/images/tiles/places/massage-studio.json",
+      "normalizedConfig": {
+        "collisions": [
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.045
+          ],
+          [
+            0.0,
+            0.0,
+            0.03,
+            1.0
+          ],
+          [
+            0.97,
+            0.0,
+            0.03,
+            1.0
+          ],
+          [
+            0.0,
+            0.955,
+            0.435,
+            0.045
+          ],
+          [
+            0.565,
+            0.955,
+            0.435,
+            0.045
+          ]
+        ],
+        "doors": [
+          {
+            "rect": [
+              0.435,
+              0.895,
+              0.13,
+              0.06
+            ],
+            "targetZone": "town",
+            "targetSpawn": "spawn_station",
+            "requiredLevel": 1
+          }
+        ],
+        "spawns": [
+          {
+            "name": "default",
+            "at": [
+              0.5,
+              0.5
+            ]
+          }
+        ],
+        "npcs": [
+          {
+            "npcId": "old_lady",
+            "at": [
+              0.5,
+              0.7
+            ]
+          }
+        ]
+      },
+      "originalSource": "31_japanese_massage.jpeg"
+    },
+    {
+      "source": "retail/manga-cafe.jpeg",
+      "slug": "manga-cafe",
+      "zoneId": "mangaCafe",
+      "category": "retail",
+      "displayName": "Manga Cafe / まんがカフェ",
+      "npcId": "store_server",
+      "requiredLevel": 1,
+      "width": 1330,
+      "height": 728,
+      "runtimeImage": "assets/ja/images/tiles/places/manga-cafe.png",
+      "runtimeJson": "assets/ja/images/tiles/places/manga-cafe.json",
+      "normalizedConfig": {
+        "collisions": [
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.045
+          ],
+          [
+            0.0,
+            0.0,
+            0.03,
+            1.0
+          ],
+          [
+            0.97,
+            0.0,
+            0.03,
+            1.0
+          ],
+          [
+            0.0,
+            0.955,
+            0.435,
+            0.045
+          ],
+          [
+            0.565,
+            0.955,
+            0.435,
+            0.045
+          ]
+        ],
+        "doors": [
+          {
+            "rect": [
+              0.435,
+              0.895,
+              0.13,
+              0.06
+            ],
+            "targetZone": "town",
+            "targetSpawn": "spawn_station",
+            "requiredLevel": 1
+          }
+        ],
+        "spawns": [
+          {
+            "name": "default",
+            "at": [
+              0.5,
+              0.5
+            ]
+          }
+        ],
+        "npcs": [
+          {
+            "npcId": "store_server",
+            "at": [
+              0.5,
+              0.7
+            ]
+          }
+        ]
+      },
+      "originalSource": "33_manga_cafe_private_booths.jpeg"
+    },
+    {
+      "source": "food/animal-cafe.jpeg",
+      "slug": "animal-cafe",
+      "zoneId": "animalCafe",
+      "category": "food",
+      "displayName": "Animal Cafe / どうぶつカフェ",
+      "npcId": "store_server",
+      "requiredLevel": 1,
+      "width": 1376,
+      "height": 716,
+      "runtimeImage": "assets/ja/images/tiles/places/animal-cafe.png",
+      "runtimeJson": "assets/ja/images/tiles/places/animal-cafe.json",
+      "normalizedConfig": {
+        "collisions": [
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.045
+          ],
+          [
+            0.0,
+            0.0,
+            0.03,
+            1.0
+          ],
+          [
+            0.97,
+            0.0,
+            0.03,
+            1.0
+          ],
+          [
+            0.0,
+            0.955,
+            0.435,
+            0.045
+          ],
+          [
+            0.565,
+            0.955,
+            0.435,
+            0.045
+          ]
+        ],
+        "doors": [
+          {
+            "rect": [
+              0.435,
+              0.895,
+              0.13,
+              0.06
+            ],
+            "targetZone": "town",
+            "targetSpawn": "spawn_station",
+            "requiredLevel": 1
+          }
+        ],
+        "spawns": [
+          {
+            "name": "default",
+            "at": [
+              0.5,
+              0.5
+            ]
+          }
+        ],
+        "npcs": [
+          {
+            "npcId": "store_server",
+            "at": [
+              0.5,
+              0.7
+            ]
+          }
+        ]
+      },
+      "originalSource": "34_animal_cafe.jpeg"
+    },
+    {
+      "source": "wellness/sauna.jpeg",
+      "slug": "sauna",
+      "zoneId": "sauna",
+      "category": "wellness",
+      "displayName": "Sauna / サウナ",
+      "npcId": "old_lady",
+      "requiredLevel": 1,
+      "width": 1308,
+      "height": 711,
+      "runtimeImage": "assets/ja/images/tiles/places/sauna.png",
+      "runtimeJson": "assets/ja/images/tiles/places/sauna.json",
+      "normalizedConfig": {
+        "collisions": [
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.045
+          ],
+          [
+            0.0,
+            0.0,
+            0.03,
+            1.0
+          ],
+          [
+            0.97,
+            0.0,
+            0.03,
+            1.0
+          ],
+          [
+            0.0,
+            0.955,
+            0.435,
+            0.045
+          ],
+          [
+            0.565,
+            0.955,
+            0.435,
+            0.045
+          ],
+          [
+            0.12,
+            0.1,
+            0.27,
+            0.26
+          ],
+          [
+            0.61,
+            0.1,
+            0.27,
+            0.26
+          ],
+          [
+            0.12,
+            0.56,
+            0.76,
+            0.16
+          ]
+        ],
+        "doors": [
+          {
+            "rect": [
+              0.435,
+              0.895,
+              0.13,
+              0.06
+            ],
+            "targetZone": "town",
+            "targetSpawn": "spawn_station",
+            "requiredLevel": 1
+          }
+        ],
+        "spawns": [
+          {
+            "name": "default",
+            "at": [
+              0.5,
+              0.5
+            ]
+          }
+        ],
+        "npcs": [
+          {
+            "npcId": "old_lady",
+            "at": [
+              0.5,
+              0.7
+            ]
+          }
+        ]
+      },
+      "originalSource": "37_sauna.jpeg"
+    },
+    {
+      "source": "hospitality/ryokan.jpeg",
+      "slug": "ryokan",
+      "zoneId": "ryokan",
+      "category": "hospitality",
+      "displayName": "Ryokan / りょかん",
+      "npcId": "old_lady",
+      "requiredLevel": 1,
+      "width": 1308,
+      "height": 711,
+      "runtimeImage": "assets/ja/images/tiles/places/ryokan.png",
+      "runtimeJson": "assets/ja/images/tiles/places/ryokan.json",
+      "normalizedConfig": {
+        "collisions": [
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.045
+          ],
+          [
+            0.0,
+            0.0,
+            0.03,
+            1.0
+          ],
+          [
+            0.97,
+            0.0,
+            0.03,
+            1.0
+          ],
+          [
+            0.0,
+            0.955,
+            0.435,
+            0.045
+          ],
+          [
+            0.565,
+            0.955,
+            0.435,
+            0.045
+          ],
+          [
+            0.1,
+            0.1,
+            0.26,
+            0.25
+          ],
+          [
+            0.64,
+            0.1,
+            0.26,
+            0.25
+          ],
+          [
+            0.35,
+            0.38,
+            0.3,
+            0.14
+          ]
+        ],
+        "doors": [
+          {
+            "rect": [
+              0.435,
+              0.895,
+              0.13,
+              0.06
+            ],
+            "targetZone": "town",
+            "targetSpawn": "spawn_station",
+            "requiredLevel": 1
+          }
+        ],
+        "spawns": [
+          {
+            "name": "default",
+            "at": [
+              0.5,
+              0.58
+            ]
+          }
+        ],
+        "npcs": [
+          {
+            "npcId": "old_lady",
+            "at": [
+              0.5,
+              0.7
+            ]
+          }
+        ]
+      },
+      "originalSource": "38_ryokan_dining_bathing.jpeg"
+    },
+    {
+      "source": "civic/police-station.jpeg",
+      "slug": "police-station",
+      "zoneId": "policeStation",
+      "category": "civic",
+      "displayName": "Police Station / こうばん",
+      "npcId": "station_staff",
+      "requiredLevel": 1,
+      "width": 1376,
+      "height": 768,
+      "runtimeImage": "assets/ja/images/tiles/places/police-station.png",
+      "runtimeJson": "assets/ja/images/tiles/places/police-station.json",
+      "normalizedConfig": {
+        "collisions": [
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.045
+          ],
+          [
+            0.0,
+            0.0,
+            0.03,
+            1.0
+          ],
+          [
+            0.97,
+            0.0,
+            0.03,
+            1.0
+          ],
+          [
+            0.0,
+            0.955,
+            0.435,
+            0.045
+          ],
+          [
+            0.565,
+            0.955,
+            0.435,
+            0.045
+          ]
+        ],
+        "doors": [
+          {
+            "rect": [
+              0.435,
+              0.895,
+              0.13,
+              0.06
+            ],
+            "targetZone": "town",
+            "targetSpawn": "spawn_station",
+            "requiredLevel": 1
+          }
+        ],
+        "spawns": [
+          {
+            "name": "default",
+            "at": [
+              0.5,
+              0.5
+            ]
+          }
+        ],
+        "npcs": [
+          {
+            "npcId": "station_staff",
+            "at": [
+              0.5,
+              0.7
+            ]
+          }
+        ]
+      },
+      "originalSource": "39_police_station.jpeg"
+    },
+    {
+      "source": "civic/embassy.jpeg",
+      "slug": "embassy",
+      "zoneId": "embassy",
+      "category": "civic",
+      "displayName": "Embassy / たいしかん",
+      "npcId": "station_staff",
+      "requiredLevel": 1,
+      "width": 1308,
+      "height": 713,
+      "runtimeImage": "assets/ja/images/tiles/places/embassy.png",
+      "runtimeJson": "assets/ja/images/tiles/places/embassy.json",
+      "normalizedConfig": {
+        "collisions": [
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.045
+          ],
+          [
+            0.0,
+            0.0,
+            0.03,
+            1.0
+          ],
+          [
+            0.97,
+            0.0,
+            0.03,
+            1.0
+          ],
+          [
+            0.0,
+            0.955,
+            0.435,
+            0.045
+          ],
+          [
+            0.565,
+            0.955,
+            0.435,
+            0.045
+          ]
+        ],
+        "doors": [
+          {
+            "rect": [
+              0.435,
+              0.895,
+              0.13,
+              0.06
+            ],
+            "targetZone": "town",
+            "targetSpawn": "spawn_station",
+            "requiredLevel": 1
+          }
+        ],
+        "spawns": [
+          {
+            "name": "default",
+            "at": [
+              0.5,
+              0.5
+            ]
+          }
+        ],
+        "npcs": [
+          {
+            "npcId": "station_staff",
+            "at": [
+              0.5,
+              0.7
+            ]
+          }
+        ]
+      },
+      "originalSource": "40_embassy.jpeg"
+    },
+    {
+      "source": "sports/football-ground.jpeg",
+      "slug": "football-ground",
+      "zoneId": "footballGround",
+      "category": "sports",
+      "displayName": "Football Ground / サッカーじょう",
+      "npcId": "traveller",
+      "requiredLevel": 1,
+      "width": 1376,
+      "height": 768,
+      "runtimeImage": "assets/ja/images/tiles/places/football-ground.png",
+      "runtimeJson": "assets/ja/images/tiles/places/football-ground.json",
+      "normalizedConfig": {
+        "collisions": [
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.035
+          ],
+          [
+            0.0,
+            0.0,
+            0.025,
+            1.0
+          ],
+          [
+            0.975,
+            0.0,
+            0.025,
+            1.0
+          ],
+          [
+            0.0,
+            0.965,
+            0.435,
+            0.035
+          ],
+          [
+            0.565,
+            0.965,
+            0.435,
+            0.035
+          ]
+        ],
+        "doors": [
+          {
+            "rect": [
+              0.435,
+              0.895,
+              0.13,
+              0.06
+            ],
+            "targetZone": "town",
+            "targetSpawn": "spawn_station",
+            "requiredLevel": 1
+          }
+        ],
+        "spawns": [
+          {
+            "name": "default",
+            "at": [
+              0.5,
+              0.5
+            ]
+          }
+        ],
+        "npcs": [
+          {
+            "npcId": "traveller",
+            "at": [
+              0.5,
+              0.7
+            ]
+          }
+        ]
+      },
+      "originalSource": "42_football_ground.jpeg"
+    },
+    {
+      "source": "sports/tennis-court.jpeg",
+      "slug": "tennis-court",
+      "zoneId": "tennisCourt",
+      "category": "sports",
+      "displayName": "Tennis Court / テニスコート",
+      "npcId": "traveller",
+      "requiredLevel": 1,
+      "width": 1376,
+      "height": 768,
+      "runtimeImage": "assets/ja/images/tiles/places/tennis-court.png",
+      "runtimeJson": "assets/ja/images/tiles/places/tennis-court.json",
+      "normalizedConfig": {
+        "collisions": [
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.035
+          ],
+          [
+            0.0,
+            0.0,
+            0.025,
+            1.0
+          ],
+          [
+            0.975,
+            0.0,
+            0.025,
+            1.0
+          ],
+          [
+            0.0,
+            0.965,
+            0.435,
+            0.035
+          ],
+          [
+            0.565,
+            0.965,
+            0.435,
+            0.035
+          ]
+        ],
+        "doors": [
+          {
+            "rect": [
+              0.435,
+              0.895,
+              0.13,
+              0.06
+            ],
+            "targetZone": "town",
+            "targetSpawn": "spawn_station",
+            "requiredLevel": 1
+          }
+        ],
+        "spawns": [
+          {
+            "name": "default",
+            "at": [
+              0.5,
+              0.5
+            ]
+          }
+        ],
+        "npcs": [
+          {
+            "npcId": "traveller",
+            "at": [
+              0.5,
+              0.7
+            ]
+          }
+        ]
+      },
+      "originalSource": "43_tennis_court.jpeg"
+    },
+    {
+      "source": "food/cafe.jpeg",
+      "slug": "cafe",
+      "zoneId": "cafe",
+      "category": "food",
+      "displayName": "Cafe / カフェ",
+      "npcId": "store_server",
+      "requiredLevel": 1,
+      "width": 1298,
+      "height": 749,
+      "runtimeImage": "assets/ja/images/tiles/places/cafe.png",
+      "runtimeJson": "assets/ja/images/tiles/places/cafe.json",
+      "normalizedConfig": {
+        "collisions": [
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.045
+          ],
+          [
+            0.0,
+            0.0,
+            0.03,
+            1.0
+          ],
+          [
+            0.97,
+            0.0,
+            0.03,
+            1.0
+          ],
+          [
+            0.0,
+            0.955,
+            0.435,
+            0.045
+          ],
+          [
+            0.565,
+            0.955,
+            0.435,
+            0.045
+          ],
+          [
+            0.16,
+            0.12,
+            0.62,
+            0.2
+          ],
+          [
+            0.18,
+            0.43,
+            0.2,
+            0.12
+          ],
+          [
+            0.58,
+            0.43,
+            0.2,
+            0.12
+          ]
+        ],
+        "doors": [
+          {
+            "rect": [
+              0.435,
+              0.895,
+              0.13,
+              0.06
+            ],
+            "targetZone": "town",
+            "targetSpawn": "spawn_station",
+            "requiredLevel": 1
+          }
+        ],
+        "spawns": [
+          {
+            "name": "default",
+            "at": [
+              0.5,
+              0.5
+            ]
+          }
+        ],
+        "npcs": [
+          {
+            "npcId": "store_server",
+            "at": [
+              0.5,
+              0.7
+            ]
+          }
+        ]
+      },
+      "originalSource": "cafe1.jpeg"
+    },
+    {
+      "source": "food/cafe-lounge.jpeg",
+      "slug": "cafe-lounge",
+      "zoneId": "cafeLounge",
+      "category": "food",
+      "displayName": "Cafe Lounge / カフェラウンジ",
+      "npcId": "store_server",
+      "requiredLevel": 1,
+      "width": 1376,
+      "height": 768,
+      "runtimeImage": "assets/ja/images/tiles/places/cafe-lounge.png",
+      "runtimeJson": "assets/ja/images/tiles/places/cafe-lounge.json",
+      "normalizedConfig": {
+        "collisions": [
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.045
+          ],
+          [
+            0.0,
+            0.0,
+            0.03,
+            1.0
+          ],
+          [
+            0.97,
+            0.0,
+            0.03,
+            1.0
+          ],
+          [
+            0.0,
+            0.955,
+            0.435,
+            0.045
+          ],
+          [
+            0.565,
+            0.955,
+            0.435,
+            0.045
+          ],
+          [
+            0.54,
+            0.08,
+            0.4,
+            0.25
+          ],
+          [
+            0.18,
+            0.8,
+            0.18,
+            0.08
+          ],
+          [
+            0.72,
+            0.72,
+            0.16,
+            0.12
+          ]
+        ],
+        "doors": [
+          {
+            "rect": [
+              0.435,
+              0.895,
+              0.13,
+              0.06
+            ],
+            "targetZone": "town",
+            "targetSpawn": "spawn_station",
+            "requiredLevel": 1
+          }
+        ],
+        "spawns": [
+          {
+            "name": "default",
+            "at": [
+              0.5,
+              0.5
+            ]
+          }
+        ],
+        "npcs": [
+          {
+            "npcId": "store_server",
+            "at": [
+              0.5,
+              0.7
+            ]
+          }
+        ]
+      },
+      "originalSource": "cafe_1.jpeg"
+    },
+    {
+      "source": "food/cafe-classic.jpeg",
+      "slug": "cafe-classic",
+      "zoneId": "cafeClassic",
+      "category": "food",
+      "displayName": "Classic Cafe / きっさてん",
+      "npcId": "store_server",
+      "requiredLevel": 1,
+      "width": 1376,
+      "height": 768,
+      "runtimeImage": "assets/ja/images/tiles/places/cafe-classic.png",
+      "runtimeJson": "assets/ja/images/tiles/places/cafe-classic.json",
+      "normalizedConfig": {
+        "collisions": [
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.045
+          ],
+          [
+            0.0,
+            0.0,
+            0.03,
+            1.0
+          ],
+          [
+            0.97,
+            0.0,
+            0.03,
+            1.0
+          ],
+          [
+            0.0,
+            0.955,
+            0.435,
+            0.045
+          ],
+          [
+            0.565,
+            0.955,
+            0.435,
+            0.045
+          ],
+          [
+            0.52,
+            0.1,
+            0.38,
+            0.22
+          ],
+          [
+            0.18,
+            0.35,
+            0.18,
+            0.11
+          ],
+          [
+            0.52,
+            0.35,
+            0.18,
+            0.11
+          ]
+        ],
+        "doors": [
+          {
+            "rect": [
+              0.435,
+              0.895,
+              0.13,
+              0.06
+            ],
+            "targetZone": "town",
+            "targetSpawn": "spawn_station",
+            "requiredLevel": 1
+          }
+        ],
+        "spawns": [
+          {
+            "name": "default",
+            "at": [
+              0.5,
+              0.5
+            ]
+          }
+        ],
+        "npcs": [
+          {
+            "npcId": "store_server",
+            "at": [
+              0.5,
+              0.7
+            ]
+          }
+        ]
+      },
+      "originalSource": "cafe_3.jpeg"
+    },
+    {
+      "source": "education/classroom.jpeg",
+      "slug": "classroom",
+      "zoneId": "classroom",
+      "category": "education",
+      "displayName": "Classroom / きょうしつ",
+      "npcId": "teacher",
+      "requiredLevel": 1,
+      "width": 1376,
+      "height": 768,
+      "runtimeImage": "assets/ja/images/tiles/places/classroom.png",
+      "runtimeJson": "assets/ja/images/tiles/places/classroom.json",
+      "normalizedConfig": {
+        "collisions": [
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.045
+          ],
+          [
+            0.0,
+            0.0,
+            0.03,
+            1.0
+          ],
+          [
+            0.97,
+            0.0,
+            0.03,
+            1.0
+          ],
+          [
+            0.0,
+            0.955,
+            0.435,
+            0.045
+          ],
+          [
+            0.565,
+            0.955,
+            0.435,
+            0.045
+          ],
+          [
+            0.04,
+            0.05,
+            0.28,
+            0.88
+          ],
+          [
+            0.34,
+            0.18,
+            0.11,
+            0.1
+          ],
+          [
+            0.55,
+            0.18,
+            0.11,
+            0.1
+          ],
+          [
+            0.76,
+            0.18,
+            0.11,
+            0.1
+          ]
+        ],
+        "doors": [
+          {
+            "rect": [
+              0.435,
+              0.895,
+              0.13,
+              0.06
+            ],
+            "targetZone": "town",
+            "targetSpawn": "spawn_station",
+            "requiredLevel": 1
+          }
+        ],
+        "spawns": [
+          {
+            "name": "default",
+            "at": [
+              0.4,
+              0.5
+            ]
+          }
+        ],
+        "npcs": [
+          {
+            "npcId": "teacher",
+            "at": [
+              0.5,
+              0.78
+            ]
+          }
+        ]
+      },
+      "originalSource": "classroom.jpeg"
+    },
+    {
+      "source": "sports/gym.jpeg",
+      "slug": "gym",
+      "zoneId": "gym",
+      "category": "sports",
+      "displayName": "Gym / ジム",
+      "npcId": "traveller",
+      "requiredLevel": 2,
+      "width": 1352,
+      "height": 745,
+      "runtimeImage": "assets/ja/images/tiles/places/gym.png",
+      "runtimeJson": "assets/ja/images/tiles/places/gym.json",
+      "normalizedConfig": {
+        "collisions": [
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.035
+          ],
+          [
+            0.0,
+            0.0,
+            0.025,
+            1.0
+          ],
+          [
+            0.975,
+            0.0,
+            0.025,
+            1.0
+          ],
+          [
+            0.0,
+            0.965,
+            0.435,
+            0.035
+          ],
+          [
+            0.565,
+            0.965,
+            0.435,
+            0.035
+          ],
+          [
+            0.08,
+            0.08,
+            0.84,
+            0.14
+          ],
+          [
+            0.12,
+            0.36,
+            0.18,
+            0.16
+          ],
+          [
+            0.7,
+            0.36,
+            0.18,
+            0.16
+          ]
+        ],
+        "doors": [
+          {
+            "rect": [
+              0.435,
+              0.895,
+              0.13,
+              0.06
+            ],
+            "targetZone": "town",
+            "targetSpawn": "spawn_station",
+            "requiredLevel": 1
+          }
+        ],
+        "spawns": [
+          {
+            "name": "default",
+            "at": [
+              0.5,
+              0.5
+            ]
+          }
+        ],
+        "npcs": [
+          {
+            "npcId": "traveller",
+            "at": [
+              0.5,
+              0.7
+            ]
+          }
+        ]
+      },
+      "originalSource": "gym1.jpeg"
+    },
+    {
+      "source": "civic/hospital.jpeg",
+      "slug": "hospital",
+      "zoneId": "hospital",
+      "category": "civic",
+      "displayName": "Hospital / びょういん",
+      "npcId": "station_staff",
+      "requiredLevel": 1,
+      "width": 1342,
+      "height": 751,
+      "runtimeImage": "assets/ja/images/tiles/places/hospital.png",
+      "runtimeJson": "assets/ja/images/tiles/places/hospital.json",
+      "normalizedConfig": {
+        "collisions": [
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.045
+          ],
+          [
+            0.0,
+            0.0,
+            0.03,
+            1.0
+          ],
+          [
+            0.97,
+            0.0,
+            0.03,
+            1.0
+          ],
+          [
+            0.0,
+            0.955,
+            0.435,
+            0.045
+          ],
+          [
+            0.565,
+            0.955,
+            0.435,
+            0.045
+          ],
+          [
+            0.05,
+            0.08,
+            0.9,
+            0.13
+          ],
+          [
+            0.16,
+            0.42,
+            0.18,
+            0.17
+          ],
+          [
+            0.66,
+            0.42,
+            0.18,
+            0.17
+          ]
+        ],
+        "doors": [
+          {
+            "rect": [
+              0.435,
+              0.895,
+              0.13,
+              0.06
+            ],
+            "targetZone": "town",
+            "targetSpawn": "spawn_station",
+            "requiredLevel": 1
+          }
+        ],
+        "spawns": [
+          {
+            "name": "default",
+            "at": [
+              0.5,
+              0.5
+            ]
+          }
+        ],
+        "npcs": [
+          {
+            "npcId": "station_staff",
+            "at": [
+              0.5,
+              0.7
+            ]
+          }
+        ]
+      },
+      "originalSource": "hospital_1.jpeg"
+    },
+    {
+      "source": "residential/townhouse.jpeg",
+      "slug": "townhouse",
+      "zoneId": "townhouse",
+      "category": "residential",
+      "displayName": "Townhouse / いえ",
+      "npcId": "old_lady",
+      "requiredLevel": 1,
+      "width": 1329,
+      "height": 725,
+      "runtimeImage": "assets/ja/images/tiles/places/townhouse.png",
+      "runtimeJson": "assets/ja/images/tiles/places/townhouse.json",
+      "normalizedConfig": {
+        "collisions": [
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.045
+          ],
+          [
+            0.0,
+            0.0,
+            0.03,
+            1.0
+          ],
+          [
+            0.97,
+            0.0,
+            0.03,
+            1.0
+          ],
+          [
+            0.0,
+            0.955,
+            0.435,
+            0.045
+          ],
+          [
+            0.565,
+            0.955,
+            0.435,
+            0.045
+          ],
+          [
+            0.08,
+            0.1,
+            0.24,
+            0.28
+          ],
+          [
+            0.68,
+            0.1,
+            0.24,
+            0.28
+          ],
+          [
+            0.36,
+            0.48,
+            0.28,
+            0.14
+          ]
+        ],
+        "doors": [
+          {
+            "rect": [
+              0.435,
+              0.895,
+              0.13,
+              0.06
+            ],
+            "targetZone": "town",
+            "targetSpawn": "spawn_station",
+            "requiredLevel": 1
+          }
+        ],
+        "spawns": [
+          {
+            "name": "default",
+            "at": [
+              0.5,
+              0.42
+            ]
+          }
+        ],
+        "npcs": [
+          {
+            "npcId": "old_lady",
+            "at": [
+              0.5,
+              0.7
+            ]
+          }
+        ]
+      },
+      "originalSource": "house_1.jpeg"
+    },
+    {
+      "source": "residential/apartment.jpeg",
+      "slug": "apartment",
+      "zoneId": "apartment",
+      "category": "residential",
+      "displayName": "Apartment / アパート",
+      "npcId": "old_lady",
+      "requiredLevel": 1,
+      "width": 1376,
+      "height": 768,
+      "runtimeImage": "assets/ja/images/tiles/places/apartment.png",
+      "runtimeJson": "assets/ja/images/tiles/places/apartment.json",
+      "normalizedConfig": {
+        "collisions": [
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.045
+          ],
+          [
+            0.0,
+            0.0,
+            0.03,
+            1.0
+          ],
+          [
+            0.97,
+            0.0,
+            0.03,
+            1.0
+          ],
+          [
+            0.0,
+            0.955,
+            0.435,
+            0.045
+          ],
+          [
+            0.565,
+            0.955,
+            0.435,
+            0.045
+          ],
+          [
+            0.08,
+            0.1,
+            0.2,
+            0.28
+          ],
+          [
+            0.7,
+            0.1,
+            0.2,
+            0.28
+          ],
+          [
+            0.36,
+            0.48,
+            0.28,
+            0.13
+          ]
+        ],
+        "doors": [
+          {
+            "rect": [
+              0.435,
+              0.895,
+              0.13,
+              0.06
+            ],
+            "targetZone": "town",
+            "targetSpawn": "spawn_station",
+            "requiredLevel": 1
+          }
+        ],
+        "spawns": [
+          {
+            "name": "default",
+            "at": [
+              0.5,
+              0.42
+            ]
+          }
+        ],
+        "npcs": [
+          {
+            "npcId": "old_lady",
+            "at": [
+              0.5,
+              0.7
+            ]
+          }
+        ]
+      },
+      "originalSource": "house_2.jpeg"
+    },
+    {
+      "source": "residential/family-home.jpeg",
+      "slug": "family-home",
+      "zoneId": "familyHome",
+      "category": "residential",
+      "displayName": "Family Home / じたく",
+      "npcId": "old_lady",
+      "requiredLevel": 1,
+      "width": 1376,
+      "height": 768,
+      "runtimeImage": "assets/ja/images/tiles/places/family-home.png",
+      "runtimeJson": "assets/ja/images/tiles/places/family-home.json",
+      "normalizedConfig": {
+        "collisions": [
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.045
+          ],
+          [
+            0.0,
+            0.0,
+            0.03,
+            1.0
+          ],
+          [
+            0.97,
+            0.0,
+            0.03,
+            1.0
+          ],
+          [
+            0.0,
+            0.955,
+            0.435,
+            0.045
+          ],
+          [
+            0.565,
+            0.955,
+            0.435,
+            0.045
+          ],
+          [
+            0.08,
+            0.1,
+            0.22,
+            0.25
+          ],
+          [
+            0.7,
+            0.1,
+            0.22,
+            0.25
+          ],
+          [
+            0.37,
+            0.45,
+            0.26,
+            0.15
+          ]
+        ],
+        "doors": [
+          {
+            "rect": [
+              0.435,
+              0.895,
+              0.13,
+              0.06
+            ],
+            "targetZone": "town",
+            "targetSpawn": "spawn_station",
+            "requiredLevel": 1
+          }
+        ],
+        "spawns": [
+          {
+            "name": "default",
+            "at": [
+              0.5,
+              0.42
+            ]
+          }
+        ],
+        "npcs": [
+          {
+            "npcId": "old_lady",
+            "at": [
+              0.5,
+              0.7
+            ]
+          }
+        ]
+      },
+      "originalSource": "house_3.jpeg"
+    },
+    {
+      "source": "civic/office.jpeg",
+      "slug": "office",
+      "zoneId": "office",
+      "category": "civic",
+      "displayName": "Office / オフィス",
+      "npcId": "station_staff",
+      "requiredLevel": 3,
+      "width": 1330,
+      "height": 728,
+      "runtimeImage": "assets/ja/images/tiles/places/office.png",
+      "runtimeJson": "assets/ja/images/tiles/places/office.json",
+      "normalizedConfig": {
+        "collisions": [
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.045
+          ],
+          [
+            0.0,
+            0.0,
+            0.03,
+            1.0
+          ],
+          [
+            0.97,
+            0.0,
+            0.03,
+            1.0
+          ],
+          [
+            0.0,
+            0.955,
+            0.435,
+            0.045
+          ],
+          [
+            0.565,
+            0.955,
+            0.435,
+            0.045
+          ],
+          [
+            0.1,
+            0.12,
+            0.8,
+            0.12
+          ],
+          [
+            0.2,
+            0.42,
+            0.18,
+            0.14
+          ],
+          [
+            0.62,
+            0.42,
+            0.18,
+            0.14
+          ]
+        ],
+        "doors": [
+          {
+            "rect": [
+              0.435,
+              0.895,
+              0.13,
+              0.06
+            ],
+            "targetZone": "town",
+            "targetSpawn": "spawn_station",
+            "requiredLevel": 1
+          }
+        ],
+        "spawns": [
+          {
+            "name": "default",
+            "at": [
+              0.5,
+              0.5
+            ]
+          }
+        ],
+        "npcs": [
+          {
+            "npcId": "station_staff",
+            "at": [
+              0.5,
+              0.7
+            ]
+          }
+        ]
+      },
+      "originalSource": "office_1.jpeg"
+    },
+    {
+      "source": "civic/office-tech.jpeg",
+      "slug": "office-tech",
+      "zoneId": "officeTech",
+      "category": "civic",
+      "displayName": "Tech Office / ITオフィス",
+      "npcId": "station_staff",
+      "requiredLevel": 1,
+      "width": 1306,
+      "height": 738,
+      "runtimeImage": "assets/ja/images/tiles/places/office-tech.png",
+      "runtimeJson": "assets/ja/images/tiles/places/office-tech.json",
+      "normalizedConfig": {
+        "collisions": [
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.045
+          ],
+          [
+            0.0,
+            0.0,
+            0.03,
+            1.0
+          ],
+          [
+            0.97,
+            0.0,
+            0.03,
+            1.0
+          ],
+          [
+            0.0,
+            0.955,
+            0.435,
+            0.045
+          ],
+          [
+            0.565,
+            0.955,
+            0.435,
+            0.045
+          ],
+          [
+            0.08,
+            0.12,
+            0.84,
+            0.14
+          ],
+          [
+            0.18,
+            0.44,
+            0.64,
+            0.12
+          ]
+        ],
+        "doors": [
+          {
+            "rect": [
+              0.435,
+              0.895,
+              0.13,
+              0.06
+            ],
+            "targetZone": "town",
+            "targetSpawn": "spawn_station",
+            "requiredLevel": 1
+          }
+        ],
+        "spawns": [
+          {
+            "name": "default",
+            "at": [
+              0.5,
+              0.35
+            ]
+          }
+        ],
+        "npcs": [
+          {
+            "npcId": "station_staff",
+            "at": [
+              0.5,
+              0.7
+            ]
+          }
+        ]
+      },
+      "originalSource": "office_2.jpeg"
+    },
+    {
+      "source": "civic/office-training.jpeg",
+      "slug": "office-training",
+      "zoneId": "officeTraining",
+      "category": "civic",
+      "displayName": "Training Office / けんしゅうしつ",
+      "npcId": "station_staff",
+      "requiredLevel": 1,
+      "width": 1374,
+      "height": 768,
+      "runtimeImage": "assets/ja/images/tiles/places/office-training.png",
+      "runtimeJson": "assets/ja/images/tiles/places/office-training.json",
+      "normalizedConfig": {
+        "collisions": [
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.045
+          ],
+          [
+            0.0,
+            0.0,
+            0.03,
+            1.0
+          ],
+          [
+            0.97,
+            0.0,
+            0.03,
+            1.0
+          ],
+          [
+            0.0,
+            0.955,
+            0.435,
+            0.045
+          ],
+          [
+            0.565,
+            0.955,
+            0.435,
+            0.045
+          ],
+          [
+            0.08,
+            0.1,
+            0.84,
+            0.15
+          ],
+          [
+            0.16,
+            0.42,
+            0.68,
+            0.12
+          ]
+        ],
+        "doors": [
+          {
+            "rect": [
+              0.435,
+              0.895,
+              0.13,
+              0.06
+            ],
+            "targetZone": "town",
+            "targetSpawn": "spawn_station",
+            "requiredLevel": 1
+          }
+        ],
+        "spawns": [
+          {
+            "name": "default",
+            "at": [
+              0.5,
+              0.58
+            ]
+          }
+        ],
+        "npcs": [
+          {
+            "npcId": "station_staff",
+            "at": [
+              0.5,
+              0.7
+            ]
+          }
+        ]
+      },
+      "originalSource": "office_3.jpeg"
+    },
+    {
+      "source": "food/restaurant.jpeg",
+      "slug": "restaurant",
+      "zoneId": "restaurant",
+      "category": "food",
+      "displayName": "Restaurant / レストラン",
+      "npcId": "ramen_chef",
+      "requiredLevel": 2,
+      "width": 1329,
+      "height": 740,
+      "runtimeImage": "assets/ja/images/tiles/places/restaurant.png",
+      "runtimeJson": "assets/ja/images/tiles/places/restaurant.json",
+      "normalizedConfig": {
+        "collisions": [
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.045
+          ],
+          [
+            0.0,
+            0.0,
+            0.03,
+            1.0
+          ],
+          [
+            0.97,
+            0.0,
+            0.03,
+            1.0
+          ],
+          [
+            0.0,
+            0.955,
+            0.435,
+            0.045
+          ],
+          [
+            0.565,
+            0.955,
+            0.435,
+            0.045
+          ],
+          [
+            0.58,
+            0.08,
+            0.39,
+            0.4
+          ],
+          [
+            0.1,
+            0.17,
+            0.16,
+            0.12
+          ],
+          [
+            0.34,
+            0.28,
+            0.14,
+            0.12
+          ]
+        ],
+        "doors": [
+          {
+            "rect": [
+              0.435,
+              0.895,
+              0.13,
+              0.06
+            ],
+            "targetZone": "town",
+            "targetSpawn": "spawn_station",
+            "requiredLevel": 1
+          }
+        ],
+        "spawns": [
+          {
+            "name": "default",
+            "at": [
+              0.5,
+              0.5
+            ]
+          }
+        ],
+        "npcs": [
+          {
+            "npcId": "ramen_chef",
+            "at": [
+              0.5,
+              0.7
+            ]
+          }
+        ]
+      },
+      "originalSource": "restaurant.jpeg"
+    },
+    {
+      "source": "food/restaurant-counter.jpeg",
+      "slug": "restaurant-counter",
+      "zoneId": "restaurantCounter",
+      "category": "food",
+      "displayName": "Restaurant Counter / しょくどう",
+      "npcId": "ramen_chef",
+      "requiredLevel": 1,
+      "width": 1350,
+      "height": 748,
+      "runtimeImage": "assets/ja/images/tiles/places/restaurant-counter.png",
+      "runtimeJson": "assets/ja/images/tiles/places/restaurant-counter.json",
+      "normalizedConfig": {
+        "collisions": [
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.045
+          ],
+          [
+            0.0,
+            0.0,
+            0.03,
+            1.0
+          ],
+          [
+            0.97,
+            0.0,
+            0.03,
+            1.0
+          ],
+          [
+            0.0,
+            0.955,
+            0.435,
+            0.045
+          ],
+          [
+            0.565,
+            0.955,
+            0.435,
+            0.045
+          ],
+          [
+            0.08,
+            0.08,
+            0.84,
+            0.22
+          ],
+          [
+            0.1,
+            0.43,
+            0.22,
+            0.16
+          ],
+          [
+            0.68,
+            0.43,
+            0.22,
+            0.16
+          ]
+        ],
+        "doors": [
+          {
+            "rect": [
+              0.435,
+              0.895,
+              0.13,
+              0.06
+            ],
+            "targetZone": "town",
+            "targetSpawn": "spawn_station",
+            "requiredLevel": 1
+          }
+        ],
+        "spawns": [
+          {
+            "name": "default",
+            "at": [
+              0.5,
+              0.5
+            ]
+          }
+        ],
+        "npcs": [
+          {
+            "npcId": "ramen_chef",
+            "at": [
+              0.5,
+              0.7
+            ]
+          }
+        ]
+      },
+      "originalSource": "restaurant_2.jpeg"
+    },
+    {
+      "source": "food/restaurant-izakaya.jpeg",
+      "slug": "restaurant-izakaya",
+      "zoneId": "restaurantIzakaya",
+      "category": "food",
+      "displayName": "Izakaya / いざかや",
+      "npcId": "ramen_chef",
+      "requiredLevel": 1,
+      "width": 1239,
+      "height": 722,
+      "runtimeImage": "assets/ja/images/tiles/places/restaurant-izakaya.png",
+      "runtimeJson": "assets/ja/images/tiles/places/restaurant-izakaya.json",
+      "normalizedConfig": {
+        "collisions": [
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.045
+          ],
+          [
+            0.0,
+            0.0,
+            0.03,
+            1.0
+          ],
+          [
+            0.97,
+            0.0,
+            0.03,
+            1.0
+          ],
+          [
+            0.0,
+            0.955,
+            0.435,
+            0.045
+          ],
+          [
+            0.565,
+            0.955,
+            0.435,
+            0.045
+          ],
+          [
+            0.08,
+            0.08,
+            0.84,
+            0.22
+          ],
+          [
+            0.28,
+            0.42,
+            0.17,
+            0.14
+          ],
+          [
+            0.55,
+            0.42,
+            0.17,
+            0.14
+          ]
+        ],
+        "doors": [
+          {
+            "rect": [
+              0.435,
+              0.895,
+              0.13,
+              0.06
+            ],
+            "targetZone": "town",
+            "targetSpawn": "spawn_station",
+            "requiredLevel": 1
+          }
+        ],
+        "spawns": [
+          {
+            "name": "default",
+            "at": [
+              0.5,
+              0.5
+            ]
+          }
+        ],
+        "npcs": [
+          {
+            "npcId": "ramen_chef",
+            "at": [
+              0.5,
+              0.7
+            ]
+          }
+        ]
+      },
+      "originalSource": "restaurant_3.jpeg"
+    },
+    {
+      "source": "sports/stadium.jpeg",
+      "slug": "stadium",
+      "zoneId": "stadium",
+      "category": "sports",
+      "displayName": "Stadium / スタジアム",
+      "npcId": "traveller",
+      "requiredLevel": 1,
+      "width": 1376,
+      "height": 768,
+      "runtimeImage": "assets/ja/images/tiles/places/stadium.png",
+      "runtimeJson": "assets/ja/images/tiles/places/stadium.json",
+      "normalizedConfig": {
+        "collisions": [
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.035
+          ],
+          [
+            0.0,
+            0.0,
+            0.025,
+            1.0
+          ],
+          [
+            0.975,
+            0.0,
+            0.025,
+            1.0
+          ],
+          [
+            0.0,
+            0.965,
+            0.435,
+            0.035
+          ],
+          [
+            0.565,
+            0.965,
+            0.435,
+            0.035
+          ]
+        ],
+        "doors": [
+          {
+            "rect": [
+              0.435,
+              0.895,
+              0.13,
+              0.06
+            ],
+            "targetZone": "town",
+            "targetSpawn": "spawn_station",
+            "requiredLevel": 1
+          }
+        ],
+        "spawns": [
+          {
+            "name": "default",
+            "at": [
+              0.5,
+              0.5
+            ]
+          }
+        ],
+        "npcs": [
+          {
+            "npcId": "traveller",
+            "at": [
+              0.5,
+              0.7
+            ]
+          }
+        ]
+      },
+      "originalSource": "stadium_1.jpeg"
+    },
+    {
+      "source": "retail/supermarket.jpeg",
+      "slug": "supermarket",
+      "zoneId": "supermarket",
+      "category": "retail",
+      "displayName": "Supermarket / スーパー",
+      "npcId": "store_server",
+      "requiredLevel": 1,
+      "width": 1329,
+      "height": 728,
+      "runtimeImage": "assets/ja/images/tiles/places/supermarket.png",
+      "runtimeJson": "assets/ja/images/tiles/places/supermarket.json",
+      "normalizedConfig": {
+        "collisions": [
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.045
+          ],
+          [
+            0.0,
+            0.0,
+            0.03,
+            1.0
+          ],
+          [
+            0.97,
+            0.0,
+            0.03,
+            1.0
+          ],
+          [
+            0.0,
+            0.955,
+            0.435,
+            0.045
+          ],
+          [
+            0.565,
+            0.955,
+            0.435,
+            0.045
+          ]
+        ],
+        "doors": [
+          {
+            "rect": [
+              0.435,
+              0.895,
+              0.13,
+              0.06
+            ],
+            "targetZone": "town",
+            "targetSpawn": "spawn_station",
+            "requiredLevel": 1
+          }
+        ],
+        "spawns": [
+          {
+            "name": "default",
+            "at": [
+              0.5,
+              0.5
+            ]
+          }
+        ],
+        "npcs": [
+          {
+            "npcId": "store_server",
+            "at": [
+              0.5,
+              0.7
+            ]
+          }
+        ]
+      },
+      "originalSource": "super_market.jpeg"
+    },
+    {
+      "source": "culture/temple-main.jpeg",
+      "slug": "temple-main",
+      "zoneId": "templeMain",
+      "category": "culture",
+      "displayName": "Temple / おてら",
+      "npcId": "old_lady",
+      "requiredLevel": 1,
+      "width": 1376,
+      "height": 768,
+      "runtimeImage": "assets/ja/images/tiles/places/temple-main.png",
+      "runtimeJson": "assets/ja/images/tiles/places/temple-main.json",
+      "normalizedConfig": {
+        "collisions": [
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.045
+          ],
+          [
+            0.0,
+            0.0,
+            0.03,
+            1.0
+          ],
+          [
+            0.97,
+            0.0,
+            0.03,
+            1.0
+          ],
+          [
+            0.0,
+            0.955,
+            0.435,
+            0.045
+          ],
+          [
+            0.565,
+            0.955,
+            0.435,
+            0.045
+          ],
+          [
+            0.28,
+            0.08,
+            0.44,
+            0.28
+          ],
+          [
+            0.16,
+            0.48,
+            0.18,
+            0.14
+          ],
+          [
+            0.66,
+            0.48,
+            0.18,
+            0.14
+          ]
+        ],
+        "doors": [
+          {
+            "rect": [
+              0.435,
+              0.895,
+              0.13,
+              0.06
+            ],
+            "targetZone": "town",
+            "targetSpawn": "spawn_station",
+            "requiredLevel": 1
+          }
+        ],
+        "spawns": [
+          {
+            "name": "default",
+            "at": [
+              0.5,
+              0.5
+            ]
+          }
+        ],
+        "npcs": [
+          {
+            "npcId": "old_lady",
+            "at": [
+              0.5,
+              0.7
+            ]
+          }
+        ]
+      },
+      "originalSource": "temple_1.jpeg"
+    },
+    {
+      "source": "culture/temple-hall.jpeg",
+      "slug": "temple-hall",
+      "zoneId": "templeHall",
+      "category": "culture",
+      "displayName": "Temple Hall / ほんどう",
+      "npcId": "old_lady",
+      "requiredLevel": 1,
+      "width": 1301,
+      "height": 724,
+      "runtimeImage": "assets/ja/images/tiles/places/temple-hall.png",
+      "runtimeJson": "assets/ja/images/tiles/places/temple-hall.json",
+      "normalizedConfig": {
+        "collisions": [
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.045
+          ],
+          [
+            0.0,
+            0.0,
+            0.03,
+            1.0
+          ],
+          [
+            0.97,
+            0.0,
+            0.03,
+            1.0
+          ],
+          [
+            0.0,
+            0.955,
+            0.435,
+            0.045
+          ],
+          [
+            0.565,
+            0.955,
+            0.435,
+            0.045
+          ],
+          [
+            0.25,
+            0.08,
+            0.5,
+            0.27
+          ],
+          [
+            0.1,
+            0.48,
+            0.18,
+            0.15
+          ],
+          [
+            0.72,
+            0.48,
+            0.18,
+            0.15
+          ]
+        ],
+        "doors": [
+          {
+            "rect": [
+              0.435,
+              0.895,
+              0.13,
+              0.06
+            ],
+            "targetZone": "town",
+            "targetSpawn": "spawn_station",
+            "requiredLevel": 1
+          }
+        ],
+        "spawns": [
+          {
+            "name": "default",
+            "at": [
+              0.5,
+              0.5
+            ]
+          }
+        ],
+        "npcs": [
+          {
+            "npcId": "old_lady",
+            "at": [
+              0.5,
+              0.7
+            ]
+          }
+        ]
+      },
+      "originalSource": "temple_2.jpeg"
+    },
+    {
+      "source": "culture/temple-room.jpeg",
+      "slug": "temple-room",
+      "zoneId": "templeRoom",
+      "category": "culture",
+      "displayName": "Temple Room / じいんのへや",
+      "npcId": "old_lady",
+      "requiredLevel": 1,
+      "width": 1372,
+      "height": 768,
+      "runtimeImage": "assets/ja/images/tiles/places/temple-room.png",
+      "runtimeJson": "assets/ja/images/tiles/places/temple-room.json",
+      "normalizedConfig": {
+        "collisions": [
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.045
+          ],
+          [
+            0.0,
+            0.0,
+            0.03,
+            1.0
+          ],
+          [
+            0.97,
+            0.0,
+            0.03,
+            1.0
+          ],
+          [
+            0.0,
+            0.955,
+            0.435,
+            0.045
+          ],
+          [
+            0.565,
+            0.955,
+            0.435,
+            0.045
+          ],
+          [
+            0.18,
+            0.1,
+            0.64,
+            0.18
+          ],
+          [
+            0.12,
+            0.46,
+            0.25,
+            0.15
+          ],
+          [
+            0.63,
+            0.46,
+            0.25,
+            0.15
+          ]
+        ],
+        "doors": [
+          {
+            "rect": [
+              0.435,
+              0.895,
+              0.13,
+              0.06
+            ],
+            "targetZone": "town",
+            "targetSpawn": "spawn_station",
+            "requiredLevel": 1
+          }
+        ],
+        "spawns": [
+          {
+            "name": "default",
+            "at": [
+              0.5,
+              0.5
+            ]
+          }
+        ],
+        "npcs": [
+          {
+            "npcId": "old_lady",
+            "at": [
+              0.5,
+              0.7
+            ]
+          }
+        ]
+      },
+      "originalSource": "temple_3.jpeg"
+    },
+    {
+      "source": "civic/tokyo-office.jpeg",
+      "slug": "tokyo-office",
+      "zoneId": "tokyoOffice",
+      "category": "civic",
+      "displayName": "Tokyo Office / とうきょうオフィス",
+      "npcId": "station_staff",
+      "requiredLevel": 1,
+      "width": 1308,
+      "height": 751,
+      "runtimeImage": "assets/ja/images/tiles/places/tokyo-office.png",
+      "runtimeJson": "assets/ja/images/tiles/places/tokyo-office.json",
+      "normalizedConfig": {
+        "collisions": [
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.045
+          ],
+          [
+            0.0,
+            0.0,
+            0.03,
+            1.0
+          ],
+          [
+            0.97,
+            0.0,
+            0.03,
+            1.0
+          ],
+          [
+            0.0,
+            0.955,
+            0.435,
+            0.045
+          ],
+          [
+            0.565,
+            0.955,
+            0.435,
+            0.045
+          ]
+        ],
+        "doors": [
+          {
+            "rect": [
+              0.435,
+              0.895,
+              0.13,
+              0.06
+            ],
+            "targetZone": "town",
+            "targetSpawn": "spawn_station",
+            "requiredLevel": 1
+          }
+        ],
+        "spawns": [
+          {
+            "name": "default",
+            "at": [
+              0.5,
+              0.5
+            ]
+          }
+        ],
+        "npcs": [
+          {
+            "npcId": "station_staff",
+            "at": [
+              0.5,
+              0.7
+            ]
+          }
+        ]
+      },
+      "originalSource": "tokyo_office1.jpeg"
+    }
+  ]
+}
