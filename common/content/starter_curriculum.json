@@ -1,0 +1,34 @@
+[
+  {
+    "id": "greetings-recognition-1", "version": 1, "teacherIds": ["teacher"], "targetSkillIds": ["vocab.konnichiwa"], "levelRange": {"min": 1, "max": 5},
+    "steps": [
+      {"id": "teach", "type": "teach", "message": "こんにちは！きょうは あいさつを れんしゅうします。", "translation": "Hello! Today we will practise greetings.", "cards": [{"type": "vocab", "word": "こんにちは", "reading": "konnichiwa", "meaning": "hello", "example": "こんにちは、せんせい。", "skillIds": ["vocab.konnichiwa"]}]},
+      {"id": "check", "type": "choiceQuestion", "prompt": "Which phrase means ‘hello’?", "choices": ["こんにちは", "ありがとう", "さようなら"], "correctChoice": "こんにちは", "hint": "It starts with konnichi…", "skillIds": ["vocab.konnichiwa"], "skillMode": "recognition"},
+      {"id": "result", "type": "result", "headline": "あいさつ、じょうずです！", "summary": "You can recognise a friendly hello.", "xpEarned": 10, "mastered": ["こんにちは"]}
+    ]
+  },
+  {
+    "id": "introductions-recall-1", "version": 1, "teacherIds": ["teacher"], "targetSkillIds": ["grammar.watashi_wa"], "levelRange": {"min": 1, "max": 5},
+    "steps": [
+      {"id": "teach", "type": "teach", "message": "じぶんの なまえを つたえましょう。", "translation": "Let’s say your name.", "cards": [{"type": "grammar", "pattern": "わたしは ___ です", "meaning": "I am ___", "example": "わたしは アオイ です。", "skillIds": ["grammar.watashi_wa"]}]},
+      {"id": "build", "type": "sentenceBuilder", "prompt": "Build: ‘I am Aoi.’", "tiles": ["です", "わたしは", "アオイ"], "answer": "わたしは アオイ です", "hint": "Start with わたしは.", "skillIds": ["grammar.watashi_wa"], "skillMode": "production"},
+      {"id": "result", "type": "result", "headline": "じょうずです！", "summary": "You built a simple introduction.", "xpEarned": 15, "learning": ["わたしは ___ です"]}
+    ]
+  },
+  {
+    "id": "shopping-conversation-1", "version": 1, "teacherIds": ["teacher"], "targetSkillIds": ["vocab.ikura"], "levelRange": {"min": 1, "max": 5},
+    "steps": [
+      {"id": "teach", "type": "teach", "message": "おみせで ねだんを きく ことばです。", "translation": "This is a phrase for asking the price in a shop.", "cards": [{"type": "vocab", "word": "いくらですか", "reading": "ikura desu ka", "meaning": "how much is it?", "skillIds": ["vocab.ikura"]}]},
+      {"id": "reply", "type": "conversationChoices", "prompt": "The shopkeeper shows you an onigiri. What do you say?", "replies": ["これは いくらですか。", "こんにちは。"], "skillIds": ["vocab.ikura"], "skillMode": "production"},
+      {"id": "result", "type": "result", "headline": "いい しつもんです！", "summary": "You practised asking a price.", "xpEarned": 15, "learning": ["いくらですか"]}
+    ]
+  },
+  {
+    "id": "directions-recall-1", "version": 1, "teacherIds": ["teacher"], "targetSkillIds": ["grammar.wa_doko"], "levelRange": {"min": 1, "max": 5},
+    "steps": [
+      {"id": "teach", "type": "teach", "message": "ばしょを たずねる ときは、どこですか を つかいます。", "translation": "Use どこですか to ask where a place is.", "cards": [{"type": "grammar", "pattern": "___ は どこですか", "meaning": "Where is ___?", "example": "えきは どこですか。", "skillIds": ["grammar.wa_doko"]}]},
+      {"id": "check", "type": "choiceQuestion", "prompt": "Which question asks ‘Where is the station?’", "choices": ["えきは どこですか。", "えきです。"], "correctChoice": "えきは どこですか。", "skillIds": ["grammar.wa_doko"], "skillMode": "recall"},
+      {"id": "result", "type": "result", "headline": "みちを きく じゅんびが できました！", "summary": "You can ask where the station is.", "xpEarned": 15, "learning": ["___ は どこですか"]}
+    ]
+  }
+]
