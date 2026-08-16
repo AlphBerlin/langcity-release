@@ -126,7 +126,10 @@ class BuildWorldPackTest(unittest.TestCase):
             with zipfile.ZipFile(output) as archive:
                 manifest = json.loads(archive.read("ja/manifest.json"))
             self.assertEqual(manifest["version"], "cli-test")
-            self.assertEqual(list(manifest["requiredRoots"]), list(PACKS["ja"]))
+            expected_roots = sorted(
+                entry.name for entry in (REPO_ROOT / "ja").iterdir() if entry.is_dir()
+            )
+            self.assertEqual(list(manifest["requiredRoots"]), expected_roots)
 
 
 if __name__ == "__main__":

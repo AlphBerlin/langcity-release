@@ -1,0 +1,86 @@
+name: Build and test
+
+on:
+  push:
+    branches: [main]
+    tags: ["v*"]
+  pull_request:
+    branches: [main]
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  test:
+    name: Run tests
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Run world pack builder tests
+        run: python3 -m unittest discover -s test -p "*_test.py" -t . -v
+
+  build:
+    name: Build content packs
+    needs: test
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Determine pack version
+        id: version
+        run: |
+          if [[ "${GITHUB_REF_TYPE}" == "tag" ]]; then
+            echo "version=${GITHUB_REF_NAME}" >> "$GITHUB_OUTPUT"
+          else
+            echo "version=0.0.0+${GITHUB_SHA::7}" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Build ja.zip
+        run: |
+          python3 scripts/build_world_pack.py \
+            --pack ja \
+            --output dist/ja.zip \
+            --version "${{ steps.version.outputs.version }}"
+
+      - name: Build common.zip
+        run: |
+          python3 scripts/build_world_pack.py \
+            --pack common \
+            --output dist/common.zip \
+            --version "${{ steps.version.outputs.version }}"
+
+      - name: Upload ja.zip artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: ja
+          path: dist/ja.zip
+          if-no-files-found: error
+
+      - name: Upload common.zip artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: common
+          path: dist/common.zip
+          if-no-files-found: error
+
+      - name: Attach zips to release
+        if: github.ref_type == 'tag'
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            dist/ja.zip
+            dist/common.zip

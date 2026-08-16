@@ -19,12 +19,11 @@ from typing import Sequence
 import zipfile
 
 
-# Known content packs living at the repository root, mapped to the
-# directories a client expects to find once the pack is unpacked.
-PACKS: dict[str, tuple[str, ...]] = {
-    "ja": ("images", "characters", "content", "lessons", "audio"),
-    "common": ("images", "characters", "fonts", "icons", "onboarding"),
-}
+# Known content packs living at the repository root, one top-level
+# directory each. `requiredRoots` is always derived from whatever
+# subdirectories actually exist under the pack at build time (see
+# `build_pack`), so it stays accurate as content is added or removed.
+PACKS: tuple[str, ...] = ("ja", "common")
 
 
 def _sha256(data: bytes) -> str:
@@ -101,8 +100,7 @@ def main() -> None:
         choices=sorted(PACKS),
         help=(
             "Build a known content pack from its top-level directory "
-            "(e.g. `ja` reads from ./ja, `common` reads from ./common). "
-            "Sets sensible defaults for --source and --required-roots."
+            "(e.g. `ja` reads from ./ja, `common` reads from ./common)."
         ),
     )
     parser.add_argument(
@@ -120,18 +118,12 @@ def main() -> None:
         "--required-roots",
         help=(
             "Comma separated override for the manifest's requiredRoots list. "
-            "Defaults to --pack's known roots, or the source tree's top-level "
-            "directories when --pack is not set."
+            "Defaults to the source tree's current top-level directories."
         ),
     )
     args = parser.parse_args()
 
-    source = args.source
-    required_roots = _parse_required_roots(args.required_roots)
-    if args.pack:
-        source = source or Path(args.pack)
-        if required_roots is None:
-            required_roots = PACKS[args.pack]
+    source = args.source or (Path(args.pack) if args.pack else None)
     if source is None:
         parser.error("either --pack or --source is required")
 
@@ -140,7 +132,7 @@ def main() -> None:
         output=args.output,
         version=args.version,
         root=args.root,
-        required_roots=required_roots,
+        required_roots=_parse_required_roots(args.required_roots),
     )
 
 
