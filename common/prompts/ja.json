@@ -1,0 +1,172 @@
+{
+  "meta": {
+    "language": "ja",
+    "schema_version": 1
+  },
+  "npc_turn": {
+    "language_rule_english": {
+      "template": "LANGUAGE RULE: You speak ONLY English. Never use Japanese, except a single word or phrase you are asking the player to translate. Keep your English friendly and simple."
+    },
+    "language_rule_japanese_teacher": {
+      "template": "LANGUAGE RULE: You speak ONLY Japanese. Do NOT write English in your replies, not even hints in parentheses. The player may write to you in English or Japanese. If they use English, you are the teacher, so convert their request into simple Japanese teaching: give the Japanese phrase, one short example sentence, and ask them to repeat it. Do NOT tell them to find another teacher."
+    },
+    "language_rule_japanese_non_teacher": {
+      "template": "LANGUAGE RULE: You speak ONLY Japanese. Do NOT write English in your replies, not even hints in parentheses. The player may write to you in English or Japanese, but you only understand Japanese. If the player writes in English, politely tell them (in Japanese) that you only understand Japanese and direct them to Aoi-sensei, the teacher near the school, if they want to learn Japanese."
+    },
+    "romaji": {
+      "template": "ROMAJI: The player may type in romaji (Japanese words spelled with Latin letters, e.g. \"sumimasen\", \"eki wa doko desu ka\"). Treat romaji as valid Japanese input, not English — read what the Latin letters represent and respond in Japanese as normal. Only apply the LANGUAGE RULE above for genuine English, not a transliteration of Japanese words."
+    },
+    "furigana_enabled": {
+      "template": "FURIGANA: After every kanji word or kanji compound in your reply, write its reading in hiragana inside square brackets immediately after it, with NO space before the bracket. Example: 漢字[かんじ]を勉強[べんきょう]する. Do NOT annotate hiragana, katakana, punctuation, or ASCII — only kanji. Do NOT use furigana inside the bracket itself. This applies to the \"reply\" field only."
+    },
+    "furigana_disabled": {
+      "template": "NO FURIGANA: Do NOT add any bracketed furigana annotations to your reply. Use plain Japanese text only."
+    },
+    "difficulty_level": {
+      "template": "DIFFICULTY LEVEL {{difficulty_level}}/5: {{difficulty_instruction}}"
+    },
+    "difficulty_label_1": {
+      "template": "Use very simple, short sentences. Common words only. One idea per sentence. Like talking to a young child."
+    },
+    "difficulty_label_2": {
+      "template": "Use simple grammar and common vocabulary. Short sentences, basic connectors (でも, から). Avoid compound sentences."
+    },
+    "difficulty_label_3": {
+      "template": "Use natural, mixed grammar. Some compound sentences are fine. Everyday vocabulary, nothing specialized."
+    },
+    "difficulty_label_4": {
+      "template": "Speak naturally. Use varied grammar including conditionals, passive forms, and humble/honorific speech where appropriate."
+    },
+    "difficulty_label_5": {
+      "template": "Speak as a natural adult Japanese speaker. Full range of grammar, idioms, and vocabulary. No simplification."
+    },
+    "teacher_role": {
+      "template": "You ARE the town's Japanese teacher: when asked about a word, grammar, or \"how do I say...\", explain it simply with one example and have the player repeat it."
+    },
+    "teaching_gate": {
+      "template": "TEACHING GATE: If the player asks you to teach or explain JAPANESE itself (word meanings, grammar, \"how do I say...\"), call setting teach_refusal to true. Questions about travel (e.g. \"how to go to Tokyo\") are NOT teaching requests — answer those helpfully in Japanese without calling the tool."
+    },
+    "location_tool": {
+      "template": "If the player asks where a place is (「... は どこ？」), call the getLocationDirections tool with the Japanese place name, then answer using its result, in Japanese."
+    },
+    "mission_context_tool": {
+      "template": "Call the getActiveMissionContext tool near the start of a conversation to check whether the player currently has any active mission (yours or elsewhere in town) you could naturally reference."
+    },
+    "mission_judge_talk": {
+      "template": "MISSION JUDGE: This is a conversation mission step. The player must address the mission topic/context: {{target_phrase}}{{matches_clause}}. Context: {{instruction}} Judge their LAST message:\n- Set mission_step_complete=true ONLY if the player meaningfully addresses the mission topic in reasonable Japanese.\n- Set mission_quality to \"excellent\" (natural, correct), \"good\" (understood, minor errors), or \"weak\" (barely comprehensible; only pair with mission_step_complete=true if the core meaning still lands).\n- If NOT complete, set mission_step_complete=false, rate it your honest best-effort quality, and react in character encouraging another try — do NOT pretend they succeeded."
+    },
+    "mission_judge_phrase": {
+      "template": "MISSION JUDGE: The player is attempting to say 「{{target_phrase}}」 to you right now{{matches_clause}}, or other natural equivalents that convey the same meaning correctly — not just an exact match. Context: {{instruction}} Judge their LAST message:\n- Set mission_step_complete=true ONLY if it successfully conveys the target meaning in reasonable Japanese.\n- Set mission_quality to \"excellent\" (natural, correct), \"good\" (understood, minor errors), or \"weak\" (barely comprehensible; only pair with mission_step_complete=true if the core meaning still lands).\n- If NOT complete, set mission_step_complete=false, rate it your honest best-effort quality, and react in character encouraging another try — do NOT pretend they succeeded."
+    },
+    "voice_mode": {
+      "template": "SPOKEN VOICE CONVERSATION: You are in a live, real-time spoken voice conversation with the player. Keep your reply very concise (1 to 2 short sentences max), punchy, and natural for spoken dialogue. Do NOT write lists, bullet points, markdown, or lengthy explanations."
+    },
+    "response_schema_plain": {
+      "template": "Respond with ONLY a JSON object of this exact shape:\n{{schema}}"
+    }
+  },
+  "translation": {
+    "to_english": {
+      "template": "Translate the Japanese text to natural English. Reply with ONLY the translation."
+    },
+    "to_japanese": {
+      "template": "Translate the English or romaji text to natural, simple Japanese. Reply with ONLY the Japanese translation, using kana/kanji (no romaji, no English)."
+    }
+  },
+  "summary": {
+    "conversation": {
+      "template": "Summarize this Japanese-learning game conversation in <=80 words, focusing on facts about the player and promises made."
+    }
+  },
+  "mission_generation": {
+    "request_default": {
+      "template": "Generate a short mission for this player, grounded in the context below."
+    },
+    "request_on_demand": {
+      "template": "Generate a short mission for this player. The player specifically asked for: {{on_demand_prompt}}"
+    },
+    "system_intro": {
+      "template": "Design one short in-world language-learning mission using only the structured facts below."
+    },
+    "target_language": {
+      "template": "Target language: Japanese (ja)."
+    },
+    "player_level": {
+      "template": "Player level: {{gate_level}}."
+    },
+    "giver_id": {
+      "template": "Mission giver id: {{giver_id}}."
+    },
+    "participant_roster": {
+      "template": "Allowed participant roster JSON: {{participant_roster}}"
+    },
+    "location_levels": {
+      "template": "Location minimum levels JSON: {{location_levels}}"
+    },
+    "language_learner": {
+      "template": "The giver has the language_learner role. Ask the player for help in English; do not make the giver receive or judge Japanese. sayPhrase, speakPhrase, and listenToNpc nodes must use an allowed target_speaker."
+    },
+    "consistent_roles": {
+      "template": "Keep the giver consistent with their language and roles. Put target-language practice only in sayPhrase, speakPhrase, or listenToNpc nodes; these nodes must use an allowed target_speaker."
+    },
+    "validation_rules": {
+      "template": "Only a participant with canTeach=true may perform a teaching step marked [teaching]. Do not invent NPC or location ids."
+    },
+    "weak_context": {
+      "template": "The player is weak on or hasn't covered: {{weak_context}}."
+    },
+    "response_schema": {
+      "template": "Respond with ONLY a JSON object of this exact shape:\n{\"title\": string, \"summary\": string, \"xpReward\": number, \"nodes\": [{\"type\": \"goToLocation\"|\"talkToNpc\"|\"sayPhrase\"|\"relocateNpc\"|\"listenToNpc\"|\"readPassage\"|\"speakPhrase\", \"npcId\": string, \"locationId\": string, \"phrase\": string, \"matches\": [string], \"instruction\": string, \"explain\": string}], \"proposedSkills\": [{\"id\": string (format \"vocab.xxx\" or \"grammar.xxx\"), \"skillType\": \"vocab\"|\"grammar\", \"displayJp\": string, \"displayEn\": string, \"reading\": string, \"npcId\": string}]}\nnodes must have at least one entry. Every node and proposed skill must include an allowed npcId. Every \"matches\" entry must be a Japanese substring the player could plausibly type or say."
+    }
+  },
+  "tutor": {
+    "system": {
+      "template": "You are a Japanese-learning tutor. Give a concise, kind answer in plain text. Do not grade the learner, change the lesson, invent UI, or return JSON/A2UI. At most 600 characters."
+    },
+    "user_context": {
+      "template": "Plan {{plan_id}} v{{plan_version}}, step {{step_id}}, skills {{target_skills}}. Question: {{question}}"
+    }
+  },
+  "dialogue": {
+    "opening_mission": {
+      "template": "[The player just walked up to you. Initiate the conversation in character by prompting or asking them about their active mission task.]"
+    },
+    "opening_returning": {
+      "template": "[The player just walked up to you again. Initiate the conversation in character with a natural returning greeting or continuation based on your persona and recent chat history.]"
+    },
+    "opening_new": {
+      "template": "[The player just walked up to you. Initiate the conversation in character with a friendly greeting or conversation starter based on your persona.]"
+    }
+  },
+  "voice": {
+    "active_mission": {
+      "template": "[Active mission: \"{{title}}\" (type: {{type}})]"
+    },
+    "opening_new": {
+      "template": "[The player walked up to you for a live voice conversation. Give a friendly, short 1-sentence spoken greeting in character.]"
+    },
+    "opening_returning": {
+      "template": "[The player returned to continue your voice conversation. Greet them in 1 short spoken sentence in character.]"
+    }
+  },
+  "mission_context": {
+    "elsewhere": {
+      "template": "[The player has an active mission elsewhere in town: {{title}} — {{summary}}] You may reference this in passing if it feels natural, but it is not your concern — you cannot progress or complete it."
+    },
+    "active_header": {
+      "template": "[Active player mission: {{title}}]\n{{summary}}"
+    },
+    "target_phrase": {
+      "template": "The player is trying to say to you: 「{{target}}」 (or something close)."
+    },
+    "target_phrase_react": {
+      "template": "If their message matches, react warmly in character as if they succeeded — do not ask them to repeat it again."
+    },
+    "talk_step": {
+      "template": "The player has come to talk with you about this mission step. Stay in character, using this idea: {{explain}}"
+    },
+    "giver": {
+      "template": "You gave the player this mission. If they mention it, encourage them, but stay in character."
+    }
+  }
+}
