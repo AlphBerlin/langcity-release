@@ -1,0 +1,108 @@
+{
+  "id": 3,
+  "level": 3,
+  "language": "ja",
+  "tier": "N5",
+  "title": "Konbini & Ordering",
+  "description": "Essential phrases for ordering food and asking item prices.",
+  "goals": [
+    "Order items with 〜を ください and ask prices with いくら ですか"
+  ],
+  "skills": [
+    {
+      "id": "vocab.onigiri",
+      "skill_type": "vocab",
+      "display_jp": "おにぎり",
+      "display_en": "onigiri",
+      "reading": "onigiri",
+      "romaji": "onigiri",
+      "role": "introduce",
+      "required": true,
+      "priority": 1,
+      "difficulty_level": 1,
+      "prerequisite_skill_ids": [],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.mizu",
+      "skill_type": "vocab",
+      "display_jp": "みず",
+      "display_en": "water",
+      "reading": "mizu",
+      "romaji": "mizu",
+      "role": "introduce",
+      "required": true,
+      "priority": 2,
+      "difficulty_level": 1,
+      "prerequisite_skill_ids": [],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.kore",
+      "skill_type": "vocab",
+      "display_jp": "これ",
+      "display_en": "this",
+      "reading": "kore",
+      "romaji": "kore",
+      "role": "introduce",
+      "required": true,
+      "priority": 3,
+      "difficulty_level": 1,
+      "prerequisite_skill_ids": [],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "grammar.wo_kudasai",
+      "skill_type": "grammar",
+      "display_jp": "〜を ください",
+      "display_en": "___ please (request item)",
+      "reading": "wo kudasai",
+      "romaji": "wo kudasai",
+      "role": "introduce",
+      "required": true,
+      "priority": 4,
+      "difficulty_level": 2,
+      "prerequisite_skill_ids": [
+        "vocab.onigiri",
+        "vocab.kore"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "grammar.ikura_desu_ka",
+      "skill_type": "grammar",
+      "display_jp": "いくら ですか",
+      "display_en": "How much is it?",
+      "reading": "ikura desu ka",
+      "romaji": "ikura desu ka",
+      "role": "practice",
+      "required": true,
+      "priority": 5,
+      "difficulty_level": 2,
+      "prerequisite_skill_ids": [
+        "vocab.kore"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.ocha",
+      "skill_type": "vocab",
+      "display_jp": "おちゃ",
+      "display_en": "green tea",
+      "reading": "ocha",
+      "romaji": "ocha",
+      "role": "practice",
+      "required": false,
+      "priority": 6,
+      "difficulty_level": 1,
+      "prerequisite_skill_ids": [],
+      "audio_urls": {},
+      "image_refs": []
+    }
+  ]
+}

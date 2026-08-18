@@ -1,0 +1,88 @@
+{
+  "id": 1,
+  "level": 1,
+  "language": "ja",
+  "tier": "N5",
+  "title": "Everyday Greetings",
+  "description": "Foundational greetings and polite expressions in daily Japanese interactions.",
+  "goals": [
+    "Recognise hello, thank you, excuse me, yes, and no"
+  ],
+  "skills": [
+    {
+      "id": "vocab.konnichiwa",
+      "skill_type": "vocab",
+      "display_jp": "こんにちは",
+      "display_en": "hello",
+      "reading": "konnichiwa",
+      "romaji": "konnichiwa",
+      "role": "introduce",
+      "required": true,
+      "priority": 1,
+      "difficulty_level": 1,
+      "prerequisite_skill_ids": [],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.arigatou",
+      "skill_type": "vocab",
+      "display_jp": "ありがとう",
+      "display_en": "thank you",
+      "reading": "arigatou",
+      "romaji": "arigatou",
+      "role": "introduce",
+      "required": true,
+      "priority": 2,
+      "difficulty_level": 1,
+      "prerequisite_skill_ids": [],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.sumimasen",
+      "skill_type": "vocab",
+      "display_jp": "すみません",
+      "display_en": "excuse me / sorry",
+      "reading": "sumimasen",
+      "romaji": "sumimasen",
+      "role": "introduce",
+      "required": true,
+      "priority": 3,
+      "difficulty_level": 1,
+      "prerequisite_skill_ids": [],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.hai",
+      "skill_type": "vocab",
+      "display_jp": "はい",
+      "display_en": "yes",
+      "reading": "hai",
+      "romaji": "hai",
+      "role": "practice",
+      "required": true,
+      "priority": 4,
+      "difficulty_level": 1,
+      "prerequisite_skill_ids": [],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.iie",
+      "skill_type": "vocab",
+      "display_jp": "いいえ",
+      "display_en": "no",
+      "reading": "iie",
+      "romaji": "iie",
+      "role": "practice",
+      "required": true,
+      "priority": 5,
+      "difficulty_level": 1,
+      "prerequisite_skill_ids": [],
+      "audio_urls": {},
+      "image_refs": []
+    }
+  ]
+}

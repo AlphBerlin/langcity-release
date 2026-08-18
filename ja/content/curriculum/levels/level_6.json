@@ -1,0 +1,94 @@
+{
+  "id": 6,
+  "level": 6,
+  "language": "ja",
+  "tier": "N5",
+  "title": "Daily Routines & Time",
+  "description": "Express time expressions and common daily actions.",
+  "goals": [
+    "Express time (now, today, tomorrow) and daily actions (eat, drink)"
+  ],
+  "skills": [
+    {
+      "id": "vocab.ima",
+      "skill_type": "vocab",
+      "display_jp": "いま",
+      "display_en": "now",
+      "reading": "ima",
+      "romaji": "ima",
+      "role": "introduce",
+      "required": true,
+      "priority": 1,
+      "difficulty_level": 1,
+      "prerequisite_skill_ids": [],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.kyou",
+      "skill_type": "vocab",
+      "display_jp": "きょう",
+      "display_en": "today",
+      "reading": "kyou",
+      "romaji": "kyou",
+      "role": "introduce",
+      "required": true,
+      "priority": 2,
+      "difficulty_level": 1,
+      "prerequisite_skill_ids": [],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "grammar.tabemasu",
+      "skill_type": "grammar",
+      "display_jp": "〜を たべます",
+      "display_en": "eat ___",
+      "reading": "tabemasu",
+      "romaji": "tabemasu",
+      "role": "introduce",
+      "required": true,
+      "priority": 3,
+      "difficulty_level": 2,
+      "prerequisite_skill_ids": [
+        "vocab.onigiri",
+        "vocab.ramen"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "grammar.nomimasu",
+      "skill_type": "grammar",
+      "display_jp": "〜を のみます",
+      "display_en": "drink ___",
+      "reading": "nomimasu",
+      "romaji": "nomimasu",
+      "role": "practice",
+      "required": true,
+      "priority": 4,
+      "difficulty_level": 2,
+      "prerequisite_skill_ids": [
+        "vocab.mizu",
+        "vocab.ocha"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.ashita",
+      "skill_type": "vocab",
+      "display_jp": "あした",
+      "display_en": "tomorrow",
+      "reading": "ashita",
+      "romaji": "ashita",
+      "role": "practice",
+      "required": false,
+      "priority": 5,
+      "difficulty_level": 1,
+      "prerequisite_skill_ids": [],
+      "audio_urls": {},
+      "image_refs": []
+    }
+  ]
+}

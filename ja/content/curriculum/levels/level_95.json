@@ -1,0 +1,3306 @@
+{
+  "id": 95,
+  "level": 95,
+  "language": "ja",
+  "tier": "N1",
+  "title": "JLPT N1 Advanced Mastery Part 10",
+  "description": "Level 95 delivers advanced JLPT N1 kanji and sophisticated expressions for academic and professional fluency.",
+  "goals": [
+    "Achieve mastery of advanced N1 kanji and specialized expressions for level 95",
+    "Comprehend complex abstract texts and nuanced literary expressions"
+  ],
+  "skills": [
+    {
+      "id": "kanji.筈",
+      "skill_type": "kanji",
+      "display_jp": "筈",
+      "display_en": "notch of an arrow, ought, must, should be, expected",
+      "reading": "カツ, はず, やはず",
+      "romaji": "katsu, hazu, yahazu",
+      "role": "introduce",
+      "required": true,
+      "priority": 1,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "kanji.脹",
+      "skill_type": "kanji",
+      "display_jp": "脹",
+      "display_en": "dilate, distend, bulge, fill out, swell",
+      "reading": "チョウ, は.れる, ふく.らむ, ふく.れる",
+      "romaji": "chou, ha.reru, fuku.ramu, fuku.reru",
+      "role": "introduce",
+      "required": true,
+      "priority": 2,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "kanji.腔",
+      "skill_type": "kanji",
+      "display_jp": "腔",
+      "display_en": "body cavity",
+      "reading": "コウ",
+      "romaji": "kou",
+      "role": "introduce",
+      "required": true,
+      "priority": 3,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "kanji.葡",
+      "skill_type": "kanji",
+      "display_jp": "葡",
+      "display_en": "wild grape, Portugal",
+      "reading": "ブ, ホ",
+      "romaji": "bu, ho",
+      "role": "introduce",
+      "required": true,
+      "priority": 4,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "kanji.董",
+      "skill_type": "kanji",
+      "display_jp": "董",
+      "display_en": "correct",
+      "reading": "トウ, ただ.す",
+      "romaji": "tou, tada.su",
+      "role": "introduce",
+      "required": true,
+      "priority": 5,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "kanji.葺",
+      "skill_type": "kanji",
+      "display_jp": "葺",
+      "display_en": "thatch, cover, shingle, tile",
+      "reading": "シュウ, あし, ふ.く, ふき",
+      "romaji": "shuu, ashi, fu.ku, fuki",
+      "role": "introduce",
+      "required": true,
+      "priority": 6,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "kanji.裡",
+      "skill_type": "kanji",
+      "display_jp": "裡",
+      "display_en": "reverse, inside, palm, sole, rear, lining, wrong side",
+      "reading": "リ, うち, うら",
+      "romaji": "ri, uchi, ura",
+      "role": "introduce",
+      "required": true,
+      "priority": 7,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "kanji.註",
+      "skill_type": "kanji",
+      "display_jp": "註",
+      "display_en": "notes, comment, annotate",
+      "reading": "チュウ",
+      "romaji": "chuu",
+      "role": "introduce",
+      "required": true,
+      "priority": 8,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "kanji.遁",
+      "skill_type": "kanji",
+      "display_jp": "遁",
+      "display_en": "flee, escape, shirk, evade, set free",
+      "reading": "トン, シュン, のが.れる",
+      "romaji": "ton, shun, noga.reru",
+      "role": "introduce",
+      "required": true,
+      "priority": 9,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "kanji.釉",
+      "skill_type": "kanji",
+      "display_jp": "釉",
+      "display_en": "glaze, enamel",
+      "reading": "ユウ, うわぐすり",
+      "romaji": "yuu, uwagusuri",
+      "role": "introduce",
+      "required": true,
+      "priority": 10,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "kanji.閏",
+      "skill_type": "kanji",
+      "display_jp": "閏",
+      "display_en": "intercalation, illegitimate throne",
+      "reading": "ジュン, うるう",
+      "romaji": "jun, uruu",
+      "role": "introduce",
+      "required": true,
+      "priority": 11,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "kanji.渚",
+      "skill_type": "kanji",
+      "display_jp": "渚",
+      "display_en": "",
+      "reading": "ショ, なぎさ",
+      "romaji": "sho, nagisa",
+      "role": "introduce",
+      "required": true,
+      "priority": 12,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "kanji.琢",
+      "skill_type": "kanji",
+      "display_jp": "琢",
+      "display_en": "polish",
+      "reading": "タク, みがく",
+      "romaji": "taku, migaku",
+      "role": "introduce",
+      "required": true,
+      "priority": 13,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "kanji.傭",
+      "skill_type": "kanji",
+      "display_jp": "傭",
+      "display_en": "employ, hire",
+      "reading": "ヨウ, チョウ, やと.う, あた.い, ひと.しい",
+      "romaji": "you, chou, yato.u, ata.i, hito.shii",
+      "role": "introduce",
+      "required": true,
+      "priority": 14,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "kanji.嘩",
+      "skill_type": "kanji",
+      "display_jp": "嘩",
+      "display_en": "noisy",
+      "reading": "カ, ケ, かまびす.しい",
+      "romaji": "ka, ke, kamabisu.shii",
+      "role": "introduce",
+      "required": true,
+      "priority": 15,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "kanji.嵩",
+      "skill_type": "kanji",
+      "display_jp": "嵩",
+      "display_en": "be aggravated, grow worse, grow bulky, swell",
+      "reading": "スウ, シュウ, かさ, かさ.む, たか.い",
+      "romaji": "suu, shuu, kasa, kasa.mu, taka.i",
+      "role": "introduce",
+      "required": true,
+      "priority": 16,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "kanji.椰",
+      "skill_type": "kanji",
+      "display_jp": "椰",
+      "display_en": "coconut tree",
+      "reading": "ヤ, やし",
+      "romaji": "ya, yashi",
+      "role": "introduce",
+      "required": true,
+      "priority": 17,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "kanji.楓",
+      "skill_type": "kanji",
+      "display_jp": "楓",
+      "display_en": "maple",
+      "reading": "フウ, かえで",
+      "romaji": "fuu, kaede",
+      "role": "introduce",
+      "required": true,
+      "priority": 18,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "kanji.楚",
+      "skill_type": "kanji",
+      "display_jp": "楚",
+      "display_en": "whip, cane",
+      "reading": "ソ, ショ, いばら, しもと, すわえ",
+      "romaji": "so, sho, ibara, shimoto, suwae",
+      "role": "introduce",
+      "required": true,
+      "priority": 19,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "kanji.楯",
+      "skill_type": "kanji",
+      "display_jp": "楯",
+      "display_en": "shield, buckler, pretext",
+      "reading": "ジュン, たて",
+      "romaji": "jun, tate",
+      "role": "introduce",
+      "required": true,
+      "priority": 20,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "kanji.滉",
+      "skill_type": "kanji",
+      "display_jp": "滉",
+      "display_en": "deep and broad (water)",
+      "reading": "コウ, ひろ.い",
+      "romaji": "kou, hiro.i",
+      "role": "introduce",
+      "required": true,
+      "priority": 21,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "kanji.漣",
+      "skill_type": "kanji",
+      "display_jp": "漣",
+      "display_en": "ripples",
+      "reading": "レン, ラン, さざなみ",
+      "romaji": "ren, ran, sazanami",
+      "role": "introduce",
+      "required": true,
+      "priority": 22,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "kanji.煌",
+      "skill_type": "kanji",
+      "display_jp": "煌",
+      "display_en": "glitter, gleam, twinkle",
+      "reading": "コウ, きらめ.く, きら.めく, かがや.く",
+      "romaji": "kou, kirame.ku, kira.meku, kagaya.ku",
+      "role": "introduce",
+      "required": true,
+      "priority": 23,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "kanji.煤",
+      "skill_type": "kanji",
+      "display_jp": "煤",
+      "display_en": "soot, smoke dried",
+      "reading": "バイ, マイ, すす",
+      "romaji": "bai, mai, susu",
+      "role": "introduce",
+      "required": true,
+      "priority": 24,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "kanji.牒",
+      "skill_type": "kanji",
+      "display_jp": "牒",
+      "display_en": "label, genealogy, circular",
+      "reading": "チョウ, ジョウ, ふだ",
+      "romaji": "chou, jou, fuda",
+      "role": "introduce",
+      "required": true,
+      "priority": 25,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "kanji.瑚",
+      "skill_type": "kanji",
+      "display_jp": "瑚",
+      "display_en": "ancestral offering receptacle, coral",
+      "reading": "コ, ゴ",
+      "romaji": "ko, go",
+      "role": "introduce",
+      "required": true,
+      "priority": 26,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "kanji.瑶",
+      "skill_type": "kanji",
+      "display_jp": "瑶",
+      "display_en": "beautiful as a jewel",
+      "reading": "ヨウ, たま",
+      "romaji": "you, tama",
+      "role": "introduce",
+      "required": true,
+      "priority": 27,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "kanji.碗",
+      "skill_type": "kanji",
+      "display_jp": "碗",
+      "display_en": "porcelain bowl, tea cup",
+      "reading": "ワン, こばち",
+      "romaji": "wan, kobachi",
+      "role": "introduce",
+      "required": true,
+      "priority": 28,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "kanji.祿",
+      "skill_type": "kanji",
+      "display_jp": "祿",
+      "display_en": "fief, allowance, pension, grant, happiness",
+      "reading": "ロク, さいわ.い, ふち",
+      "romaji": "roku, saiwa.i, fuchi",
+      "role": "introduce",
+      "required": true,
+      "priority": 29,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "kanji.禽",
+      "skill_type": "kanji",
+      "display_jp": "禽",
+      "display_en": "bird, captive, capture",
+      "reading": "キン, とり, とりこ",
+      "romaji": "kin, tori, toriko",
+      "role": "introduce",
+      "required": true,
+      "priority": 30,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "kanji.稟",
+      "skill_type": "kanji",
+      "display_jp": "稟",
+      "display_en": "salary in rice",
+      "reading": "リン, ヒン, こめぐら",
+      "romaji": "rin, hin, komegura",
+      "role": "introduce",
+      "required": true,
+      "priority": 31,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "kanji.蒐",
+      "skill_type": "kanji",
+      "display_jp": "蒐",
+      "display_en": "gather",
+      "reading": "シュウ, あかね, あつ.まる, あつ.める",
+      "romaji": "shuu, akane, atsu.maru, atsu.meru",
+      "role": "introduce",
+      "required": true,
+      "priority": 32,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "kanji.蓉",
+      "skill_type": "kanji",
+      "display_jp": "蓉",
+      "display_en": "lotus",
+      "reading": "ヨウ",
+      "romaji": "you",
+      "role": "introduce",
+      "required": true,
+      "priority": 33,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "kanji.蓑",
+      "skill_type": "kanji",
+      "display_jp": "蓑",
+      "display_en": "straw raincoat",
+      "reading": "サ, サイ, みの",
+      "romaji": "sa, sai, mino",
+      "role": "introduce",
+      "required": true,
+      "priority": 34,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "kanji.蓬",
+      "skill_type": "kanji",
+      "display_jp": "蓬",
+      "display_en": "sagebrush, wormwood, mugwort",
+      "reading": "ホウ, ブ, よもぎ",
+      "romaji": "hou, bu, yomogi",
+      "role": "introduce",
+      "required": true,
+      "priority": 35,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "kanji.裟",
+      "skill_type": "kanji",
+      "display_jp": "裟",
+      "display_en": "Buddhist surplice",
+      "reading": "サ, シャ",
+      "romaji": "sa, sha",
+      "role": "introduce",
+      "required": true,
+      "priority": 36,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "kanji.詢",
+      "skill_type": "kanji",
+      "display_jp": "詢",
+      "display_en": "consult with",
+      "reading": "ジュン, シュン, はか.る, まこと",
+      "romaji": "jun, shun, haka.ru, makoto",
+      "role": "introduce",
+      "required": true,
+      "priority": 37,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "kanji.跨",
+      "skill_type": "kanji",
+      "display_jp": "跨",
+      "display_en": "be, sit or stand astride, extend over, straddle",
+      "reading": "コ, カ, また.がる, またが.る, また.ぐ",
+      "romaji": "ko, ka, mata.garu, mataga.ru, mata.gu",
+      "role": "introduce",
+      "required": true,
+      "priority": 38,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "kanji.頌",
+      "skill_type": "kanji",
+      "display_jp": "頌",
+      "display_en": "eulogy",
+      "reading": "ショウ, ジュ, ヨウ, かたち, たた.える, ほめ.る",
+      "romaji": "shou, ju, you, katachi, tata.eru, home.ru",
+      "role": "introduce",
+      "required": true,
+      "priority": 39,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "kanji.馳",
+      "skill_type": "kanji",
+      "display_jp": "馳",
+      "display_en": "run, gallop, sail, drive (a wagon), win (fame), despatch",
+      "reading": "チ, ジ, は.せる",
+      "romaji": "chi, ji, ha.seru",
+      "role": "introduce",
+      "required": true,
+      "priority": 40,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "kanji.馴",
+      "skill_type": "kanji",
+      "display_jp": "馴",
+      "display_en": "get used to, experienced, tamed",
+      "reading": "ジュン, シュン, クン, な.れる, な.らす, したが.う",
+      "romaji": "jun, shun, kun, na.reru, na.rasu, shitaga.u",
+      "role": "introduce",
+      "required": true,
+      "priority": 41,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "kanji.鼎",
+      "skill_type": "kanji",
+      "display_jp": "鼎",
+      "display_en": "three legged kettle",
+      "reading": "テイ, かなえ",
+      "romaji": "tei, kanae",
+      "role": "introduce",
+      "required": true,
+      "priority": 42,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "kanji.猪",
+      "skill_type": "kanji",
+      "display_jp": "猪",
+      "display_en": "pig",
+      "reading": "チョ, いのしし, い",
+      "romaji": "cho, inoshishi, i",
+      "role": "introduce",
+      "required": true,
+      "priority": 43,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "kanji.嘗",
+      "skill_type": "kanji",
+      "display_jp": "嘗",
+      "display_en": "once, before, formerly, ever, never, ex-, lick, lap up, burn up, taste, undergo, underrate, despise",
+      "reading": "ショウ, ジョウ, かつ.て, こころ.みる, な.める",
+      "romaji": "shou, jou, katsu.te, kokoro.miru, na.meru",
+      "role": "introduce",
+      "required": true,
+      "priority": 44,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "kanji.噌",
+      "skill_type": "kanji",
+      "display_jp": "噌",
+      "display_en": "boisterous",
+      "reading": "ソウ, ショウ, ソ, かまびす.しい",
+      "romaji": "sou, shou, so, kamabisu.shii",
+      "role": "introduce",
+      "required": true,
+      "priority": 45,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "kanji.摑",
+      "skill_type": "kanji",
+      "display_jp": "摑",
+      "display_en": "box one's ears, slap",
+      "reading": "カク, つか.む, つか.まえる, つか.まる",
+      "romaji": "kaku, tsuka.mu, tsuka.maeru, tsuka.maru",
+      "role": "introduce",
+      "required": true,
+      "priority": 46,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "kanji.摺",
+      "skill_type": "kanji",
+      "display_jp": "摺",
+      "display_en": "rub, fold, print (on cloth)",
+      "reading": "ショウ, シュウ, ロウ, す.る, ひだ",
+      "romaji": "shou, shuu, rou, su.ru, hida",
+      "role": "introduce",
+      "required": true,
+      "priority": 47,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "kanji.斡",
+      "skill_type": "kanji",
+      "display_jp": "斡",
+      "display_en": "go around, rule, administer",
+      "reading": "アツ, カン, ワツ, めぐ.る, めぐ.らす",
+      "romaji": "atsu, kan, watsu, megu.ru, megu.rasu",
+      "role": "introduce",
+      "required": true,
+      "priority": 48,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "kanji.槇",
+      "skill_type": "kanji",
+      "display_jp": "槇",
+      "display_en": "twig, Chinese black pine",
+      "reading": "テン, シン, まき, こずえ",
+      "romaji": "ten, shin, maki, kozue",
+      "role": "introduce",
+      "required": true,
+      "priority": 49,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "kanji.歎",
+      "skill_type": "kanji",
+      "display_jp": "歎",
+      "display_en": "grief, lamentation",
+      "reading": "タン, なげ.く, なげ.き",
+      "romaji": "tan, nage.ku, nage.ki",
+      "role": "introduce",
+      "required": true,
+      "priority": 50,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "kanji.爾",
+      "skill_type": "kanji",
+      "display_jp": "爾",
+      "display_en": "you, thou, second person",
+      "reading": "ジ, ニ, なんじ, しかり, その, のみ, おれ, しか",
+      "romaji": "ji, ni, nanji, shikari, sono, nomi, ore, shika",
+      "role": "introduce",
+      "required": true,
+      "priority": 51,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "kanji.瑳",
+      "skill_type": "kanji",
+      "display_jp": "瑳",
+      "display_en": "polish, brilliant white luster of a gem, artful smile",
+      "reading": "サ, みが.く",
+      "romaji": "sa, miga.ku",
+      "role": "introduce",
+      "required": true,
+      "priority": 52,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "kanji.碩",
+      "skill_type": "kanji",
+      "display_jp": "碩",
+      "display_en": "large, great, eminent",
+      "reading": "セキ, おお.きい",
+      "romaji": "seki, oo.kii",
+      "role": "introduce",
+      "required": true,
+      "priority": 53,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "kanji.箔",
+      "skill_type": "kanji",
+      "display_jp": "箔",
+      "display_en": "foil, gilt",
+      "reading": "ハク, すだれ",
+      "romaji": "haku, sudare",
+      "role": "introduce",
+      "required": true,
+      "priority": 54,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "kanji.綸",
+      "skill_type": "kanji",
+      "display_jp": "綸",
+      "display_en": "thread, silk cloth",
+      "reading": "リン, カン, いと",
+      "romaji": "rin, kan, ito",
+      "role": "introduce",
+      "required": true,
+      "priority": 55,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "kanji.膏",
+      "skill_type": "kanji",
+      "display_jp": "膏",
+      "display_en": "fat, grease, lard, paste, ointment, plaster",
+      "reading": "コウ, あぶら",
+      "romaji": "kou, abura",
+      "role": "introduce",
+      "required": true,
+      "priority": 56,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "kanji.蔓",
+      "skill_type": "kanji",
+      "display_jp": "蔓",
+      "display_en": "vine, tendril, influence, connections, good offices, spread, sprawl, thrive, rampant, powerful",
+      "reading": "マン, バン, はびこ.る, つる",
+      "romaji": "man, ban, habiko.ru, tsuru",
+      "role": "introduce",
+      "required": true,
+      "priority": 57,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.腹腔",
+      "skill_type": "vocab",
+      "display_jp": "腹腔",
+      "display_en": "abdominal cavity",
+      "reading": "ふくくう",
+      "romaji": "fukukuu",
+      "role": "introduce",
+      "required": true,
+      "priority": 58,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.腹",
+        "kanji.腔"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.蔓延",
+      "skill_type": "vocab",
+      "display_jp": "蔓延",
+      "display_en": "spread (e.g. of a disease), rampancy, infestation, proliferation, being widespread",
+      "reading": "まんえん",
+      "romaji": "manen",
+      "role": "introduce",
+      "required": true,
+      "priority": 59,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.蔓",
+        "kanji.延"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.傭兵",
+      "skill_type": "vocab",
+      "display_jp": "傭兵",
+      "display_en": "mercenary (soldier)",
+      "reading": "ようへい",
+      "romaji": "youhei",
+      "role": "introduce",
+      "required": true,
+      "priority": 60,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.傭",
+        "kanji.兵"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.侯",
+      "skill_type": "vocab",
+      "display_jp": "侯",
+      "display_en": "marquis, second highest rank of the five ranks of nobility, daimyo",
+      "reading": "こう",
+      "romaji": "kou",
+      "role": "introduce",
+      "required": true,
+      "priority": 61,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.侯"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.厄",
+      "skill_type": "vocab",
+      "display_jp": "厄",
+      "display_en": "misfortune, bad luck, evil, disaster, unlucky year, critical year, year (esp. age 25 and 42 for men, 19 and 33 for women) that is considered unlucky",
+      "reading": "やく",
+      "romaji": "yaku",
+      "role": "introduce",
+      "required": true,
+      "priority": 62,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.厄"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.樅",
+      "skill_type": "vocab",
+      "display_jp": "樅",
+      "display_en": "Japanese fir (Abies firma), momi fir",
+      "reading": "もみ",
+      "romaji": "momi",
+      "role": "introduce",
+      "required": true,
+      "priority": 63,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.樅"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.迄",
+      "skill_type": "vocab",
+      "display_jp": "迄",
+      "display_en": "until (a time), till, to, up to, to (a place or person), as far as, to (an extent), so far as, even, only, merely",
+      "reading": "まで",
+      "romaji": "made",
+      "role": "introduce",
+      "required": true,
+      "priority": 64,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.迄"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.鉦",
+      "skill_type": "vocab",
+      "display_jp": "鉦",
+      "display_en": "gong, handbell",
+      "reading": "かね",
+      "romaji": "kane",
+      "role": "introduce",
+      "required": true,
+      "priority": 65,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.鉦"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.三体",
+      "skill_type": "vocab",
+      "display_jp": "三体",
+      "display_en": "the three character styles: square and semicursive and grass",
+      "reading": "さんたい",
+      "romaji": "santai",
+      "role": "introduce",
+      "required": true,
+      "priority": 66,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.三",
+        "kanji.体"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.三尺",
+      "skill_type": "vocab",
+      "display_jp": "三尺",
+      "display_en": "3 Japanese feet, waistband, belt, cloth girdle",
+      "reading": "さんじゃく",
+      "romaji": "sanjaku",
+      "role": "introduce",
+      "required": true,
+      "priority": 67,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.三",
+        "kanji.尺"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.三昧",
+      "skill_type": "vocab",
+      "display_jp": "三昧",
+      "display_en": "samadhi (state of intense concentration achieved through meditation), being immersed in, being absorbed in, indulging in, doing to one's heart's content, prone to, apt to",
+      "reading": "さんまい",
+      "romaji": "sanmai",
+      "role": "introduce",
+      "required": true,
+      "priority": 68,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.三",
+        "kanji.昧"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.三脚",
+      "skill_type": "vocab",
+      "display_jp": "三脚",
+      "display_en": "tripod, three legs",
+      "reading": "さんきゃく",
+      "romaji": "sankyaku",
+      "role": "introduce",
+      "required": true,
+      "priority": 69,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.三",
+        "kanji.脚"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.上棟",
+      "skill_type": "vocab",
+      "display_jp": "上棟",
+      "display_en": "raising the ridgepole",
+      "reading": "じょうとう",
+      "romaji": "joutou",
+      "role": "introduce",
+      "required": true,
+      "priority": 70,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.上",
+        "kanji.棟"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.上端",
+      "skill_type": "vocab",
+      "display_jp": "上端",
+      "display_en": "upper end, top, tip, top edge",
+      "reading": "じょうたん",
+      "romaji": "joutan",
+      "role": "introduce",
+      "required": true,
+      "priority": 71,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.上",
+        "kanji.端"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.不惑",
+      "skill_type": "vocab",
+      "display_jp": "不惑",
+      "display_en": "past forty, following right course",
+      "reading": "ふわく",
+      "romaji": "fuwaku",
+      "role": "introduce",
+      "required": true,
+      "priority": 72,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.不",
+        "kanji.惑"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.不肖",
+      "skill_type": "vocab",
+      "display_jp": "不肖",
+      "display_en": "unworthy (of one's father, teacher, etc.), I, me, incompetent, unskilled, inexperienced, foolish, unfortunate, unlucky",
+      "reading": "ふしょう",
+      "romaji": "fushou",
+      "role": "introduce",
+      "required": true,
+      "priority": 73,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.不",
+        "kanji.肖"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.中肉",
+      "skill_type": "vocab",
+      "display_jp": "中肉",
+      "display_en": "medium build, meat of medium quality",
+      "reading": "ちゅうにく",
+      "romaji": "chuuniku",
+      "role": "introduce",
+      "required": true,
+      "priority": 74,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.中",
+        "kanji.肉"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.主峰",
+      "skill_type": "vocab",
+      "display_jp": "主峰",
+      "display_en": "the highest peak",
+      "reading": "しゅほう",
+      "romaji": "shuhou",
+      "role": "introduce",
+      "required": true,
+      "priority": 75,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.主",
+        "kanji.峰"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.主従",
+      "skill_type": "vocab",
+      "display_jp": "主従",
+      "display_en": "master and servant, lord and retainer, employer and employee",
+      "reading": "しゅうじゅう",
+      "romaji": "shuujuu",
+      "role": "introduce",
+      "required": true,
+      "priority": 76,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.主",
+        "kanji.従"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.人身",
+      "skill_type": "vocab",
+      "display_jp": "人身",
+      "display_en": "the human body, one's person",
+      "reading": "じんしん",
+      "romaji": "jinshin",
+      "role": "introduce",
+      "required": true,
+      "priority": 77,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.人",
+        "kanji.身"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.今宵",
+      "skill_type": "vocab",
+      "display_jp": "今宵",
+      "display_en": "this evening, tonight",
+      "reading": "こよい",
+      "romaji": "koyoi",
+      "role": "introduce",
+      "required": true,
+      "priority": 78,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.今",
+        "kanji.宵"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.会席",
+      "skill_type": "vocab",
+      "display_jp": "会席",
+      "display_en": "meeting place, seats for the public, restaurant dinner tray, set of dishes served on an individual tray for entertaining guests, banquet",
+      "reading": "かいせき",
+      "romaji": "kaiseki",
+      "role": "introduce",
+      "required": true,
+      "priority": 79,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.会",
+        "kanji.席"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.低俗",
+      "skill_type": "vocab",
+      "display_jp": "低俗",
+      "display_en": "vulgar, lowbrow, coarse",
+      "reading": "ていぞく",
+      "romaji": "teizoku",
+      "role": "introduce",
+      "required": true,
+      "priority": 80,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.低",
+        "kanji.俗"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.何々",
+      "skill_type": "vocab",
+      "display_jp": "何々",
+      "display_en": "what, so-and-so, such and such, something (or other), what?, wait, hang on, well, well, let's see, no, oh (not at all), please, there, there",
+      "reading": "なになに",
+      "romaji": "naninani",
+      "role": "introduce",
+      "required": true,
+      "priority": 81,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.何"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.作劇",
+      "skill_type": "vocab",
+      "display_jp": "作劇",
+      "display_en": "playwriting",
+      "reading": "さくげき",
+      "romaji": "sakugeki",
+      "role": "introduce",
+      "required": true,
+      "priority": 82,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.作",
+        "kanji.劇"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.使徒",
+      "skill_type": "vocab",
+      "display_jp": "使徒",
+      "display_en": "apostle, disciple",
+      "reading": "しと",
+      "romaji": "shito",
+      "role": "introduce",
+      "required": true,
+      "priority": 83,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.使",
+        "kanji.徒"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.傷兵",
+      "skill_type": "vocab",
+      "display_jp": "傷兵",
+      "display_en": "wounded soldier",
+      "reading": "しょうへい",
+      "romaji": "shouhei",
+      "role": "introduce",
+      "required": true,
+      "priority": 84,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.傷",
+        "kanji.兵"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.傾倒",
+      "skill_type": "vocab",
+      "display_jp": "傾倒",
+      "display_en": "devoting oneself to, concentrating on, being an ardent admirer of, having great esteem for, tipping over and collapsing",
+      "reading": "けいとう",
+      "romaji": "keitou",
+      "role": "introduce",
+      "required": true,
+      "priority": 85,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.傾",
+        "kanji.倒"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.光彩",
+      "skill_type": "vocab",
+      "display_jp": "光彩",
+      "display_en": "brilliance, splendour, splendor, lustre, luster",
+      "reading": "こうさい",
+      "romaji": "kousai",
+      "role": "introduce",
+      "required": true,
+      "priority": 86,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.光",
+        "kanji.彩"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.内裏",
+      "skill_type": "vocab",
+      "display_jp": "内裏",
+      "display_en": "imperial palace, festival dolls representing the emperor and the empress",
+      "reading": "だいり",
+      "romaji": "dairi",
+      "role": "introduce",
+      "required": true,
+      "priority": 87,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.内",
+        "kanji.裏"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.再犯",
+      "skill_type": "vocab",
+      "display_jp": "再犯",
+      "display_en": "second offense, second offence, reoffending, recidivism",
+      "reading": "さいはん",
+      "romaji": "saihan",
+      "role": "introduce",
+      "required": true,
+      "priority": 88,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.再",
+        "kanji.犯"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.再読",
+      "skill_type": "vocab",
+      "display_jp": "再読",
+      "display_en": "rereading, reading again, reading a single kanji twice (with different pronunciations) in kanbun",
+      "reading": "さいどく",
+      "romaji": "saidoku",
+      "role": "introduce",
+      "required": true,
+      "priority": 89,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.再",
+        "kanji.読"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.写植",
+      "skill_type": "vocab",
+      "display_jp": "写植",
+      "display_en": "phototypesetting",
+      "reading": "しゃしょく",
+      "romaji": "shashoku",
+      "role": "introduce",
+      "required": true,
+      "priority": 90,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.写",
+        "kanji.植"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.冥利",
+      "skill_type": "vocab",
+      "display_jp": "冥利",
+      "display_en": "providence, luck, favor, favour, advantage",
+      "reading": "みょうり",
+      "romaji": "myouri",
+      "role": "introduce",
+      "required": true,
+      "priority": 91,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.冥",
+        "kanji.利"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.刃先",
+      "skill_type": "vocab",
+      "display_jp": "刃先",
+      "display_en": "edge of blade",
+      "reading": "はさき",
+      "romaji": "hasaki",
+      "role": "introduce",
+      "required": true,
+      "priority": 92,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.刃",
+        "kanji.先"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.分売",
+      "skill_type": "vocab",
+      "display_jp": "分売",
+      "display_en": "selling separately",
+      "reading": "ぶんばい",
+      "romaji": "bunbai",
+      "role": "introduce",
+      "required": true,
+      "priority": 93,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.分",
+        "kanji.売"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.前編",
+      "skill_type": "vocab",
+      "display_jp": "前編",
+      "display_en": "first part (of a book, film, etc.), first volume, prequel",
+      "reading": "ぜんぺん",
+      "romaji": "zenpen",
+      "role": "introduce",
+      "required": true,
+      "priority": 94,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.前",
+        "kanji.編"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.剛健",
+      "skill_type": "vocab",
+      "display_jp": "剛健",
+      "display_en": "vigour, vigor, virility, health, sturdiness",
+      "reading": "ごうけん",
+      "romaji": "gouken",
+      "role": "introduce",
+      "required": true,
+      "priority": 95,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.剛",
+        "kanji.健"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.剣劇",
+      "skill_type": "vocab",
+      "display_jp": "剣劇",
+      "display_en": "sword play, samurai drama",
+      "reading": "けんげき",
+      "romaji": "kengeki",
+      "role": "introduce",
+      "required": true,
+      "priority": 96,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.剣",
+        "kanji.劇"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.剣客",
+      "skill_type": "vocab",
+      "display_jp": "剣客",
+      "display_en": "master swordsman, skilled fencer",
+      "reading": "けんかく",
+      "romaji": "kenkaku",
+      "role": "introduce",
+      "required": true,
+      "priority": 97,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.剣",
+        "kanji.客"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.副食",
+      "skill_type": "vocab",
+      "display_jp": "副食",
+      "display_en": "side dish, supplementary food",
+      "reading": "ふくしょく",
+      "romaji": "fukushoku",
+      "role": "introduce",
+      "required": true,
+      "priority": 98,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.副",
+        "kanji.食"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.劇化",
+      "skill_type": "vocab",
+      "display_jp": "劇化",
+      "display_en": "dramatization, dramatisation",
+      "reading": "げきか",
+      "romaji": "gekika",
+      "role": "introduce",
+      "required": true,
+      "priority": 99,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.劇",
+        "kanji.化"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.勘弁",
+      "skill_type": "vocab",
+      "display_jp": "勘弁",
+      "display_en": "pardon, forgiveness, forbearance",
+      "reading": "かんべん",
+      "romaji": "kanben",
+      "role": "introduce",
+      "required": true,
+      "priority": 100,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.勘",
+        "kanji.弁"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.勧進",
+      "skill_type": "vocab",
+      "display_jp": "勧進",
+      "display_en": "temple solicitation",
+      "reading": "かんじん",
+      "romaji": "kanjin",
+      "role": "introduce",
+      "required": true,
+      "priority": 101,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.勧",
+        "kanji.進"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.半周",
+      "skill_type": "vocab",
+      "display_jp": "半周",
+      "display_en": "semicircle, hemicycle, half globe, to go halfway round (e.g. the earth)",
+      "reading": "はんしゅう",
+      "romaji": "hanshuu",
+      "role": "introduce",
+      "required": true,
+      "priority": 102,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.半",
+        "kanji.周"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.半農",
+      "skill_type": "vocab",
+      "display_jp": "半農",
+      "display_en": "part-time farming",
+      "reading": "はんのう",
+      "romaji": "hannou",
+      "role": "introduce",
+      "required": true,
+      "priority": 103,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.半",
+        "kanji.農"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.単利",
+      "skill_type": "vocab",
+      "display_jp": "単利",
+      "display_en": "simple interest",
+      "reading": "たんり",
+      "romaji": "tanri",
+      "role": "introduce",
+      "required": true,
+      "priority": 104,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.単",
+        "kanji.利"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.原紙",
+      "skill_type": "vocab",
+      "display_jp": "原紙",
+      "display_en": "stencil (for a mimeograph), silkworm egg sheet, base paper, body paper",
+      "reading": "げんし",
+      "romaji": "genshi",
+      "role": "introduce",
+      "required": true,
+      "priority": 105,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.原",
+        "kanji.紙"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.参宮",
+      "skill_type": "vocab",
+      "display_jp": "参宮",
+      "display_en": "pilgrimage (esp. to the Ise Grand Shrine)",
+      "reading": "さんぐう",
+      "romaji": "sanguu",
+      "role": "introduce",
+      "required": true,
+      "priority": 106,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.参",
+        "kanji.宮"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.収得",
+      "skill_type": "vocab",
+      "display_jp": "収得",
+      "display_en": "acquiring, obtaining, receiving",
+      "reading": "しゅうとく",
+      "romaji": "shuutoku",
+      "role": "introduce",
+      "required": true,
+      "priority": 107,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.収",
+        "kanji.得"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.収斂",
+      "skill_type": "vocab",
+      "display_jp": "収斂",
+      "display_en": "astringency, constriction, contraction, collecting (e.g. opinions), putting together, summarizing, collection (of taxes), convergence (of light), convergence",
+      "reading": "しゅうれん",
+      "romaji": "shuuren",
+      "role": "introduce",
+      "required": true,
+      "priority": 108,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.収",
+        "kanji.斂"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.受胎",
+      "skill_type": "vocab",
+      "display_jp": "受胎",
+      "display_en": "conception, fertilization, fertilisation",
+      "reading": "じゅたい",
+      "romaji": "jutai",
+      "role": "introduce",
+      "required": true,
+      "priority": 109,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.受",
+        "kanji.胎"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.叙述",
+      "skill_type": "vocab",
+      "display_jp": "叙述",
+      "display_en": "description, account, delineation, narration, (a) predicative, predication",
+      "reading": "じょじゅつ",
+      "romaji": "jojutsu",
+      "role": "introduce",
+      "required": true,
+      "priority": 110,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.叙",
+        "kanji.述"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.号数",
+      "skill_type": "vocab",
+      "display_jp": "号数",
+      "display_en": "number or size of periodicals or pictures, type size",
+      "reading": "ごうすう",
+      "romaji": "gousuu",
+      "role": "introduce",
+      "required": true,
+      "priority": 111,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.号",
+        "kanji.数"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.名君",
+      "skill_type": "vocab",
+      "display_jp": "名君",
+      "display_en": "wise ruler, enlightened monarch, benevolent lord",
+      "reading": "めいくん",
+      "romaji": "meikun",
+      "role": "introduce",
+      "required": true,
+      "priority": 112,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.名",
+        "kanji.君"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.国元",
+      "skill_type": "vocab",
+      "display_jp": "国元",
+      "display_en": "one's home, hometown, native place, birthplace",
+      "reading": "くにもと",
+      "romaji": "kunimoto",
+      "role": "introduce",
+      "required": true,
+      "priority": 113,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.国",
+        "kanji.元"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.国富",
+      "skill_type": "vocab",
+      "display_jp": "国富",
+      "display_en": "national wealth",
+      "reading": "こくふ",
+      "romaji": "kokufu",
+      "role": "introduce",
+      "required": true,
+      "priority": 114,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.国",
+        "kanji.富"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.国花",
+      "skill_type": "vocab",
+      "display_jp": "国花",
+      "display_en": "national flower",
+      "reading": "こっか",
+      "romaji": "kokka",
+      "role": "introduce",
+      "required": true,
+      "priority": 115,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.国",
+        "kanji.花"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.土煙",
+      "skill_type": "vocab",
+      "display_jp": "土煙",
+      "display_en": "cloud of dust",
+      "reading": "つちけむり",
+      "romaji": "tsuchikemuri",
+      "role": "introduce",
+      "required": true,
+      "priority": 116,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.土",
+        "kanji.煙"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.坑口",
+      "skill_type": "vocab",
+      "display_jp": "坑口",
+      "display_en": "pithead, minehead",
+      "reading": "こうこう",
+      "romaji": "koukou",
+      "role": "introduce",
+      "required": true,
+      "priority": 117,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.坑",
+        "kanji.口"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.場数",
+      "skill_type": "vocab",
+      "display_jp": "場数",
+      "display_en": "experiences",
+      "reading": "ばかず",
+      "romaji": "bakazu",
+      "role": "introduce",
+      "required": true,
+      "priority": 118,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.場",
+        "kanji.数"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.壮挙",
+      "skill_type": "vocab",
+      "display_jp": "壮挙",
+      "display_en": "ambitious (heroic) undertaking, daring enterprise, grand scheme",
+      "reading": "そうきょ",
+      "romaji": "soukyo",
+      "role": "introduce",
+      "required": true,
+      "priority": 119,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.壮",
+        "kanji.挙"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.夏草",
+      "skill_type": "vocab",
+      "display_jp": "夏草",
+      "display_en": "summer grass",
+      "reading": "なつくさ",
+      "romaji": "natsukusa",
+      "role": "introduce",
+      "required": true,
+      "priority": 120,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.夏",
+        "kanji.草"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.多寡",
+      "skill_type": "vocab",
+      "display_jp": "多寡",
+      "display_en": "degree (of something), greatness or smallness (of something), quantity, number, amount, size",
+      "reading": "たか",
+      "romaji": "taka",
+      "role": "introduce",
+      "required": true,
+      "priority": 121,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.多",
+        "kanji.寡"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.大儀",
+      "skill_type": "vocab",
+      "display_jp": "大儀",
+      "display_en": "state ceremony, laborious, troublesome, irksome, arduous",
+      "reading": "たいぎ",
+      "romaji": "taigi",
+      "role": "introduce",
+      "required": true,
+      "priority": 122,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.大",
+        "kanji.儀"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.夭折",
+      "skill_type": "vocab",
+      "display_jp": "夭折",
+      "display_en": "premature death",
+      "reading": "ようせつ",
+      "romaji": "yousetsu",
+      "role": "introduce",
+      "required": true,
+      "priority": 123,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.夭",
+        "kanji.折"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.失調",
+      "skill_type": "vocab",
+      "display_jp": "失調",
+      "display_en": "lack of harmony, lack of balance, lack of coordination, malfunction, ataxia",
+      "reading": "しっちょう",
+      "romaji": "shitchou",
+      "role": "introduce",
+      "required": true,
+      "priority": 124,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.失",
+        "kanji.調"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.奇人",
+      "skill_type": "vocab",
+      "display_jp": "奇人",
+      "display_en": "queer fellow, odd fellow, eccentric person, crank, oddball, freak",
+      "reading": "きじん",
+      "romaji": "kijin",
+      "role": "introduce",
+      "required": true,
+      "priority": 125,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.奇",
+        "kanji.人"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.姫君",
+      "skill_type": "vocab",
+      "display_jp": "姫君",
+      "display_en": "daughter of a person of high rank (esp. eldest daughter)",
+      "reading": "ひめぎみ",
+      "romaji": "himegimi",
+      "role": "introduce",
+      "required": true,
+      "priority": 126,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.姫",
+        "kanji.君"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.婦警",
+      "skill_type": "vocab",
+      "display_jp": "婦警",
+      "display_en": "policewoman",
+      "reading": "ふけい",
+      "romaji": "fukei",
+      "role": "introduce",
+      "required": true,
+      "priority": 127,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.婦",
+        "kanji.警"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.嫡子",
+      "skill_type": "vocab",
+      "display_jp": "嫡子",
+      "display_en": "heir, legitimate child",
+      "reading": "ちゃくし",
+      "romaji": "chakushi",
+      "role": "introduce",
+      "required": true,
+      "priority": 128,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.嫡",
+        "kanji.子"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.孟子",
+      "skill_type": "vocab",
+      "display_jp": "孟子",
+      "display_en": "Mencius (372-289 BCE), Mengzi, Mencius (one of the Four Books)",
+      "reading": "もうし",
+      "romaji": "moushi",
+      "role": "introduce",
+      "required": true,
+      "priority": 129,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.孟",
+        "kanji.子"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.官軍",
+      "skill_type": "vocab",
+      "display_jp": "官軍",
+      "display_en": "government forces, loyalist army",
+      "reading": "かんぐん",
+      "romaji": "kangun",
+      "role": "introduce",
+      "required": true,
+      "priority": 130,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.官",
+        "kanji.軍"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.実姉",
+      "skill_type": "vocab",
+      "display_jp": "実姉",
+      "display_en": "biological older sister, real elder sister",
+      "reading": "じっし",
+      "romaji": "jisshi",
+      "role": "introduce",
+      "required": true,
+      "priority": 131,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.実",
+        "kanji.姉"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.密生",
+      "skill_type": "vocab",
+      "display_jp": "密生",
+      "display_en": "growing thickly, growing densely",
+      "reading": "みっせい",
+      "romaji": "missei",
+      "role": "introduce",
+      "required": true,
+      "priority": 132,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.密",
+        "kanji.生"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.寡作",
+      "skill_type": "vocab",
+      "display_jp": "寡作",
+      "display_en": "unprolific (writer, artist, etc.)",
+      "reading": "かさく",
+      "romaji": "kasaku",
+      "role": "introduce",
+      "required": true,
+      "priority": 133,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.寡",
+        "kanji.作"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.小粋",
+      "skill_type": "vocab",
+      "display_jp": "小粋",
+      "display_en": "stylish, smart, chic, tasteful, snappy, dapper, conceited, cheeky",
+      "reading": "こいき",
+      "romaji": "koiki",
+      "role": "introduce",
+      "required": true,
+      "priority": 134,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.小",
+        "kanji.粋"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.就役",
+      "skill_type": "vocab",
+      "display_jp": "就役",
+      "display_en": "being placed on duty, going into commission (of a warship, freighter, etc.), being placed in commission",
+      "reading": "しゅうえき",
+      "romaji": "shuueki",
+      "role": "introduce",
+      "required": true,
+      "priority": 135,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.就",
+        "kanji.役"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.山家",
+      "skill_type": "vocab",
+      "display_jp": "山家",
+      "display_en": "mountain villa, chalet, mountain cottage, mountain retreat, house in the mountains",
+      "reading": "やまが",
+      "romaji": "yamaga",
+      "role": "introduce",
+      "required": true,
+      "priority": 136,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.山",
+        "kanji.家"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.山海",
+      "skill_type": "vocab",
+      "display_jp": "山海",
+      "display_en": "mountains and seas",
+      "reading": "さんかい",
+      "romaji": "sankai",
+      "role": "introduce",
+      "required": true,
+      "priority": 137,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.山",
+        "kanji.海"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.山猫",
+      "skill_type": "vocab",
+      "display_jp": "山猫",
+      "display_en": "wildcat (European wildcat, Iriomote cat, Tsushima cat, etc.), wild cat, stray cat",
+      "reading": "やまねこ",
+      "romaji": "yamaneko",
+      "role": "introduce",
+      "required": true,
+      "priority": 138,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.山",
+        "kanji.猫"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.巧拙",
+      "skill_type": "vocab",
+      "display_jp": "巧拙",
+      "display_en": "skill, workmanship, dexterity, quality",
+      "reading": "こうせつ",
+      "romaji": "kousetsu",
+      "role": "introduce",
+      "required": true,
+      "priority": 139,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.巧",
+        "kanji.拙"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.巨利",
+      "skill_type": "vocab",
+      "display_jp": "巨利",
+      "display_en": "huge profit",
+      "reading": "きょり",
+      "romaji": "kyori",
+      "role": "introduce",
+      "required": true,
+      "priority": 140,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.巨",
+        "kanji.利"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.幽閉",
+      "skill_type": "vocab",
+      "display_jp": "幽閉",
+      "display_en": "confinement, imprisonment, incarceration",
+      "reading": "ゆうへい",
+      "romaji": "yuuhei",
+      "role": "introduce",
+      "required": true,
+      "priority": 141,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.幽",
+        "kanji.閉"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.廉潔",
+      "skill_type": "vocab",
+      "display_jp": "廉潔",
+      "display_en": "honest, incorruptible, integrity",
+      "reading": "れんけつ",
+      "romaji": "renketsu",
+      "role": "introduce",
+      "required": true,
+      "priority": 142,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.廉",
+        "kanji.潔"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.強弁",
+      "skill_type": "vocab",
+      "display_jp": "強弁",
+      "display_en": "insisting (unreasonably), obstinate insistence, far-fetched argument, arguing against all reason",
+      "reading": "きょうべん",
+      "romaji": "kyouben",
+      "role": "introduce",
+      "required": true,
+      "priority": 143,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.強",
+        "kanji.弁"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.復学",
+      "skill_type": "vocab",
+      "display_jp": "復学",
+      "display_en": "return to school",
+      "reading": "ふくがく",
+      "romaji": "fukugaku",
+      "role": "introduce",
+      "required": true,
+      "priority": 144,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.復",
+        "kanji.学"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.忍び",
+      "skill_type": "vocab",
+      "display_jp": "忍び",
+      "display_en": "stealth, travelling incognito (traveling), ninjutsu, ninja, sneak theft, sneak thief, tolerance",
+      "reading": "しのび",
+      "romaji": "shinobi",
+      "role": "introduce",
+      "required": true,
+      "priority": 145,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.忍"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.思慕",
+      "skill_type": "vocab",
+      "display_jp": "思慕",
+      "display_en": "yearning, longing for, deep affection",
+      "reading": "しぼ",
+      "romaji": "shibo",
+      "role": "introduce",
+      "required": true,
+      "priority": 146,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.思",
+        "kanji.慕"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.悪童",
+      "skill_type": "vocab",
+      "display_jp": "悪童",
+      "display_en": "bad boy, naughty child, brat",
+      "reading": "あくどう",
+      "romaji": "akudou",
+      "role": "introduce",
+      "required": true,
+      "priority": 147,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.悪",
+        "kanji.童"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.愛書",
+      "skill_type": "vocab",
+      "display_jp": "愛書",
+      "display_en": "great love of books, favorite book (favourite)",
+      "reading": "あいしょ",
+      "romaji": "aisho",
+      "role": "introduce",
+      "required": true,
+      "priority": 148,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.愛",
+        "kanji.書"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.感興",
+      "skill_type": "vocab",
+      "display_jp": "感興",
+      "display_en": "interest, fun, inspiration",
+      "reading": "かんきょう",
+      "romaji": "kankyou",
+      "role": "introduce",
+      "required": true,
+      "priority": 149,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.感",
+        "kanji.興"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.憂さ",
+      "skill_type": "vocab",
+      "display_jp": "憂さ",
+      "display_en": "gloom, sadness, melancholy, despondency, cares, worries",
+      "reading": "うさ",
+      "romaji": "usa",
+      "role": "introduce",
+      "required": true,
+      "priority": 150,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.憂"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.憧憬",
+      "skill_type": "vocab",
+      "display_jp": "憧憬",
+      "display_en": "longing, yearning, aspiration, adoration",
+      "reading": "どうけい",
+      "romaji": "doukei",
+      "role": "introduce",
+      "required": true,
+      "priority": 151,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.憧",
+        "kanji.憬"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.憩う",
+      "skill_type": "vocab",
+      "display_jp": "憩う",
+      "display_en": "to rest, to relax, to repose",
+      "reading": "いこう",
+      "romaji": "ikou",
+      "role": "introduce",
+      "required": true,
+      "priority": 152,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.憩"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.挑む",
+      "skill_type": "vocab",
+      "display_jp": "挑む",
+      "display_en": "to challenge to (a fight, game, etc.), to throw down the gauntlet, to contend for, to tackle (e.g. a problem), to attempt, to go after (a prize, record, etc.), to pressure (someone) for sex, to make advances to",
+      "reading": "いどむ",
+      "romaji": "idomu",
+      "role": "introduce",
+      "required": true,
+      "priority": 153,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.挑"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.挫傷",
+      "skill_type": "vocab",
+      "display_jp": "挫傷",
+      "display_en": "sprain, wrench, bruise, contusion, fracture",
+      "reading": "ざしょう",
+      "romaji": "zashou",
+      "role": "introduce",
+      "required": true,
+      "priority": 154,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.挫",
+        "kanji.傷"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.採否",
+      "skill_type": "vocab",
+      "display_jp": "採否",
+      "display_en": "adoption or rejection",
+      "reading": "さいひ",
+      "romaji": "saihi",
+      "role": "introduce",
+      "required": true,
+      "priority": 155,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.採",
+        "kanji.否"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.採録",
+      "skill_type": "vocab",
+      "display_jp": "採録",
+      "display_en": "recording, transcription",
+      "reading": "さいろく",
+      "romaji": "sairoku",
+      "role": "introduce",
+      "required": true,
+      "priority": 156,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.採",
+        "kanji.録"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.撃沈",
+      "skill_type": "vocab",
+      "display_jp": "撃沈",
+      "display_en": "(attacking and) sinking (a ship), sending (a ship) to the bottom",
+      "reading": "げきちん",
+      "romaji": "gekichin",
+      "role": "introduce",
+      "required": true,
+      "priority": 157,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.撃",
+        "kanji.沈"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.攘夷",
+      "skill_type": "vocab",
+      "display_jp": "攘夷",
+      "display_en": "expulsion of foreigners",
+      "reading": "じょうい",
+      "romaji": "joui",
+      "role": "introduce",
+      "required": true,
+      "priority": 158,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.攘",
+        "kanji.夷"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.教化",
+      "skill_type": "vocab",
+      "display_jp": "教化",
+      "display_en": "education, enlightenment, civilization, civilisation, indoctrination",
+      "reading": "きょうか",
+      "romaji": "kyouka",
+      "role": "introduce",
+      "required": true,
+      "priority": 159,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.教",
+        "kanji.化"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.教示",
+      "skill_type": "vocab",
+      "display_jp": "教示",
+      "display_en": "instruction, teaching, guidance, informing",
+      "reading": "きょうじ",
+      "romaji": "kyouji",
+      "role": "introduce",
+      "required": true,
+      "priority": 160,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.教",
+        "kanji.示"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.既往",
+      "skill_type": "vocab",
+      "display_jp": "既往",
+      "display_en": "the past",
+      "reading": "きおう",
+      "romaji": "kiou",
+      "role": "introduce",
+      "required": true,
+      "priority": 161,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.既",
+        "kanji.往"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.昼飯",
+      "skill_type": "vocab",
+      "display_jp": "昼飯",
+      "display_en": "lunch, midday meal",
+      "reading": "ひるめし",
+      "romaji": "hirumeshi",
+      "role": "introduce",
+      "required": true,
+      "priority": 162,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.昼",
+        "kanji.飯"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.時候",
+      "skill_type": "vocab",
+      "display_jp": "時候",
+      "display_en": "season, time of the year",
+      "reading": "じこう",
+      "romaji": "jikou",
+      "role": "introduce",
+      "required": true,
+      "priority": 163,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.時",
+        "kanji.候"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.時季",
+      "skill_type": "vocab",
+      "display_jp": "時季",
+      "display_en": "season, time of year",
+      "reading": "じき",
+      "romaji": "jiki",
+      "role": "introduce",
+      "required": true,
+      "priority": 164,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.時",
+        "kanji.季"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.書架",
+      "skill_type": "vocab",
+      "display_jp": "書架",
+      "display_en": "bookshelf, bookcase",
+      "reading": "しょか",
+      "romaji": "shoka",
+      "role": "introduce",
+      "required": true,
+      "priority": 165,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.書",
+        "kanji.架"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.本草",
+      "skill_type": "vocab",
+      "display_jp": "本草",
+      "display_en": "plants, medicinal herbs",
+      "reading": "ほんぞう",
+      "romaji": "honzou",
+      "role": "introduce",
+      "required": true,
+      "priority": 166,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.本",
+        "kanji.草"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.本院",
+      "skill_type": "vocab",
+      "display_jp": "本院",
+      "display_en": "this institution, the main institution",
+      "reading": "ほんいん",
+      "romaji": "honin",
+      "role": "introduce",
+      "required": true,
+      "priority": 167,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.本",
+        "kanji.院"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.来襲",
+      "skill_type": "vocab",
+      "display_jp": "来襲",
+      "display_en": "(incoming) attack, raid, invasion, assault",
+      "reading": "らいしゅう",
+      "romaji": "raishuu",
+      "role": "introduce",
+      "required": true,
+      "priority": 168,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.来",
+        "kanji.襲"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.案分",
+      "skill_type": "vocab",
+      "display_jp": "案分",
+      "display_en": "proportional division, proportional distribution",
+      "reading": "あんぶん",
+      "romaji": "anbun",
+      "role": "introduce",
+      "required": true,
+      "priority": 169,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.案",
+        "kanji.分"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.検便",
+      "skill_type": "vocab",
+      "display_jp": "検便",
+      "display_en": "stool (feces) examination",
+      "reading": "けんべん",
+      "romaji": "kenben",
+      "role": "introduce",
+      "required": true,
+      "priority": 170,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.検",
+        "kanji.便"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.検針",
+      "skill_type": "vocab",
+      "display_jp": "検針",
+      "display_en": "inspection of a meter, reading a meter, needle detection (in garments, etc.), needle inspection",
+      "reading": "けんしん",
+      "romaji": "kenshin",
+      "role": "introduce",
+      "required": true,
+      "priority": 171,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.検",
+        "kanji.針"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.歌心",
+      "skill_type": "vocab",
+      "display_jp": "歌心",
+      "display_en": "(waka) poetic sentiment, waka-composing mood, solid grounding in waka, meaning of a waka poem",
+      "reading": "うたごころ",
+      "romaji": "utagokoro",
+      "role": "introduce",
+      "required": true,
+      "priority": 172,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.歌",
+        "kanji.心"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.歓待",
+      "skill_type": "vocab",
+      "display_jp": "歓待",
+      "display_en": "warm welcome, friendly reception, hospitality, entertainment",
+      "reading": "かんたい",
+      "romaji": "kantai",
+      "role": "introduce",
+      "required": true,
+      "priority": 173,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.歓",
+        "kanji.待"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.歯痛",
+      "skill_type": "vocab",
+      "display_jp": "歯痛",
+      "display_en": "toothache",
+      "reading": "しつう",
+      "romaji": "shitsuu",
+      "role": "introduce",
+      "required": true,
+      "priority": 174,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.歯",
+        "kanji.痛"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.死滅",
+      "skill_type": "vocab",
+      "display_jp": "死滅",
+      "display_en": "extinction, annihilation, destruction",
+      "reading": "しめつ",
+      "romaji": "shimetsu",
+      "role": "introduce",
+      "required": true,
+      "priority": 175,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.死",
+        "kanji.滅"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.死骸",
+      "skill_type": "vocab",
+      "display_jp": "死骸",
+      "display_en": "(dead) body, corpse, carcass, remains",
+      "reading": "しがい",
+      "romaji": "shigai",
+      "role": "introduce",
+      "required": true,
+      "priority": 176,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.死",
+        "kanji.骸"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.毛穴",
+      "skill_type": "vocab",
+      "display_jp": "毛穴",
+      "display_en": "pore (of the skin)",
+      "reading": "けあな",
+      "romaji": "keana",
+      "role": "introduce",
+      "required": true,
+      "priority": 177,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.毛",
+        "kanji.穴"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.氷解",
+      "skill_type": "vocab",
+      "display_jp": "氷解",
+      "display_en": "being cleared (of doubt, misgivings, etc.), being dispelled, melting away, melting (of ice)",
+      "reading": "ひょうかい",
+      "romaji": "hyoukai",
+      "role": "introduce",
+      "required": true,
+      "priority": 178,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.氷",
+        "kanji.解"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.汗水",
+      "skill_type": "vocab",
+      "display_jp": "汗水",
+      "display_en": "profuse sweat",
+      "reading": "あせみず",
+      "romaji": "asemizu",
+      "role": "introduce",
+      "required": true,
+      "priority": 179,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.汗",
+        "kanji.水"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.沙汰",
+      "skill_type": "vocab",
+      "display_jp": "沙汰",
+      "display_en": "affair, state, incident, issue, matter, verdict, sentence, directions, orders, command, instructions, notice, information, communication, news, message, tidings, update",
+      "reading": "さた",
+      "romaji": "sata",
+      "role": "introduce",
+      "required": true,
+      "priority": 180,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.沙",
+        "kanji.汰"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.泡盛",
+      "skill_type": "vocab",
+      "display_jp": "泡盛",
+      "display_en": "awamori, strong Okinawan liquor distilled from rice or millet",
+      "reading": "あわもり",
+      "romaji": "awamori",
+      "role": "introduce",
+      "required": true,
+      "priority": 181,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.泡",
+        "kanji.盛"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.洋行",
+      "skill_type": "vocab",
+      "display_jp": "洋行",
+      "display_en": "overseas travel (to Western countries), going abroad (to study or travel), store operated by a foreigner (in pre-communist China)",
+      "reading": "ようこう",
+      "romaji": "youkou",
+      "role": "introduce",
+      "required": true,
+      "priority": 182,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.洋",
+        "kanji.行"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.流砂",
+      "skill_type": "vocab",
+      "display_jp": "流砂",
+      "display_en": "quicksand",
+      "reading": "りゅうさ",
+      "romaji": "ryuusa",
+      "role": "introduce",
+      "required": true,
+      "priority": 183,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.流",
+        "kanji.砂"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.浮標",
+      "skill_type": "vocab",
+      "display_jp": "浮標",
+      "display_en": "buoy",
+      "reading": "ふひょう",
+      "romaji": "fuhyou",
+      "role": "introduce",
+      "required": true,
+      "priority": 184,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.浮",
+        "kanji.標"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.渋柿",
+      "skill_type": "vocab",
+      "display_jp": "渋柿",
+      "display_en": "astringent persimmon",
+      "reading": "しぶがき",
+      "romaji": "shibugaki",
+      "role": "introduce",
+      "required": true,
+      "priority": 185,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.渋",
+        "kanji.柿"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.減食",
+      "skill_type": "vocab",
+      "display_jp": "減食",
+      "display_en": "cutting down on food intake, reducing rations, reducing allowance of food",
+      "reading": "げんしょく",
+      "romaji": "genshoku",
+      "role": "introduce",
+      "required": true,
+      "priority": 186,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.減",
+        "kanji.食"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.滋養",
+      "skill_type": "vocab",
+      "display_jp": "滋養",
+      "display_en": "nourishment, nutrition",
+      "reading": "じよう",
+      "romaji": "jiyou",
+      "role": "introduce",
+      "required": true,
+      "priority": 187,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.滋",
+        "kanji.養"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.滑空",
+      "skill_type": "vocab",
+      "display_jp": "滑空",
+      "display_en": "gliding (through the air)",
+      "reading": "かっくう",
+      "romaji": "kakkuu",
+      "role": "introduce",
+      "required": true,
+      "priority": 188,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.滑",
+        "kanji.空"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.滑車",
+      "skill_type": "vocab",
+      "display_jp": "滑車",
+      "display_en": "pulley, block, tackle",
+      "reading": "かっしゃ",
+      "romaji": "kassha",
+      "role": "introduce",
+      "required": true,
+      "priority": 189,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.滑",
+        "kanji.車"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.潜入",
+      "skill_type": "vocab",
+      "display_jp": "潜入",
+      "display_en": "infiltration, sneaking in, going undercover",
+      "reading": "せんにゅう",
+      "romaji": "sennyuu",
+      "role": "introduce",
+      "required": true,
+      "priority": 190,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.潜",
+        "kanji.入"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.潤す",
+      "skill_type": "vocab",
+      "display_jp": "潤す",
+      "display_en": "to moisten, to wet, to profit, to enrich, to benefit",
+      "reading": "うるおす",
+      "romaji": "uruosu",
+      "role": "introduce",
+      "required": true,
+      "priority": 191,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.潤"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.激賞",
+      "skill_type": "vocab",
+      "display_jp": "激賞",
+      "display_en": "high praise, lavish praise, enthusiastic praise, raving (about)",
+      "reading": "げきしょう",
+      "romaji": "gekishou",
+      "role": "introduce",
+      "required": true,
+      "priority": 192,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.激",
+        "kanji.賞"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.火鉢",
+      "skill_type": "vocab",
+      "display_jp": "火鉢",
+      "display_en": "brazier, hibachi",
+      "reading": "ひばち",
+      "romaji": "hibachi",
+      "role": "introduce",
+      "required": true,
+      "priority": 193,
+      "difficulty_level": 5,
+      "prerequisite_skill_ids": [
+        "kanji.火",
+        "kanji.鉢"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    }
+  ]
+}

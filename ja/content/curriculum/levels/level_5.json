@@ -1,0 +1,90 @@
+{
+  "id": 5,
+  "level": 5,
+  "language": "ja",
+  "tier": "N5",
+  "title": "Ramen & Dining",
+  "description": "Dining out, ordering ramen politely, and requesting the bill.",
+  "goals": [
+    "Order food politely with 〜を おねがいします and ask for the bill"
+  ],
+  "skills": [
+    {
+      "id": "vocab.ramen",
+      "skill_type": "vocab",
+      "display_jp": "ラーメン",
+      "display_en": "ramen",
+      "reading": "raamen",
+      "romaji": "raamen",
+      "role": "introduce",
+      "required": true,
+      "priority": 1,
+      "difficulty_level": 1,
+      "prerequisite_skill_ids": [],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.oishii",
+      "skill_type": "vocab",
+      "display_jp": "おいしい",
+      "display_en": "delicious",
+      "reading": "oishii",
+      "romaji": "oishii",
+      "role": "introduce",
+      "required": true,
+      "priority": 2,
+      "difficulty_level": 1,
+      "prerequisite_skill_ids": [],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.menyuu",
+      "skill_type": "vocab",
+      "display_jp": "メニュー",
+      "display_en": "menu",
+      "reading": "menyuu",
+      "romaji": "menyuu",
+      "role": "introduce",
+      "required": true,
+      "priority": 3,
+      "difficulty_level": 1,
+      "prerequisite_skill_ids": [],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "grammar.wo_onegai_shimasu",
+      "skill_type": "grammar",
+      "display_jp": "〜を おねがいします",
+      "display_en": "___ please (polite request)",
+      "reading": "wo onegai shimasu",
+      "romaji": "wo onegai shimasu",
+      "role": "introduce",
+      "required": true,
+      "priority": 4,
+      "difficulty_level": 2,
+      "prerequisite_skill_ids": [
+        "vocab.ramen"
+      ],
+      "audio_urls": {},
+      "image_refs": []
+    },
+    {
+      "id": "vocab.okaikei",
+      "skill_type": "vocab",
+      "display_jp": "おかいけい",
+      "display_en": "bill / check",
+      "reading": "okaikei",
+      "romaji": "okaikei",
+      "role": "practice",
+      "required": true,
+      "priority": 5,
+      "difficulty_level": 2,
+      "prerequisite_skill_ids": [],
+      "audio_urls": {},
+      "image_refs": []
+    }
+  ]
+}
