@@ -1,0 +1,283 @@
+{
+  "schema_version": 1,
+  "locations": {
+    "1": [
+      {
+        "place_id": "town",
+        "zone": "town",
+        "position": [
+          1872.0,
+          672.0
+        ],
+        "walk": {
+          "path": [
+            [
+              1872.0,
+              672.0
+            ],
+            [
+              2160.0,
+              672.0
+            ],
+            [
+              2160.0,
+              816.0
+            ],
+            [
+              1872.0,
+              816.0
+            ]
+          ],
+          "speed": 20.0
+        }
+      }
+    ],
+    "13": [
+      {
+        "place_id": "town",
+        "zone": "town",
+        "position": [
+          4752.0,
+          672.0
+        ],
+        "walk": {
+          "path": [
+            [
+              4560.0,
+              672.0
+            ],
+            [
+              4944.0,
+              672.0
+            ]
+          ],
+          "speed": 24.0
+        }
+      }
+    ],
+    "18": [
+      {
+        "place_id": "calligraphyStudio",
+        "zone": "calligraphyStudio",
+        "position": [
+          498.0,
+          489.0
+        ]
+      },
+      {
+        "place_id": "origamiWorkshop",
+        "zone": "origamiWorkshop",
+        "position": [
+          499.0,
+          521.0
+        ]
+      }
+    ],
+    "19": [
+      {
+        "place_id": "classroom",
+        "zone": "classroom",
+        "position": [
+          1044.364,
+          343.0
+        ]
+      }
+    ],
+    "2": [
+      {
+        "place_id": "town",
+        "zone": "town",
+        "position": [
+          2160.0,
+          1120.0
+        ],
+        "walk": {
+          "path": [
+            [
+              2160.0,
+              1120.0
+            ],
+            [
+              2688.0,
+              1120.0
+            ]
+          ],
+          "speed": 18.0
+        }
+      }
+    ],
+    "3": [
+      {
+        "place_id": "town",
+        "zone": "town",
+        "position": [
+          3024.0,
+          672.0
+        ],
+        "walk": {
+          "path": [
+            [
+              2880.0,
+              672.0
+            ],
+            [
+              3264.0,
+              672.0
+            ]
+          ],
+          "speed": 26.0
+        }
+      },
+      {
+        "place_id": "classroom",
+        "zone": "classroom",
+        "position": [
+          1188.364,
+          343.0
+        ]
+      },
+      {
+        "place_id": "calligraphyStudio",
+        "zone": "calligraphyStudio",
+        "position": [
+          642.0,
+          489.0
+        ]
+      }
+    ],
+    "31": [
+      {
+        "place_id": "library",
+        "zone": "library",
+        "position": [
+          654.0,
+          562.0
+        ]
+      },
+      {
+        "place_id": "origamiWorkshop",
+        "zone": "origamiWorkshop",
+        "position": [
+          643.0,
+          521.0
+        ]
+      }
+    ],
+    "36": [
+      {
+        "place_id": "town",
+        "zone": "town",
+        "position": [
+          5856.0,
+          672.0
+        ],
+        "walk": {
+          "path": [
+            [
+              5664.0,
+              672.0
+            ],
+            [
+              6048.0,
+              672.0
+            ]
+          ],
+          "speed": 20.0
+        }
+      }
+    ],
+    "37": [
+      {
+        "place_id": "library",
+        "zone": "library",
+        "position": [
+          510.0,
+          562.0
+        ]
+      }
+    ],
+    "45": [
+      {
+        "place_id": "town",
+        "zone": "town",
+        "position": [
+          1056.0,
+          980.0
+        ]
+      }
+    ],
+    "50": [
+      {
+        "place_id": "town",
+        "zone": "town",
+        "position": [
+          1056.0,
+          1056.0
+        ]
+      }
+    ],
+    "7": [
+      {
+        "place_id": "town",
+        "zone": "town",
+        "position": [
+          2064.0,
+          1152.0
+        ],
+        "walk": {
+          "path": [
+            [
+              2064.0,
+              1152.0
+            ],
+            [
+              2352.0,
+              1152.0
+            ]
+          ],
+          "speed": 22.0
+        }
+      }
+    ],
+    "old_lady": [
+      {
+        "place_id": "town",
+        "zone": "town",
+        "position": [
+          2448.0,
+          1152.0
+        ]
+      }
+    ],
+    "store_server": [
+      {
+        "place_id": "town",
+        "zone": "town",
+        "position": [
+          1440.0,
+          672.0
+        ]
+      }
+    ],
+    "teacher": [
+      {
+        "place_id": "town",
+        "zone": "town",
+        "position": [
+          5712.0,
+          672.0
+        ]
+      }
+    ],
+    "traveller": [
+      {
+        "place_id": "town",
+        "zone": "town",
+        "position": [
+          6288.0,
+          672.0
+        ]
+      }
+    ]
+  }
+}

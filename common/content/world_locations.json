@@ -1,0 +1,602 @@
+[
+  {
+    "id": "shrine",
+    "name": "Shrine park",
+    "name_jp": "じんじゃ",
+    "zone": "town",
+    "x": 1056,
+    "y": 980,
+    "direction_hint_jp": "じんじゃは まちの まんなかに あります。",
+    "category": "park"
+  },
+  {
+    "id": "school",
+    "name": "School",
+    "name_jp": "がっこう",
+    "zone": "town",
+    "x": 5712,
+    "y": 672,
+    "direction_hint_jp": "がっこうは まちの まんなかに あります。",
+    "category": "school"
+  },
+  {
+    "id": "park",
+    "name": "Garden park",
+    "name_jp": "こうえん",
+    "zone": "town",
+    "x": 2448,
+    "y": 1152,
+    "direction_hint_jp": "こうえんは まちの まんなかに あります。",
+    "category": "park"
+  },
+  {
+    "id": "town",
+    "name": "Town",
+    "name_jp": "まち",
+    "zone": "town",
+    "x": 3888.0,
+    "y": 1152.0,
+    "direction_hint_jp": "まちは まちの まんなかに あります。",
+    "category": "other"
+  },
+  {
+    "id": "konbini",
+    "name": "Konbini",
+    "name_jp": "コンビニ",
+    "zone": "konbini",
+    "x": 412.0,
+    "y": 188.0,
+    "direction_hint_jp": "コンビニは まちの ひだりがわの うえの ドアから はいれます。",
+    "category": "shop"
+  },
+  {
+    "id": "station",
+    "name": "Station",
+    "name_jp": "えき",
+    "zone": "station",
+    "x": 888.0,
+    "y": 484.0,
+    "direction_hint_jp": "えきは まちの みぎがわの うえの ドアから はいれます。",
+    "category": "station"
+  },
+  {
+    "id": "ramen",
+    "name": "Ramen Shop",
+    "name_jp": "ラーメンや",
+    "zone": "ramen",
+    "x": 533.0,
+    "y": 414.0,
+    "direction_hint_jp": "ラーメンやは まちの ひだりがわの うえの ドアから はいれます。",
+    "category": "other"
+  },
+  {
+    "id": "library",
+    "name": "Library",
+    "name_jp": "としょかん",
+    "zone": "library",
+    "x": 654.0,
+    "y": 562.0,
+    "direction_hint_jp": "としょかんは まちの みぎがわの したの ドアから はいれます。",
+    "category": "school"
+  },
+  {
+    "id": "mangaBookshop",
+    "name": "Manga Bookshop",
+    "name_jp": "まんがや",
+    "zone": "mangaBookshop",
+    "x": 687.0,
+    "y": 538.0,
+    "direction_hint_jp": "まんがやは まちの みぎがわの したの ドアから はいれます。",
+    "category": "other"
+  },
+  {
+    "id": "maidCafe",
+    "name": "Maid Cafe",
+    "name_jp": "メイドカフェ",
+    "zone": "maidCafe",
+    "x": 654.0,
+    "y": 510.0,
+    "direction_hint_jp": "メイドカフェは まちの ひだりがわの うえの ドアから はいれます。",
+    "category": "cafe"
+  },
+  {
+    "id": "zumbaStudio",
+    "name": "Zumba Studio",
+    "name_jp": "ズンバスタジオ",
+    "zone": "zumbaStudio",
+    "x": 665.0,
+    "y": 507.0,
+    "direction_hint_jp": "ズンバスタジオは まちの みぎがわの したの ドアから はいれます。",
+    "category": "park"
+  },
+  {
+    "id": "teaCeremony",
+    "name": "Tea Ceremony",
+    "name_jp": "さどう",
+    "zone": "teaCeremony",
+    "x": 660.0,
+    "y": 484.0,
+    "direction_hint_jp": "さどうは まちの ひだりがわの したの ドアから はいれます。",
+    "category": "other"
+  },
+  {
+    "id": "kimonoDressing",
+    "name": "Kimono Dressing",
+    "name_jp": "きものや",
+    "zone": "kimonoDressing",
+    "x": 665.0,
+    "y": 506.0,
+    "direction_hint_jp": "きものやは まちの みぎがわの したの ドアから はいれます。",
+    "category": "other"
+  },
+  {
+    "id": "calligraphyStudio",
+    "name": "Calligraphy Studio",
+    "name_jp": "しょどう",
+    "zone": "calligraphyStudio",
+    "x": 642.0,
+    "y": 489.0,
+    "direction_hint_jp": "しょどうは まちの ひだりがわの したの ドアから はいれます。",
+    "category": "school"
+  },
+  {
+    "id": "origamiWorkshop",
+    "name": "Origami Workshop",
+    "name_jp": "おりがみこうぼう",
+    "zone": "origamiWorkshop",
+    "x": 643.0,
+    "y": 521.0,
+    "direction_hint_jp": "おりがみこうぼうは まちの ひだりがわの したの ドアから はいれます。",
+    "category": "school"
+  },
+  {
+    "id": "ikebanaStudio",
+    "name": "Ikebana Studio",
+    "name_jp": "いけばな",
+    "zone": "ikebanaStudio",
+    "x": 686.0,
+    "y": 500.0,
+    "direction_hint_jp": "いけばなは まちの ひだりがわの うえの ドアから はいれます。",
+    "category": "other"
+  },
+  {
+    "id": "potteryStudio",
+    "name": "Pottery Studio",
+    "name_jp": "とうげいこうぼう",
+    "zone": "potteryStudio",
+    "x": 657.0,
+    "y": 521.0,
+    "direction_hint_jp": "とうげいこうぼうは まちの ひだりがわの うえの ドアから はいれます。",
+    "category": "other"
+  },
+  {
+    "id": "kintsugiWorkshop",
+    "name": "Kintsugi Workshop",
+    "name_jp": "きんつぎこうぼう",
+    "zone": "kintsugiWorkshop",
+    "x": 653.0,
+    "y": 498.0,
+    "direction_hint_jp": "きんつぎこうぼうは まちの みぎがわの うえの ドアから はいれます。",
+    "category": "other"
+  },
+  {
+    "id": "ukiyoEStudio",
+    "name": "Ukiyo-e Studio",
+    "name_jp": "うきよえこうぼう",
+    "zone": "ukiyoEStudio",
+    "x": 677.0,
+    "y": 482.0,
+    "direction_hint_jp": "うきよえこうぼうは まちの みぎがわの したの ドアから はいれます。",
+    "category": "other"
+  },
+  {
+    "id": "samuraiDojo",
+    "name": "Samurai Dojo",
+    "name_jp": "さむらいどうじょう",
+    "zone": "samuraiDojo",
+    "x": 666.0,
+    "y": 514.0,
+    "direction_hint_jp": "さむらいどうじょうは まちの みぎがわの したの ドアから はいれます。",
+    "category": "other"
+  },
+  {
+    "id": "sumoDojo",
+    "name": "Sumo Dojo",
+    "name_jp": "すもうどうじょう",
+    "zone": "sumoDojo",
+    "x": 688.0,
+    "y": 538.0,
+    "direction_hint_jp": "すもうどうじょうは まちの みぎがわの したの ドアから はいれます。",
+    "category": "park"
+  },
+  {
+    "id": "sushiClass",
+    "name": "Sushi Class",
+    "name_jp": "すしきょうしつ",
+    "zone": "sushiClass",
+    "x": 688.0,
+    "y": 538.0,
+    "direction_hint_jp": "すしきょうしつは まちの みぎがわの したの ドアから はいれます。",
+    "category": "other"
+  },
+  {
+    "id": "ramenClass",
+    "name": "Ramen Class",
+    "name_jp": "ラーメンきょうしつ",
+    "zone": "ramenClass",
+    "x": 665.0,
+    "y": 503.0,
+    "direction_hint_jp": "ラーメンきょうしつは まちの みぎがわの うえの ドアから はいれます。",
+    "category": "other"
+  },
+  {
+    "id": "matchaTeaRoom",
+    "name": "Matcha Tea Room",
+    "name_jp": "まっちゃのへや",
+    "zone": "matchaTeaRoom",
+    "x": 666.0,
+    "y": 518.0,
+    "direction_hint_jp": "まっちゃのへやは まちの みぎがわの したの ドアから はいれます。",
+    "category": "other"
+  },
+  {
+    "id": "theatre",
+    "name": "Theatre",
+    "name_jp": "げきじょう",
+    "zone": "theatre",
+    "x": 653.0,
+    "y": 522.0,
+    "direction_hint_jp": "げきじょうは まちの ひだりがわの うえの ドアから はいれます。",
+    "category": "arcade"
+  },
+  {
+    "id": "karaoke",
+    "name": "Karaoke Room",
+    "name_jp": "カラオケ",
+    "zone": "karaoke",
+    "x": 688.0,
+    "y": 538.0,
+    "direction_hint_jp": "カラオケは まちの みぎがわの したの ドアから はいれます。",
+    "category": "arcade"
+  },
+  {
+    "id": "arcade",
+    "name": "Arcade",
+    "name_jp": "ゲームセンター",
+    "zone": "arcade",
+    "x": 665.0,
+    "y": 479.0,
+    "direction_hint_jp": "ゲームセンターは まちの みぎがわの うえの ドアから はいれます。",
+    "category": "arcade"
+  },
+  {
+    "id": "hotpotRestaurant",
+    "name": "Hotpot Restaurant",
+    "name_jp": "なべや",
+    "zone": "hotpotRestaurant",
+    "x": 654.0,
+    "y": 516.0,
+    "direction_hint_jp": "なべやは まちの ひだりがわの うえの ドアから はいれます。",
+    "category": "other"
+  },
+  {
+    "id": "sentoBathhouse",
+    "name": "Sento Bathhouse",
+    "name_jp": "せんとう",
+    "zone": "sentoBathhouse",
+    "x": 687.0,
+    "y": 511.0,
+    "direction_hint_jp": "せんとうは まちの みぎがわの したの ドアから はいれます。",
+    "category": "other"
+  },
+  {
+    "id": "spa",
+    "name": "Spa Complex",
+    "name_jp": "スパ",
+    "zone": "spa",
+    "x": 665.0,
+    "y": 502.0,
+    "direction_hint_jp": "スパは まちの みぎがわの したの ドアから はいれます。",
+    "category": "other"
+  },
+  {
+    "id": "massageStudio",
+    "name": "Massage Studio",
+    "name_jp": "マッサージや",
+    "zone": "massageStudio",
+    "x": 688.0,
+    "y": 538.0,
+    "direction_hint_jp": "マッサージやは まちの みぎがわの したの ドアから はいれます。",
+    "category": "other"
+  },
+  {
+    "id": "mangaCafe",
+    "name": "Manga Cafe",
+    "name_jp": "まんがカフェ",
+    "zone": "mangaCafe",
+    "x": 665.0,
+    "y": 510.0,
+    "direction_hint_jp": "まんがカフェは まちの みぎがわの したの ドアから はいれます。",
+    "category": "cafe"
+  },
+  {
+    "id": "animalCafe",
+    "name": "Animal Cafe",
+    "name_jp": "どうぶつカフェ",
+    "zone": "animalCafe",
+    "x": 688.0,
+    "y": 501.0,
+    "direction_hint_jp": "どうぶつカフェは まちの みぎがわの うえの ドアから はいれます。",
+    "category": "cafe"
+  },
+  {
+    "id": "sauna",
+    "name": "Sauna",
+    "name_jp": "サウナ",
+    "zone": "sauna",
+    "x": 654.0,
+    "y": 498.0,
+    "direction_hint_jp": "サウナは まちの みぎがわの したの ドアから はいれます。",
+    "category": "other"
+  },
+  {
+    "id": "ryokan",
+    "name": "Ryokan",
+    "name_jp": "りょかん",
+    "zone": "ryokan",
+    "x": 654.0,
+    "y": 498.0,
+    "direction_hint_jp": "りょかんは まちの みぎがわの うえの ドアから はいれます。",
+    "category": "other"
+  },
+  {
+    "id": "policeStation",
+    "name": "Police Station",
+    "name_jp": "こうばん",
+    "zone": "policeStation",
+    "x": 688.0,
+    "y": 538.0,
+    "direction_hint_jp": "こうばんは まちの みぎがわの うえの ドアから はいれます。",
+    "category": "other"
+  },
+  {
+    "id": "embassy",
+    "name": "Embassy",
+    "name_jp": "たいしかん",
+    "zone": "embassy",
+    "x": 654.0,
+    "y": 499.0,
+    "direction_hint_jp": "たいしかんは まちの みぎがわの うえの ドアから はいれます。",
+    "category": "other"
+  },
+  {
+    "id": "footballGround",
+    "name": "Football Ground",
+    "name_jp": "サッカーじょう",
+    "zone": "footballGround",
+    "x": 688.0,
+    "y": 538.0,
+    "direction_hint_jp": "サッカーじょうは まちの ひだりがわの うえの ドアから はいれます。",
+    "category": "park"
+  },
+  {
+    "id": "tennisCourt",
+    "name": "Tennis Court",
+    "name_jp": "テニスコート",
+    "zone": "tennisCourt",
+    "x": 688.0,
+    "y": 538.0,
+    "direction_hint_jp": "テニスコートは まちの みぎがわの うえの ドアから はいれます。",
+    "category": "park"
+  },
+  {
+    "id": "cafe",
+    "name": "Cafe",
+    "name_jp": "カフェ",
+    "zone": "cafe",
+    "x": 649.0,
+    "y": 524.0,
+    "direction_hint_jp": "カフェは まちの ひだりがわの うえの ドアから はいれます。",
+    "category": "cafe"
+  },
+  {
+    "id": "cafeLounge",
+    "name": "Cafe Lounge",
+    "name_jp": "カフェラウンジ",
+    "zone": "cafeLounge",
+    "x": 688.0,
+    "y": 538.0,
+    "direction_hint_jp": "カフェラウンジは まちの ひだりがわの したの ドアから はいれます。",
+    "category": "cafe"
+  },
+  {
+    "id": "cafeClassic",
+    "name": "Classic Cafe",
+    "name_jp": "きっさてん",
+    "zone": "cafeClassic",
+    "x": 688.0,
+    "y": 538.0,
+    "direction_hint_jp": "きっさてんは まちの みぎがわの したの ドアから はいれます。",
+    "category": "cafe"
+  },
+  {
+    "id": "classroom",
+    "name": "Classroom",
+    "name_jp": "きょうしつ",
+    "zone": "classroom",
+    "x": 1188.364,
+    "y": 343.0,
+    "direction_hint_jp": "きょうしつは まちの みぎがわの うえの ドアから はいれます。",
+    "category": "school"
+  },
+  {
+    "id": "gym",
+    "name": "Gym",
+    "name_jp": "ジム",
+    "zone": "gym",
+    "x": 676.0,
+    "y": 522.0,
+    "direction_hint_jp": "ジムは まちの みぎがわの したの ドアから はいれます。",
+    "category": "park"
+  },
+  {
+    "id": "hospital",
+    "name": "Hospital",
+    "name_jp": "びょういん",
+    "zone": "hospital",
+    "x": 671.0,
+    "y": 526.0,
+    "direction_hint_jp": "びょういんは まちの みぎがわの うえの ドアから はいれます。",
+    "category": "other"
+  },
+  {
+    "id": "townhouse",
+    "name": "Townhouse",
+    "name_jp": "いえ",
+    "zone": "townhouse",
+    "x": 664.0,
+    "y": 507.0,
+    "direction_hint_jp": "いえは まちの みぎがわの うえの ドアから はいれます。",
+    "category": "other"
+  },
+  {
+    "id": "apartment",
+    "name": "Apartment",
+    "name_jp": "アパート",
+    "zone": "apartment",
+    "x": 688.0,
+    "y": 538.0,
+    "direction_hint_jp": "アパートは まちの みぎがわの うえの ドアから はいれます。",
+    "category": "other"
+  },
+  {
+    "id": "familyHome",
+    "name": "Family Home",
+    "name_jp": "じたく",
+    "zone": "familyHome",
+    "x": 688.0,
+    "y": 538.0,
+    "direction_hint_jp": "じたくは まちの みぎがわの うえの ドアから はいれます。",
+    "category": "other"
+  },
+  {
+    "id": "office",
+    "name": "Office",
+    "name_jp": "オフィス",
+    "zone": "office",
+    "x": 665.0,
+    "y": 510.0,
+    "direction_hint_jp": "オフィスは まちの ひだりがわの したの ドアから はいれます。",
+    "category": "other"
+  },
+  {
+    "id": "officeTech",
+    "name": "Tech Office",
+    "name_jp": "ITオフィス",
+    "zone": "officeTech",
+    "x": 653.0,
+    "y": 517.0,
+    "direction_hint_jp": "ITオフィスは まちの みぎがわの うえの ドアから はいれます。",
+    "category": "other"
+  },
+  {
+    "id": "officeTraining",
+    "name": "Training Office",
+    "name_jp": "けんしゅうしつ",
+    "zone": "officeTraining",
+    "x": 687.0,
+    "y": 538.0,
+    "direction_hint_jp": "けんしゅうしつは まちの みぎがわの うえの ドアから はいれます。",
+    "category": "other"
+  },
+  {
+    "id": "restaurant",
+    "name": "Restaurant",
+    "name_jp": "レストラン",
+    "zone": "restaurant",
+    "x": 664.0,
+    "y": 518.0,
+    "direction_hint_jp": "レストランは まちの ひだりがわの したの ドアから はいれます。",
+    "category": "other"
+  },
+  {
+    "id": "restaurantCounter",
+    "name": "Restaurant Counter",
+    "name_jp": "しょくどう",
+    "zone": "restaurantCounter",
+    "x": 675.0,
+    "y": 524.0,
+    "direction_hint_jp": "しょくどうは まちの みぎがわの したの ドアから はいれます。",
+    "category": "other"
+  },
+  {
+    "id": "restaurantIzakaya",
+    "name": "Izakaya",
+    "name_jp": "いざかや",
+    "zone": "restaurantIzakaya",
+    "x": 620.0,
+    "y": 505.0,
+    "direction_hint_jp": "いざかやは まちの みぎがわの したの ドアから はいれます。",
+    "category": "other"
+  },
+  {
+    "id": "stadium",
+    "name": "Stadium",
+    "name_jp": "スタジアム",
+    "zone": "stadium",
+    "x": 688.0,
+    "y": 538.0,
+    "direction_hint_jp": "スタジアムは まちの みぎがわの したの ドアから はいれます。",
+    "category": "park"
+  },
+  {
+    "id": "supermarket",
+    "name": "Supermarket",
+    "name_jp": "スーパー",
+    "zone": "supermarket",
+    "x": 664.0,
+    "y": 510.0,
+    "direction_hint_jp": "スーパーは まちの みぎがわの したの ドアから はいれます。",
+    "category": "shop"
+  },
+  {
+    "id": "templeMain",
+    "name": "Temple",
+    "name_jp": "おてら",
+    "zone": "templeMain",
+    "x": 688.0,
+    "y": 538.0,
+    "direction_hint_jp": "おてらは まちの ひだりがわの したの ドアから はいれます。",
+    "category": "other"
+  },
+  {
+    "id": "templeHall",
+    "name": "Temple Hall",
+    "name_jp": "ほんどう",
+    "zone": "templeHall",
+    "x": 650.0,
+    "y": 507.0,
+    "direction_hint_jp": "ほんどうは まちの ひだりがわの したの ドアから はいれます。",
+    "category": "other"
+  },
+  {
+    "id": "templeRoom",
+    "name": "Temple Room",
+    "name_jp": "じいんのへや",
+    "zone": "templeRoom",
+    "x": 686.0,
+    "y": 538.0,
+    "direction_hint_jp": "じいんのへやは まちの ひだりがわの うえの ドアから はいれます。",
+    "category": "other"
+  },
+  {
+    "id": "tokyoOffice",
+    "name": "Tokyo Office",
+    "name_jp": "とうきょうオフィス",
+    "zone": "tokyoOffice",
+    "x": 654.0,
+    "y": 526.0,
+    "direction_hint_jp": "とうきょうオフィスは まちの ひだりがわの したの ドアから はいれます。",
+    "category": "other"
+  }
+]
