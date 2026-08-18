@@ -19,7 +19,6 @@
       "role": "introduce",
       "required": true,
       "priority": 1,
-      "difficulty_level": 1,
       "prerequisite_skill_ids": [],
       "audio_urls": {},
       "image_refs": []
@@ -34,7 +33,6 @@
       "role": "introduce",
       "required": true,
       "priority": 2,
-      "difficulty_level": 1,
       "prerequisite_skill_ids": [],
       "audio_urls": {},
       "image_refs": []
@@ -49,7 +47,6 @@
       "role": "introduce",
       "required": true,
       "priority": 3,
-      "difficulty_level": 2,
       "prerequisite_skill_ids": [
         "vocab.station",
         "vocab.toire"
@@ -67,7 +64,6 @@
       "role": "practice",
       "required": true,
       "priority": 4,
-      "difficulty_level": 2,
       "prerequisite_skill_ids": [],
       "audio_urls": {},
       "image_refs": []
@@ -82,7 +78,6 @@
       "role": "practice",
       "required": false,
       "priority": 5,
-      "difficulty_level": 1,
       "prerequisite_skill_ids": [],
       "audio_urls": {},
       "image_refs": []
@@ -97,7 +92,6 @@
       "role": "practice",
       "required": true,
       "priority": 6,
-      "difficulty_level": 2,
       "prerequisite_skill_ids": [
         "vocab.station"
       ],
