@@ -61,6 +61,9 @@
     "voice_mode": {
       "template": "SPOKEN VOICE CONVERSATION: You are in a live, real-time spoken voice conversation with the player. Keep your reply very concise (1 to 2 short sentences max), punchy, and natural for spoken dialogue. Do NOT write lists, bullet points, markdown, or lengthy explanations."
     },
+    "learning_targets": {
+      "template": "TARGETS: {{targets_json}}\nThese are the only vocabulary/grammar items you may report evidence for — never invent an id not listed here. Evidence types: exposure (player merely saw/heard it in your reply), practice (an assisted attempt, e.g. after a hint), recall (an unassisted graded attempt), use (player used it correctly and unprompted, not copied from your last message). Only report evidence when a TARGETS item was genuinely exercised this turn; most turns should report none. Do not calculate XP, mastery, half-life, due dates, or levels — that is the backend's job, not yours."
+    },
     "response_schema_plain": {
       "template": "Respond with ONLY a JSON object of this exact shape:\n{{schema}}"
     }
