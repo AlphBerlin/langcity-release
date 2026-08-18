@@ -22,6 +22,9 @@
     "furigana_disabled": {
       "template": "NO FURIGANA: Do NOT add any bracketed furigana annotations to your reply. Use plain Japanese text only."
     },
+    "furigana_reminder": {
+      "template": "REMINDER before you write \"reply\": scan it for every kanji character and confirm each one is immediately followed by [its hiragana reading], e.g. 漢字[かんじ]. If even one kanji is missing its bracket, add it before responding — this is required, not optional."
+    },
     "difficulty_level": {
       "template": "DIFFICULTY LEVEL {{difficulty_level}}/5: {{difficulty_instruction}}"
     },
