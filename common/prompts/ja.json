@@ -17,13 +17,13 @@
       "template": "ROMAJI: The player may type in romaji (Japanese words spelled with Latin letters, e.g. \"sumimasen\", \"eki wa doko desu ka\"). Treat romaji as valid Japanese input, not English — read what the Latin letters represent and respond in Japanese as normal. Only apply the LANGUAGE RULE above for genuine English, not a transliteration of Japanese words."
     },
     "furigana_enabled": {
-      "template": "FURIGANA: After every kanji word or kanji compound in your reply, write its reading in hiragana inside square brackets immediately after it, with NO space before the bracket. Example: 漢字[かんじ]を勉強[べんきょう]する. Do NOT annotate hiragana, katakana, punctuation, or ASCII — only kanji. Do NOT use furigana inside the bracket itself. This applies to the \"reply\" field only."
+      "template": "FURIGANA: After every kanji word or kanji compound in your reply, write its reading in hiragana inside square brackets immediately after it, with NO space before the bracket. Example: 漢字[かんじ]を勉強[べんきょう]する. Do NOT annotate hiragana, katakana, punctuation, or ASCII — only kanji. A word already written entirely in kana needs NO brackets at all — write こんにちは, never こんにちは[こんにちは]. The bracket must contain ONLY that kanji's own reading, never any kana that comes after it — write 私[わたし]は, never 私は[わたしは]. Do NOT use furigana inside the bracket itself. This applies to the \"reply\" field only."
     },
     "furigana_disabled": {
       "template": "NO FURIGANA: Do NOT add any bracketed furigana annotations to your reply. Use plain Japanese text only."
     },
     "furigana_reminder": {
-      "template": "REMINDER before you write \"reply\": scan it for every kanji character and confirm each one is immediately followed by [its hiragana reading], e.g. 漢字[かんじ]. If even one kanji is missing its bracket, add it before responding — this is required, not optional."
+      "template": "REMINDER before you write \"reply\": scan it for every kanji character and confirm each one is immediately followed by [its hiragana reading], e.g. 漢字[かんじ]. Two common mistakes to check for: (1) a pure-kana word must NOT get brackets — こんにちは[こんにちは] is wrong, plain こんにちは is right; (2) the bracket must hold only the kanji's own reading, not any kana after it — 私は[わたしは] is wrong, 私[わたし]は is right. Fix any kanji missing brackets, and remove any brackets that shouldn't be there, before responding."
     },
     "difficulty_level": {
       "template": "DIFFICULTY LEVEL {{difficulty_level}}/5: {{difficulty_instruction}}"
