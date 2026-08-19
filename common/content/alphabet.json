@@ -1,0 +1,1683 @@
+{
+ "language": "ja",
+ "masteryThreshold": 2,
+ "passRatio": 0.7,
+ "promptLabel": "Kana",
+ "answerLabel": "Romaji",
+ "scripts": [
+  {
+   "id": "hiragana",
+   "displayName": "Hiragana"
+  },
+  {
+   "id": "katakana",
+   "displayName": "Katakana"
+  }
+ ],
+ "letters": [
+  {
+   "id": "hira_a",
+   "glyph": "あ",
+   "answer": "a",
+   "script": "hiragana",
+   "group": "a",
+   "orderIndex": 0
+  },
+  {
+   "id": "hira_i",
+   "glyph": "い",
+   "answer": "i",
+   "script": "hiragana",
+   "group": "a",
+   "orderIndex": 1
+  },
+  {
+   "id": "hira_u",
+   "glyph": "う",
+   "answer": "u",
+   "script": "hiragana",
+   "group": "a",
+   "orderIndex": 2
+  },
+  {
+   "id": "hira_e",
+   "glyph": "え",
+   "answer": "e",
+   "script": "hiragana",
+   "group": "a",
+   "orderIndex": 3
+  },
+  {
+   "id": "hira_o",
+   "glyph": "お",
+   "answer": "o",
+   "script": "hiragana",
+   "group": "a",
+   "orderIndex": 4
+  },
+  {
+   "id": "hira_ka",
+   "glyph": "か",
+   "answer": "ka",
+   "script": "hiragana",
+   "group": "ka",
+   "orderIndex": 5
+  },
+  {
+   "id": "hira_ki",
+   "glyph": "き",
+   "answer": "ki",
+   "script": "hiragana",
+   "group": "ka",
+   "orderIndex": 6
+  },
+  {
+   "id": "hira_ku",
+   "glyph": "く",
+   "answer": "ku",
+   "script": "hiragana",
+   "group": "ka",
+   "orderIndex": 7
+  },
+  {
+   "id": "hira_ke",
+   "glyph": "け",
+   "answer": "ke",
+   "script": "hiragana",
+   "group": "ka",
+   "orderIndex": 8
+  },
+  {
+   "id": "hira_ko",
+   "glyph": "こ",
+   "answer": "ko",
+   "script": "hiragana",
+   "group": "ka",
+   "orderIndex": 9
+  },
+  {
+   "id": "hira_ga",
+   "glyph": "が",
+   "answer": "ga",
+   "script": "hiragana",
+   "group": "ka",
+   "orderIndex": 10
+  },
+  {
+   "id": "hira_gi",
+   "glyph": "ぎ",
+   "answer": "gi",
+   "script": "hiragana",
+   "group": "ka",
+   "orderIndex": 11
+  },
+  {
+   "id": "hira_gu",
+   "glyph": "ぐ",
+   "answer": "gu",
+   "script": "hiragana",
+   "group": "ka",
+   "orderIndex": 12
+  },
+  {
+   "id": "hira_ge",
+   "glyph": "げ",
+   "answer": "ge",
+   "script": "hiragana",
+   "group": "ka",
+   "orderIndex": 13
+  },
+  {
+   "id": "hira_go",
+   "glyph": "ご",
+   "answer": "go",
+   "script": "hiragana",
+   "group": "ka",
+   "orderIndex": 14
+  },
+  {
+   "id": "hira_kya",
+   "glyph": "きゃ",
+   "answer": "kya",
+   "script": "hiragana",
+   "group": "ka",
+   "orderIndex": 15
+  },
+  {
+   "id": "hira_kyu",
+   "glyph": "きゅ",
+   "answer": "kyu",
+   "script": "hiragana",
+   "group": "ka",
+   "orderIndex": 16
+  },
+  {
+   "id": "hira_kyo",
+   "glyph": "きょ",
+   "answer": "kyo",
+   "script": "hiragana",
+   "group": "ka",
+   "orderIndex": 17
+  },
+  {
+   "id": "hira_gya",
+   "glyph": "ぎゃ",
+   "answer": "gya",
+   "script": "hiragana",
+   "group": "ka",
+   "orderIndex": 18
+  },
+  {
+   "id": "hira_gyu",
+   "glyph": "ぎゅ",
+   "answer": "gyu",
+   "script": "hiragana",
+   "group": "ka",
+   "orderIndex": 19
+  },
+  {
+   "id": "hira_gyo",
+   "glyph": "ぎょ",
+   "answer": "gyo",
+   "script": "hiragana",
+   "group": "ka",
+   "orderIndex": 20
+  },
+  {
+   "id": "hira_sa",
+   "glyph": "さ",
+   "answer": "sa",
+   "script": "hiragana",
+   "group": "sa",
+   "orderIndex": 21
+  },
+  {
+   "id": "hira_shi",
+   "glyph": "し",
+   "answer": "shi",
+   "script": "hiragana",
+   "group": "sa",
+   "orderIndex": 22
+  },
+  {
+   "id": "hira_su",
+   "glyph": "す",
+   "answer": "su",
+   "script": "hiragana",
+   "group": "sa",
+   "orderIndex": 23
+  },
+  {
+   "id": "hira_se",
+   "glyph": "せ",
+   "answer": "se",
+   "script": "hiragana",
+   "group": "sa",
+   "orderIndex": 24
+  },
+  {
+   "id": "hira_so",
+   "glyph": "そ",
+   "answer": "so",
+   "script": "hiragana",
+   "group": "sa",
+   "orderIndex": 25
+  },
+  {
+   "id": "hira_za",
+   "glyph": "ざ",
+   "answer": "za",
+   "script": "hiragana",
+   "group": "sa",
+   "orderIndex": 26
+  },
+  {
+   "id": "hira_ji",
+   "glyph": "じ",
+   "answer": "ji",
+   "script": "hiragana",
+   "group": "sa",
+   "orderIndex": 27
+  },
+  {
+   "id": "hira_zu",
+   "glyph": "ず",
+   "answer": "zu",
+   "script": "hiragana",
+   "group": "sa",
+   "orderIndex": 28
+  },
+  {
+   "id": "hira_ze",
+   "glyph": "ぜ",
+   "answer": "ze",
+   "script": "hiragana",
+   "group": "sa",
+   "orderIndex": 29
+  },
+  {
+   "id": "hira_zo",
+   "glyph": "ぞ",
+   "answer": "zo",
+   "script": "hiragana",
+   "group": "sa",
+   "orderIndex": 30
+  },
+  {
+   "id": "hira_sha",
+   "glyph": "しゃ",
+   "answer": "sha",
+   "script": "hiragana",
+   "group": "sa",
+   "orderIndex": 31
+  },
+  {
+   "id": "hira_shu",
+   "glyph": "しゅ",
+   "answer": "shu",
+   "script": "hiragana",
+   "group": "sa",
+   "orderIndex": 32
+  },
+  {
+   "id": "hira_sho",
+   "glyph": "しょ",
+   "answer": "sho",
+   "script": "hiragana",
+   "group": "sa",
+   "orderIndex": 33
+  },
+  {
+   "id": "hira_ja",
+   "glyph": "じゃ",
+   "answer": "ja",
+   "script": "hiragana",
+   "group": "sa",
+   "orderIndex": 34
+  },
+  {
+   "id": "hira_ju",
+   "glyph": "じゅ",
+   "answer": "ju",
+   "script": "hiragana",
+   "group": "sa",
+   "orderIndex": 35
+  },
+  {
+   "id": "hira_jo",
+   "glyph": "じょ",
+   "answer": "jo",
+   "script": "hiragana",
+   "group": "sa",
+   "orderIndex": 36
+  },
+  {
+   "id": "hira_ta",
+   "glyph": "た",
+   "answer": "ta",
+   "script": "hiragana",
+   "group": "ta",
+   "orderIndex": 37
+  },
+  {
+   "id": "hira_chi",
+   "glyph": "ち",
+   "answer": "chi",
+   "script": "hiragana",
+   "group": "ta",
+   "orderIndex": 38
+  },
+  {
+   "id": "hira_tsu",
+   "glyph": "つ",
+   "answer": "tsu",
+   "script": "hiragana",
+   "group": "ta",
+   "orderIndex": 39
+  },
+  {
+   "id": "hira_te",
+   "glyph": "て",
+   "answer": "te",
+   "script": "hiragana",
+   "group": "ta",
+   "orderIndex": 40
+  },
+  {
+   "id": "hira_to",
+   "glyph": "と",
+   "answer": "to",
+   "script": "hiragana",
+   "group": "ta",
+   "orderIndex": 41
+  },
+  {
+   "id": "hira_da",
+   "glyph": "だ",
+   "answer": "da",
+   "script": "hiragana",
+   "group": "ta",
+   "orderIndex": 42
+  },
+  {
+   "id": "hira_di",
+   "glyph": "ぢ",
+   "answer": "di",
+   "script": "hiragana",
+   "group": "ta",
+   "orderIndex": 43
+  },
+  {
+   "id": "hira_du",
+   "glyph": "づ",
+   "answer": "du",
+   "script": "hiragana",
+   "group": "ta",
+   "orderIndex": 44
+  },
+  {
+   "id": "hira_de",
+   "glyph": "で",
+   "answer": "de",
+   "script": "hiragana",
+   "group": "ta",
+   "orderIndex": 45
+  },
+  {
+   "id": "hira_do",
+   "glyph": "ど",
+   "answer": "do",
+   "script": "hiragana",
+   "group": "ta",
+   "orderIndex": 46
+  },
+  {
+   "id": "hira_cha",
+   "glyph": "ちゃ",
+   "answer": "cha",
+   "script": "hiragana",
+   "group": "ta",
+   "orderIndex": 47
+  },
+  {
+   "id": "hira_chu",
+   "glyph": "ちゅ",
+   "answer": "chu",
+   "script": "hiragana",
+   "group": "ta",
+   "orderIndex": 48
+  },
+  {
+   "id": "hira_cho",
+   "glyph": "ちょ",
+   "answer": "cho",
+   "script": "hiragana",
+   "group": "ta",
+   "orderIndex": 49
+  },
+  {
+   "id": "hira_na",
+   "glyph": "な",
+   "answer": "na",
+   "script": "hiragana",
+   "group": "na",
+   "orderIndex": 50
+  },
+  {
+   "id": "hira_ni",
+   "glyph": "に",
+   "answer": "ni",
+   "script": "hiragana",
+   "group": "na",
+   "orderIndex": 51
+  },
+  {
+   "id": "hira_nu",
+   "glyph": "ぬ",
+   "answer": "nu",
+   "script": "hiragana",
+   "group": "na",
+   "orderIndex": 52
+  },
+  {
+   "id": "hira_ne",
+   "glyph": "ね",
+   "answer": "ne",
+   "script": "hiragana",
+   "group": "na",
+   "orderIndex": 53
+  },
+  {
+   "id": "hira_no",
+   "glyph": "の",
+   "answer": "no",
+   "script": "hiragana",
+   "group": "na",
+   "orderIndex": 54
+  },
+  {
+   "id": "hira_nya",
+   "glyph": "にゃ",
+   "answer": "nya",
+   "script": "hiragana",
+   "group": "na",
+   "orderIndex": 55
+  },
+  {
+   "id": "hira_nyu",
+   "glyph": "にゅ",
+   "answer": "nyu",
+   "script": "hiragana",
+   "group": "na",
+   "orderIndex": 56
+  },
+  {
+   "id": "hira_nyo",
+   "glyph": "にょ",
+   "answer": "nyo",
+   "script": "hiragana",
+   "group": "na",
+   "orderIndex": 57
+  },
+  {
+   "id": "hira_ha",
+   "glyph": "は",
+   "answer": "ha",
+   "script": "hiragana",
+   "group": "ha",
+   "orderIndex": 58
+  },
+  {
+   "id": "hira_hi",
+   "glyph": "ひ",
+   "answer": "hi",
+   "script": "hiragana",
+   "group": "ha",
+   "orderIndex": 59
+  },
+  {
+   "id": "hira_fu",
+   "glyph": "ふ",
+   "answer": "fu",
+   "script": "hiragana",
+   "group": "ha",
+   "orderIndex": 60
+  },
+  {
+   "id": "hira_he",
+   "glyph": "へ",
+   "answer": "he",
+   "script": "hiragana",
+   "group": "ha",
+   "orderIndex": 61
+  },
+  {
+   "id": "hira_ho",
+   "glyph": "ほ",
+   "answer": "ho",
+   "script": "hiragana",
+   "group": "ha",
+   "orderIndex": 62
+  },
+  {
+   "id": "hira_ba",
+   "glyph": "ば",
+   "answer": "ba",
+   "script": "hiragana",
+   "group": "ha",
+   "orderIndex": 63
+  },
+  {
+   "id": "hira_bi",
+   "glyph": "び",
+   "answer": "bi",
+   "script": "hiragana",
+   "group": "ha",
+   "orderIndex": 64
+  },
+  {
+   "id": "hira_bu",
+   "glyph": "ぶ",
+   "answer": "bu",
+   "script": "hiragana",
+   "group": "ha",
+   "orderIndex": 65
+  },
+  {
+   "id": "hira_be",
+   "glyph": "べ",
+   "answer": "be",
+   "script": "hiragana",
+   "group": "ha",
+   "orderIndex": 66
+  },
+  {
+   "id": "hira_bo",
+   "glyph": "ぼ",
+   "answer": "bo",
+   "script": "hiragana",
+   "group": "ha",
+   "orderIndex": 67
+  },
+  {
+   "id": "hira_pa",
+   "glyph": "ぱ",
+   "answer": "pa",
+   "script": "hiragana",
+   "group": "ha",
+   "orderIndex": 68
+  },
+  {
+   "id": "hira_pi",
+   "glyph": "ぴ",
+   "answer": "pi",
+   "script": "hiragana",
+   "group": "ha",
+   "orderIndex": 69
+  },
+  {
+   "id": "hira_pu",
+   "glyph": "ぷ",
+   "answer": "pu",
+   "script": "hiragana",
+   "group": "ha",
+   "orderIndex": 70
+  },
+  {
+   "id": "hira_pe",
+   "glyph": "ぺ",
+   "answer": "pe",
+   "script": "hiragana",
+   "group": "ha",
+   "orderIndex": 71
+  },
+  {
+   "id": "hira_po",
+   "glyph": "ぽ",
+   "answer": "po",
+   "script": "hiragana",
+   "group": "ha",
+   "orderIndex": 72
+  },
+  {
+   "id": "hira_hya",
+   "glyph": "ひゃ",
+   "answer": "hya",
+   "script": "hiragana",
+   "group": "ha",
+   "orderIndex": 73
+  },
+  {
+   "id": "hira_hyu",
+   "glyph": "ひゅ",
+   "answer": "hyu",
+   "script": "hiragana",
+   "group": "ha",
+   "orderIndex": 74
+  },
+  {
+   "id": "hira_hyo",
+   "glyph": "ひょ",
+   "answer": "hyo",
+   "script": "hiragana",
+   "group": "ha",
+   "orderIndex": 75
+  },
+  {
+   "id": "hira_bya",
+   "glyph": "びゃ",
+   "answer": "bya",
+   "script": "hiragana",
+   "group": "ha",
+   "orderIndex": 76
+  },
+  {
+   "id": "hira_byu",
+   "glyph": "びゅ",
+   "answer": "byu",
+   "script": "hiragana",
+   "group": "ha",
+   "orderIndex": 77
+  },
+  {
+   "id": "hira_byo",
+   "glyph": "びょ",
+   "answer": "byo",
+   "script": "hiragana",
+   "group": "ha",
+   "orderIndex": 78
+  },
+  {
+   "id": "hira_pya",
+   "glyph": "ぴゃ",
+   "answer": "pya",
+   "script": "hiragana",
+   "group": "ha",
+   "orderIndex": 79
+  },
+  {
+   "id": "hira_pyu",
+   "glyph": "ぴゅ",
+   "answer": "pyu",
+   "script": "hiragana",
+   "group": "ha",
+   "orderIndex": 80
+  },
+  {
+   "id": "hira_pyo",
+   "glyph": "ぴょ",
+   "answer": "pyo",
+   "script": "hiragana",
+   "group": "ha",
+   "orderIndex": 81
+  },
+  {
+   "id": "hira_ma",
+   "glyph": "ま",
+   "answer": "ma",
+   "script": "hiragana",
+   "group": "ma",
+   "orderIndex": 82
+  },
+  {
+   "id": "hira_mi",
+   "glyph": "み",
+   "answer": "mi",
+   "script": "hiragana",
+   "group": "ma",
+   "orderIndex": 83
+  },
+  {
+   "id": "hira_mu",
+   "glyph": "む",
+   "answer": "mu",
+   "script": "hiragana",
+   "group": "ma",
+   "orderIndex": 84
+  },
+  {
+   "id": "hira_me",
+   "glyph": "め",
+   "answer": "me",
+   "script": "hiragana",
+   "group": "ma",
+   "orderIndex": 85
+  },
+  {
+   "id": "hira_mo",
+   "glyph": "も",
+   "answer": "mo",
+   "script": "hiragana",
+   "group": "ma",
+   "orderIndex": 86
+  },
+  {
+   "id": "hira_mya",
+   "glyph": "みゃ",
+   "answer": "mya",
+   "script": "hiragana",
+   "group": "ma",
+   "orderIndex": 87
+  },
+  {
+   "id": "hira_myu",
+   "glyph": "みゅ",
+   "answer": "myu",
+   "script": "hiragana",
+   "group": "ma",
+   "orderIndex": 88
+  },
+  {
+   "id": "hira_myo",
+   "glyph": "みょ",
+   "answer": "myo",
+   "script": "hiragana",
+   "group": "ma",
+   "orderIndex": 89
+  },
+  {
+   "id": "hira_ya",
+   "glyph": "や",
+   "answer": "ya",
+   "script": "hiragana",
+   "group": "ya",
+   "orderIndex": 90
+  },
+  {
+   "id": "hira_yu",
+   "glyph": "ゆ",
+   "answer": "yu",
+   "script": "hiragana",
+   "group": "ya",
+   "orderIndex": 91
+  },
+  {
+   "id": "hira_yo",
+   "glyph": "よ",
+   "answer": "yo",
+   "script": "hiragana",
+   "group": "ya",
+   "orderIndex": 92
+  },
+  {
+   "id": "hira_ra",
+   "glyph": "ら",
+   "answer": "ra",
+   "script": "hiragana",
+   "group": "ra",
+   "orderIndex": 93
+  },
+  {
+   "id": "hira_ri",
+   "glyph": "り",
+   "answer": "ri",
+   "script": "hiragana",
+   "group": "ra",
+   "orderIndex": 94
+  },
+  {
+   "id": "hira_ru",
+   "glyph": "る",
+   "answer": "ru",
+   "script": "hiragana",
+   "group": "ra",
+   "orderIndex": 95
+  },
+  {
+   "id": "hira_re",
+   "glyph": "れ",
+   "answer": "re",
+   "script": "hiragana",
+   "group": "ra",
+   "orderIndex": 96
+  },
+  {
+   "id": "hira_ro",
+   "glyph": "ろ",
+   "answer": "ro",
+   "script": "hiragana",
+   "group": "ra",
+   "orderIndex": 97
+  },
+  {
+   "id": "hira_rya",
+   "glyph": "りゃ",
+   "answer": "rya",
+   "script": "hiragana",
+   "group": "ra",
+   "orderIndex": 98
+  },
+  {
+   "id": "hira_ryu",
+   "glyph": "りゅ",
+   "answer": "ryu",
+   "script": "hiragana",
+   "group": "ra",
+   "orderIndex": 99
+  },
+  {
+   "id": "hira_ryo",
+   "glyph": "りょ",
+   "answer": "ryo",
+   "script": "hiragana",
+   "group": "ra",
+   "orderIndex": 100
+  },
+  {
+   "id": "hira_wa",
+   "glyph": "わ",
+   "answer": "wa",
+   "script": "hiragana",
+   "group": "wa",
+   "orderIndex": 101
+  },
+  {
+   "id": "hira_wo",
+   "glyph": "を",
+   "answer": "wo",
+   "script": "hiragana",
+   "group": "wa",
+   "orderIndex": 102
+  },
+  {
+   "id": "hira_n",
+   "glyph": "ん",
+   "answer": "n",
+   "script": "hiragana",
+   "group": "n",
+   "orderIndex": 103
+  },
+  {
+   "id": "kata_a",
+   "glyph": "ア",
+   "answer": "a",
+   "script": "katakana",
+   "group": "a",
+   "orderIndex": 104
+  },
+  {
+   "id": "kata_i",
+   "glyph": "イ",
+   "answer": "i",
+   "script": "katakana",
+   "group": "a",
+   "orderIndex": 105
+  },
+  {
+   "id": "kata_u",
+   "glyph": "ウ",
+   "answer": "u",
+   "script": "katakana",
+   "group": "a",
+   "orderIndex": 106
+  },
+  {
+   "id": "kata_e",
+   "glyph": "エ",
+   "answer": "e",
+   "script": "katakana",
+   "group": "a",
+   "orderIndex": 107
+  },
+  {
+   "id": "kata_o",
+   "glyph": "オ",
+   "answer": "o",
+   "script": "katakana",
+   "group": "a",
+   "orderIndex": 108
+  },
+  {
+   "id": "kata_ka",
+   "glyph": "カ",
+   "answer": "ka",
+   "script": "katakana",
+   "group": "ka",
+   "orderIndex": 109
+  },
+  {
+   "id": "kata_ki",
+   "glyph": "キ",
+   "answer": "ki",
+   "script": "katakana",
+   "group": "ka",
+   "orderIndex": 110
+  },
+  {
+   "id": "kata_ku",
+   "glyph": "ク",
+   "answer": "ku",
+   "script": "katakana",
+   "group": "ka",
+   "orderIndex": 111
+  },
+  {
+   "id": "kata_ke",
+   "glyph": "ケ",
+   "answer": "ke",
+   "script": "katakana",
+   "group": "ka",
+   "orderIndex": 112
+  },
+  {
+   "id": "kata_ko",
+   "glyph": "コ",
+   "answer": "ko",
+   "script": "katakana",
+   "group": "ka",
+   "orderIndex": 113
+  },
+  {
+   "id": "kata_ga",
+   "glyph": "ガ",
+   "answer": "ga",
+   "script": "katakana",
+   "group": "ka",
+   "orderIndex": 114
+  },
+  {
+   "id": "kata_gi",
+   "glyph": "ギ",
+   "answer": "gi",
+   "script": "katakana",
+   "group": "ka",
+   "orderIndex": 115
+  },
+  {
+   "id": "kata_gu",
+   "glyph": "グ",
+   "answer": "gu",
+   "script": "katakana",
+   "group": "ka",
+   "orderIndex": 116
+  },
+  {
+   "id": "kata_ge",
+   "glyph": "ゲ",
+   "answer": "ge",
+   "script": "katakana",
+   "group": "ka",
+   "orderIndex": 117
+  },
+  {
+   "id": "kata_go",
+   "glyph": "ゴ",
+   "answer": "go",
+   "script": "katakana",
+   "group": "ka",
+   "orderIndex": 118
+  },
+  {
+   "id": "kata_kya",
+   "glyph": "キャ",
+   "answer": "kya",
+   "script": "katakana",
+   "group": "ka",
+   "orderIndex": 119
+  },
+  {
+   "id": "kata_kyu",
+   "glyph": "キュ",
+   "answer": "kyu",
+   "script": "katakana",
+   "group": "ka",
+   "orderIndex": 120
+  },
+  {
+   "id": "kata_kyo",
+   "glyph": "キョ",
+   "answer": "kyo",
+   "script": "katakana",
+   "group": "ka",
+   "orderIndex": 121
+  },
+  {
+   "id": "kata_gya",
+   "glyph": "ギャ",
+   "answer": "gya",
+   "script": "katakana",
+   "group": "ka",
+   "orderIndex": 122
+  },
+  {
+   "id": "kata_gyu",
+   "glyph": "ギュ",
+   "answer": "gyu",
+   "script": "katakana",
+   "group": "ka",
+   "orderIndex": 123
+  },
+  {
+   "id": "kata_gyo",
+   "glyph": "ギョ",
+   "answer": "gyo",
+   "script": "katakana",
+   "group": "ka",
+   "orderIndex": 124
+  },
+  {
+   "id": "kata_sa",
+   "glyph": "サ",
+   "answer": "sa",
+   "script": "katakana",
+   "group": "sa",
+   "orderIndex": 125
+  },
+  {
+   "id": "kata_shi",
+   "glyph": "シ",
+   "answer": "shi",
+   "script": "katakana",
+   "group": "sa",
+   "orderIndex": 126
+  },
+  {
+   "id": "kata_su",
+   "glyph": "ス",
+   "answer": "su",
+   "script": "katakana",
+   "group": "sa",
+   "orderIndex": 127
+  },
+  {
+   "id": "kata_se",
+   "glyph": "セ",
+   "answer": "se",
+   "script": "katakana",
+   "group": "sa",
+   "orderIndex": 128
+  },
+  {
+   "id": "kata_so",
+   "glyph": "ソ",
+   "answer": "so",
+   "script": "katakana",
+   "group": "sa",
+   "orderIndex": 129
+  },
+  {
+   "id": "kata_za",
+   "glyph": "ザ",
+   "answer": "za",
+   "script": "katakana",
+   "group": "sa",
+   "orderIndex": 130
+  },
+  {
+   "id": "kata_ji",
+   "glyph": "ジ",
+   "answer": "ji",
+   "script": "katakana",
+   "group": "sa",
+   "orderIndex": 131
+  },
+  {
+   "id": "kata_zu",
+   "glyph": "ズ",
+   "answer": "zu",
+   "script": "katakana",
+   "group": "sa",
+   "orderIndex": 132
+  },
+  {
+   "id": "kata_ze",
+   "glyph": "ゼ",
+   "answer": "ze",
+   "script": "katakana",
+   "group": "sa",
+   "orderIndex": 133
+  },
+  {
+   "id": "kata_zo",
+   "glyph": "ゾ",
+   "answer": "zo",
+   "script": "katakana",
+   "group": "sa",
+   "orderIndex": 134
+  },
+  {
+   "id": "kata_sha",
+   "glyph": "シャ",
+   "answer": "sha",
+   "script": "katakana",
+   "group": "sa",
+   "orderIndex": 135
+  },
+  {
+   "id": "kata_shu",
+   "glyph": "シュ",
+   "answer": "shu",
+   "script": "katakana",
+   "group": "sa",
+   "orderIndex": 136
+  },
+  {
+   "id": "kata_sho",
+   "glyph": "ショ",
+   "answer": "sho",
+   "script": "katakana",
+   "group": "sa",
+   "orderIndex": 137
+  },
+  {
+   "id": "kata_ja",
+   "glyph": "ジャ",
+   "answer": "ja",
+   "script": "katakana",
+   "group": "sa",
+   "orderIndex": 138
+  },
+  {
+   "id": "kata_ju",
+   "glyph": "ジュ",
+   "answer": "ju",
+   "script": "katakana",
+   "group": "sa",
+   "orderIndex": 139
+  },
+  {
+   "id": "kata_jo",
+   "glyph": "ジョ",
+   "answer": "jo",
+   "script": "katakana",
+   "group": "sa",
+   "orderIndex": 140
+  },
+  {
+   "id": "kata_ta",
+   "glyph": "タ",
+   "answer": "ta",
+   "script": "katakana",
+   "group": "ta",
+   "orderIndex": 141
+  },
+  {
+   "id": "kata_chi",
+   "glyph": "チ",
+   "answer": "chi",
+   "script": "katakana",
+   "group": "ta",
+   "orderIndex": 142
+  },
+  {
+   "id": "kata_tsu",
+   "glyph": "ツ",
+   "answer": "tsu",
+   "script": "katakana",
+   "group": "ta",
+   "orderIndex": 143
+  },
+  {
+   "id": "kata_te",
+   "glyph": "テ",
+   "answer": "te",
+   "script": "katakana",
+   "group": "ta",
+   "orderIndex": 144
+  },
+  {
+   "id": "kata_to",
+   "glyph": "ト",
+   "answer": "to",
+   "script": "katakana",
+   "group": "ta",
+   "orderIndex": 145
+  },
+  {
+   "id": "kata_da",
+   "glyph": "ダ",
+   "answer": "da",
+   "script": "katakana",
+   "group": "ta",
+   "orderIndex": 146
+  },
+  {
+   "id": "kata_di",
+   "glyph": "ヂ",
+   "answer": "di",
+   "script": "katakana",
+   "group": "ta",
+   "orderIndex": 147
+  },
+  {
+   "id": "kata_du",
+   "glyph": "ヅ",
+   "answer": "du",
+   "script": "katakana",
+   "group": "ta",
+   "orderIndex": 148
+  },
+  {
+   "id": "kata_de",
+   "glyph": "デ",
+   "answer": "de",
+   "script": "katakana",
+   "group": "ta",
+   "orderIndex": 149
+  },
+  {
+   "id": "kata_do",
+   "glyph": "ド",
+   "answer": "do",
+   "script": "katakana",
+   "group": "ta",
+   "orderIndex": 150
+  },
+  {
+   "id": "kata_cha",
+   "glyph": "チャ",
+   "answer": "cha",
+   "script": "katakana",
+   "group": "ta",
+   "orderIndex": 151
+  },
+  {
+   "id": "kata_chu",
+   "glyph": "チュ",
+   "answer": "chu",
+   "script": "katakana",
+   "group": "ta",
+   "orderIndex": 152
+  },
+  {
+   "id": "kata_cho",
+   "glyph": "チョ",
+   "answer": "cho",
+   "script": "katakana",
+   "group": "ta",
+   "orderIndex": 153
+  },
+  {
+   "id": "kata_na",
+   "glyph": "ナ",
+   "answer": "na",
+   "script": "katakana",
+   "group": "na",
+   "orderIndex": 154
+  },
+  {
+   "id": "kata_ni",
+   "glyph": "ニ",
+   "answer": "ni",
+   "script": "katakana",
+   "group": "na",
+   "orderIndex": 155
+  },
+  {
+   "id": "kata_nu",
+   "glyph": "ヌ",
+   "answer": "nu",
+   "script": "katakana",
+   "group": "na",
+   "orderIndex": 156
+  },
+  {
+   "id": "kata_ne",
+   "glyph": "ネ",
+   "answer": "ne",
+   "script": "katakana",
+   "group": "na",
+   "orderIndex": 157
+  },
+  {
+   "id": "kata_no",
+   "glyph": "ノ",
+   "answer": "no",
+   "script": "katakana",
+   "group": "na",
+   "orderIndex": 158
+  },
+  {
+   "id": "kata_nya",
+   "glyph": "ニャ",
+   "answer": "nya",
+   "script": "katakana",
+   "group": "na",
+   "orderIndex": 159
+  },
+  {
+   "id": "kata_nyu",
+   "glyph": "ニュ",
+   "answer": "nyu",
+   "script": "katakana",
+   "group": "na",
+   "orderIndex": 160
+  },
+  {
+   "id": "kata_nyo",
+   "glyph": "ニョ",
+   "answer": "nyo",
+   "script": "katakana",
+   "group": "na",
+   "orderIndex": 161
+  },
+  {
+   "id": "kata_ha",
+   "glyph": "ハ",
+   "answer": "ha",
+   "script": "katakana",
+   "group": "ha",
+   "orderIndex": 162
+  },
+  {
+   "id": "kata_hi",
+   "glyph": "ヒ",
+   "answer": "hi",
+   "script": "katakana",
+   "group": "ha",
+   "orderIndex": 163
+  },
+  {
+   "id": "kata_fu",
+   "glyph": "フ",
+   "answer": "fu",
+   "script": "katakana",
+   "group": "ha",
+   "orderIndex": 164
+  },
+  {
+   "id": "kata_he",
+   "glyph": "ヘ",
+   "answer": "he",
+   "script": "katakana",
+   "group": "ha",
+   "orderIndex": 165
+  },
+  {
+   "id": "kata_ho",
+   "glyph": "ホ",
+   "answer": "ho",
+   "script": "katakana",
+   "group": "ha",
+   "orderIndex": 166
+  },
+  {
+   "id": "kata_ba",
+   "glyph": "バ",
+   "answer": "ba",
+   "script": "katakana",
+   "group": "ha",
+   "orderIndex": 167
+  },
+  {
+   "id": "kata_bi",
+   "glyph": "ビ",
+   "answer": "bi",
+   "script": "katakana",
+   "group": "ha",
+   "orderIndex": 168
+  },
+  {
+   "id": "kata_bu",
+   "glyph": "ブ",
+   "answer": "bu",
+   "script": "katakana",
+   "group": "ha",
+   "orderIndex": 169
+  },
+  {
+   "id": "kata_be",
+   "glyph": "ベ",
+   "answer": "be",
+   "script": "katakana",
+   "group": "ha",
+   "orderIndex": 170
+  },
+  {
+   "id": "kata_bo",
+   "glyph": "ボ",
+   "answer": "bo",
+   "script": "katakana",
+   "group": "ha",
+   "orderIndex": 171
+  },
+  {
+   "id": "kata_pa",
+   "glyph": "パ",
+   "answer": "pa",
+   "script": "katakana",
+   "group": "ha",
+   "orderIndex": 172
+  },
+  {
+   "id": "kata_pi",
+   "glyph": "ピ",
+   "answer": "pi",
+   "script": "katakana",
+   "group": "ha",
+   "orderIndex": 173
+  },
+  {
+   "id": "kata_pu",
+   "glyph": "プ",
+   "answer": "pu",
+   "script": "katakana",
+   "group": "ha",
+   "orderIndex": 174
+  },
+  {
+   "id": "kata_pe",
+   "glyph": "ペ",
+   "answer": "pe",
+   "script": "katakana",
+   "group": "ha",
+   "orderIndex": 175
+  },
+  {
+   "id": "kata_po",
+   "glyph": "ポ",
+   "answer": "po",
+   "script": "katakana",
+   "group": "ha",
+   "orderIndex": 176
+  },
+  {
+   "id": "kata_hya",
+   "glyph": "ヒャ",
+   "answer": "hya",
+   "script": "katakana",
+   "group": "ha",
+   "orderIndex": 177
+  },
+  {
+   "id": "kata_hyu",
+   "glyph": "ヒュ",
+   "answer": "hyu",
+   "script": "katakana",
+   "group": "ha",
+   "orderIndex": 178
+  },
+  {
+   "id": "kata_hyo",
+   "glyph": "ヒョ",
+   "answer": "hyo",
+   "script": "katakana",
+   "group": "ha",
+   "orderIndex": 179
+  },
+  {
+   "id": "kata_bya",
+   "glyph": "ビャ",
+   "answer": "bya",
+   "script": "katakana",
+   "group": "ha",
+   "orderIndex": 180
+  },
+  {
+   "id": "kata_byu",
+   "glyph": "ビュ",
+   "answer": "byu",
+   "script": "katakana",
+   "group": "ha",
+   "orderIndex": 181
+  },
+  {
+   "id": "kata_byo",
+   "glyph": "ビョ",
+   "answer": "byo",
+   "script": "katakana",
+   "group": "ha",
+   "orderIndex": 182
+  },
+  {
+   "id": "kata_pya",
+   "glyph": "ピャ",
+   "answer": "pya",
+   "script": "katakana",
+   "group": "ha",
+   "orderIndex": 183
+  },
+  {
+   "id": "kata_pyu",
+   "glyph": "ピュ",
+   "answer": "pyu",
+   "script": "katakana",
+   "group": "ha",
+   "orderIndex": 184
+  },
+  {
+   "id": "kata_pyo",
+   "glyph": "ピョ",
+   "answer": "pyo",
+   "script": "katakana",
+   "group": "ha",
+   "orderIndex": 185
+  },
+  {
+   "id": "kata_ma",
+   "glyph": "マ",
+   "answer": "ma",
+   "script": "katakana",
+   "group": "ma",
+   "orderIndex": 186
+  },
+  {
+   "id": "kata_mi",
+   "glyph": "ミ",
+   "answer": "mi",
+   "script": "katakana",
+   "group": "ma",
+   "orderIndex": 187
+  },
+  {
+   "id": "kata_mu",
+   "glyph": "ム",
+   "answer": "mu",
+   "script": "katakana",
+   "group": "ma",
+   "orderIndex": 188
+  },
+  {
+   "id": "kata_me",
+   "glyph": "メ",
+   "answer": "me",
+   "script": "katakana",
+   "group": "ma",
+   "orderIndex": 189
+  },
+  {
+   "id": "kata_mo",
+   "glyph": "モ",
+   "answer": "mo",
+   "script": "katakana",
+   "group": "ma",
+   "orderIndex": 190
+  },
+  {
+   "id": "kata_mya",
+   "glyph": "ミャ",
+   "answer": "mya",
+   "script": "katakana",
+   "group": "ma",
+   "orderIndex": 191
+  },
+  {
+   "id": "kata_myu",
+   "glyph": "ミュ",
+   "answer": "myu",
+   "script": "katakana",
+   "group": "ma",
+   "orderIndex": 192
+  },
+  {
+   "id": "kata_myo",
+   "glyph": "ミョ",
+   "answer": "myo",
+   "script": "katakana",
+   "group": "ma",
+   "orderIndex": 193
+  },
+  {
+   "id": "kata_ya",
+   "glyph": "ヤ",
+   "answer": "ya",
+   "script": "katakana",
+   "group": "ya",
+   "orderIndex": 194
+  },
+  {
+   "id": "kata_yu",
+   "glyph": "ユ",
+   "answer": "yu",
+   "script": "katakana",
+   "group": "ya",
+   "orderIndex": 195
+  },
+  {
+   "id": "kata_yo",
+   "glyph": "ヨ",
+   "answer": "yo",
+   "script": "katakana",
+   "group": "ya",
+   "orderIndex": 196
+  },
+  {
+   "id": "kata_ra",
+   "glyph": "ラ",
+   "answer": "ra",
+   "script": "katakana",
+   "group": "ra",
+   "orderIndex": 197
+  },
+  {
+   "id": "kata_ri",
+   "glyph": "リ",
+   "answer": "ri",
+   "script": "katakana",
+   "group": "ra",
+   "orderIndex": 198
+  },
+  {
+   "id": "kata_ru",
+   "glyph": "ル",
+   "answer": "ru",
+   "script": "katakana",
+   "group": "ra",
+   "orderIndex": 199
+  },
+  {
+   "id": "kata_re",
+   "glyph": "レ",
+   "answer": "re",
+   "script": "katakana",
+   "group": "ra",
+   "orderIndex": 200
+  },
+  {
+   "id": "kata_ro",
+   "glyph": "ロ",
+   "answer": "ro",
+   "script": "katakana",
+   "group": "ra",
+   "orderIndex": 201
+  },
+  {
+   "id": "kata_rya",
+   "glyph": "リャ",
+   "answer": "rya",
+   "script": "katakana",
+   "group": "ra",
+   "orderIndex": 202
+  },
+  {
+   "id": "kata_ryu",
+   "glyph": "リュ",
+   "answer": "ryu",
+   "script": "katakana",
+   "group": "ra",
+   "orderIndex": 203
+  },
+  {
+   "id": "kata_ryo",
+   "glyph": "リョ",
+   "answer": "ryo",
+   "script": "katakana",
+   "group": "ra",
+   "orderIndex": 204
+  },
+  {
+   "id": "kata_wa",
+   "glyph": "ワ",
+   "answer": "wa",
+   "script": "katakana",
+   "group": "wa",
+   "orderIndex": 205
+  },
+  {
+   "id": "kata_wo",
+   "glyph": "ヲ",
+   "answer": "wo",
+   "script": "katakana",
+   "group": "wa",
+   "orderIndex": 206
+  },
+  {
+   "id": "kata_n",
+   "glyph": "ン",
+   "answer": "n",
+   "script": "katakana",
+   "group": "n",
+   "orderIndex": 207
+  }
+ ]
+}
