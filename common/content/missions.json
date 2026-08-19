@@ -1,1005 +1,1062 @@
 {
-  "mission_lines": [
-    {
-      "active": true,
-      "id": "l_directions_ask_guide",
-      "language": "ja",
-      "line_key": "directions_ask",
-      "npc_id": null,
-      "npc_role": "guide",
-      "text": "はい、あんない しますよ。",
-      "variant": 0
-    },
-    {
-      "active": true,
-      "id": "l_errand_report_alex",
-      "language": "en",
-      "line_key": "errand_report",
-      "npc_id": "traveller",
-      "npc_role": null,
-      "text": "You did it! That sounded great. Thank you!",
-      "variant": 0
-    },
-    {
-      "active": true,
-      "id": "l_errand_report_role",
-      "language": "en",
-      "line_key": "errand_report",
-      "npc_id": null,
-      "npc_role": "errand_giver",
-      "text": "Thank you so much — you're a lifesaver.",
-      "variant": 0
-    },
-    {
-      "active": true,
-      "id": "l_errand_request_alex",
-      "language": "en",
-      "line_key": "errand_request",
-      "npc_id": "traveller",
-      "npc_role": null,
-      "text": "I really want this but I can't order it in Japanese — could you help?",
-      "variant": 0
-    },
-    {
-      "active": true,
-      "id": "l_errand_request_role",
-      "language": "en",
-      "line_key": "errand_request",
-      "npc_id": null,
-      "npc_role": "errand_giver",
-      "text": "I need a hand with something — could you ask for me?",
-      "variant": 0
-    },
-    {
-      "active": true,
-      "id": "l_errand_say_vendor",
-      "language": "ja",
-      "line_key": "errand_say",
-      "npc_id": null,
-      "npc_role": "vendor",
-      "text": "いらっしゃいませ！なんに しますか？",
-      "variant": 0
-    },
-    {
-      "active": true,
-      "id": "l_fetch_request_role",
-      "language": "ja",
-      "line_key": "fetch_request",
-      "npc_id": null,
-      "npc_role": "target_speaker",
-      "text": "おつかい、おねがい できますか？",
-      "variant": 0
-    },
-    {
-      "active": true,
-      "id": "l_fetch_thanks_role",
-      "language": "ja",
-      "line_key": "fetch_thanks",
-      "npc_id": null,
-      "npc_role": "target_speaker",
-      "text": "ありがとう！たすかりました。",
-      "variant": 0
-    },
-    {
-      "active": true,
-      "id": "l_teach_practice_role",
-      "language": "ja",
-      "line_key": "teach_practice",
-      "npc_id": null,
-      "npc_role": "target_speaker",
-      "text": "いいですね！もういちど いってみて。",
-      "variant": 0
-    },
-    {
-      "active": true,
-      "id": "l_teach_request_alex",
-      "language": "en",
-      "line_key": "teach_request",
-      "npc_id": "traveller",
-      "npc_role": null,
-      "text": "How do I say that in Japanese? Teach me!",
-      "variant": 0
-    },
-    {
-      "active": true,
-      "id": "l_teach_thanks_alex",
-      "language": "en",
-      "line_key": "teach_thanks",
-      "npc_id": "traveller",
-      "npc_role": null,
-      "text": "Got it — I'll try that next time!",
-      "variant": 0
-    }
-  ],
-  "mission_templates": [
-    {
-      "active": true,
-      "applicable_modes": [
-        "recall",
-        "production"
-      ],
-      "applicable_skill_types": [
-        "grammar"
-      ],
-      "description": "NPC misunderstands; player corrects the phrase.",
-      "hint_policy": {
-        "max_hints": 2,
-        "reveals": "first_kana"
-      },
-      "id": "conversation_repair",
-      "max_difficulty": 4,
-      "min_difficulty": 3,
-      "name": "Conversation repair",
-      "node_pattern": {
-        "nodes": [
-          {
-            "explain": "すみません、もういちど？ちがう いいかたで いってみて。",
-            "instruction": "Talk to {{giver.name}}.",
-            "npc": "{{giver}}",
-            "type": "talkToNpc"
-          },
-          {
-            "explain": "もういちど、ただしく いってみて。",
-            "instruction": "Correct yourself with {{giver.name}}.",
-            "matches": "{{skill.matches}}",
-            "npc": "{{giver}}",
-            "type": "sayPhrase"
-          }
-        ]
-      },
-      "requires_roles": [],
-      "target_role": null
-    },
-    {
-      "active": true,
-      "applicable_modes": [
-        "recall"
-      ],
-      "applicable_skill_types": [
-        "vocab",
-        "grammar"
-      ],
-      "description": "Someone is lost; ask a local and bring the answer back.",
-      "hint_policy": {
-        "max_hints": 2,
-        "reveals": "reading"
-      },
-      "id": "directions_relay",
-      "max_difficulty": 4,
-      "min_difficulty": 1,
-      "name": "Directions relay",
-      "node_pattern": {
-        "nodes": [
-          {
-            "explain": {
-              "line": "errand_request"
-            },
-            "instruction": "Hear {{giver.name}} out.",
-            "npc": "{{giver}}",
-            "type": "talkToNpc"
-          },
-          {
-            "instruction": "Go ask {{target.name}}.",
-            "location": "{{target.location}}",
-            "type": "goToLocation"
-          },
-          {
-            "explain": {
-              "line": "directions_ask"
-            },
-            "instruction": "Ask {{target.name}} for directions.",
-            "matches": "{{skill.matches}}",
-            "npc": "{{target}}",
-            "phrase": "{{skill.phrase}}",
-            "type": "sayPhrase"
-          },
-          {
-            "explain": {
-              "line": "errand_report"
-            },
-            "instruction": "Tell {{giver.name}} the way.",
-            "npc": "{{giver}}",
-            "type": "talkToNpc"
-          }
-        ],
-        "roles": {
-          "target": {
-            "prefer_context_of": "skill",
-            "requires": [
-              "guide",
-              "target_speaker"
-            ]
-          }
-        }
-      },
-      "requires_roles": [
-        "errand_giver"
-      ],
-      "target_role": "guide"
-    },
-    {
-      "active": true,
-      "applicable_modes": [
-        "recall",
-        "production"
-      ],
-      "applicable_skill_types": [
-        "vocab",
-        "grammar"
-      ],
-      "description": "Buy something at a shop and bring it back.",
-      "hint_policy": {
-        "max_hints": 2,
-        "reveals": "reading"
-      },
-      "id": "fetch_and_deliver",
-      "max_difficulty": 4,
-      "min_difficulty": 1,
-      "name": "Fetch and deliver",
-      "node_pattern": {
-        "nodes": [
-          {
-            "explain": {
-              "line": "fetch_request"
-            },
-            "instruction": "Hear {{giver.name}} out.",
-            "npc": "{{giver}}",
-            "type": "talkToNpc"
-          },
-          {
-            "instruction": "Go to {{target.name}}.",
-            "location": "{{target.location}}",
-            "type": "goToLocation"
-          },
-          {
-            "explain": {
-              "line": "errand_say"
-            },
-            "instruction": "Buy it from {{target.name}}.",
-            "matches": "{{skill.matches}}",
-            "npc": "{{target}}",
-            "phrase": "{{skill.phrase}}",
-            "type": "sayPhrase"
-          },
-          {
-            "explain": {
-              "line": "fetch_thanks"
-            },
-            "instruction": "Bring it back to {{giver.name}}.",
-            "npc": "{{giver}}",
-            "type": "talkToNpc"
-          }
-        ],
-        "roles": {
-          "target": {
-            "prefer_context_of": "skill",
-            "requires": [
-              "vendor",
-              "target_speaker"
-            ]
-          }
-        }
-      },
-      "requires_roles": [
-        "target_speaker"
-      ],
-      "target_role": "vendor"
-    },
-    {
-      "active": true,
-      "applicable_modes": [
-        "recognition"
-      ],
-      "applicable_skill_types": [
-        "vocab"
-      ],
-      "description": "Walk to an item/NPC and identify a word.",
-      "hint_policy": {
-        "max_hints": 1,
-        "reveals": "reading"
-      },
-      "id": "find_and_recognise",
-      "max_difficulty": 2,
-      "min_difficulty": 1,
-      "name": "Find and recognise",
-      "node_pattern": {
-        "nodes": [
-          {
-            "explain": "{{skill.prompt}} — {{skill.displayEn}}。",
-            "instruction": "Talk to {{giver.name}} about \"{{skill.displayEn}}\".",
-            "npc": "{{giver}}",
-            "type": "talkToNpc"
-          }
-        ]
-      },
-      "requires_roles": [],
-      "target_role": null
-    },
-    {
-      "active": true,
-      "applicable_modes": [
-        "recall"
-      ],
-      "applicable_skill_types": [
-        "vocab",
-        "grammar"
-      ],
-      "description": "NPC gives English/context; player produces the Japanese phrase.",
-      "hint_policy": {
-        "max_hints": 2,
-        "reveals": "first_kana"
-      },
-      "id": "guided_recall",
-      "max_difficulty": 3,
-      "min_difficulty": 2,
-      "name": "Guided recall",
-      "node_pattern": {
-        "nodes": [
-          {
-            "explain": "「{{skill.displayEn}}」を にほんごで いってみて！",
-            "instruction": "Listen to {{giver.name}}.",
-            "npc": "{{giver}}",
-            "type": "talkToNpc"
-          },
-          {
-            "explain": "いってみて！",
-            "instruction": "Say it to {{giver.name}}.",
-            "matches": "{{skill.matches}}",
-            "npc": "{{giver}}",
-            "phrase": "{{skill.phrase}}",
-            "type": "sayPhrase"
-          }
-        ]
-      },
-      "requires_roles": [],
-      "target_role": null
-    },
-    {
-      "active": true,
-      "applicable_modes": [
-        "recall",
-        "production"
-      ],
-      "applicable_skill_types": [
-        "vocab",
-        "grammar"
-      ],
-      "description": "Someone who cannot speak the language needs you to handle an exchange.",
-      "hint_policy": {
-        "max_hints": 2,
-        "reveals": "reading"
-      },
-      "id": "interpreter_errand",
-      "max_difficulty": 4,
-      "min_difficulty": 1,
-      "name": "Interpreter errand",
-      "node_pattern": {
-        "nodes": [
-          {
-            "explain": {
-              "line": "errand_request"
-            },
-            "instruction": "Hear {{giver.name}} out.",
-            "npc": "{{giver}}",
-            "type": "talkToNpc"
-          },
-          {
-            "instruction": "Go find {{target.name}}.",
-            "location": "{{target.location}}",
-            "type": "goToLocation"
-          },
-          {
-            "explain": {
-              "line": "errand_say"
-            },
-            "instruction": "Ask {{target.name}} for it.",
-            "matches": "{{skill.matches}}",
-            "npc": "{{target}}",
-            "phrase": "{{skill.phrase}}",
-            "type": "sayPhrase"
-          },
-          {
-            "explain": {
-              "line": "errand_report"
-            },
-            "instruction": "Report back to {{giver.name}}.",
-            "npc": "{{giver}}",
-            "type": "talkToNpc"
-          }
-        ],
-        "roles": {
-          "target": {
-            "prefer_context_of": "skill",
-            "requires": [
-              "target_speaker",
-              "vendor"
-            ]
-          }
-        }
-      },
-      "requires_roles": [
-        "errand_giver"
-      ],
-      "target_role": "target_speaker"
-    },
-    {
-      "active": true,
-      "applicable_modes": [
-        "recognition"
-      ],
-      "applicable_skill_types": [
-        "vocab",
-        "grammar"
-      ],
-      "description": "NPC says a phrase; player confirms its meaning.",
-      "hint_policy": {
-        "max_hints": 1,
-        "reveals": "reading"
-      },
-      "id": "listen_and_choose",
-      "max_difficulty": 3,
-      "min_difficulty": 1,
-      "name": "Listen and choose",
-      "node_pattern": {
-        "nodes": [
-          {
-            "explain": "{{skill.prompt}} — {{skill.displayEn}}。",
-            "instruction": "Talk to {{giver.name}} about \"{{skill.displayEn}}\".",
-            "npc": "{{giver}}",
-            "type": "talkToNpc"
-          }
-        ]
-      },
-      "requires_roles": [],
-      "target_role": null
-    },
-    {
-      "active": true,
-      "applicable_modes": [
-        "production"
-      ],
-      "applicable_skill_types": [
-        "vocab",
-        "grammar"
-      ],
-      "description": "No displayed answer; accepts close variants and gives feedback.",
-      "hint_policy": {
-        "max_hints": 0
-      },
-      "id": "production_challenge",
-      "max_difficulty": 5,
-      "min_difficulty": 3,
-      "name": "Production challenge",
-      "node_pattern": {
-        "nodes": [
-          {
-            "explain": "じゆうに いってみて！",
-            "instruction": "Tell {{giver.name}}, in your own words: \"{{skill.displayEn}}\".",
-            "matches": "{{skill.matches}}",
-            "npc": "{{giver}}",
-            "type": "sayPhrase"
-          }
-        ]
-      },
-      "requires_roles": [],
-      "target_role": null
-    },
-    {
-      "active": true,
-      "applicable_modes": [
-        "production"
-      ],
-      "applicable_skill_types": [
-        "vocab",
-        "grammar"
-      ],
-      "description": "An English-speaking friend asks you how to say something.",
-      "hint_policy": {
-        "max_hints": 1
-      },
-      "id": "teach_the_traveller",
-      "max_difficulty": 5,
-      "min_difficulty": 1,
-      "name": "Teach the traveller",
-      "node_pattern": {
-        "nodes": [
-          {
-            "explain": {
-              "line": "teach_request"
-            },
-            "instruction": "Listen to {{giver.name}}.",
-            "npc": "{{giver}}",
-            "type": "talkToNpc"
-          },
-          {
-            "instruction": "Practise with {{target.name}}.",
-            "location": "{{target.location}}",
-            "type": "goToLocation"
-          },
-          {
-            "explain": {
-              "line": "teach_practice"
-            },
-            "instruction": "Say \"{{skill.displayEn}}\" to {{target.name}} in Japanese.",
-            "matches": "{{skill.matches}}",
-            "npc": "{{target}}",
-            "phrase": "{{skill.phrase}}",
-            "type": "speakPhrase"
-          },
-          {
-            "explain": {
-              "line": "teach_thanks"
-            },
-            "instruction": "Tell {{giver.name}} what you practised.",
-            "npc": "{{giver}}",
-            "type": "talkToNpc"
-          }
-        ],
-        "roles": {
-          "target": {
-            "prefer_context_of": "skill",
-            "requires": [
-              "target_speaker"
-            ]
-          }
-        }
-      },
-      "requires_roles": [
-        "language_learner"
-      ],
-      "target_role": "target_speaker"
-    },
-    {
-      "active": true,
-      "applicable_modes": [
-        "recognition",
-        "recall"
-      ],
-      "applicable_skill_types": [
-        "vocab",
-        "grammar"
-      ],
-      "description": "Short mission revisiting several due words in one pass.",
-      "hint_policy": {
-        "max_hints": 1,
-        "reveals": "reading"
-      },
-      "id": "timed_review",
-      "max_difficulty": 5,
-      "min_difficulty": 1,
-      "name": "Timed review",
-      "node_pattern": {
-        "nodes": [
-          {
-            "explain": "さっと れんしゅう！",
-            "instruction": "Quick review: say it to {{giver.name}}.",
-            "matches": "{{skill.matches}}",
-            "npc": "{{giver}}",
-            "phrase": "{{skill.phrase}}",
-            "type": "sayPhrase"
-          }
-        ]
-      },
-      "requires_roles": [],
-      "target_role": null
-    }
-  ],
-  "skill_catalog": [
-    {
-      "active": true,
-      "contexts": [
-        "traveller",
-        "station_staff"
-      ],
-      "difficulty_level": 2,
-      "display_en": "Where is X?",
-      "display_jp": "〜は どこ ですか",
-      "id": "grammar.wa_doko_desu_ka",
-      "language": "ja",
-      "phrase_template": "{slot} は どこ ですか",
-      "prerequisite_skill_ids": [
-        "vocab.station"
-      ],
-      "reading": "wa doko desu ka",
-      "skill_type": "grammar"
-    },
-    {
-      "active": true,
-      "contexts": [
-        "store_server",
-        "ramen_chef",
-        "konbini_clerk"
-      ],
-      "difficulty_level": 2,
-      "display_en": "X, please (asking for an item)",
-      "display_jp": "〜を ください",
-      "id": "grammar.wo_kudasai",
-      "language": "ja",
-      "phrase_template": "{slot} を ください",
-      "prerequisite_skill_ids": [
-        "vocab.onigiri"
-      ],
-      "reading": "wo kudasai",
-      "skill_type": "grammar"
-    },
-    {
-      "active": true,
-      "contexts": [
-        "ramen_chef",
-        "old_lady"
-      ],
-      "difficulty_level": 1,
-      "display_en": "delicious",
-      "display_jp": "おいしい",
-      "id": "vocab.oishii",
-      "language": "ja",
-      "phrase_template": "{display} です",
-      "prerequisite_skill_ids": [],
-      "reading": "oishii",
-      "skill_type": "vocab"
-    },
-    {
-      "active": true,
-      "contexts": [
-        "store_server",
-        "konbini_clerk"
-      ],
-      "difficulty_level": 1,
-      "display_en": "onigiri",
-      "display_jp": "おにぎり",
-      "id": "vocab.onigiri",
-      "language": "ja",
-      "phrase_template": "{display} です",
-      "prerequisite_skill_ids": [],
-      "reading": "onigiri",
-      "skill_type": "vocab"
-    },
-    {
-      "active": true,
-      "contexts": [
-        "station_staff",
-        "traveller"
-      ],
-      "difficulty_level": 1,
-      "display_en": "station",
-      "display_jp": "えき",
-      "id": "vocab.station",
-      "language": "ja",
-      "phrase_template": "{display} です",
-      "prerequisite_skill_ids": [],
-      "reading": "eki",
-      "skill_type": "vocab"
-    }
-  ],
-  "world_mission_nodes": [
-    {
-      "explain": "",
-      "idx": 0,
-      "instruction": "Go to the station (えき).",
-      "location_id": "station",
-      "matches": [],
-      "mission_id": "ask_the_way",
-      "npc_id": null,
-      "phrase": null,
-      "type": "goToLocation"
-    },
-    {
-      "explain": "",
-      "idx": 0,
-      "instruction": "Go to the train station (えき).",
-      "location_id": "station",
-      "matches": [],
-      "mission_id": "meet_tanaka_shrine",
-      "npc_id": null,
-      "phrase": null,
-      "type": "goToLocation"
-    },
-    {
-      "explain": "",
-      "idx": 0,
-      "instruction": "Go into the konbini (コンビニ).",
-      "location_id": "konbini",
-      "matches": [],
-      "mission_id": "onigiri_run",
-      "npc_id": null,
-      "phrase": null,
-      "type": "goToLocation"
-    },
-    {
-      "explain": "",
-      "idx": 0,
-      "instruction": "Go to the ramen shop (ラーメンや).",
-      "location_id": "ramen",
-      "matches": [],
-      "mission_id": "ramen_taste_test",
-      "npc_id": null,
-      "phrase": null,
-      "type": "goToLocation"
-    },
-    {
-      "explain": "",
-      "idx": 0,
-      "instruction": "Meet Aoi-sensei at the school (がっこう).",
-      "location_id": "school",
-      "matches": [],
-      "mission_id": "shrine_lesson",
-      "npc_id": null,
-      "phrase": null,
-      "type": "goToLocation"
-    },
-    {
-      "explain": "こんにちは。みちに まよいましたか？「えき は どこ ですか」と きいてみて！",
-      "idx": 1,
-      "instruction": "Ask Tanaka where the station is.",
-      "location_id": "station",
-      "matches": [
-        "えき",
-        "どこ"
-      ],
-      "mission_id": "ask_the_way",
-      "npc_id": "station_staff",
-      "phrase": "えき は どこ ですか",
-      "type": "sayPhrase"
-    },
-    {
-      "explain": "やあ！えきで あえて うれしいよ。げんきに 「こんにちは」って いってみて！",
-      "idx": 1,
-      "instruction": "Say hello to Tanaka at the train station.",
-      "location_id": "station",
-      "matches": [],
-      "mission_id": "meet_tanaka_shrine",
-      "npc_id": "station_staff",
-      "phrase": null,
+ "mission_lines": [
+  {
+   "active": true,
+   "id": "l_directions_ask_guide",
+   "language": "ja",
+   "line_key": "directions_ask",
+   "npc_id": null,
+   "npc_role": "guide",
+   "text": "はい、あんない しますよ。",
+   "variant": 0
+  },
+  {
+   "active": true,
+   "id": "l_errand_report_alex",
+   "language": "en",
+   "line_key": "errand_report",
+   "npc_id": "traveller",
+   "npc_role": null,
+   "text": "You did it! That sounded great. Thank you!",
+   "variant": 0
+  },
+  {
+   "active": true,
+   "id": "l_errand_report_role",
+   "language": "en",
+   "line_key": "errand_report",
+   "npc_id": null,
+   "npc_role": "errand_giver",
+   "text": "Thank you so much — you're a lifesaver.",
+   "variant": 0
+  },
+  {
+   "active": true,
+   "id": "l_errand_request_alex",
+   "language": "en",
+   "line_key": "errand_request",
+   "npc_id": "traveller",
+   "npc_role": null,
+   "text": "I really want this but I can't order it in Japanese — could you help?",
+   "variant": 0
+  },
+  {
+   "active": true,
+   "id": "l_errand_request_role",
+   "language": "en",
+   "line_key": "errand_request",
+   "npc_id": null,
+   "npc_role": "errand_giver",
+   "text": "I need a hand with something — could you ask for me?",
+   "variant": 0
+  },
+  {
+   "active": true,
+   "id": "l_errand_say_vendor",
+   "language": "ja",
+   "line_key": "errand_say",
+   "npc_id": null,
+   "npc_role": "vendor",
+   "text": "いらっしゃいませ！なんに しますか？",
+   "variant": 0
+  },
+  {
+   "active": true,
+   "id": "l_fetch_request_role",
+   "language": "ja",
+   "line_key": "fetch_request",
+   "npc_id": null,
+   "npc_role": "target_speaker",
+   "text": "おつかい、おねがい できますか？",
+   "variant": 0
+  },
+  {
+   "active": true,
+   "id": "l_fetch_thanks_role",
+   "language": "ja",
+   "line_key": "fetch_thanks",
+   "npc_id": null,
+   "npc_role": "target_speaker",
+   "text": "ありがとう！たすかりました。",
+   "variant": 0
+  },
+  {
+   "active": true,
+   "id": "l_teach_practice_role",
+   "language": "ja",
+   "line_key": "teach_practice",
+   "npc_id": null,
+   "npc_role": "target_speaker",
+   "text": "いいですね！もういちど いってみて。",
+   "variant": 0
+  },
+  {
+   "active": true,
+   "id": "l_teach_request_alex",
+   "language": "en",
+   "line_key": "teach_request",
+   "npc_id": "traveller",
+   "npc_role": null,
+   "text": "How do I say that in Japanese? Teach me!",
+   "variant": 0
+  },
+  {
+   "active": true,
+   "id": "l_teach_thanks_alex",
+   "language": "en",
+   "line_key": "teach_thanks",
+   "npc_id": "traveller",
+   "npc_role": null,
+   "text": "Got it — I'll try that next time!",
+   "variant": 0
+  }
+ ],
+ "mission_templates": [
+  {
+   "active": true,
+   "applicable_modes": [
+    "recall",
+    "production"
+   ],
+   "applicable_skill_types": [
+    "grammar"
+   ],
+   "description": "NPC misunderstands; player corrects the phrase.",
+   "hint_policy": {
+    "max_hints": 2,
+    "reveals": "first_kana"
+   },
+   "id": "conversation_repair",
+   "max_difficulty": 4,
+   "min_difficulty": 3,
+   "name": "Conversation repair",
+   "node_pattern": {
+    "nodes": [
+     {
+      "explain": "すみません、もういちど？ちがう いいかたで いってみて。",
+      "instruction": "Talk to {{giver.name}}.",
+      "npc": "{{giver}}",
       "type": "talkToNpc"
-    },
-    {
-      "explain": "いらっしゃいませ！なにに しますか？「おにぎり を ください」と いってみて！",
-      "idx": 1,
-      "instruction": "Order onigiri from Sato.",
-      "location_id": "konbini",
-      "matches": [
-        "おにぎり",
-        "ください"
-      ],
-      "mission_id": "onigiri_run",
-      "npc_id": "konbini_clerk",
-      "phrase": "おにぎり を ください",
+     },
+     {
+      "explain": "もういちど、ただしく いってみて。",
+      "instruction": "Correct yourself with {{giver.name}}.",
+      "matches": "{{skill.matches}}",
+      "npc": "{{giver}}",
       "type": "sayPhrase"
-    },
-    {
-      "explain": "いらっしゃい！うちの ラーメン、どうだ？「おいしい です」って いってくれよ！",
-      "idx": 1,
-      "instruction": "Tell Master Gen the ramen is delicious.",
-      "location_id": "ramen",
-      "matches": [
-        "おいしい"
-      ],
-      "mission_id": "ramen_taste_test",
-      "npc_id": "ramen_chef",
-      "phrase": "おいしい です",
-      "type": "sayPhrase"
-    },
-    {
-      "explain": "ようこそ！きょうは 「ありがとう ございます」を れんしゅう しましょう。\"thank you (polite)\" ですよ。",
-      "idx": 1,
-      "instruction": "Listen to Aoi-sensei.",
-      "location_id": "school",
-      "matches": [],
-      "mission_id": "shrine_lesson",
-      "npc_id": "teacher",
-      "phrase": null,
+     }
+    ]
+   },
+   "requires_roles": [],
+   "target_role": null
+  },
+  {
+   "active": true,
+   "applicable_modes": [
+    "recall"
+   ],
+   "applicable_skill_types": [
+    "vocab",
+    "grammar"
+   ],
+   "description": "Someone is lost; ask a local and bring the answer back.",
+   "hint_policy": {
+    "max_hints": 2,
+    "reveals": "reading"
+   },
+   "id": "directions_relay",
+   "max_difficulty": 4,
+   "min_difficulty": 1,
+   "name": "Directions relay",
+   "node_pattern": {
+    "nodes": [
+     {
+      "explain": {
+       "line": "errand_request"
+      },
+      "instruction": "Hear {{giver.name}} out.",
+      "npc": "{{giver}}",
       "type": "talkToNpc"
-    },
-    {
-      "explain": "さあ、いっしょに。「ありがとう ございます」と いってみて！",
-      "idx": 2,
-      "instruction": "Thank Aoi-sensei politely.",
-      "location_id": "school",
-      "matches": [
-        "ありがとう"
-      ],
-      "mission_id": "shrine_lesson",
-      "npc_id": "teacher",
-      "phrase": "ありがとう ございます",
+     },
+     {
+      "instruction": "Go ask {{target.name}}.",
+      "location": "{{target.location}}",
+      "type": "goToLocation"
+     },
+     {
+      "explain": {
+       "line": "directions_ask"
+      },
+      "instruction": "Ask {{target.name}} for directions.",
+      "matches": "{{skill.matches}}",
+      "npc": "{{target}}",
+      "phrase": "{{skill.phrase}}",
       "type": "sayPhrase"
+     },
+     {
+      "explain": {
+       "line": "errand_report"
+      },
+      "instruction": "Tell {{giver.name}} the way.",
+      "npc": "{{giver}}",
+      "type": "talkToNpc"
+     }
+    ],
+    "roles": {
+     "target": {
+      "prefer_context_of": "skill",
+      "requires": [
+       "guide",
+       "target_speaker"
+      ]
+     }
     }
-  ],
-  "world_missions": [
-    {
-      "active": true,
-      "giver_npc_id": "teacher",
-      "id": "meet_tanaka_shrine",
-      "language": "ja",
-      "min_level": 1,
-      "nodes": [
-        {
-          "explain": "",
-          "idx": 0,
-          "instruction": "Go to the train station (えき).",
-          "location_id": "station",
-          "matches": [],
-          "mission_id": "meet_tanaka_shrine",
-          "npc_id": null,
-          "phrase": null,
-          "type": "goToLocation"
-        },
-        {
-          "explain": "やあ！えきで あえて うれしいよ。げんきに 「こんにちは」って いってみて！",
-          "idx": 1,
-          "instruction": "Say hello to Tanaka at the train station.",
-          "location_id": "station",
-          "matches": [],
-          "mission_id": "meet_tanaka_shrine",
-          "npc_id": "station_staff",
-          "phrase": null,
-          "type": "talkToNpc"
-        }
-      ],
-      "sort_order": 1,
-      "summary": "Aoi-sensei asks you to meet Tanaka the station attendant at the train station and greet him in Japanese.",
-      "title": "Meet Tanaka at the Train Station",
-      "xp_reward": 60
-    },
-    {
-      "active": true,
-      "giver_npc_id": "store_server",
-      "id": "onigiri_run",
-      "language": "ja",
-      "min_level": 1,
-      "nodes": [
-        {
-          "explain": "",
-          "idx": 0,
-          "instruction": "Go into the konbini (コンビニ).",
-          "location_id": "konbini",
-          "matches": [],
-          "mission_id": "onigiri_run",
-          "npc_id": null,
-          "phrase": null,
-          "type": "goToLocation"
-        },
-        {
-          "explain": "いらっしゃいませ！なにに しますか？「おにぎり を ください」と いってみて！",
-          "idx": 1,
-          "instruction": "Order onigiri from Sato.",
-          "location_id": "konbini",
-          "matches": [
-            "おにぎり",
-            "ください"
-          ],
-          "mission_id": "onigiri_run",
-          "npc_id": "konbini_clerk",
-          "phrase": "おにぎり を ください",
-          "type": "sayPhrase"
-        }
-      ],
-      "sort_order": 2,
-      "summary": "Mika wants a rice ball. Head to the konbini and order onigiri from Sato in Japanese.",
-      "title": "Onigiri Run",
-      "xp_reward": 50
-    },
-    {
-      "active": true,
-      "giver_npc_id": "traveller",
-      "id": "ask_the_way",
-      "language": "ja",
-      "min_level": 1,
-      "nodes": [
-        {
-          "explain": "",
-          "idx": 0,
-          "instruction": "Go to the station (えき).",
-          "location_id": "station",
-          "matches": [],
-          "mission_id": "ask_the_way",
-          "npc_id": null,
-          "phrase": null,
-          "type": "goToLocation"
-        },
-        {
-          "explain": "こんにちは。みちに まよいましたか？「えき は どこ ですか」と きいてみて！",
-          "idx": 1,
-          "instruction": "Ask Tanaka where the station is.",
-          "location_id": "station",
-          "matches": [
-            "えき",
-            "どこ"
-          ],
-          "mission_id": "ask_the_way",
-          "npc_id": "station_staff",
-          "phrase": "えき は どこ ですか",
-          "type": "sayPhrase"
-        }
-      ],
-      "sort_order": 3,
-      "summary": "Alex is lost. Go to the station and ask Tanaka where it is, in Japanese.",
-      "title": "Ask the Way",
-      "xp_reward": 50
-    },
-    {
-      "active": true,
-      "giver_npc_id": "teacher",
-      "id": "shrine_lesson",
-      "language": "ja",
-      "min_level": 1,
-      "nodes": [
-        {
-          "explain": "",
-          "idx": 0,
-          "instruction": "Meet Aoi-sensei at the school (がっこう).",
-          "location_id": "school",
-          "matches": [],
-          "mission_id": "shrine_lesson",
-          "npc_id": null,
-          "phrase": null,
-          "type": "goToLocation"
-        },
-        {
-          "explain": "ようこそ！きょうは 「ありがとう ございます」を れんしゅう しましょう。\"thank you (polite)\" ですよ。",
-          "idx": 1,
-          "instruction": "Listen to Aoi-sensei.",
-          "location_id": "school",
-          "matches": [],
-          "mission_id": "shrine_lesson",
-          "npc_id": "teacher",
-          "phrase": null,
-          "type": "talkToNpc"
-        },
-        {
-          "explain": "さあ、いっしょに。「ありがとう ございます」と いってみて！",
-          "idx": 2,
-          "instruction": "Thank Aoi-sensei politely.",
-          "location_id": "school",
-          "matches": [
-            "ありがとう"
-          ],
-          "mission_id": "shrine_lesson",
-          "npc_id": "teacher",
-          "phrase": "ありがとう ございます",
-          "type": "sayPhrase"
-        }
-      ],
-      "sort_order": 4,
-      "summary": "Visit Aoi-sensei at the school and learn to say thank you politely.",
-      "title": "A Lesson at the School",
-      "xp_reward": 40
-    },
-    {
-      "active": true,
-      "giver_npc_id": "old_lady",
-      "id": "ramen_taste_test",
-      "language": "ja",
-      "min_level": 3,
-      "nodes": [
-        {
-          "explain": "",
-          "idx": 0,
-          "instruction": "Go to the ramen shop (ラーメンや).",
-          "location_id": "ramen",
-          "matches": [],
-          "mission_id": "ramen_taste_test",
-          "npc_id": null,
-          "phrase": null,
-          "type": "goToLocation"
-        },
-        {
-          "explain": "いらっしゃい！うちの ラーメン、どうだ？「おいしい です」って いってくれよ！",
-          "idx": 1,
-          "instruction": "Tell Master Gen the ramen is delicious.",
-          "location_id": "ramen",
-          "matches": [
-            "おいしい"
-          ],
-          "mission_id": "ramen_taste_test",
-          "npc_id": "ramen_chef",
-          "phrase": "おいしい です",
-          "type": "sayPhrase"
-        }
-      ],
-      "sort_order": 5,
-      "summary": "Hana heard the ramen is amazing. Go to the ramen shop and tell Master Gen it is delicious, in Japanese.",
-      "title": "Ramen Taste Test",
-      "xp_reward": 100
+   },
+   "requires_roles": [
+    "errand_giver"
+   ],
+   "target_role": "guide"
+  },
+  {
+   "active": true,
+   "applicable_modes": [
+    "recall",
+    "production"
+   ],
+   "applicable_skill_types": [
+    "vocab",
+    "grammar"
+   ],
+   "description": "Buy something at a shop and bring it back.",
+   "hint_policy": {
+    "max_hints": 2,
+    "reveals": "reading"
+   },
+   "id": "fetch_and_deliver",
+   "max_difficulty": 4,
+   "min_difficulty": 1,
+   "name": "Fetch and deliver",
+   "node_pattern": {
+    "nodes": [
+     {
+      "explain": {
+       "line": "fetch_request"
+      },
+      "instruction": "Hear {{giver.name}} out.",
+      "npc": "{{giver}}",
+      "type": "talkToNpc"
+     },
+     {
+      "instruction": "Go to {{target.name}}.",
+      "location": "{{target.location}}",
+      "type": "goToLocation"
+     },
+     {
+      "explain": {
+       "line": "errand_say"
+      },
+      "instruction": "Buy it from {{target.name}}.",
+      "matches": "{{skill.matches}}",
+      "npc": "{{target}}",
+      "phrase": "{{skill.phrase}}",
+      "type": "sayPhrase"
+     },
+     {
+      "explain": {
+       "line": "fetch_thanks"
+      },
+      "instruction": "Bring it back to {{giver.name}}.",
+      "npc": "{{giver}}",
+      "type": "talkToNpc"
+     }
+    ],
+    "roles": {
+     "target": {
+      "prefer_context_of": "skill",
+      "requires": [
+       "vendor",
+       "target_speaker"
+      ]
+     }
     }
-  ]
+   },
+   "requires_roles": [
+    "target_speaker"
+   ],
+   "target_role": "vendor"
+  },
+  {
+   "active": true,
+   "applicable_modes": [
+    "recognition"
+   ],
+   "applicable_skill_types": [
+    "vocab"
+   ],
+   "description": "Walk to an item/NPC and identify a word.",
+   "hint_policy": {
+    "max_hints": 1,
+    "reveals": "reading"
+   },
+   "id": "find_and_recognise",
+   "max_difficulty": 2,
+   "min_difficulty": 1,
+   "name": "Find and recognise",
+   "node_pattern": {
+    "nodes": [
+     {
+      "explain": "{{skill.prompt}} — {{skill.displayEn}}。",
+      "instruction": "Talk to {{giver.name}} about \"{{skill.displayEn}}\".",
+      "npc": "{{giver}}",
+      "type": "talkToNpc"
+     }
+    ]
+   },
+   "requires_roles": [],
+   "target_role": null
+  },
+  {
+   "active": true,
+   "applicable_modes": [
+    "recall"
+   ],
+   "applicable_skill_types": [
+    "vocab",
+    "grammar"
+   ],
+   "description": "NPC gives English/context; player produces the Japanese phrase.",
+   "hint_policy": {
+    "max_hints": 2,
+    "reveals": "first_kana"
+   },
+   "id": "guided_recall",
+   "max_difficulty": 3,
+   "min_difficulty": 2,
+   "name": "Guided recall",
+   "node_pattern": {
+    "nodes": [
+     {
+      "explain": "「{{skill.displayEn}}」を にほんごで いってみて！",
+      "instruction": "Listen to {{giver.name}}.",
+      "npc": "{{giver}}",
+      "type": "talkToNpc"
+     },
+     {
+      "explain": "いってみて！",
+      "instruction": "Say it to {{giver.name}}.",
+      "matches": "{{skill.matches}}",
+      "npc": "{{giver}}",
+      "phrase": "{{skill.phrase}}",
+      "type": "sayPhrase"
+     }
+    ]
+   },
+   "requires_roles": [],
+   "target_role": null
+  },
+  {
+   "active": true,
+   "applicable_modes": [
+    "recall",
+    "production"
+   ],
+   "applicable_skill_types": [
+    "vocab",
+    "grammar"
+   ],
+   "description": "Someone who cannot speak the language needs you to handle an exchange.",
+   "hint_policy": {
+    "max_hints": 2,
+    "reveals": "reading"
+   },
+   "id": "interpreter_errand",
+   "max_difficulty": 4,
+   "min_difficulty": 1,
+   "name": "Interpreter errand",
+   "node_pattern": {
+    "nodes": [
+     {
+      "explain": {
+       "line": "errand_request"
+      },
+      "instruction": "Hear {{giver.name}} out.",
+      "npc": "{{giver}}",
+      "type": "talkToNpc"
+     },
+     {
+      "instruction": "Go find {{target.name}}.",
+      "location": "{{target.location}}",
+      "type": "goToLocation"
+     },
+     {
+      "explain": {
+       "line": "errand_say"
+      },
+      "instruction": "Ask {{target.name}} for it.",
+      "matches": "{{skill.matches}}",
+      "npc": "{{target}}",
+      "phrase": "{{skill.phrase}}",
+      "type": "sayPhrase"
+     },
+     {
+      "explain": {
+       "line": "errand_report"
+      },
+      "instruction": "Report back to {{giver.name}}.",
+      "npc": "{{giver}}",
+      "type": "talkToNpc"
+     }
+    ],
+    "roles": {
+     "target": {
+      "prefer_context_of": "skill",
+      "requires": [
+       "target_speaker",
+       "vendor"
+      ]
+     }
+    }
+   },
+   "requires_roles": [
+    "errand_giver"
+   ],
+   "target_role": "target_speaker"
+  },
+  {
+   "active": true,
+   "applicable_modes": [
+    "recognition"
+   ],
+   "applicable_skill_types": [
+    "vocab",
+    "grammar"
+   ],
+   "description": "NPC says a phrase; player confirms its meaning.",
+   "hint_policy": {
+    "max_hints": 1,
+    "reveals": "reading"
+   },
+   "id": "listen_and_choose",
+   "max_difficulty": 3,
+   "min_difficulty": 1,
+   "name": "Listen and choose",
+   "node_pattern": {
+    "nodes": [
+     {
+      "explain": "{{skill.prompt}} — {{skill.displayEn}}。",
+      "instruction": "Talk to {{giver.name}} about \"{{skill.displayEn}}\".",
+      "npc": "{{giver}}",
+      "type": "talkToNpc"
+     }
+    ]
+   },
+   "requires_roles": [],
+   "target_role": null
+  },
+  {
+   "active": true,
+   "applicable_modes": [
+    "production"
+   ],
+   "applicable_skill_types": [
+    "vocab",
+    "grammar"
+   ],
+   "description": "No displayed answer; accepts close variants and gives feedback.",
+   "hint_policy": {
+    "max_hints": 0
+   },
+   "id": "production_challenge",
+   "max_difficulty": 5,
+   "min_difficulty": 3,
+   "name": "Production challenge",
+   "node_pattern": {
+    "nodes": [
+     {
+      "explain": "じゆうに いってみて！",
+      "instruction": "Tell {{giver.name}}, in your own words: \"{{skill.displayEn}}\".",
+      "matches": "{{skill.matches}}",
+      "npc": "{{giver}}",
+      "type": "sayPhrase"
+     }
+    ]
+   },
+   "requires_roles": [],
+   "target_role": null
+  },
+  {
+   "active": true,
+   "applicable_modes": [
+    "production"
+   ],
+   "applicable_skill_types": [
+    "vocab",
+    "grammar"
+   ],
+   "description": "An English-speaking friend asks you how to say something.",
+   "hint_policy": {
+    "max_hints": 1
+   },
+   "id": "teach_the_traveller",
+   "max_difficulty": 5,
+   "min_difficulty": 1,
+   "name": "Teach the traveller",
+   "node_pattern": {
+    "nodes": [
+     {
+      "explain": {
+       "line": "teach_request"
+      },
+      "instruction": "Listen to {{giver.name}}.",
+      "npc": "{{giver}}",
+      "type": "talkToNpc"
+     },
+     {
+      "instruction": "Practise with {{target.name}}.",
+      "location": "{{target.location}}",
+      "type": "goToLocation"
+     },
+     {
+      "explain": {
+       "line": "teach_practice"
+      },
+      "instruction": "Say \"{{skill.displayEn}}\" to {{target.name}} in Japanese.",
+      "matches": "{{skill.matches}}",
+      "npc": "{{target}}",
+      "phrase": "{{skill.phrase}}",
+      "type": "speakPhrase"
+     },
+     {
+      "explain": {
+       "line": "teach_thanks"
+      },
+      "instruction": "Tell {{giver.name}} what you practised.",
+      "npc": "{{giver}}",
+      "type": "talkToNpc"
+     }
+    ],
+    "roles": {
+     "target": {
+      "prefer_context_of": "skill",
+      "requires": [
+       "target_speaker"
+      ]
+     }
+    }
+   },
+   "requires_roles": [
+    "language_learner"
+   ],
+   "target_role": "target_speaker"
+  },
+  {
+   "active": true,
+   "applicable_modes": [
+    "recognition",
+    "recall"
+   ],
+   "applicable_skill_types": [
+    "vocab",
+    "grammar"
+   ],
+   "description": "Short mission revisiting several due words in one pass.",
+   "hint_policy": {
+    "max_hints": 1,
+    "reveals": "reading"
+   },
+   "id": "timed_review",
+   "max_difficulty": 5,
+   "min_difficulty": 1,
+   "name": "Timed review",
+   "node_pattern": {
+    "nodes": [
+     {
+      "explain": "さっと れんしゅう！",
+      "instruction": "Quick review: say it to {{giver.name}}.",
+      "matches": "{{skill.matches}}",
+      "npc": "{{giver}}",
+      "phrase": "{{skill.phrase}}",
+      "type": "sayPhrase"
+     }
+    ]
+   },
+   "requires_roles": [],
+   "target_role": null
+  }
+ ],
+ "skill_catalog": [
+  {
+   "active": true,
+   "contexts": [
+    "traveller",
+    "station_staff"
+   ],
+   "difficulty_level": 2,
+   "display_en": "Where is X?",
+   "display_jp": "〜は どこ ですか",
+   "id": "grammar.wa_doko_desu_ka",
+   "language": "ja",
+   "phrase_template": "{slot} は どこ ですか",
+   "prerequisite_skill_ids": [
+    "vocab.station"
+   ],
+   "reading": "wa doko desu ka",
+   "skill_type": "grammar"
+  },
+  {
+   "active": true,
+   "contexts": [
+    "store_server",
+    "ramen_chef",
+    "konbini_clerk"
+   ],
+   "difficulty_level": 2,
+   "display_en": "X, please (asking for an item)",
+   "display_jp": "〜を ください",
+   "id": "grammar.wo_kudasai",
+   "language": "ja",
+   "phrase_template": "{slot} を ください",
+   "prerequisite_skill_ids": [
+    "vocab.onigiri"
+   ],
+   "reading": "wo kudasai",
+   "skill_type": "grammar"
+  },
+  {
+   "active": true,
+   "contexts": [
+    "ramen_chef",
+    "old_lady"
+   ],
+   "difficulty_level": 1,
+   "display_en": "delicious",
+   "display_jp": "おいしい",
+   "id": "vocab.oishii",
+   "language": "ja",
+   "phrase_template": "{display} です",
+   "prerequisite_skill_ids": [],
+   "reading": "oishii",
+   "skill_type": "vocab"
+  },
+  {
+   "active": true,
+   "contexts": [
+    "store_server",
+    "konbini_clerk"
+   ],
+   "difficulty_level": 1,
+   "display_en": "onigiri",
+   "display_jp": "おにぎり",
+   "id": "vocab.onigiri",
+   "language": "ja",
+   "phrase_template": "{display} です",
+   "prerequisite_skill_ids": [],
+   "reading": "onigiri",
+   "skill_type": "vocab"
+  },
+  {
+   "active": true,
+   "contexts": [
+    "station_staff",
+    "traveller"
+   ],
+   "difficulty_level": 1,
+   "display_en": "station",
+   "display_jp": "えき",
+   "id": "vocab.station",
+   "language": "ja",
+   "phrase_template": "{display} です",
+   "prerequisite_skill_ids": [],
+   "reading": "eki",
+   "skill_type": "vocab"
+  }
+ ],
+ "world_mission_nodes": [
+  {
+   "explain": "",
+   "idx": 0,
+   "instruction": "Go to the school.",
+   "location_id": "school",
+   "matches": [],
+   "mission_id": "level0_kana",
+   "npc_id": null,
+   "phrase": null,
+   "type": "goToLocation"
+  },
+  {
+   "explain": "",
+   "idx": 1,
+   "instruction": "Study at the board until you know 70% of your letters.",
+   "location_id": "kana_board",
+   "matches": [],
+   "mission_id": "level0_kana",
+   "npc_id": null,
+   "phrase": null,
+   "type": "studyBoard"
+  },
+  {
+   "explain": "",
+   "idx": 0,
+   "instruction": "Go to the station (えき).",
+   "location_id": "station",
+   "matches": [],
+   "mission_id": "ask_the_way",
+   "npc_id": null,
+   "phrase": null,
+   "type": "goToLocation"
+  },
+  {
+   "explain": "",
+   "idx": 0,
+   "instruction": "Go to the train station (えき).",
+   "location_id": "station",
+   "matches": [],
+   "mission_id": "meet_tanaka_shrine",
+   "npc_id": null,
+   "phrase": null,
+   "type": "goToLocation"
+  },
+  {
+   "explain": "",
+   "idx": 0,
+   "instruction": "Go into the konbini (コンビニ).",
+   "location_id": "konbini",
+   "matches": [],
+   "mission_id": "onigiri_run",
+   "npc_id": null,
+   "phrase": null,
+   "type": "goToLocation"
+  },
+  {
+   "explain": "",
+   "idx": 0,
+   "instruction": "Go to the ramen shop (ラーメンや).",
+   "location_id": "ramen",
+   "matches": [],
+   "mission_id": "ramen_taste_test",
+   "npc_id": null,
+   "phrase": null,
+   "type": "goToLocation"
+  },
+  {
+   "explain": "",
+   "idx": 0,
+   "instruction": "Meet Aoi-sensei at the school (がっこう).",
+   "location_id": "school",
+   "matches": [],
+   "mission_id": "shrine_lesson",
+   "npc_id": null,
+   "phrase": null,
+   "type": "goToLocation"
+  },
+  {
+   "explain": "こんにちは。みちに まよいましたか？「えき は どこ ですか」と きいてみて！",
+   "idx": 1,
+   "instruction": "Ask Tanaka where the station is.",
+   "location_id": "station",
+   "matches": [
+    "えき",
+    "どこ"
+   ],
+   "mission_id": "ask_the_way",
+   "npc_id": "station_staff",
+   "phrase": "えき は どこ ですか",
+   "type": "sayPhrase"
+  },
+  {
+   "explain": "やあ！えきで あえて うれしいよ。げんきに 「こんにちは」って いってみて！",
+   "idx": 1,
+   "instruction": "Say hello to Tanaka at the train station.",
+   "location_id": "station",
+   "matches": [],
+   "mission_id": "meet_tanaka_shrine",
+   "npc_id": "station_staff",
+   "phrase": null,
+   "type": "talkToNpc"
+  },
+  {
+   "explain": "いらっしゃいませ！なにに しますか？「おにぎり を ください」と いってみて！",
+   "idx": 1,
+   "instruction": "Order onigiri from Sato.",
+   "location_id": "konbini",
+   "matches": [
+    "おにぎり",
+    "ください"
+   ],
+   "mission_id": "onigiri_run",
+   "npc_id": "konbini_clerk",
+   "phrase": "おにぎり を ください",
+   "type": "sayPhrase"
+  },
+  {
+   "explain": "いらっしゃい！うちの ラーメン、どうだ？「おいしい です」って いってくれよ！",
+   "idx": 1,
+   "instruction": "Tell Master Gen the ramen is delicious.",
+   "location_id": "ramen",
+   "matches": [
+    "おいしい"
+   ],
+   "mission_id": "ramen_taste_test",
+   "npc_id": "ramen_chef",
+   "phrase": "おいしい です",
+   "type": "sayPhrase"
+  },
+  {
+   "explain": "ようこそ！きょうは 「ありがとう ございます」を れんしゅう しましょう。\"thank you (polite)\" ですよ。",
+   "idx": 1,
+   "instruction": "Listen to Aoi-sensei.",
+   "location_id": "school",
+   "matches": [],
+   "mission_id": "shrine_lesson",
+   "npc_id": "teacher",
+   "phrase": null,
+   "type": "talkToNpc"
+  },
+  {
+   "explain": "さあ、いっしょに。「ありがとう ございます」と いってみて！",
+   "idx": 2,
+   "instruction": "Thank Aoi-sensei politely.",
+   "location_id": "school",
+   "matches": [
+    "ありがとう"
+   ],
+   "mission_id": "shrine_lesson",
+   "npc_id": "teacher",
+   "phrase": "ありがとう ございます",
+   "type": "sayPhrase"
+  }
+ ],
+ "world_missions": [
+  {
+   "active": true,
+   "giver_npc_id": "teacher",
+   "id": "level0_kana",
+   "language": "ja",
+   "min_level": 1,
+   "nodes": [
+    {
+     "explain": "",
+     "idx": 0,
+     "instruction": "Go to the school.",
+     "location_id": "school",
+     "matches": [],
+     "mission_id": "level0_kana",
+     "npc_id": null,
+     "phrase": null,
+     "type": "goToLocation"
+    },
+    {
+     "explain": "",
+     "idx": 1,
+     "instruction": "Study at the board until you know 70% of your letters.",
+     "location_id": "kana_board",
+     "matches": [],
+     "mission_id": "level0_kana",
+     "npc_id": null,
+     "phrase": null,
+     "type": "studyBoard"
+    }
+   ],
+   "sort_order": 0,
+   "summary": "Before anything else, learn to read. Head to the school and study at the board until you know your letters.",
+   "title": "Learn Your Letters",
+   "xp_reward": 100
+  },
+  {
+   "active": true,
+   "giver_npc_id": "teacher",
+   "id": "meet_tanaka_shrine",
+   "language": "ja",
+   "min_level": 1,
+   "nodes": [
+    {
+     "explain": "",
+     "idx": 0,
+     "instruction": "Go to the train station (えき).",
+     "location_id": "station",
+     "matches": [],
+     "mission_id": "meet_tanaka_shrine",
+     "npc_id": null,
+     "phrase": null,
+     "type": "goToLocation"
+    },
+    {
+     "explain": "やあ！えきで あえて うれしいよ。げんきに 「こんにちは」って いってみて！",
+     "idx": 1,
+     "instruction": "Say hello to Tanaka at the train station.",
+     "location_id": "station",
+     "matches": [],
+     "mission_id": "meet_tanaka_shrine",
+     "npc_id": "station_staff",
+     "phrase": null,
+     "type": "talkToNpc"
+    }
+   ],
+   "sort_order": 1,
+   "summary": "Aoi-sensei asks you to meet Tanaka the station attendant at the train station and greet him in Japanese.",
+   "title": "Meet Tanaka at the Train Station",
+   "xp_reward": 60
+  },
+  {
+   "active": true,
+   "giver_npc_id": "store_server",
+   "id": "onigiri_run",
+   "language": "ja",
+   "min_level": 1,
+   "nodes": [
+    {
+     "explain": "",
+     "idx": 0,
+     "instruction": "Go into the konbini (コンビニ).",
+     "location_id": "konbini",
+     "matches": [],
+     "mission_id": "onigiri_run",
+     "npc_id": null,
+     "phrase": null,
+     "type": "goToLocation"
+    },
+    {
+     "explain": "いらっしゃいませ！なにに しますか？「おにぎり を ください」と いってみて！",
+     "idx": 1,
+     "instruction": "Order onigiri from Sato.",
+     "location_id": "konbini",
+     "matches": [
+      "おにぎり",
+      "ください"
+     ],
+     "mission_id": "onigiri_run",
+     "npc_id": "konbini_clerk",
+     "phrase": "おにぎり を ください",
+     "type": "sayPhrase"
+    }
+   ],
+   "sort_order": 2,
+   "summary": "Mika wants a rice ball. Head to the konbini and order onigiri from Sato in Japanese.",
+   "title": "Onigiri Run",
+   "xp_reward": 50
+  },
+  {
+   "active": true,
+   "giver_npc_id": "traveller",
+   "id": "ask_the_way",
+   "language": "ja",
+   "min_level": 1,
+   "nodes": [
+    {
+     "explain": "",
+     "idx": 0,
+     "instruction": "Go to the station (えき).",
+     "location_id": "station",
+     "matches": [],
+     "mission_id": "ask_the_way",
+     "npc_id": null,
+     "phrase": null,
+     "type": "goToLocation"
+    },
+    {
+     "explain": "こんにちは。みちに まよいましたか？「えき は どこ ですか」と きいてみて！",
+     "idx": 1,
+     "instruction": "Ask Tanaka where the station is.",
+     "location_id": "station",
+     "matches": [
+      "えき",
+      "どこ"
+     ],
+     "mission_id": "ask_the_way",
+     "npc_id": "station_staff",
+     "phrase": "えき は どこ ですか",
+     "type": "sayPhrase"
+    }
+   ],
+   "sort_order": 3,
+   "summary": "Alex is lost. Go to the station and ask Tanaka where it is, in Japanese.",
+   "title": "Ask the Way",
+   "xp_reward": 50
+  },
+  {
+   "active": true,
+   "giver_npc_id": "teacher",
+   "id": "shrine_lesson",
+   "language": "ja",
+   "min_level": 1,
+   "nodes": [
+    {
+     "explain": "",
+     "idx": 0,
+     "instruction": "Meet Aoi-sensei at the school (がっこう).",
+     "location_id": "school",
+     "matches": [],
+     "mission_id": "shrine_lesson",
+     "npc_id": null,
+     "phrase": null,
+     "type": "goToLocation"
+    },
+    {
+     "explain": "ようこそ！きょうは 「ありがとう ございます」を れんしゅう しましょう。\"thank you (polite)\" ですよ。",
+     "idx": 1,
+     "instruction": "Listen to Aoi-sensei.",
+     "location_id": "school",
+     "matches": [],
+     "mission_id": "shrine_lesson",
+     "npc_id": "teacher",
+     "phrase": null,
+     "type": "talkToNpc"
+    },
+    {
+     "explain": "さあ、いっしょに。「ありがとう ございます」と いってみて！",
+     "idx": 2,
+     "instruction": "Thank Aoi-sensei politely.",
+     "location_id": "school",
+     "matches": [
+      "ありがとう"
+     ],
+     "mission_id": "shrine_lesson",
+     "npc_id": "teacher",
+     "phrase": "ありがとう ございます",
+     "type": "sayPhrase"
+    }
+   ],
+   "sort_order": 4,
+   "summary": "Visit Aoi-sensei at the school and learn to say thank you politely.",
+   "title": "A Lesson at the School",
+   "xp_reward": 40
+  },
+  {
+   "active": true,
+   "giver_npc_id": "old_lady",
+   "id": "ramen_taste_test",
+   "language": "ja",
+   "min_level": 3,
+   "nodes": [
+    {
+     "explain": "",
+     "idx": 0,
+     "instruction": "Go to the ramen shop (ラーメンや).",
+     "location_id": "ramen",
+     "matches": [],
+     "mission_id": "ramen_taste_test",
+     "npc_id": null,
+     "phrase": null,
+     "type": "goToLocation"
+    },
+    {
+     "explain": "いらっしゃい！うちの ラーメン、どうだ？「おいしい です」って いってくれよ！",
+     "idx": 1,
+     "instruction": "Tell Master Gen the ramen is delicious.",
+     "location_id": "ramen",
+     "matches": [
+      "おいしい"
+     ],
+     "mission_id": "ramen_taste_test",
+     "npc_id": "ramen_chef",
+     "phrase": "おいしい です",
+     "type": "sayPhrase"
+    }
+   ],
+   "sort_order": 5,
+   "summary": "Hana heard the ramen is amazing. Go to the ramen shop and tell Master Gen it is delicious, in Japanese.",
+   "title": "Ramen Taste Test",
+   "xp_reward": 100
+  }
+ ]
 }
