@@ -1,9 +1,27 @@
 {
  "language": "ja",
- "masteryThreshold": 2,
- "passRatio": 0.7,
+ "passRatio": 1.0,
+ "gateTier": 1,
  "promptLabel": "Kana",
  "answerLabel": "Romaji",
+ "tiers": [
+  {
+   "tier": 1,
+   "displayName": "Hiragana"
+  },
+  {
+   "tier": 2,
+   "displayName": "Hiragana — voiced & combos"
+  },
+  {
+   "tier": 3,
+   "displayName": "Katakana"
+  },
+  {
+   "tier": 4,
+   "displayName": "Katakana — voiced & combos"
+  }
+ ],
  "scripts": [
   {
    "id": "hiragana",
@@ -21,6 +39,7 @@
    "answer": "a",
    "script": "hiragana",
    "group": "a",
+   "tier": 1,
    "orderIndex": 0
   },
   {
@@ -29,6 +48,7 @@
    "answer": "i",
    "script": "hiragana",
    "group": "a",
+   "tier": 1,
    "orderIndex": 1
   },
   {
@@ -37,6 +57,7 @@
    "answer": "u",
    "script": "hiragana",
    "group": "a",
+   "tier": 1,
    "orderIndex": 2
   },
   {
@@ -45,6 +66,7 @@
    "answer": "e",
    "script": "hiragana",
    "group": "a",
+   "tier": 1,
    "orderIndex": 3
   },
   {
@@ -53,6 +75,7 @@
    "answer": "o",
    "script": "hiragana",
    "group": "a",
+   "tier": 1,
    "orderIndex": 4
   },
   {
@@ -61,6 +84,7 @@
    "answer": "ka",
    "script": "hiragana",
    "group": "ka",
+   "tier": 1,
    "orderIndex": 5
   },
   {
@@ -69,6 +93,7 @@
    "answer": "ki",
    "script": "hiragana",
    "group": "ka",
+   "tier": 1,
    "orderIndex": 6
   },
   {
@@ -77,6 +102,7 @@
    "answer": "ku",
    "script": "hiragana",
    "group": "ka",
+   "tier": 1,
    "orderIndex": 7
   },
   {
@@ -85,6 +111,7 @@
    "answer": "ke",
    "script": "hiragana",
    "group": "ka",
+   "tier": 1,
    "orderIndex": 8
   },
   {
@@ -93,6 +120,7 @@
    "answer": "ko",
    "script": "hiragana",
    "group": "ka",
+   "tier": 1,
    "orderIndex": 9
   },
   {
@@ -101,6 +129,7 @@
    "answer": "ga",
    "script": "hiragana",
    "group": "ka",
+   "tier": 2,
    "orderIndex": 10
   },
   {
@@ -109,6 +138,7 @@
    "answer": "gi",
    "script": "hiragana",
    "group": "ka",
+   "tier": 2,
    "orderIndex": 11
   },
   {
@@ -117,6 +147,7 @@
    "answer": "gu",
    "script": "hiragana",
    "group": "ka",
+   "tier": 2,
    "orderIndex": 12
   },
   {
@@ -125,6 +156,7 @@
    "answer": "ge",
    "script": "hiragana",
    "group": "ka",
+   "tier": 2,
    "orderIndex": 13
   },
   {
@@ -133,6 +165,7 @@
    "answer": "go",
    "script": "hiragana",
    "group": "ka",
+   "tier": 2,
    "orderIndex": 14
   },
   {
@@ -141,6 +174,7 @@
    "answer": "kya",
    "script": "hiragana",
    "group": "ka",
+   "tier": 2,
    "orderIndex": 15
   },
   {
@@ -149,6 +183,7 @@
    "answer": "kyu",
    "script": "hiragana",
    "group": "ka",
+   "tier": 2,
    "orderIndex": 16
   },
   {
@@ -157,6 +192,7 @@
    "answer": "kyo",
    "script": "hiragana",
    "group": "ka",
+   "tier": 2,
    "orderIndex": 17
   },
   {
@@ -165,6 +201,7 @@
    "answer": "gya",
    "script": "hiragana",
    "group": "ka",
+   "tier": 2,
    "orderIndex": 18
   },
   {
@@ -173,6 +210,7 @@
    "answer": "gyu",
    "script": "hiragana",
    "group": "ka",
+   "tier": 2,
    "orderIndex": 19
   },
   {
@@ -181,6 +219,7 @@
    "answer": "gyo",
    "script": "hiragana",
    "group": "ka",
+   "tier": 2,
    "orderIndex": 20
   },
   {
@@ -189,6 +228,7 @@
    "answer": "sa",
    "script": "hiragana",
    "group": "sa",
+   "tier": 1,
    "orderIndex": 21
   },
   {
@@ -197,6 +237,7 @@
    "answer": "shi",
    "script": "hiragana",
    "group": "sa",
+   "tier": 1,
    "orderIndex": 22
   },
   {
@@ -205,6 +246,7 @@
    "answer": "su",
    "script": "hiragana",
    "group": "sa",
+   "tier": 1,
    "orderIndex": 23
   },
   {
@@ -213,6 +255,7 @@
    "answer": "se",
    "script": "hiragana",
    "group": "sa",
+   "tier": 1,
    "orderIndex": 24
   },
   {
@@ -221,6 +264,7 @@
    "answer": "so",
    "script": "hiragana",
    "group": "sa",
+   "tier": 1,
    "orderIndex": 25
   },
   {
@@ -229,6 +273,7 @@
    "answer": "za",
    "script": "hiragana",
    "group": "sa",
+   "tier": 2,
    "orderIndex": 26
   },
   {
@@ -237,6 +282,7 @@
    "answer": "ji",
    "script": "hiragana",
    "group": "sa",
+   "tier": 2,
    "orderIndex": 27
   },
   {
@@ -245,6 +291,7 @@
    "answer": "zu",
    "script": "hiragana",
    "group": "sa",
+   "tier": 2,
    "orderIndex": 28
   },
   {
@@ -253,6 +300,7 @@
    "answer": "ze",
    "script": "hiragana",
    "group": "sa",
+   "tier": 2,
    "orderIndex": 29
   },
   {
@@ -261,6 +309,7 @@
    "answer": "zo",
    "script": "hiragana",
    "group": "sa",
+   "tier": 2,
    "orderIndex": 30
   },
   {
@@ -269,6 +318,7 @@
    "answer": "sha",
    "script": "hiragana",
    "group": "sa",
+   "tier": 2,
    "orderIndex": 31
   },
   {
@@ -277,6 +327,7 @@
    "answer": "shu",
    "script": "hiragana",
    "group": "sa",
+   "tier": 2,
    "orderIndex": 32
   },
   {
@@ -285,6 +336,7 @@
    "answer": "sho",
    "script": "hiragana",
    "group": "sa",
+   "tier": 2,
    "orderIndex": 33
   },
   {
@@ -293,6 +345,7 @@
    "answer": "ja",
    "script": "hiragana",
    "group": "sa",
+   "tier": 2,
    "orderIndex": 34
   },
   {
@@ -301,6 +354,7 @@
    "answer": "ju",
    "script": "hiragana",
    "group": "sa",
+   "tier": 2,
    "orderIndex": 35
   },
   {
@@ -309,6 +363,7 @@
    "answer": "jo",
    "script": "hiragana",
    "group": "sa",
+   "tier": 2,
    "orderIndex": 36
   },
   {
@@ -317,6 +372,7 @@
    "answer": "ta",
    "script": "hiragana",
    "group": "ta",
+   "tier": 1,
    "orderIndex": 37
   },
   {
@@ -325,6 +381,7 @@
    "answer": "chi",
    "script": "hiragana",
    "group": "ta",
+   "tier": 1,
    "orderIndex": 38
   },
   {
@@ -333,6 +390,7 @@
    "answer": "tsu",
    "script": "hiragana",
    "group": "ta",
+   "tier": 1,
    "orderIndex": 39
   },
   {
@@ -341,6 +399,7 @@
    "answer": "te",
    "script": "hiragana",
    "group": "ta",
+   "tier": 1,
    "orderIndex": 40
   },
   {
@@ -349,6 +408,7 @@
    "answer": "to",
    "script": "hiragana",
    "group": "ta",
+   "tier": 1,
    "orderIndex": 41
   },
   {
@@ -357,6 +417,7 @@
    "answer": "da",
    "script": "hiragana",
    "group": "ta",
+   "tier": 2,
    "orderIndex": 42
   },
   {
@@ -365,6 +426,7 @@
    "answer": "di",
    "script": "hiragana",
    "group": "ta",
+   "tier": 2,
    "orderIndex": 43
   },
   {
@@ -373,6 +435,7 @@
    "answer": "du",
    "script": "hiragana",
    "group": "ta",
+   "tier": 2,
    "orderIndex": 44
   },
   {
@@ -381,6 +444,7 @@
    "answer": "de",
    "script": "hiragana",
    "group": "ta",
+   "tier": 2,
    "orderIndex": 45
   },
   {
@@ -389,6 +453,7 @@
    "answer": "do",
    "script": "hiragana",
    "group": "ta",
+   "tier": 2,
    "orderIndex": 46
   },
   {
@@ -397,6 +462,7 @@
    "answer": "cha",
    "script": "hiragana",
    "group": "ta",
+   "tier": 2,
    "orderIndex": 47
   },
   {
@@ -405,6 +471,7 @@
    "answer": "chu",
    "script": "hiragana",
    "group": "ta",
+   "tier": 2,
    "orderIndex": 48
   },
   {
@@ -413,6 +480,7 @@
    "answer": "cho",
    "script": "hiragana",
    "group": "ta",
+   "tier": 2,
    "orderIndex": 49
   },
   {
@@ -421,6 +489,7 @@
    "answer": "na",
    "script": "hiragana",
    "group": "na",
+   "tier": 1,
    "orderIndex": 50
   },
   {
@@ -429,6 +498,7 @@
    "answer": "ni",
    "script": "hiragana",
    "group": "na",
+   "tier": 1,
    "orderIndex": 51
   },
   {
@@ -437,6 +507,7 @@
    "answer": "nu",
    "script": "hiragana",
    "group": "na",
+   "tier": 1,
    "orderIndex": 52
   },
   {
@@ -445,6 +516,7 @@
    "answer": "ne",
    "script": "hiragana",
    "group": "na",
+   "tier": 1,
    "orderIndex": 53
   },
   {
@@ -453,6 +525,7 @@
    "answer": "no",
    "script": "hiragana",
    "group": "na",
+   "tier": 1,
    "orderIndex": 54
   },
   {
@@ -461,6 +534,7 @@
    "answer": "nya",
    "script": "hiragana",
    "group": "na",
+   "tier": 2,
    "orderIndex": 55
   },
   {
@@ -469,6 +543,7 @@
    "answer": "nyu",
    "script": "hiragana",
    "group": "na",
+   "tier": 2,
    "orderIndex": 56
   },
   {
@@ -477,6 +552,7 @@
    "answer": "nyo",
    "script": "hiragana",
    "group": "na",
+   "tier": 2,
    "orderIndex": 57
   },
   {
@@ -485,6 +561,7 @@
    "answer": "ha",
    "script": "hiragana",
    "group": "ha",
+   "tier": 1,
    "orderIndex": 58
   },
   {
@@ -493,6 +570,7 @@
    "answer": "hi",
    "script": "hiragana",
    "group": "ha",
+   "tier": 1,
    "orderIndex": 59
   },
   {
@@ -501,6 +579,7 @@
    "answer": "fu",
    "script": "hiragana",
    "group": "ha",
+   "tier": 1,
    "orderIndex": 60
   },
   {
@@ -509,6 +588,7 @@
    "answer": "he",
    "script": "hiragana",
    "group": "ha",
+   "tier": 1,
    "orderIndex": 61
   },
   {
@@ -517,6 +597,7 @@
    "answer": "ho",
    "script": "hiragana",
    "group": "ha",
+   "tier": 1,
    "orderIndex": 62
   },
   {
@@ -525,6 +606,7 @@
    "answer": "ba",
    "script": "hiragana",
    "group": "ha",
+   "tier": 2,
    "orderIndex": 63
   },
   {
@@ -533,6 +615,7 @@
    "answer": "bi",
    "script": "hiragana",
    "group": "ha",
+   "tier": 2,
    "orderIndex": 64
   },
   {
@@ -541,6 +624,7 @@
    "answer": "bu",
    "script": "hiragana",
    "group": "ha",
+   "tier": 2,
    "orderIndex": 65
   },
   {
@@ -549,6 +633,7 @@
    "answer": "be",
    "script": "hiragana",
    "group": "ha",
+   "tier": 2,
    "orderIndex": 66
   },
   {
@@ -557,6 +642,7 @@
    "answer": "bo",
    "script": "hiragana",
    "group": "ha",
+   "tier": 2,
    "orderIndex": 67
   },
   {
@@ -565,6 +651,7 @@
    "answer": "pa",
    "script": "hiragana",
    "group": "ha",
+   "tier": 2,
    "orderIndex": 68
   },
   {
@@ -573,6 +660,7 @@
    "answer": "pi",
    "script": "hiragana",
    "group": "ha",
+   "tier": 2,
    "orderIndex": 69
   },
   {
@@ -581,6 +669,7 @@
    "answer": "pu",
    "script": "hiragana",
    "group": "ha",
+   "tier": 2,
    "orderIndex": 70
   },
   {
@@ -589,6 +678,7 @@
    "answer": "pe",
    "script": "hiragana",
    "group": "ha",
+   "tier": 2,
    "orderIndex": 71
   },
   {
@@ -597,6 +687,7 @@
    "answer": "po",
    "script": "hiragana",
    "group": "ha",
+   "tier": 2,
    "orderIndex": 72
   },
   {
@@ -605,6 +696,7 @@
    "answer": "hya",
    "script": "hiragana",
    "group": "ha",
+   "tier": 2,
    "orderIndex": 73
   },
   {
@@ -613,6 +705,7 @@
    "answer": "hyu",
    "script": "hiragana",
    "group": "ha",
+   "tier": 2,
    "orderIndex": 74
   },
   {
@@ -621,6 +714,7 @@
    "answer": "hyo",
    "script": "hiragana",
    "group": "ha",
+   "tier": 2,
    "orderIndex": 75
   },
   {
@@ -629,6 +723,7 @@
    "answer": "bya",
    "script": "hiragana",
    "group": "ha",
+   "tier": 2,
    "orderIndex": 76
   },
   {
@@ -637,6 +732,7 @@
    "answer": "byu",
    "script": "hiragana",
    "group": "ha",
+   "tier": 2,
    "orderIndex": 77
   },
   {
@@ -645,6 +741,7 @@
    "answer": "byo",
    "script": "hiragana",
    "group": "ha",
+   "tier": 2,
    "orderIndex": 78
   },
   {
@@ -653,6 +750,7 @@
    "answer": "pya",
    "script": "hiragana",
    "group": "ha",
+   "tier": 2,
    "orderIndex": 79
   },
   {
@@ -661,6 +759,7 @@
    "answer": "pyu",
    "script": "hiragana",
    "group": "ha",
+   "tier": 2,
    "orderIndex": 80
   },
   {
@@ -669,6 +768,7 @@
    "answer": "pyo",
    "script": "hiragana",
    "group": "ha",
+   "tier": 2,
    "orderIndex": 81
   },
   {
@@ -677,6 +777,7 @@
    "answer": "ma",
    "script": "hiragana",
    "group": "ma",
+   "tier": 1,
    "orderIndex": 82
   },
   {
@@ -685,6 +786,7 @@
    "answer": "mi",
    "script": "hiragana",
    "group": "ma",
+   "tier": 1,
    "orderIndex": 83
   },
   {
@@ -693,6 +795,7 @@
    "answer": "mu",
    "script": "hiragana",
    "group": "ma",
+   "tier": 1,
    "orderIndex": 84
   },
   {
@@ -701,6 +804,7 @@
    "answer": "me",
    "script": "hiragana",
    "group": "ma",
+   "tier": 1,
    "orderIndex": 85
   },
   {
@@ -709,6 +813,7 @@
    "answer": "mo",
    "script": "hiragana",
    "group": "ma",
+   "tier": 1,
    "orderIndex": 86
   },
   {
@@ -717,6 +822,7 @@
    "answer": "mya",
    "script": "hiragana",
    "group": "ma",
+   "tier": 2,
    "orderIndex": 87
   },
   {
@@ -725,6 +831,7 @@
    "answer": "myu",
    "script": "hiragana",
    "group": "ma",
+   "tier": 2,
    "orderIndex": 88
   },
   {
@@ -733,6 +840,7 @@
    "answer": "myo",
    "script": "hiragana",
    "group": "ma",
+   "tier": 2,
    "orderIndex": 89
   },
   {
@@ -741,6 +849,7 @@
    "answer": "ya",
    "script": "hiragana",
    "group": "ya",
+   "tier": 1,
    "orderIndex": 90
   },
   {
@@ -749,6 +858,7 @@
    "answer": "yu",
    "script": "hiragana",
    "group": "ya",
+   "tier": 1,
    "orderIndex": 91
   },
   {
@@ -757,6 +867,7 @@
    "answer": "yo",
    "script": "hiragana",
    "group": "ya",
+   "tier": 1,
    "orderIndex": 92
   },
   {
@@ -765,6 +876,7 @@
    "answer": "ra",
    "script": "hiragana",
    "group": "ra",
+   "tier": 1,
    "orderIndex": 93
   },
   {
@@ -773,6 +885,7 @@
    "answer": "ri",
    "script": "hiragana",
    "group": "ra",
+   "tier": 1,
    "orderIndex": 94
   },
   {
@@ -781,6 +894,7 @@
    "answer": "ru",
    "script": "hiragana",
    "group": "ra",
+   "tier": 1,
    "orderIndex": 95
   },
   {
@@ -789,6 +903,7 @@
    "answer": "re",
    "script": "hiragana",
    "group": "ra",
+   "tier": 1,
    "orderIndex": 96
   },
   {
@@ -797,6 +912,7 @@
    "answer": "ro",
    "script": "hiragana",
    "group": "ra",
+   "tier": 1,
    "orderIndex": 97
   },
   {
@@ -805,6 +921,7 @@
    "answer": "rya",
    "script": "hiragana",
    "group": "ra",
+   "tier": 2,
    "orderIndex": 98
   },
   {
@@ -813,6 +930,7 @@
    "answer": "ryu",
    "script": "hiragana",
    "group": "ra",
+   "tier": 2,
    "orderIndex": 99
   },
   {
@@ -821,6 +939,7 @@
    "answer": "ryo",
    "script": "hiragana",
    "group": "ra",
+   "tier": 2,
    "orderIndex": 100
   },
   {
@@ -829,6 +948,7 @@
    "answer": "wa",
    "script": "hiragana",
    "group": "wa",
+   "tier": 1,
    "orderIndex": 101
   },
   {
@@ -837,6 +957,7 @@
    "answer": "wo",
    "script": "hiragana",
    "group": "wa",
+   "tier": 1,
    "orderIndex": 102
   },
   {
@@ -845,6 +966,7 @@
    "answer": "n",
    "script": "hiragana",
    "group": "n",
+   "tier": 1,
    "orderIndex": 103
   },
   {
@@ -853,6 +975,7 @@
    "answer": "a",
    "script": "katakana",
    "group": "a",
+   "tier": 3,
    "orderIndex": 104
   },
   {
@@ -861,6 +984,7 @@
    "answer": "i",
    "script": "katakana",
    "group": "a",
+   "tier": 3,
    "orderIndex": 105
   },
   {
@@ -869,6 +993,7 @@
    "answer": "u",
    "script": "katakana",
    "group": "a",
+   "tier": 3,
    "orderIndex": 106
   },
   {
@@ -877,6 +1002,7 @@
    "answer": "e",
    "script": "katakana",
    "group": "a",
+   "tier": 3,
    "orderIndex": 107
   },
   {
@@ -885,6 +1011,7 @@
    "answer": "o",
    "script": "katakana",
    "group": "a",
+   "tier": 3,
    "orderIndex": 108
   },
   {
@@ -893,6 +1020,7 @@
    "answer": "ka",
    "script": "katakana",
    "group": "ka",
+   "tier": 3,
    "orderIndex": 109
   },
   {
@@ -901,6 +1029,7 @@
    "answer": "ki",
    "script": "katakana",
    "group": "ka",
+   "tier": 3,
    "orderIndex": 110
   },
   {
@@ -909,6 +1038,7 @@
    "answer": "ku",
    "script": "katakana",
    "group": "ka",
+   "tier": 3,
    "orderIndex": 111
   },
   {
@@ -917,6 +1047,7 @@
    "answer": "ke",
    "script": "katakana",
    "group": "ka",
+   "tier": 3,
    "orderIndex": 112
   },
   {
@@ -925,6 +1056,7 @@
    "answer": "ko",
    "script": "katakana",
    "group": "ka",
+   "tier": 3,
    "orderIndex": 113
   },
   {
@@ -933,6 +1065,7 @@
    "answer": "ga",
    "script": "katakana",
    "group": "ka",
+   "tier": 4,
    "orderIndex": 114
   },
   {
@@ -941,6 +1074,7 @@
    "answer": "gi",
    "script": "katakana",
    "group": "ka",
+   "tier": 4,
    "orderIndex": 115
   },
   {
@@ -949,6 +1083,7 @@
    "answer": "gu",
    "script": "katakana",
    "group": "ka",
+   "tier": 4,
    "orderIndex": 116
   },
   {
@@ -957,6 +1092,7 @@
    "answer": "ge",
    "script": "katakana",
    "group": "ka",
+   "tier": 4,
    "orderIndex": 117
   },
   {
@@ -965,6 +1101,7 @@
    "answer": "go",
    "script": "katakana",
    "group": "ka",
+   "tier": 4,
    "orderIndex": 118
   },
   {
@@ -973,6 +1110,7 @@
    "answer": "kya",
    "script": "katakana",
    "group": "ka",
+   "tier": 4,
    "orderIndex": 119
   },
   {
@@ -981,6 +1119,7 @@
    "answer": "kyu",
    "script": "katakana",
    "group": "ka",
+   "tier": 4,
    "orderIndex": 120
   },
   {
@@ -989,6 +1128,7 @@
    "answer": "kyo",
    "script": "katakana",
    "group": "ka",
+   "tier": 4,
    "orderIndex": 121
   },
   {
@@ -997,6 +1137,7 @@
    "answer": "gya",
    "script": "katakana",
    "group": "ka",
+   "tier": 4,
    "orderIndex": 122
   },
   {
@@ -1005,6 +1146,7 @@
    "answer": "gyu",
    "script": "katakana",
    "group": "ka",
+   "tier": 4,
    "orderIndex": 123
   },
   {
@@ -1013,6 +1155,7 @@
    "answer": "gyo",
    "script": "katakana",
    "group": "ka",
+   "tier": 4,
    "orderIndex": 124
   },
   {
@@ -1021,6 +1164,7 @@
    "answer": "sa",
    "script": "katakana",
    "group": "sa",
+   "tier": 3,
    "orderIndex": 125
   },
   {
@@ -1029,6 +1173,7 @@
    "answer": "shi",
    "script": "katakana",
    "group": "sa",
+   "tier": 3,
    "orderIndex": 126
   },
   {
@@ -1037,6 +1182,7 @@
    "answer": "su",
    "script": "katakana",
    "group": "sa",
+   "tier": 3,
    "orderIndex": 127
   },
   {
@@ -1045,6 +1191,7 @@
    "answer": "se",
    "script": "katakana",
    "group": "sa",
+   "tier": 3,
    "orderIndex": 128
   },
   {
@@ -1053,6 +1200,7 @@
    "answer": "so",
    "script": "katakana",
    "group": "sa",
+   "tier": 3,
    "orderIndex": 129
   },
   {
@@ -1061,6 +1209,7 @@
    "answer": "za",
    "script": "katakana",
    "group": "sa",
+   "tier": 4,
    "orderIndex": 130
   },
   {
@@ -1069,6 +1218,7 @@
    "answer": "ji",
    "script": "katakana",
    "group": "sa",
+   "tier": 4,
    "orderIndex": 131
   },
   {
@@ -1077,6 +1227,7 @@
    "answer": "zu",
    "script": "katakana",
    "group": "sa",
+   "tier": 4,
    "orderIndex": 132
   },
   {
@@ -1085,6 +1236,7 @@
    "answer": "ze",
    "script": "katakana",
    "group": "sa",
+   "tier": 4,
    "orderIndex": 133
   },
   {
@@ -1093,6 +1245,7 @@
    "answer": "zo",
    "script": "katakana",
    "group": "sa",
+   "tier": 4,
    "orderIndex": 134
   },
   {
@@ -1101,6 +1254,7 @@
    "answer": "sha",
    "script": "katakana",
    "group": "sa",
+   "tier": 4,
    "orderIndex": 135
   },
   {
@@ -1109,6 +1263,7 @@
    "answer": "shu",
    "script": "katakana",
    "group": "sa",
+   "tier": 4,
    "orderIndex": 136
   },
   {
@@ -1117,6 +1272,7 @@
    "answer": "sho",
    "script": "katakana",
    "group": "sa",
+   "tier": 4,
    "orderIndex": 137
   },
   {
@@ -1125,6 +1281,7 @@
    "answer": "ja",
    "script": "katakana",
    "group": "sa",
+   "tier": 4,
    "orderIndex": 138
   },
   {
@@ -1133,6 +1290,7 @@
    "answer": "ju",
    "script": "katakana",
    "group": "sa",
+   "tier": 4,
    "orderIndex": 139
   },
   {
@@ -1141,6 +1299,7 @@
    "answer": "jo",
    "script": "katakana",
    "group": "sa",
+   "tier": 4,
    "orderIndex": 140
   },
   {
@@ -1149,6 +1308,7 @@
    "answer": "ta",
    "script": "katakana",
    "group": "ta",
+   "tier": 3,
    "orderIndex": 141
   },
   {
@@ -1157,6 +1317,7 @@
    "answer": "chi",
    "script": "katakana",
    "group": "ta",
+   "tier": 3,
    "orderIndex": 142
   },
   {
@@ -1165,6 +1326,7 @@
    "answer": "tsu",
    "script": "katakana",
    "group": "ta",
+   "tier": 3,
    "orderIndex": 143
   },
   {
@@ -1173,6 +1335,7 @@
    "answer": "te",
    "script": "katakana",
    "group": "ta",
+   "tier": 3,
    "orderIndex": 144
   },
   {
@@ -1181,6 +1344,7 @@
    "answer": "to",
    "script": "katakana",
    "group": "ta",
+   "tier": 3,
    "orderIndex": 145
   },
   {
@@ -1189,6 +1353,7 @@
    "answer": "da",
    "script": "katakana",
    "group": "ta",
+   "tier": 4,
    "orderIndex": 146
   },
   {
@@ -1197,6 +1362,7 @@
    "answer": "di",
    "script": "katakana",
    "group": "ta",
+   "tier": 4,
    "orderIndex": 147
   },
   {
@@ -1205,6 +1371,7 @@
    "answer": "du",
    "script": "katakana",
    "group": "ta",
+   "tier": 4,
    "orderIndex": 148
   },
   {
@@ -1213,6 +1380,7 @@
    "answer": "de",
    "script": "katakana",
    "group": "ta",
+   "tier": 4,
    "orderIndex": 149
   },
   {
@@ -1221,6 +1389,7 @@
    "answer": "do",
    "script": "katakana",
    "group": "ta",
+   "tier": 4,
    "orderIndex": 150
   },
   {
@@ -1229,6 +1398,7 @@
    "answer": "cha",
    "script": "katakana",
    "group": "ta",
+   "tier": 4,
    "orderIndex": 151
   },
   {
@@ -1237,6 +1407,7 @@
    "answer": "chu",
    "script": "katakana",
    "group": "ta",
+   "tier": 4,
    "orderIndex": 152
   },
   {
@@ -1245,6 +1416,7 @@
    "answer": "cho",
    "script": "katakana",
    "group": "ta",
+   "tier": 4,
    "orderIndex": 153
   },
   {
@@ -1253,6 +1425,7 @@
    "answer": "na",
    "script": "katakana",
    "group": "na",
+   "tier": 3,
    "orderIndex": 154
   },
   {
@@ -1261,6 +1434,7 @@
    "answer": "ni",
    "script": "katakana",
    "group": "na",
+   "tier": 3,
    "orderIndex": 155
   },
   {
@@ -1269,6 +1443,7 @@
    "answer": "nu",
    "script": "katakana",
    "group": "na",
+   "tier": 3,
    "orderIndex": 156
   },
   {
@@ -1277,6 +1452,7 @@
    "answer": "ne",
    "script": "katakana",
    "group": "na",
+   "tier": 3,
    "orderIndex": 157
   },
   {
@@ -1285,6 +1461,7 @@
    "answer": "no",
    "script": "katakana",
    "group": "na",
+   "tier": 3,
    "orderIndex": 158
   },
   {
@@ -1293,6 +1470,7 @@
    "answer": "nya",
    "script": "katakana",
    "group": "na",
+   "tier": 4,
    "orderIndex": 159
   },
   {
@@ -1301,6 +1479,7 @@
    "answer": "nyu",
    "script": "katakana",
    "group": "na",
+   "tier": 4,
    "orderIndex": 160
   },
   {
@@ -1309,6 +1488,7 @@
    "answer": "nyo",
    "script": "katakana",
    "group": "na",
+   "tier": 4,
    "orderIndex": 161
   },
   {
@@ -1317,6 +1497,7 @@
    "answer": "ha",
    "script": "katakana",
    "group": "ha",
+   "tier": 3,
    "orderIndex": 162
   },
   {
@@ -1325,6 +1506,7 @@
    "answer": "hi",
    "script": "katakana",
    "group": "ha",
+   "tier": 3,
    "orderIndex": 163
   },
   {
@@ -1333,6 +1515,7 @@
    "answer": "fu",
    "script": "katakana",
    "group": "ha",
+   "tier": 3,
    "orderIndex": 164
   },
   {
@@ -1341,6 +1524,7 @@
    "answer": "he",
    "script": "katakana",
    "group": "ha",
+   "tier": 3,
    "orderIndex": 165
   },
   {
@@ -1349,6 +1533,7 @@
    "answer": "ho",
    "script": "katakana",
    "group": "ha",
+   "tier": 3,
    "orderIndex": 166
   },
   {
@@ -1357,6 +1542,7 @@
    "answer": "ba",
    "script": "katakana",
    "group": "ha",
+   "tier": 4,
    "orderIndex": 167
   },
   {
@@ -1365,6 +1551,7 @@
    "answer": "bi",
    "script": "katakana",
    "group": "ha",
+   "tier": 4,
    "orderIndex": 168
   },
   {
@@ -1373,6 +1560,7 @@
    "answer": "bu",
    "script": "katakana",
    "group": "ha",
+   "tier": 4,
    "orderIndex": 169
   },
   {
@@ -1381,6 +1569,7 @@
    "answer": "be",
    "script": "katakana",
    "group": "ha",
+   "tier": 4,
    "orderIndex": 170
   },
   {
@@ -1389,6 +1578,7 @@
    "answer": "bo",
    "script": "katakana",
    "group": "ha",
+   "tier": 4,
    "orderIndex": 171
   },
   {
@@ -1397,6 +1587,7 @@
    "answer": "pa",
    "script": "katakana",
    "group": "ha",
+   "tier": 4,
    "orderIndex": 172
   },
   {
@@ -1405,6 +1596,7 @@
    "answer": "pi",
    "script": "katakana",
    "group": "ha",
+   "tier": 4,
    "orderIndex": 173
   },
   {
@@ -1413,6 +1605,7 @@
    "answer": "pu",
    "script": "katakana",
    "group": "ha",
+   "tier": 4,
    "orderIndex": 174
   },
   {
@@ -1421,6 +1614,7 @@
    "answer": "pe",
    "script": "katakana",
    "group": "ha",
+   "tier": 4,
    "orderIndex": 175
   },
   {
@@ -1429,6 +1623,7 @@
    "answer": "po",
    "script": "katakana",
    "group": "ha",
+   "tier": 4,
    "orderIndex": 176
   },
   {
@@ -1437,6 +1632,7 @@
    "answer": "hya",
    "script": "katakana",
    "group": "ha",
+   "tier": 4,
    "orderIndex": 177
   },
   {
@@ -1445,6 +1641,7 @@
    "answer": "hyu",
    "script": "katakana",
    "group": "ha",
+   "tier": 4,
    "orderIndex": 178
   },
   {
@@ -1453,6 +1650,7 @@
    "answer": "hyo",
    "script": "katakana",
    "group": "ha",
+   "tier": 4,
    "orderIndex": 179
   },
   {
@@ -1461,6 +1659,7 @@
    "answer": "bya",
    "script": "katakana",
    "group": "ha",
+   "tier": 4,
    "orderIndex": 180
   },
   {
@@ -1469,6 +1668,7 @@
    "answer": "byu",
    "script": "katakana",
    "group": "ha",
+   "tier": 4,
    "orderIndex": 181
   },
   {
@@ -1477,6 +1677,7 @@
    "answer": "byo",
    "script": "katakana",
    "group": "ha",
+   "tier": 4,
    "orderIndex": 182
   },
   {
@@ -1485,6 +1686,7 @@
    "answer": "pya",
    "script": "katakana",
    "group": "ha",
+   "tier": 4,
    "orderIndex": 183
   },
   {
@@ -1493,6 +1695,7 @@
    "answer": "pyu",
    "script": "katakana",
    "group": "ha",
+   "tier": 4,
    "orderIndex": 184
   },
   {
@@ -1501,6 +1704,7 @@
    "answer": "pyo",
    "script": "katakana",
    "group": "ha",
+   "tier": 4,
    "orderIndex": 185
   },
   {
@@ -1509,6 +1713,7 @@
    "answer": "ma",
    "script": "katakana",
    "group": "ma",
+   "tier": 3,
    "orderIndex": 186
   },
   {
@@ -1517,6 +1722,7 @@
    "answer": "mi",
    "script": "katakana",
    "group": "ma",
+   "tier": 3,
    "orderIndex": 187
   },
   {
@@ -1525,6 +1731,7 @@
    "answer": "mu",
    "script": "katakana",
    "group": "ma",
+   "tier": 3,
    "orderIndex": 188
   },
   {
@@ -1533,6 +1740,7 @@
    "answer": "me",
    "script": "katakana",
    "group": "ma",
+   "tier": 3,
    "orderIndex": 189
   },
   {
@@ -1541,6 +1749,7 @@
    "answer": "mo",
    "script": "katakana",
    "group": "ma",
+   "tier": 3,
    "orderIndex": 190
   },
   {
@@ -1549,6 +1758,7 @@
    "answer": "mya",
    "script": "katakana",
    "group": "ma",
+   "tier": 4,
    "orderIndex": 191
   },
   {
@@ -1557,6 +1767,7 @@
    "answer": "myu",
    "script": "katakana",
    "group": "ma",
+   "tier": 4,
    "orderIndex": 192
   },
   {
@@ -1565,6 +1776,7 @@
    "answer": "myo",
    "script": "katakana",
    "group": "ma",
+   "tier": 4,
    "orderIndex": 193
   },
   {
@@ -1573,6 +1785,7 @@
    "answer": "ya",
    "script": "katakana",
    "group": "ya",
+   "tier": 3,
    "orderIndex": 194
   },
   {
@@ -1581,6 +1794,7 @@
    "answer": "yu",
    "script": "katakana",
    "group": "ya",
+   "tier": 3,
    "orderIndex": 195
   },
   {
@@ -1589,6 +1803,7 @@
    "answer": "yo",
    "script": "katakana",
    "group": "ya",
+   "tier": 3,
    "orderIndex": 196
   },
   {
@@ -1597,6 +1812,7 @@
    "answer": "ra",
    "script": "katakana",
    "group": "ra",
+   "tier": 3,
    "orderIndex": 197
   },
   {
@@ -1605,6 +1821,7 @@
    "answer": "ri",
    "script": "katakana",
    "group": "ra",
+   "tier": 3,
    "orderIndex": 198
   },
   {
@@ -1613,6 +1830,7 @@
    "answer": "ru",
    "script": "katakana",
    "group": "ra",
+   "tier": 3,
    "orderIndex": 199
   },
   {
@@ -1621,6 +1839,7 @@
    "answer": "re",
    "script": "katakana",
    "group": "ra",
+   "tier": 3,
    "orderIndex": 200
   },
   {
@@ -1629,6 +1848,7 @@
    "answer": "ro",
    "script": "katakana",
    "group": "ra",
+   "tier": 3,
    "orderIndex": 201
   },
   {
@@ -1637,6 +1857,7 @@
    "answer": "rya",
    "script": "katakana",
    "group": "ra",
+   "tier": 4,
    "orderIndex": 202
   },
   {
@@ -1645,6 +1866,7 @@
    "answer": "ryu",
    "script": "katakana",
    "group": "ra",
+   "tier": 4,
    "orderIndex": 203
   },
   {
@@ -1653,6 +1875,7 @@
    "answer": "ryo",
    "script": "katakana",
    "group": "ra",
+   "tier": 4,
    "orderIndex": 204
   },
   {
@@ -1661,6 +1884,7 @@
    "answer": "wa",
    "script": "katakana",
    "group": "wa",
+   "tier": 3,
    "orderIndex": 205
   },
   {
@@ -1669,6 +1893,7 @@
    "answer": "wo",
    "script": "katakana",
    "group": "wa",
+   "tier": 3,
    "orderIndex": 206
   },
   {
@@ -1677,6 +1902,7 @@
    "answer": "n",
    "script": "katakana",
    "group": "n",
+   "tier": 3,
    "orderIndex": 207
   }
  ]
