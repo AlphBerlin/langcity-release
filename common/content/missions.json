@@ -752,25 +752,25 @@
   {
    "explain": "こんにちは。みちに まよいましたか？「えき は どこ ですか」と きいてみて！",
    "idx": 1,
-   "instruction": "Ask Tanaka where the station is.",
+   "instruction": "Ask Hiroshi where the station is.",
    "location_id": "station",
    "matches": [
     "えき",
     "どこ"
    ],
    "mission_id": "ask_the_way",
-   "npc_id": "station_staff",
+   "npc_id": "13",
    "phrase": "えき は どこ ですか",
    "type": "sayPhrase"
   },
   {
    "explain": "やあ！えきで あえて うれしいよ。げんきに 「こんにちは」って いってみて！",
    "idx": 1,
-   "instruction": "Say hello to Tanaka at the train station.",
+     "instruction": "Say hello to Hiroshi at the train station.",
    "location_id": "station",
    "matches": [],
    "mission_id": "meet_tanaka_shrine",
-   "npc_id": "station_staff",
+   "npc_id": "13",
    "phrase": null,
    "type": "talkToNpc"
   },
@@ -883,18 +883,18 @@
     {
      "explain": "やあ！えきで あえて うれしいよ。げんきに 「こんにちは」って いってみて！",
      "idx": 1,
-     "instruction": "Say hello to Tanaka at the train station.",
+     "instruction": "Say hello to Hiroshi at the train station.",
      "location_id": "station",
      "matches": [],
      "mission_id": "meet_tanaka_shrine",
-     "npc_id": "station_staff",
+     "npc_id": "13",
      "phrase": null,
      "type": "talkToNpc"
     }
    ],
    "sort_order": 1,
-   "summary": "Aoi-sensei asks you to meet Tanaka the station attendant at the train station and greet him in Japanese.",
-   "title": "Meet Tanaka at the Train Station",
+   "summary": "Aoi-sensei asks you to meet Hiroshi at the train station and greet him in Japanese.",
+   "title": "Meet Hiroshi at the Train Station",
    "xp_reward": 60
   },
   {
@@ -956,20 +956,20 @@
     {
      "explain": "こんにちは。みちに まよいましたか？「えき は どこ ですか」と きいてみて！",
      "idx": 1,
-     "instruction": "Ask Tanaka where the station is.",
+     "instruction": "Ask Hiroshi where the station is.",
      "location_id": "station",
      "matches": [
       "えき",
       "どこ"
      ],
      "mission_id": "ask_the_way",
-     "npc_id": "station_staff",
+     "npc_id": "13",
      "phrase": "えき は どこ ですか",
      "type": "sayPhrase"
     }
    ],
    "sort_order": 3,
-   "summary": "Alex is lost. Go to the station and ask Tanaka where it is, in Japanese.",
+   "summary": "Alex is lost. Go to the station and ask Hiroshi where it is, in Japanese.",
    "title": "Ask the Way",
    "xp_reward": 50
   },
