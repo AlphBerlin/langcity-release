@@ -11,7 +11,7 @@
   "padding": 2,
   "pivot": {
     "x": 0.5,
-    "y": 1.0,
+    "y": 1,
     "note": "bottom-center; feet aligned on cell bottom"
   },
   "actions": {
@@ -264,6 +264,10 @@
             "y": 894,
             "w": 124,
             "h": 221
+          },
+          "offset": {
+            "x": 2,
+            "y": 0
           }
         },
         {
@@ -276,6 +280,10 @@
             "y": 894,
             "w": 135,
             "h": 221
+          },
+          "offset": {
+            "x": 4,
+            "y": 0
           }
         }
       ]
