@@ -198,5 +198,34 @@
   "50": {
     "sprite": "assets/lang/characters/Fukuda/fukuda_atlas.png",
     "animation": "assets/lang/characters/Fukuda/fukuda_atlas.json"
+  },
+  "konbini_clerk": {
+    "sprite": "assets/lang/characters/store_staff/convinience_staff_atlas.png",
+    "animation": "assets/lang/characters/store_staff/convenience_staff_atlas.json"
+  },
+  "station_staff": {
+    "sprite": "assets/lang/characters/train_info_officer/trainstation-information-officer-atlas.png",
+    "animation": "assets/lang/characters/train_info_officer/trainstation-information-officer-atlas.json"
+  },
+  "ramen_chef": {
+    "sprite": "assets/lang/characters/ramen_waiter/ramen_waiter_atlas.png",
+    "animation": "assets/lang/characters/ramen_waiter/ramen_waiter_atlas.json"
+  },
+  "traveller": {
+    "sprite": "assets/lang/characters/Andrew/andrew_atlas.png",
+    "animation": "assets/lang/characters/Andrew/andrew_atlas.json",
+    "idle_action": "idle_down"
+  },
+  "old_lady": {
+    "sprite": "assets/lang/characters/old-lady/old-lady-atlas.png",
+    "animation": "assets/lang/characters/old-lady/old-lady-atlas.json"
+  },
+  "teacher": {
+    "sprite": "assets/lang/characters/Aoi_sensei/teacher-atlas.png",
+    "animation": "assets/lang/characters/Aoi_sensei/teacher-atlas.json"
+  },
+  "store_server": {
+    "sprite": "assets/lang/characters/store_staff/convinience_staff_atlas.png",
+    "animation": "assets/lang/characters/store_staff/convenience_staff_atlas.json"
   }
 }
