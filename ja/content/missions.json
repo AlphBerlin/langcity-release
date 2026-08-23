@@ -14,6 +14,17 @@
     {
       "explain": "",
       "idx": 0,
+      "instruction": "Go find Hana in the garden (こうえん).",
+      "location_id": "park",
+      "matches": [],
+      "mission_id": "lost_purse_report",
+      "npc_id": null,
+      "phrase": null,
+      "type": "goToLocation"
+    },
+    {
+      "explain": "",
+      "idx": 0,
       "instruction": "Go to the train station (えき).",
       "location_id": "station",
       "matches": [],
@@ -70,6 +81,17 @@
       "type": "sayPhrase"
     },
     {
+      "explain": "たいへん！さいふを なくしちゃったの。こうばんに とどけを だしたいから、いっしょに きてくれる？",
+      "idx": 1,
+      "instruction": "Listen to Hana.",
+      "location_id": "park",
+      "matches": [],
+      "mission_id": "lost_purse_report",
+      "npc_id": "old_lady",
+      "phrase": null,
+      "type": "talkToNpc"
+    },
+    {
       "explain": "やあ！えきで あえて うれしいよ。げんきに 「こんにちは」って いってみて！",
       "idx": 1,
       "instruction": "Say hello to Hiroshi at the train station.",
@@ -119,6 +141,17 @@
       "type": "talkToNpc"
     },
     {
+      "explain": "",
+      "idx": 2,
+      "instruction": "Go to the police station (こうばん) with Hana.",
+      "location_id": "policeStation",
+      "matches": [],
+      "mission_id": "lost_purse_report",
+      "npc_id": null,
+      "phrase": null,
+      "type": "goToLocation"
+    },
+    {
       "explain": "さあ、いっしょに。「ありがとう ございます」と いってみて！",
       "idx": 2,
       "instruction": "Thank Aoi-sensei politely.",
@@ -130,6 +163,53 @@
       "npc_id": "teacher",
       "phrase": "ありがとう ございます",
       "type": "sayPhrase"
+    },
+    {
+      "explain": "こんにちは。どうしましたか？おちついて、なにが あったか おしえてください。",
+      "idx": 3,
+      "instruction": "Talk to Officer Yamada.",
+      "location_id": "policeStation",
+      "matches": [],
+      "mission_id": "lost_purse_report",
+      "npc_id": "20",
+      "phrase": null,
+      "type": "talkToNpc"
+    },
+    {
+      "explain": "だいじょうぶ ですよ。なにを なくしたか、いってみてください。",
+      "idx": 4,
+      "instruction": "Tell Officer Yamada what happened: \"I lost my purse.\"",
+      "location_id": "policeStation",
+      "matches": [
+        "さいふ",
+        "なくしました"
+      ],
+      "mission_id": "lost_purse_report",
+      "npc_id": "20",
+      "phrase": "さいふを なくしました",
+      "type": "sayPhrase"
+    },
+    {
+      "explain": "",
+      "idx": 5,
+      "instruction": "Go back to the garden (こうえん) and tell Hana.",
+      "location_id": "park",
+      "matches": [],
+      "mission_id": "lost_purse_report",
+      "npc_id": null,
+      "phrase": null,
+      "type": "goToLocation"
+    },
+    {
+      "explain": "ああ、よかった！ほんとうに ありがとう、わかい人。たすかったわ。",
+      "idx": 6,
+      "instruction": "Tell Hana the report is filed.",
+      "location_id": "park",
+      "matches": [],
+      "mission_id": "lost_purse_report",
+      "npc_id": "old_lady",
+      "phrase": null,
+      "type": "talkToNpc"
     },
     {
       "explain": "",
@@ -350,6 +430,99 @@
       "summary": "Hana heard the ramen is amazing. Go to the ramen shop and tell Master Gen it is delicious, in Japanese.",
       "title": "Ramen Taste Test",
       "xp_reward": 100
+    },
+    {
+      "active": true,
+      "giver_npc_id": "old_lady",
+      "id": "lost_purse_report",
+      "language": "ja",
+      "min_level": 10,
+      "nodes": [
+        {
+          "explain": "",
+          "idx": 0,
+          "instruction": "Go find Hana in the garden (こうえん).",
+          "location_id": "park",
+          "matches": [],
+          "mission_id": "lost_purse_report",
+          "npc_id": null,
+          "phrase": null,
+          "type": "goToLocation"
+        },
+        {
+          "explain": "たいへん！さいふを なくしちゃったの。こうばんに とどけを だしたいから、いっしょに きてくれる？",
+          "idx": 1,
+          "instruction": "Listen to Hana.",
+          "location_id": "park",
+          "matches": [],
+          "mission_id": "lost_purse_report",
+          "npc_id": "old_lady",
+          "phrase": null,
+          "type": "talkToNpc"
+        },
+        {
+          "explain": "",
+          "idx": 2,
+          "instruction": "Go to the police station (こうばん) with Hana.",
+          "location_id": "policeStation",
+          "matches": [],
+          "mission_id": "lost_purse_report",
+          "npc_id": null,
+          "phrase": null,
+          "type": "goToLocation"
+        },
+        {
+          "explain": "こんにちは。どうしましたか？おちついて、なにが あったか おしえてください。",
+          "idx": 3,
+          "instruction": "Talk to Officer Yamada.",
+          "location_id": "policeStation",
+          "matches": [],
+          "mission_id": "lost_purse_report",
+          "npc_id": "20",
+          "phrase": null,
+          "type": "talkToNpc"
+        },
+        {
+          "explain": "だいじょうぶ ですよ。なにを なくしたか、いってみてください。",
+          "idx": 4,
+          "instruction": "Tell Officer Yamada what happened: \"I lost my purse.\"",
+          "location_id": "policeStation",
+          "matches": [
+            "さいふ",
+            "なくしました"
+          ],
+          "mission_id": "lost_purse_report",
+          "npc_id": "20",
+          "phrase": "さいふを なくしました",
+          "type": "sayPhrase"
+        },
+        {
+          "explain": "",
+          "idx": 5,
+          "instruction": "Go back to the garden (こうえん) and tell Hana.",
+          "location_id": "park",
+          "matches": [],
+          "mission_id": "lost_purse_report",
+          "npc_id": null,
+          "phrase": null,
+          "type": "goToLocation"
+        },
+        {
+          "explain": "ああ、よかった！ほんとうに ありがとう、わかい人。たすかったわ。",
+          "idx": 6,
+          "instruction": "Tell Hana the report is filed.",
+          "location_id": "park",
+          "matches": [],
+          "mission_id": "lost_purse_report",
+          "npc_id": "old_lady",
+          "phrase": null,
+          "type": "talkToNpc"
+        }
+      ],
+      "sort_order": 6,
+      "summary": "Hana has lost her purse! Go with her to the police station and help her file a report in Japanese.",
+      "title": "A Lost Purse",
+      "xp_reward": 150
     },
     {
       "active": true,
