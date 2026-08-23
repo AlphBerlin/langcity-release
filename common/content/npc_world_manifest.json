@@ -1,6 +1,7 @@
 {
   "groups": {
     "convenience": [
+      "konbini_clerk",
       "9",
       "10"
     ],
@@ -9,14 +10,17 @@
       "15"
     ],
     "ramen": [
+      "ramen_chef",
       "12",
       "40"
     ],
     "transit": [
       "13",
-      "48"
+      "48",
+      "station_staff"
     ],
     "school": [
+      "teacher",
       "18",
       "19"
     ],
@@ -276,6 +280,7 @@
     },
     "classroom": {
       "npc_ids": [
+        "teacher",
         "19",
         "3"
       ]
@@ -296,6 +301,27 @@
       "npc_ids": [
         "18",
         "31"
+      ]
+    },
+    "konbini": {
+      "npc_ids": [
+        "konbini_clerk"
+      ]
+    },
+    "ramen": {
+      "npc_ids": [
+        "ramen_chef"
+      ]
+    },
+    "station": {
+      "npc_ids": [
+        "13",
+        "station_staff"
+      ]
+    },
+    "policeStation": {
+      "npc_ids": [
+        "20"
       ]
     }
   }

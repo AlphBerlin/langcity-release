@@ -53,6 +53,14 @@
           ],
           "speed": 24.0
         }
+      },
+      {
+        "place_id": "station",
+        "zone": "station",
+        "position": [
+          888.0,
+          484.0
+        ]
       }
     ],
     "18": [
@@ -249,6 +257,16 @@
         }
       }
     ],
+    "konbini_clerk": [
+      {
+        "place_id": "konbini",
+        "zone": "konbini",
+        "position": [
+          412.0,
+          188.0
+        ]
+      }
+    ],
     "old_lady": [
       {
         "place_id": "town",
@@ -256,6 +274,26 @@
         "position": [
           2448.0,
           1152.0
+        ]
+      }
+    ],
+    "ramen_chef": [
+      {
+        "place_id": "ramen",
+        "zone": "ramen",
+        "position": [
+          533.0,
+          414.0
+        ]
+      }
+    ],
+    "station_staff": [
+      {
+        "place_id": "station",
+        "zone": "station",
+        "position": [
+          888.0,
+          484.0
         ]
       }
     ],
@@ -276,6 +314,14 @@
         "position": [
           5712.0,
           672.0
+        ]
+      },
+      {
+        "place_id": "classroom",
+        "zone": "classroom",
+        "position": [
+          1188.364,
+          343.0
         ]
       }
     ],
