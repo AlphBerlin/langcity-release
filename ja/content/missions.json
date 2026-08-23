@@ -81,7 +81,7 @@
       "type": "sayPhrase"
     },
     {
-      "explain": "たいへん！さいふを なくしちゃったの。こうばんに とどけを だしたいから、いっしょに きてくれる？",
+      "explain": "たいへん！さいふを なくしちゃったの。こうばんに とどけを だしてほしいんだけど、いって くれる？",
       "idx": 1,
       "instruction": "Listen to Hana.",
       "location_id": "park",
@@ -143,7 +143,7 @@
     {
       "explain": "",
       "idx": 2,
-      "instruction": "Go to the police station (こうばん) with Hana.",
+      "instruction": "Go to the police station (こうばん) and report it.",
       "location_id": "policeStation",
       "matches": [],
       "mission_id": "lost_purse_report",
@@ -450,7 +450,7 @@
           "type": "goToLocation"
         },
         {
-          "explain": "たいへん！さいふを なくしちゃったの。こうばんに とどけを だしたいから、いっしょに きてくれる？",
+          "explain": "たいへん！さいふを なくしちゃったの。こうばんに とどけを だしてほしいんだけど、いって くれる？",
           "idx": 1,
           "instruction": "Listen to Hana.",
           "location_id": "park",
@@ -463,7 +463,7 @@
         {
           "explain": "",
           "idx": 2,
-          "instruction": "Go to the police station (こうばん) with Hana.",
+          "instruction": "Go to the police station (こうばん) and report it.",
           "location_id": "policeStation",
           "matches": [],
           "mission_id": "lost_purse_report",
@@ -520,7 +520,7 @@
         }
       ],
       "sort_order": 6,
-      "summary": "Hana has lost her purse! Go with her to the police station and help her file a report in Japanese.",
+      "summary": "Hana has lost her purse! Go to the police station and file a report on her behalf, in Japanese.",
       "title": "A Lost Purse",
       "xp_reward": 150
     },
