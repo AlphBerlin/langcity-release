@@ -1,1 +1,418 @@
-{"compressionlevel": -1, "height": 1, "infinite": false, "nextlayerid": 4, "nextobjectid": 9, "orientation": "orthogonal", "renderorder": "right-down", "tiledversion": "1.10.2", "tileheight": 768, "tilewidth": 1376, "type": "map", "version": "1.10", "width": 1, "tilesets": [{"firstgid": 1, "columns": 1, "image": "massage-studio.png", "imageheight": 768, "imagewidth": 1376, "margin": 0, "name": "massage-studio", "spacing": 0, "tilecount": 1, "tileheight": 768, "tilewidth": 1376}], "layers": [{"data": [1], "height": 1, "id": 1, "name": "background", "opacity": 1, "type": "tilelayer", "visible": true, "width": 1, "x": 0, "y": 0}, {"draworder": "topdown", "id": 2, "name": "collisions", "objects": [{"id": 1, "name": "", "type": "collision", "rotation": 0, "x": 0, "y": 0, "width": 1376, "height": 35, "visible": true, "properties": []}, {"id": 2, "name": "", "type": "collision", "rotation": 0, "x": 0, "y": 0, "width": 41, "height": 768, "visible": true, "properties": []}, {"id": 3, "name": "", "type": "collision", "rotation": 0, "x": 1335, "y": 0, "width": 41, "height": 768, "visible": true, "properties": []}, {"id": 4, "name": "", "type": "collision", "rotation": 0, "x": 0, "y": 733, "width": 599, "height": 35, "visible": true, "properties": []}, {"id": 5, "name": "", "type": "collision", "rotation": 0, "x": 777, "y": 733, "width": 599, "height": 35, "visible": true, "properties": []}], "opacity": 1, "type": "objectgroup", "visible": true, "x": 0, "y": 0}, {"draworder": "topdown", "id": 3, "name": "objects", "objects": [{"id": 6, "name": "", "type": "door", "rotation": 0, "x": 599, "y": 687, "width": 179, "height": 46, "visible": true, "properties": [{"name": "targetZone", "type": "string", "value": "town"}, {"name": "targetSpawn", "type": "string", "value": "spawn_station"}, {"name": "requiredLevel", "type": "string", "value": "1"}]}, {"id": 7, "name": "default", "type": "spawn", "rotation": 0, "x": 688.0, "y": 384.0, "width": 8, "height": 8, "visible": true, "properties": []}, {"id": 8, "name": "", "type": "npc", "rotation": 0, "x": 688, "y": 538, "width": 8, "height": 8, "visible": true, "properties": [{"name": "npcId", "type": "string", "value": "old_lady"}]}], "opacity": 1, "type": "objectgroup", "visible": true, "x": 0, "y": 0}]}
+{
+  "compressionlevel": -1,
+  "height": 1,
+  "infinite": false,
+  "nextlayerid": 4,
+  "nextobjectid": 28,
+  "orientation": "orthogonal",
+  "renderorder": "right-down",
+  "tiledversion": "1.10.2",
+  "tileheight": 768,
+  "tilewidth": 1376,
+  "type": "map",
+  "version": "1.10",
+  "width": 1,
+  "tilesets": [
+    {
+      "firstgid": 1,
+      "columns": 1,
+      "image": "massage-studio.png",
+      "imageheight": 768,
+      "imagewidth": 1376,
+      "margin": 0,
+      "name": "massage-studio",
+      "spacing": 0,
+      "tilecount": 1,
+      "tileheight": 768,
+      "tilewidth": 1376
+    }
+  ],
+  "layers": [
+    {
+      "data": [
+        1
+      ],
+      "height": 1,
+      "id": 1,
+      "name": "background",
+      "opacity": 1,
+      "type": "tilelayer",
+      "visible": true,
+      "width": 1,
+      "x": 0,
+      "y": 0
+    },
+    {
+      "draworder": "topdown",
+      "id": 2,
+      "name": "collisions",
+      "objects": [
+        {
+          "id": 1,
+          "name": "",
+          "type": "collision",
+          "rotation": 0,
+          "x": 2.909088134765625,
+          "y": 29.090909957885742,
+          "width": 1376,
+          "height": 35,
+          "visible": true,
+          "properties": []
+        },
+        {
+          "id": 2,
+          "name": "",
+          "type": "collision",
+          "rotation": 0,
+          "x": 0,
+          "y": 7.2727274894714355,
+          "width": 62.818180084228516,
+          "height": 760.7272725105286,
+          "visible": true,
+          "properties": []
+        },
+        {
+          "id": 3,
+          "name": "",
+          "type": "collision",
+          "rotation": 0,
+          "x": 1311.727294921875,
+          "y": -7.272735595703125,
+          "width": 41,
+          "height": 768,
+          "visible": true,
+          "properties": []
+        },
+        {
+          "id": 4,
+          "name": "",
+          "type": "collision",
+          "rotation": 0,
+          "x": 7.272727012634277,
+          "y": 699.5454711914062,
+          "width": 591.7272729873657,
+          "height": 68.45452880859375,
+          "visible": true,
+          "properties": []
+        },
+        {
+          "id": 5,
+          "name": "",
+          "type": "collision",
+          "rotation": 0,
+          "x": 793,
+          "y": 709.727294921875,
+          "width": 610.6363525390625,
+          "height": 51,
+          "visible": true,
+          "properties": []
+        },
+        {
+          "id": 9,
+          "name": "",
+          "type": "",
+          "rotation": 0,
+          "x": 175.99998474121094,
+          "y": 317.12726440429685,
+          "width": 162.9454559326172,
+          "height": 84.3636474609375,
+          "visible": true,
+          "properties": []
+        },
+        {
+          "id": 10,
+          "name": "",
+          "type": "",
+          "rotation": 0,
+          "x": 71.3,
+          "y": 286.5,
+          "width": 43.6,
+          "height": 101.8,
+          "visible": true,
+          "properties": []
+        },
+        {
+          "id": 11,
+          "name": "",
+          "type": "",
+          "rotation": 0,
+          "x": 81.48181610107422,
+          "y": 418.86358642578125,
+          "width": 33.41818389892578,
+          "height": 40.70911865234375,
+          "visible": true,
+          "properties": []
+        },
+        {
+          "id": 12,
+          "name": "",
+          "type": "",
+          "rotation": 0,
+          "x": 81.5,
+          "y": 609.4454406738281,
+          "width": 40.690911865234376,
+          "height": 71.25458984375,
+          "visible": true,
+          "properties": []
+        },
+        {
+          "id": 13,
+          "name": "",
+          "type": "",
+          "rotation": 0,
+          "x": 155.68181610107422,
+          "y": 519.2181762695312,
+          "width": 183.23636779785156,
+          "height": 77.0728271484375,
+          "visible": true,
+          "properties": []
+        },
+        {
+          "id": 14,
+          "name": "",
+          "type": "",
+          "rotation": 0,
+          "x": 157.1545440673828,
+          "y": 271.9272644042969,
+          "width": 183.23636779785156,
+          "height": 77.0728271484375,
+          "visible": true,
+          "properties": []
+        },
+        {
+          "id": 15,
+          "name": "",
+          "type": "",
+          "rotation": 0,
+          "x": 59.745455932617176,
+          "y": 59.53635253906248,
+          "width": 1262.5091339111327,
+          "height": 145.43645935058595,
+          "visible": true,
+          "properties": []
+        },
+        {
+          "id": 16,
+          "name": "",
+          "type": "",
+          "rotation": 0,
+          "x": 642.9,
+          "y": 237.1,
+          "width": 96,
+          "height": 173.1,
+          "visible": true,
+          "properties": []
+        },
+        {
+          "id": 17,
+          "name": "",
+          "type": "",
+          "rotation": 0,
+          "x": 1018.172705078125,
+          "y": 234.19091186523437,
+          "width": 96,
+          "height": 173.1,
+          "visible": true,
+          "properties": []
+        },
+        {
+          "id": 18,
+          "name": "",
+          "type": "",
+          "rotation": 0,
+          "x": 1096.74541015625,
+          "y": 498.927294921875,
+          "width": 206.54541015625,
+          "height": 184.7363525390625,
+          "visible": true,
+          "properties": []
+        },
+        {
+          "id": 19,
+          "name": "",
+          "type": "",
+          "rotation": 0,
+          "x": 1250.8817626953125,
+          "y": 203.62726440429685,
+          "width": 66.9090576171875,
+          "height": 222.55452880859374,
+          "visible": true,
+          "properties": []
+        },
+        {
+          "id": 20,
+          "name": "",
+          "type": "",
+          "rotation": 0,
+          "x": 744.7,
+          "y": 208,
+          "width": 52.4,
+          "height": 46.5,
+          "visible": true,
+          "properties": []
+        },
+        {
+          "id": 21,
+          "name": "",
+          "type": "",
+          "rotation": 0,
+          "x": 466.8818237304688,
+          "y": 209.45455932617188,
+          "width": 30.581793212890624,
+          "height": 184.68182373046875,
+          "visible": true,
+          "properties": []
+        },
+        {
+          "id": 22,
+          "name": "",
+          "type": "",
+          "rotation": 0,
+          "x": 874.1727355957031,
+          "y": 200.77273559570312,
+          "width": 30.581793212890624,
+          "height": 184.68182373046875,
+          "visible": true,
+          "properties": []
+        },
+        {
+          "id": 23,
+          "name": "",
+          "type": "",
+          "rotation": 0,
+          "x": 795.65458984375,
+          "y": 539.7090881347656,
+          "width": 82.94544067382813,
+          "height": 165.77267456054688,
+          "visible": true,
+          "properties": []
+        },
+        {
+          "id": 24,
+          "name": "",
+          "type": "",
+          "rotation": 0,
+          "x": 509.1545288085938,
+          "y": 535.3363525390625,
+          "width": 82.94544067382813,
+          "height": 165.77267456054688,
+          "visible": true,
+          "properties": []
+        },
+        {
+          "id": 25,
+          "name": "",
+          "type": "",
+          "rotation": 0,
+          "x": 448.10908813476567,
+          "y": 594.9363525390625,
+          "width": 64.0363525390625,
+          "height": 56.681732177734375,
+          "visible": true,
+          "properties": []
+        },
+        {
+          "id": 26,
+          "name": "",
+          "type": "",
+          "rotation": 0,
+          "x": 877.1908813476563,
+          "y": 580.3545288085937,
+          "width": 64.0363525390625,
+          "height": 56.681732177734375,
+          "visible": true,
+          "properties": []
+        },
+        {
+          "id": 27,
+          "name": "",
+          "type": "",
+          "rotation": 0,
+          "x": 1118.65458984375,
+          "y": 205.1272491455078,
+          "width": 101.85458984375,
+          "height": 31.954452514648438,
+          "visible": true,
+          "properties": []
+        }
+      ],
+      "opacity": 1,
+      "type": "objectgroup",
+      "visible": true,
+      "x": 0,
+      "y": 0,
+      "_visible": true
+    },
+    {
+      "draworder": "topdown",
+      "id": 3,
+      "name": "objects",
+      "objects": [
+        {
+          "id": 6,
+          "name": "",
+          "type": "door",
+          "rotation": 0,
+          "x": 596.0909423828125,
+          "y": 563.3637084960938,
+          "width": 190.6363525390625,
+          "height": 203.09088134765625,
+          "visible": true,
+          "properties": [
+            {
+              "name": "targetZone",
+              "type": "string",
+              "value": "town"
+            },
+            {
+              "name": "targetSpawn",
+              "type": "string",
+              "value": "spawn_station"
+            },
+            {
+              "name": "requiredLevel",
+              "type": "string",
+              "value": "1"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "name": "default",
+          "type": "spawn",
+          "rotation": 0,
+          "x": 705.4545288085938,
+          "y": 477.0909423828125,
+          "width": 8,
+          "height": 8,
+          "visible": true,
+          "properties": []
+        },
+        {
+          "id": 8,
+          "name": "",
+          "type": "npc",
+          "rotation": 0,
+          "x": 830.5454711914062,
+          "y": 230.72726440429688,
+          "width": 6.54547119140625,
+          "height": 4,
+          "visible": true,
+          "properties": [
+            {
+              "name": "npcId",
+              "type": "string",
+              "value": "old_lady"
+            }
+          ]
+        }
+      ],
+      "opacity": 1,
+      "type": "objectgroup",
+      "visible": true,
+      "x": 0,
+      "y": 0,
+      "_visible": true
+    }
+  ]
+}

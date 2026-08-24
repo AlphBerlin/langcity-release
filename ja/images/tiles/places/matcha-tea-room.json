@@ -1,1 +1,406 @@
-{"compressionlevel": -1, "height": 1, "infinite": false, "nextlayerid": 4, "nextobjectid": 9, "orientation": "orthogonal", "renderorder": "right-down", "tiledversion": "1.10.2", "tileheight": 740, "tilewidth": 1332, "type": "map", "version": "1.10", "width": 1, "tilesets": [{"firstgid": 1, "columns": 1, "image": "matcha-tea-room.png", "imageheight": 740, "imagewidth": 1332, "margin": 0, "name": "matcha-tea-room", "spacing": 0, "tilecount": 1, "tileheight": 740, "tilewidth": 1332}], "layers": [{"data": [1], "height": 1, "id": 1, "name": "background", "opacity": 1, "type": "tilelayer", "visible": true, "width": 1, "x": 0, "y": 0}, {"draworder": "topdown", "id": 2, "name": "collisions", "objects": [{"id": 1, "name": "", "type": "collision", "rotation": 0, "x": 0, "y": 0, "width": 1332, "height": 33, "visible": true, "properties": []}, {"id": 2, "name": "", "type": "collision", "rotation": 0, "x": 0, "y": 0, "width": 40, "height": 740, "visible": true, "properties": []}, {"id": 3, "name": "", "type": "collision", "rotation": 0, "x": 1292, "y": 0, "width": 40, "height": 740, "visible": true, "properties": []}, {"id": 4, "name": "", "type": "collision", "rotation": 0, "x": 0, "y": 707, "width": 579, "height": 33, "visible": true, "properties": []}, {"id": 5, "name": "", "type": "collision", "rotation": 0, "x": 753, "y": 707, "width": 579, "height": 33, "visible": true, "properties": []}], "opacity": 1, "type": "objectgroup", "visible": true, "x": 0, "y": 0}, {"draworder": "topdown", "id": 3, "name": "objects", "objects": [{"id": 6, "name": "", "type": "door", "rotation": 0, "x": 579, "y": 662, "width": 173, "height": 44, "visible": true, "properties": [{"name": "targetZone", "type": "string", "value": "town"}, {"name": "targetSpawn", "type": "string", "value": "spawn_station"}, {"name": "requiredLevel", "type": "string", "value": "1"}]}, {"id": 7, "name": "default", "type": "spawn", "rotation": 0, "x": 666.0, "y": 370.0, "width": 8, "height": 8, "visible": true, "properties": []}, {"id": 8, "name": "", "type": "npc", "rotation": 0, "x": 666, "y": 518, "width": 8, "height": 8, "visible": true, "properties": [{"name": "npcId", "type": "string", "value": "old_lady"}]}], "opacity": 1, "type": "objectgroup", "visible": true, "x": 0, "y": 0}]}
+{
+  "compressionlevel": -1,
+  "height": 1,
+  "infinite": false,
+  "nextlayerid": 4,
+  "nextobjectid": 27,
+  "orientation": "orthogonal",
+  "renderorder": "right-down",
+  "tiledversion": "1.10.2",
+  "tileheight": 740,
+  "tilewidth": 1332,
+  "type": "map",
+  "version": "1.10",
+  "width": 1,
+  "tilesets": [
+    {
+      "firstgid": 1,
+      "columns": 1,
+      "image": "matcha-tea-room.png",
+      "imageheight": 740,
+      "imagewidth": 1332,
+      "margin": 0,
+      "name": "matcha-tea-room",
+      "spacing": 0,
+      "tilecount": 1,
+      "tileheight": 740,
+      "tilewidth": 1332
+    }
+  ],
+  "layers": [
+    {
+      "data": [
+        1
+      ],
+      "height": 1,
+      "id": 1,
+      "name": "background",
+      "opacity": 1,
+      "type": "tilelayer",
+      "visible": true,
+      "width": 1,
+      "x": 0,
+      "y": 0
+    },
+    {
+      "draworder": "topdown",
+      "id": 2,
+      "name": "collisions",
+      "objects": [
+        {
+          "id": 1,
+          "name": "",
+          "type": "collision",
+          "rotation": 0,
+          "x": -8.44818115234375,
+          "y": 115.45876884460449,
+          "width": 1332,
+          "height": 33,
+          "visible": true,
+          "properties": []
+        },
+        {
+          "id": 2,
+          "name": "",
+          "type": "collision",
+          "rotation": 0,
+          "x": 0,
+          "y": 0,
+          "width": 18.879491806030273,
+          "height": 740,
+          "visible": true,
+          "properties": []
+        },
+        {
+          "id": 3,
+          "name": "",
+          "type": "collision",
+          "rotation": 0,
+          "x": 1321.5687255859375,
+          "y": 0,
+          "width": 10.4312744140625,
+          "height": 740,
+          "visible": true,
+          "properties": []
+        },
+        {
+          "id": 4,
+          "name": "",
+          "type": "collision",
+          "rotation": 0,
+          "x": -1.40802001953125,
+          "y": 650.6786499023438,
+          "width": 579,
+          "height": 33,
+          "visible": true,
+          "properties": []
+        },
+        {
+          "id": 5,
+          "name": "",
+          "type": "collision",
+          "rotation": 0,
+          "x": 757.2240600585938,
+          "y": 649.2706298828125,
+          "width": 574.7759399414062,
+          "height": 92.13739013671875,
+          "visible": true,
+          "properties": []
+        },
+        {
+          "id": 9,
+          "name": "",
+          "type": "",
+          "rotation": 0,
+          "x": 502.7,
+          "y": 259.1,
+          "width": 116.9,
+          "height": 50.7,
+          "visible": true,
+          "properties": []
+        },
+        {
+          "id": 10,
+          "name": "",
+          "type": "",
+          "rotation": 0,
+          "x": 304.6788208007813,
+          "y": 259.61162719726565,
+          "width": 116.9,
+          "height": 50.7,
+          "visible": true,
+          "properties": []
+        },
+        {
+          "id": 11,
+          "name": "",
+          "type": "",
+          "rotation": 0,
+          "x": 120.75918884277343,
+          "y": 257.295556640625,
+          "width": 107.04376831054688,
+          "height": 49.29197998046875,
+          "visible": true,
+          "properties": []
+        },
+        {
+          "id": 12,
+          "name": "",
+          "type": "",
+          "rotation": 0,
+          "x": 115.67948608398439,
+          "y": 397.2069519042969,
+          "width": 107.04376831054688,
+          "height": 49.29197998046875,
+          "visible": true,
+          "properties": []
+        },
+        {
+          "id": 13,
+          "name": "",
+          "type": "",
+          "rotation": 0,
+          "x": 121.84376831054686,
+          "y": 532.882861328125,
+          "width": 107.04376831054688,
+          "height": 49.29197998046875,
+          "visible": true,
+          "properties": []
+        },
+        {
+          "id": 14,
+          "name": "",
+          "type": "",
+          "rotation": 0,
+          "x": 309.58013610839845,
+          "y": 532.0035766601562,
+          "width": 107.04376831054688,
+          "height": 49.29197998046875,
+          "visible": true,
+          "properties": []
+        },
+        {
+          "id": 15,
+          "name": "",
+          "type": "",
+          "rotation": 0,
+          "x": 311.5196472167969,
+          "y": 393.1163024902344,
+          "width": 107.04376831054688,
+          "height": 49.29197998046875,
+          "visible": true,
+          "properties": []
+        },
+        {
+          "id": 16,
+          "name": "",
+          "type": "",
+          "rotation": 0,
+          "x": 511.95245361328125,
+          "y": 393.61162719726565,
+          "width": 107.04376831054688,
+          "height": 49.29197998046875,
+          "visible": true,
+          "properties": []
+        },
+        {
+          "id": 17,
+          "name": "",
+          "type": "",
+          "rotation": 0,
+          "x": 719.4926147460938,
+          "y": 395.5196472167969,
+          "width": 107.04376831054688,
+          "height": 49.29197998046875,
+          "visible": true,
+          "properties": []
+        },
+        {
+          "id": 18,
+          "name": "",
+          "type": "",
+          "rotation": 0,
+          "x": 718.6035766601562,
+          "y": 260.84039306640625,
+          "width": 107.04376831054688,
+          "height": 49.29197998046875,
+          "visible": true,
+          "properties": []
+        },
+        {
+          "id": 19,
+          "name": "",
+          "type": "",
+          "rotation": 0,
+          "x": 913.4203125,
+          "y": 261.31162719726564,
+          "width": 107.04376831054688,
+          "height": 49.29197998046875,
+          "visible": true,
+          "properties": []
+        },
+        {
+          "id": 20,
+          "name": "",
+          "type": "",
+          "rotation": 0,
+          "x": 918.1357177734375,
+          "y": 395.57484130859376,
+          "width": 107.04376831054688,
+          "height": 49.29197998046875,
+          "visible": true,
+          "properties": []
+        },
+        {
+          "id": 21,
+          "name": "",
+          "type": "",
+          "rotation": 0,
+          "x": 917.2035766601563,
+          "y": 534.0989318847656,
+          "width": 107.04376831054688,
+          "height": 49.29197998046875,
+          "visible": true,
+          "properties": []
+        },
+        {
+          "id": 22,
+          "name": "",
+          "type": "",
+          "rotation": 0,
+          "x": 1107.79619140625,
+          "y": 531.795556640625,
+          "width": 107.04376831054688,
+          "height": 49.29197998046875,
+          "visible": true,
+          "properties": []
+        },
+        {
+          "id": 23,
+          "name": "",
+          "type": "",
+          "rotation": 0,
+          "x": 1108.3115966796875,
+          "y": 395.73234252929683,
+          "width": 107.04376831054688,
+          "height": 49.29197998046875,
+          "visible": true,
+          "properties": []
+        },
+        {
+          "id": 24,
+          "name": "",
+          "type": "",
+          "rotation": 0,
+          "x": 1108.8115966796875,
+          "y": 261.0403625488281,
+          "width": 107.04376831054688,
+          "height": 49.29197998046875,
+          "visible": true,
+          "properties": []
+        },
+        {
+          "id": 25,
+          "name": "",
+          "type": "",
+          "rotation": 0,
+          "x": 1057.214306640625,
+          "y": 146.0528564453125,
+          "width": 266.15155639648435,
+          "height": 88.71692199707032,
+          "visible": true,
+          "properties": []
+        },
+        {
+          "id": 26,
+          "name": "",
+          "type": "",
+          "rotation": 0,
+          "x": 498.7221557617188,
+          "y": 122.67505798339843,
+          "width": 335.14520874023435,
+          "height": 81.67674560546875,
+          "visible": true,
+          "properties": []
+        }
+      ],
+      "opacity": 1,
+      "type": "objectgroup",
+      "visible": true,
+      "x": 0,
+      "y": 0,
+      "_visible": true
+    },
+    {
+      "draworder": "topdown",
+      "id": 3,
+      "name": "objects",
+      "objects": [
+        {
+          "id": 6,
+          "name": "",
+          "type": "door",
+          "rotation": 0,
+          "x": 576.1839599609375,
+          "y": 632.4312744140625,
+          "width": 171.59197998046875,
+          "height": 105.9534912109375,
+          "visible": true,
+          "properties": [
+            {
+              "name": "targetZone",
+              "type": "string",
+              "value": "town"
+            },
+            {
+              "name": "targetSpawn",
+              "type": "string",
+              "value": "spawn_station"
+            },
+            {
+              "name": "requiredLevel",
+              "type": "string",
+              "value": "1"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "name": "default",
+          "type": "spawn",
+          "rotation": 0,
+          "x": 666,
+          "y": 546.0042724609375,
+          "width": 8,
+          "height": 8,
+          "visible": true,
+          "properties": []
+        },
+        {
+          "id": 8,
+          "name": "",
+          "type": "npc",
+          "rotation": 0,
+          "x": 447.7547302246094,
+          "y": 175.8477783203125,
+          "width": 8,
+          "height": 8,
+          "visible": true,
+          "properties": [
+            {
+              "name": "npcId",
+              "type": "string",
+              "value": "old_lady"
+            }
+          ]
+        }
+      ],
+      "opacity": 1,
+      "type": "objectgroup",
+      "visible": true,
+      "x": 0,
+      "y": 0,
+      "_visible": true
+    }
+  ]
+}
