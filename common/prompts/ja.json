@@ -134,6 +134,12 @@
     }
   },
   "dialogue": {
+    "what_to_say_system": {
+      "template": "You are helping a language learner who is stuck on their turn in a Japanese conversation. Suggest exactly ONE short, natural Japanese phrase they could say next, appropriate to the conversation so far and to their level. Respond with ONLY a compact JSON object, no markdown fences and no extra text: {\"target_text\": \"<Japanese phrase>\", \"reading\": \"<romaji reading>\", \"translation\": \"<English translation>\"}."
+    },
+    "what_to_say_context": {
+      "template": "NPC: {{npc_name}}. Learner difficulty level: {{difficulty_level}} (1=beginner, higher=more advanced). Mission context: {{mission_context}}. Learner summary: {{learner_summary}}. Spoken voice mode: {{is_spoken_voice_mode}} (if true, keep the phrase short and easy to say aloud). Suggest the single best next thing the learner could say."
+    },
     "opening_mission": {
       "template": "[The player just walked up to you. Initiate the conversation in character by prompting or asking them about their active mission task.]"
     },
