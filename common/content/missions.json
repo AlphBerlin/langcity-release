@@ -14,6 +14,116 @@
     {
       "explain": "",
       "idx": 0,
+      "instruction": "Go to the Gym (ジム).",
+      "location_id": "gym",
+      "matches": [],
+      "mission_id": "explore_active_appetite",
+      "npc_id": null,
+      "phrase": null,
+      "type": "goToLocation"
+    },
+    {
+      "explain": "",
+      "idx": 0,
+      "instruction": "Go to the Sento Bathhouse (せんとう).",
+      "location_id": "sentoBathhouse",
+      "matches": [],
+      "mission_id": "explore_bath_relax",
+      "npc_id": null,
+      "phrase": null,
+      "type": "goToLocation"
+    },
+    {
+      "explain": "",
+      "idx": 0,
+      "instruction": "Go to the Maid Cafe (メイドカフェ).",
+      "location_id": "maidCafe",
+      "matches": [],
+      "mission_id": "explore_cafe_entertainment",
+      "npc_id": null,
+      "phrase": null,
+      "type": "goToLocation"
+    },
+    {
+      "explain": "",
+      "idx": 0,
+      "instruction": "Go to the Police Station (こうばん).",
+      "location_id": "policeStation",
+      "matches": [],
+      "mission_id": "explore_city_essentials",
+      "npc_id": null,
+      "phrase": null,
+      "type": "goToLocation"
+    },
+    {
+      "explain": "",
+      "idx": 0,
+      "instruction": "Go to the Konbini (コンビニ).",
+      "location_id": "konbini",
+      "matches": [],
+      "mission_id": "explore_daily_errands",
+      "npc_id": null,
+      "phrase": null,
+      "type": "goToLocation"
+    },
+    {
+      "explain": "",
+      "idx": 0,
+      "instruction": "Go to the Manga Bookshop (まんがや).",
+      "location_id": "mangaBookshop",
+      "matches": [],
+      "mission_id": "explore_shops_stages",
+      "npc_id": null,
+      "phrase": null,
+      "type": "goToLocation"
+    },
+    {
+      "explain": "",
+      "idx": 0,
+      "instruction": "Go to the Temple (おてら).",
+      "location_id": "templeMain",
+      "matches": [],
+      "mission_id": "explore_temple_dojo",
+      "npc_id": null,
+      "phrase": null,
+      "type": "goToLocation"
+    },
+    {
+      "explain": "",
+      "idx": 0,
+      "instruction": "Go to the Garden Park (こうえん).",
+      "location_id": "park",
+      "matches": [],
+      "mission_id": "explore_town_landmarks",
+      "npc_id": null,
+      "phrase": null,
+      "type": "goToLocation"
+    },
+    {
+      "explain": "",
+      "idx": 0,
+      "instruction": "Go to the Tea Ceremony room (さどう).",
+      "location_id": "teaCeremony",
+      "matches": [],
+      "mission_id": "explore_traditional_crafts",
+      "npc_id": null,
+      "phrase": null,
+      "type": "goToLocation"
+    },
+    {
+      "explain": "",
+      "idx": 0,
+      "instruction": "Go to the Office (オフィス).",
+      "location_id": "office",
+      "matches": [],
+      "mission_id": "explore_work_noodles",
+      "npc_id": null,
+      "phrase": null,
+      "type": "goToLocation"
+    },
+    {
+      "explain": "",
+      "idx": 0,
       "instruction": "Go find Hana in the garden (こうえん).",
       "location_id": "park",
       "matches": [],
@@ -92,6 +202,116 @@
       "type": "sayPhrase"
     },
     {
+      "explain": "",
+      "idx": 1,
+      "instruction": "Go to the Restaurant (レストラン).",
+      "location_id": "restaurant",
+      "matches": [],
+      "mission_id": "explore_active_appetite",
+      "npc_id": null,
+      "phrase": null,
+      "type": "goToLocation"
+    },
+    {
+      "explain": "",
+      "idx": 1,
+      "instruction": "Go to the Spa Complex (スパ).",
+      "location_id": "spa",
+      "matches": [],
+      "mission_id": "explore_bath_relax",
+      "npc_id": null,
+      "phrase": null,
+      "type": "goToLocation"
+    },
+    {
+      "explain": "",
+      "idx": 1,
+      "instruction": "Go to the Manga Cafe (まんがカフェ).",
+      "location_id": "mangaCafe",
+      "matches": [],
+      "mission_id": "explore_cafe_entertainment",
+      "npc_id": null,
+      "phrase": null,
+      "type": "goToLocation"
+    },
+    {
+      "explain": "",
+      "idx": 1,
+      "instruction": "Go to the Embassy (たいしかん).",
+      "location_id": "embassy",
+      "matches": [],
+      "mission_id": "explore_city_essentials",
+      "npc_id": null,
+      "phrase": null,
+      "type": "goToLocation"
+    },
+    {
+      "explain": "",
+      "idx": 1,
+      "instruction": "Go to the Station (えき).",
+      "location_id": "station",
+      "matches": [],
+      "mission_id": "explore_daily_errands",
+      "npc_id": null,
+      "phrase": null,
+      "type": "goToLocation"
+    },
+    {
+      "explain": "",
+      "idx": 1,
+      "instruction": "Go to the Supermarket (スーパー).",
+      "location_id": "supermarket",
+      "matches": [],
+      "mission_id": "explore_shops_stages",
+      "npc_id": null,
+      "phrase": null,
+      "type": "goToLocation"
+    },
+    {
+      "explain": "",
+      "idx": 1,
+      "instruction": "Go to the Temple Hall (ほんどう).",
+      "location_id": "templeHall",
+      "matches": [],
+      "mission_id": "explore_temple_dojo",
+      "npc_id": null,
+      "phrase": null,
+      "type": "goToLocation"
+    },
+    {
+      "explain": "",
+      "idx": 1,
+      "instruction": "Go to the Shrine (じんじゃ).",
+      "location_id": "shrine",
+      "matches": [],
+      "mission_id": "explore_town_landmarks",
+      "npc_id": null,
+      "phrase": null,
+      "type": "goToLocation"
+    },
+    {
+      "explain": "",
+      "idx": 1,
+      "instruction": "Go to the Calligraphy Studio (しょどう).",
+      "location_id": "calligraphyStudio",
+      "matches": [],
+      "mission_id": "explore_traditional_crafts",
+      "npc_id": null,
+      "phrase": null,
+      "type": "goToLocation"
+    },
+    {
+      "explain": "",
+      "idx": 1,
+      "instruction": "Go to the Ramen Shop (ラーメンや).",
+      "location_id": "ramen",
+      "matches": [],
+      "mission_id": "explore_work_noodles",
+      "npc_id": null,
+      "phrase": null,
+      "type": "goToLocation"
+    },
+    {
       "explain": "たいへん！さいふを なくしちゃったの。こうばんに とどけを だしてほしいんだけど、いって くれる？",
       "idx": 1,
       "instruction": "Listen to Hana.",
@@ -165,6 +385,116 @@
     {
       "explain": "",
       "idx": 2,
+      "instruction": "Go to the Football Ground (サッカーじょう).",
+      "location_id": "footballGround",
+      "matches": [],
+      "mission_id": "explore_active_appetite",
+      "npc_id": null,
+      "phrase": null,
+      "type": "goToLocation"
+    },
+    {
+      "explain": "",
+      "idx": 2,
+      "instruction": "Go to the Sauna (サウナ).",
+      "location_id": "sauna",
+      "matches": [],
+      "mission_id": "explore_bath_relax",
+      "npc_id": null,
+      "phrase": null,
+      "type": "goToLocation"
+    },
+    {
+      "explain": "",
+      "idx": 2,
+      "instruction": "Go to the Animal Cafe (どうぶつカフェ).",
+      "location_id": "animalCafe",
+      "matches": [],
+      "mission_id": "explore_cafe_entertainment",
+      "npc_id": null,
+      "phrase": null,
+      "type": "goToLocation"
+    },
+    {
+      "explain": "",
+      "idx": 2,
+      "instruction": "Go to the Hospital (びょういん).",
+      "location_id": "hospital",
+      "matches": [],
+      "mission_id": "explore_city_essentials",
+      "npc_id": null,
+      "phrase": null,
+      "type": "goToLocation"
+    },
+    {
+      "explain": "",
+      "idx": 2,
+      "instruction": "Go to the Library (としょかん).",
+      "location_id": "library",
+      "matches": [],
+      "mission_id": "explore_daily_errands",
+      "npc_id": null,
+      "phrase": null,
+      "type": "goToLocation"
+    },
+    {
+      "explain": "",
+      "idx": 2,
+      "instruction": "Go to the Karaoke Room (カラオケ).",
+      "location_id": "karaoke",
+      "matches": [],
+      "mission_id": "explore_shops_stages",
+      "npc_id": null,
+      "phrase": null,
+      "type": "goToLocation"
+    },
+    {
+      "explain": "",
+      "idx": 2,
+      "instruction": "Go to the Temple Room (じいんのへや).",
+      "location_id": "templeRoom",
+      "matches": [],
+      "mission_id": "explore_temple_dojo",
+      "npc_id": null,
+      "phrase": null,
+      "type": "goToLocation"
+    },
+    {
+      "explain": "",
+      "idx": 2,
+      "instruction": "Go to the School (がっこう).",
+      "location_id": "school",
+      "matches": [],
+      "mission_id": "explore_town_landmarks",
+      "npc_id": null,
+      "phrase": null,
+      "type": "goToLocation"
+    },
+    {
+      "explain": "",
+      "idx": 2,
+      "instruction": "Go to the Origami Workshop (おりがみこうぼう).",
+      "location_id": "origamiWorkshop",
+      "matches": [],
+      "mission_id": "explore_traditional_crafts",
+      "npc_id": null,
+      "phrase": null,
+      "type": "goToLocation"
+    },
+    {
+      "explain": "",
+      "idx": 2,
+      "instruction": "Go to the Ramen Class (ラーメンきょうしつ).",
+      "location_id": "ramenClass",
+      "matches": [],
+      "mission_id": "explore_work_noodles",
+      "npc_id": null,
+      "phrase": null,
+      "type": "goToLocation"
+    },
+    {
+      "explain": "",
+      "idx": 2,
       "instruction": "Go to the police station (こうばん) and report it.",
       "location_id": "policeStation",
       "matches": [],
@@ -198,6 +528,116 @@
       "type": "sayPhrase"
     },
     {
+      "explain": "",
+      "idx": 3,
+      "instruction": "Go to the Tennis Court (テニスコート).",
+      "location_id": "tennisCourt",
+      "matches": [],
+      "mission_id": "explore_active_appetite",
+      "npc_id": null,
+      "phrase": null,
+      "type": "goToLocation"
+    },
+    {
+      "explain": "",
+      "idx": 3,
+      "instruction": "Go to the Ryokan (りょかん).",
+      "location_id": "ryokan",
+      "matches": [],
+      "mission_id": "explore_bath_relax",
+      "npc_id": null,
+      "phrase": null,
+      "type": "goToLocation"
+    },
+    {
+      "explain": "",
+      "idx": 3,
+      "instruction": "Go to the Cafe Lounge (カフェラウンジ).",
+      "location_id": "cafeLounge",
+      "matches": [],
+      "mission_id": "explore_cafe_entertainment",
+      "npc_id": null,
+      "phrase": null,
+      "type": "goToLocation"
+    },
+    {
+      "explain": "",
+      "idx": 3,
+      "instruction": "Go to the Townhouse (いえ).",
+      "location_id": "townhouse",
+      "matches": [],
+      "mission_id": "explore_city_essentials",
+      "npc_id": null,
+      "phrase": null,
+      "type": "goToLocation"
+    },
+    {
+      "explain": "",
+      "idx": 3,
+      "instruction": "Go to the Classroom (きょうしつ).",
+      "location_id": "classroom",
+      "matches": [],
+      "mission_id": "explore_daily_errands",
+      "npc_id": null,
+      "phrase": null,
+      "type": "goToLocation"
+    },
+    {
+      "explain": "",
+      "idx": 3,
+      "instruction": "Go to the Arcade (ゲームセンター).",
+      "location_id": "arcade",
+      "matches": [],
+      "mission_id": "explore_shops_stages",
+      "npc_id": null,
+      "phrase": null,
+      "type": "goToLocation"
+    },
+    {
+      "explain": "",
+      "idx": 3,
+      "instruction": "Go to the Samurai Dojo (さむらいどうじょう).",
+      "location_id": "samuraiDojo",
+      "matches": [],
+      "mission_id": "explore_temple_dojo",
+      "npc_id": null,
+      "phrase": null,
+      "type": "goToLocation"
+    },
+    {
+      "explain": "",
+      "idx": 3,
+      "instruction": "Go to the Town Center (まち).",
+      "location_id": "town",
+      "matches": [],
+      "mission_id": "explore_town_landmarks",
+      "npc_id": null,
+      "phrase": null,
+      "type": "goToLocation"
+    },
+    {
+      "explain": "",
+      "idx": 3,
+      "instruction": "Go to the Ikebana Studio (いけばな).",
+      "location_id": "ikebanaStudio",
+      "matches": [],
+      "mission_id": "explore_traditional_crafts",
+      "npc_id": null,
+      "phrase": null,
+      "type": "goToLocation"
+    },
+    {
+      "explain": "",
+      "idx": 3,
+      "instruction": "Go to the Tech Office (ITオフィス).",
+      "location_id": "officeTech",
+      "matches": [],
+      "mission_id": "explore_work_noodles",
+      "npc_id": null,
+      "phrase": null,
+      "type": "goToLocation"
+    },
+    {
       "explain": "こんにちは。どうしましたか？おちついて、なにが あったか おしえてください。",
       "idx": 3,
       "instruction": "Talk to Officer Yamada.",
@@ -218,6 +658,105 @@
       "npc_id": "20",
       "phrase": null,
       "type": "talkToNpc"
+    },
+    {
+      "explain": "",
+      "idx": 4,
+      "instruction": "Go to the Stadium (スタジアム).",
+      "location_id": "stadium",
+      "matches": [],
+      "mission_id": "explore_active_appetite",
+      "npc_id": null,
+      "phrase": null,
+      "type": "goToLocation"
+    },
+    {
+      "explain": "",
+      "idx": 4,
+      "instruction": "Go to the Massage Studio (マッサージや).",
+      "location_id": "massageStudio",
+      "matches": [],
+      "mission_id": "explore_bath_relax",
+      "npc_id": null,
+      "phrase": null,
+      "type": "goToLocation"
+    },
+    {
+      "explain": "",
+      "idx": 4,
+      "instruction": "Go to the Classic Cafe (きっさてん).",
+      "location_id": "cafeClassic",
+      "matches": [],
+      "mission_id": "explore_cafe_entertainment",
+      "npc_id": null,
+      "phrase": null,
+      "type": "goToLocation"
+    },
+    {
+      "explain": "",
+      "idx": 4,
+      "instruction": "Go to the Apartment (アパート).",
+      "location_id": "apartment",
+      "matches": [],
+      "mission_id": "explore_city_essentials",
+      "npc_id": null,
+      "phrase": null,
+      "type": "goToLocation"
+    },
+    {
+      "explain": "",
+      "idx": 4,
+      "instruction": "Go to the Cafe (カフェ).",
+      "location_id": "cafe",
+      "matches": [],
+      "mission_id": "explore_daily_errands",
+      "npc_id": null,
+      "phrase": null,
+      "type": "goToLocation"
+    },
+    {
+      "explain": "",
+      "idx": 4,
+      "instruction": "Go to the Theatre (げきじょう).",
+      "location_id": "theatre",
+      "matches": [],
+      "mission_id": "explore_shops_stages",
+      "npc_id": null,
+      "phrase": null,
+      "type": "goToLocation"
+    },
+    {
+      "explain": "",
+      "idx": 4,
+      "instruction": "Go to the Sumo Dojo (すもうどうじょう).",
+      "location_id": "sumoDojo",
+      "matches": [],
+      "mission_id": "explore_temple_dojo",
+      "npc_id": null,
+      "phrase": null,
+      "type": "goToLocation"
+    },
+    {
+      "explain": "",
+      "idx": 4,
+      "instruction": "Go to the Pottery Studio (とうげいこうぼう).",
+      "location_id": "potteryStudio",
+      "matches": [],
+      "mission_id": "explore_traditional_crafts",
+      "npc_id": null,
+      "phrase": null,
+      "type": "goToLocation"
+    },
+    {
+      "explain": "",
+      "idx": 4,
+      "instruction": "Go to the Training Office (けんしゅうしつ).",
+      "location_id": "officeTraining",
+      "matches": [],
+      "mission_id": "explore_work_noodles",
+      "npc_id": null,
+      "phrase": null,
+      "type": "goToLocation"
     },
     {
       "explain": "だいじょうぶ ですよ。なにを なくしたか、いってみてください。",
@@ -250,6 +789,72 @@
     {
       "explain": "",
       "idx": 5,
+      "instruction": "Go to the Zumba Studio (ズンバスタジオ).",
+      "location_id": "zumbaStudio",
+      "matches": [],
+      "mission_id": "explore_active_appetite",
+      "npc_id": null,
+      "phrase": null,
+      "type": "goToLocation"
+    },
+    {
+      "explain": "",
+      "idx": 5,
+      "instruction": "Go to the Hotpot Restaurant (なべや).",
+      "location_id": "hotpotRestaurant",
+      "matches": [],
+      "mission_id": "explore_bath_relax",
+      "npc_id": null,
+      "phrase": null,
+      "type": "goToLocation"
+    },
+    {
+      "explain": "",
+      "idx": 5,
+      "instruction": "Go to the Matcha Tea Room (まっちゃのへや).",
+      "location_id": "matchaTeaRoom",
+      "matches": [],
+      "mission_id": "explore_cafe_entertainment",
+      "npc_id": null,
+      "phrase": null,
+      "type": "goToLocation"
+    },
+    {
+      "explain": "",
+      "idx": 5,
+      "instruction": "Go to the Family Home (じたく).",
+      "location_id": "familyHome",
+      "matches": [],
+      "mission_id": "explore_city_essentials",
+      "npc_id": null,
+      "phrase": null,
+      "type": "goToLocation"
+    },
+    {
+      "explain": "",
+      "idx": 5,
+      "instruction": "Go to the Kintsugi Workshop (きんつぎこうぼう).",
+      "location_id": "kintsugiWorkshop",
+      "matches": [],
+      "mission_id": "explore_shops_stages",
+      "npc_id": null,
+      "phrase": null,
+      "type": "goToLocation"
+    },
+    {
+      "explain": "",
+      "idx": 5,
+      "instruction": "Go to the Tokyo Office (とうきょうオフィス).",
+      "location_id": "tokyoOffice",
+      "matches": [],
+      "mission_id": "explore_work_noodles",
+      "npc_id": null,
+      "phrase": null,
+      "type": "goToLocation"
+    },
+    {
+      "explain": "",
+      "idx": 5,
       "instruction": "Go back to the garden (こうえん) and tell Hana.",
       "location_id": "park",
       "matches": [],
@@ -265,6 +870,50 @@
       "location_id": "konbini",
       "matches": [],
       "mission_id": "rude_customer_report",
+      "npc_id": null,
+      "phrase": null,
+      "type": "goToLocation"
+    },
+    {
+      "explain": "",
+      "idx": 6,
+      "instruction": "Go to the Sushi Class (すしきょうしつ).",
+      "location_id": "sushiClass",
+      "matches": [],
+      "mission_id": "explore_bath_relax",
+      "npc_id": null,
+      "phrase": null,
+      "type": "goToLocation"
+    },
+    {
+      "explain": "",
+      "idx": 6,
+      "instruction": "Go to the Kimono Dressing shop (きものや).",
+      "location_id": "kimonoDressing",
+      "matches": [],
+      "mission_id": "explore_cafe_entertainment",
+      "npc_id": null,
+      "phrase": null,
+      "type": "goToLocation"
+    },
+    {
+      "explain": "",
+      "idx": 6,
+      "instruction": "Go to the Restaurant Counter (しょくどう).",
+      "location_id": "restaurantCounter",
+      "matches": [],
+      "mission_id": "explore_city_essentials",
+      "npc_id": null,
+      "phrase": null,
+      "type": "goToLocation"
+    },
+    {
+      "explain": "",
+      "idx": 6,
+      "instruction": "Go to the Ukiyo-e Studio (うきよえこうぼう).",
+      "location_id": "ukiyoEStudio",
+      "matches": [],
+      "mission_id": "explore_shops_stages",
       "npc_id": null,
       "phrase": null,
       "type": "goToLocation"
@@ -290,6 +939,17 @@
       "npc_id": "konbini_clerk",
       "phrase": null,
       "type": "talkToNpc"
+    },
+    {
+      "explain": "",
+      "idx": 7,
+      "instruction": "Go to the Izakaya (いざかや).",
+      "location_id": "restaurantIzakaya",
+      "matches": [],
+      "mission_id": "explore_city_essentials",
+      "npc_id": null,
+      "phrase": null,
+      "type": "goToLocation"
     },
     {
       "explain": "",
@@ -354,8 +1014,9 @@
       "active": true,
       "giver_npc_id": "store_server",
       "id": "onigiri_run",
+      "kind": "main",
       "language": "ja",
-      "min_level": 1,
+      "min_level": 2,
       "nodes": [
         {
           "explain": "",
@@ -392,8 +1053,9 @@
       "active": true,
       "giver_npc_id": "traveller",
       "id": "ask_the_way",
+      "kind": "main",
       "language": "ja",
-      "min_level": 1,
+      "min_level": 2,
       "nodes": [
         {
           "explain": "",
@@ -695,6 +1357,806 @@
       "sort_order": 7,
       "summary": "A rude customer is causing trouble at Sato's konbini. Report it to Officer Yamada at the police station, then go back and tell Sato.",
       "title": "The Rude Customer",
+      "xp_reward": 150
+    },
+    {
+      "active": true,
+      "giver_npc_id": "teacher",
+      "id": "explore_town_landmarks",
+      "kind": "side",
+      "language": "ja",
+      "min_level": 1,
+      "nodes": [
+        {
+          "explain": "",
+          "idx": 0,
+          "instruction": "Go to the Garden Park (こうえん).",
+          "location_id": "park",
+          "matches": [],
+          "mission_id": "explore_town_landmarks",
+          "npc_id": null,
+          "phrase": null,
+          "type": "goToLocation"
+        },
+        {
+          "explain": "",
+          "idx": 1,
+          "instruction": "Go to the Shrine (じんじゃ).",
+          "location_id": "shrine",
+          "matches": [],
+          "mission_id": "explore_town_landmarks",
+          "npc_id": null,
+          "phrase": null,
+          "type": "goToLocation"
+        },
+        {
+          "explain": "",
+          "idx": 2,
+          "instruction": "Go to the School (がっこう).",
+          "location_id": "school",
+          "matches": [],
+          "mission_id": "explore_town_landmarks",
+          "npc_id": null,
+          "phrase": null,
+          "type": "goToLocation"
+        },
+        {
+          "explain": "",
+          "idx": 3,
+          "instruction": "Go to the Town Center (まち).",
+          "location_id": "town",
+          "matches": [],
+          "mission_id": "explore_town_landmarks",
+          "npc_id": null,
+          "phrase": null,
+          "type": "goToLocation"
+        }
+      ],
+      "sort_order": 10,
+      "summary": "Visit the town's main landmarks: the park, shrine, school, and town center. Ask people for the route if you get lost — Sensei near the school knows every shortcut.",
+      "title": "Town Landmarks",
+      "xp_reward": 60
+    },
+    {
+      "active": true,
+      "giver_npc_id": "teacher",
+      "id": "explore_daily_errands",
+      "kind": "side",
+      "language": "ja",
+      "min_level": 2,
+      "nodes": [
+        {
+          "explain": "",
+          "idx": 0,
+          "instruction": "Go to the Konbini (コンビニ).",
+          "location_id": "konbini",
+          "matches": [],
+          "mission_id": "explore_daily_errands",
+          "npc_id": null,
+          "phrase": null,
+          "type": "goToLocation"
+        },
+        {
+          "explain": "",
+          "idx": 1,
+          "instruction": "Go to the Station (えき).",
+          "location_id": "station",
+          "matches": [],
+          "mission_id": "explore_daily_errands",
+          "npc_id": null,
+          "phrase": null,
+          "type": "goToLocation"
+        },
+        {
+          "explain": "",
+          "idx": 2,
+          "instruction": "Go to the Library (としょかん).",
+          "location_id": "library",
+          "matches": [],
+          "mission_id": "explore_daily_errands",
+          "npc_id": null,
+          "phrase": null,
+          "type": "goToLocation"
+        },
+        {
+          "explain": "",
+          "idx": 3,
+          "instruction": "Go to the Classroom (きょうしつ).",
+          "location_id": "classroom",
+          "matches": [],
+          "mission_id": "explore_daily_errands",
+          "npc_id": null,
+          "phrase": null,
+          "type": "goToLocation"
+        },
+        {
+          "explain": "",
+          "idx": 4,
+          "instruction": "Go to the Cafe (カフェ).",
+          "location_id": "cafe",
+          "matches": [],
+          "mission_id": "explore_daily_errands",
+          "npc_id": null,
+          "phrase": null,
+          "type": "goToLocation"
+        }
+      ],
+      "sort_order": 11,
+      "summary": "A quick tour of everyday places: konbini, station, library, classroom, and cafe. Ask around if you need directions — Sensei near the school can help if you get stuck.",
+      "title": "Daily Errands",
+      "xp_reward": 60
+    },
+    {
+      "active": true,
+      "giver_npc_id": "old_lady",
+      "id": "explore_traditional_crafts",
+      "kind": "side",
+      "language": "ja",
+      "min_level": 3,
+      "nodes": [
+        {
+          "explain": "",
+          "idx": 0,
+          "instruction": "Go to the Tea Ceremony room (さどう).",
+          "location_id": "teaCeremony",
+          "matches": [],
+          "mission_id": "explore_traditional_crafts",
+          "npc_id": null,
+          "phrase": null,
+          "type": "goToLocation"
+        },
+        {
+          "explain": "",
+          "idx": 1,
+          "instruction": "Go to the Calligraphy Studio (しょどう).",
+          "location_id": "calligraphyStudio",
+          "matches": [],
+          "mission_id": "explore_traditional_crafts",
+          "npc_id": null,
+          "phrase": null,
+          "type": "goToLocation"
+        },
+        {
+          "explain": "",
+          "idx": 2,
+          "instruction": "Go to the Origami Workshop (おりがみこうぼう).",
+          "location_id": "origamiWorkshop",
+          "matches": [],
+          "mission_id": "explore_traditional_crafts",
+          "npc_id": null,
+          "phrase": null,
+          "type": "goToLocation"
+        },
+        {
+          "explain": "",
+          "idx": 3,
+          "instruction": "Go to the Ikebana Studio (いけばな).",
+          "location_id": "ikebanaStudio",
+          "matches": [],
+          "mission_id": "explore_traditional_crafts",
+          "npc_id": null,
+          "phrase": null,
+          "type": "goToLocation"
+        },
+        {
+          "explain": "",
+          "idx": 4,
+          "instruction": "Go to the Pottery Studio (とうげいこうぼう).",
+          "location_id": "potteryStudio",
+          "matches": [],
+          "mission_id": "explore_traditional_crafts",
+          "npc_id": null,
+          "phrase": null,
+          "type": "goToLocation"
+        }
+      ],
+      "sort_order": 12,
+      "summary": "Explore the traditional craft studios. If a door is hard to find, ask someone nearby or check with Sensei near the school.",
+      "title": "Traditional Crafts",
+      "xp_reward": 70
+    },
+    {
+      "active": true,
+      "giver_npc_id": "traveller",
+      "id": "explore_active_appetite",
+      "kind": "side",
+      "language": "ja",
+      "min_level": 4,
+      "nodes": [
+        {
+          "explain": "",
+          "idx": 0,
+          "instruction": "Go to the Gym (ジム).",
+          "location_id": "gym",
+          "matches": [],
+          "mission_id": "explore_active_appetite",
+          "npc_id": null,
+          "phrase": null,
+          "type": "goToLocation"
+        },
+        {
+          "explain": "",
+          "idx": 1,
+          "instruction": "Go to the Restaurant (レストラン).",
+          "location_id": "restaurant",
+          "matches": [],
+          "mission_id": "explore_active_appetite",
+          "npc_id": null,
+          "phrase": null,
+          "type": "goToLocation"
+        },
+        {
+          "explain": "",
+          "idx": 2,
+          "instruction": "Go to the Football Ground (サッカーじょう).",
+          "location_id": "footballGround",
+          "matches": [],
+          "mission_id": "explore_active_appetite",
+          "npc_id": null,
+          "phrase": null,
+          "type": "goToLocation"
+        },
+        {
+          "explain": "",
+          "idx": 3,
+          "instruction": "Go to the Tennis Court (テニスコート).",
+          "location_id": "tennisCourt",
+          "matches": [],
+          "mission_id": "explore_active_appetite",
+          "npc_id": null,
+          "phrase": null,
+          "type": "goToLocation"
+        },
+        {
+          "explain": "",
+          "idx": 4,
+          "instruction": "Go to the Stadium (スタジアム).",
+          "location_id": "stadium",
+          "matches": [],
+          "mission_id": "explore_active_appetite",
+          "npc_id": null,
+          "phrase": null,
+          "type": "goToLocation"
+        },
+        {
+          "explain": "",
+          "idx": 5,
+          "instruction": "Go to the Zumba Studio (ズンバスタジオ).",
+          "location_id": "zumbaStudio",
+          "matches": [],
+          "mission_id": "explore_active_appetite",
+          "npc_id": null,
+          "phrase": null,
+          "type": "goToLocation"
+        }
+      ],
+      "sort_order": 13,
+      "summary": "Visit the gym, stadium, sports grounds, and a restaurant. Ask for the route when you need it — Sensei knows every shortcut.",
+      "title": "Active & Appetite",
+      "xp_reward": 80
+    },
+    {
+      "active": true,
+      "giver_npc_id": "teacher",
+      "id": "explore_work_noodles",
+      "kind": "side",
+      "language": "ja",
+      "min_level": 5,
+      "nodes": [
+        {
+          "explain": "",
+          "idx": 0,
+          "instruction": "Go to the Office (オフィス).",
+          "location_id": "office",
+          "matches": [],
+          "mission_id": "explore_work_noodles",
+          "npc_id": null,
+          "phrase": null,
+          "type": "goToLocation"
+        },
+        {
+          "explain": "",
+          "idx": 1,
+          "instruction": "Go to the Ramen Shop (ラーメンや).",
+          "location_id": "ramen",
+          "matches": [],
+          "mission_id": "explore_work_noodles",
+          "npc_id": null,
+          "phrase": null,
+          "type": "goToLocation"
+        },
+        {
+          "explain": "",
+          "idx": 2,
+          "instruction": "Go to the Ramen Class (ラーメンきょうしつ).",
+          "location_id": "ramenClass",
+          "matches": [],
+          "mission_id": "explore_work_noodles",
+          "npc_id": null,
+          "phrase": null,
+          "type": "goToLocation"
+        },
+        {
+          "explain": "",
+          "idx": 3,
+          "instruction": "Go to the Tech Office (ITオフィス).",
+          "location_id": "officeTech",
+          "matches": [],
+          "mission_id": "explore_work_noodles",
+          "npc_id": null,
+          "phrase": null,
+          "type": "goToLocation"
+        },
+        {
+          "explain": "",
+          "idx": 4,
+          "instruction": "Go to the Training Office (けんしゅうしつ).",
+          "location_id": "officeTraining",
+          "matches": [],
+          "mission_id": "explore_work_noodles",
+          "npc_id": null,
+          "phrase": null,
+          "type": "goToLocation"
+        },
+        {
+          "explain": "",
+          "idx": 5,
+          "instruction": "Go to the Tokyo Office (とうきょうオフィス).",
+          "location_id": "tokyoOffice",
+          "matches": [],
+          "mission_id": "explore_work_noodles",
+          "npc_id": null,
+          "phrase": null,
+          "type": "goToLocation"
+        }
+      ],
+      "sort_order": 14,
+      "summary": "See the offices and ramen spots around town. Sensei near the school can point the way if you are unsure.",
+      "title": "Work & Noodles",
+      "xp_reward": 100
+    },
+    {
+      "active": true,
+      "giver_npc_id": "old_lady",
+      "id": "explore_temple_dojo",
+      "kind": "side",
+      "language": "ja",
+      "min_level": 6,
+      "nodes": [
+        {
+          "explain": "",
+          "idx": 0,
+          "instruction": "Go to the Temple (おてら).",
+          "location_id": "templeMain",
+          "matches": [],
+          "mission_id": "explore_temple_dojo",
+          "npc_id": null,
+          "phrase": null,
+          "type": "goToLocation"
+        },
+        {
+          "explain": "",
+          "idx": 1,
+          "instruction": "Go to the Temple Hall (ほんどう).",
+          "location_id": "templeHall",
+          "matches": [],
+          "mission_id": "explore_temple_dojo",
+          "npc_id": null,
+          "phrase": null,
+          "type": "goToLocation"
+        },
+        {
+          "explain": "",
+          "idx": 2,
+          "instruction": "Go to the Temple Room (じいんのへや).",
+          "location_id": "templeRoom",
+          "matches": [],
+          "mission_id": "explore_temple_dojo",
+          "npc_id": null,
+          "phrase": null,
+          "type": "goToLocation"
+        },
+        {
+          "explain": "",
+          "idx": 3,
+          "instruction": "Go to the Samurai Dojo (さむらいどうじょう).",
+          "location_id": "samuraiDojo",
+          "matches": [],
+          "mission_id": "explore_temple_dojo",
+          "npc_id": null,
+          "phrase": null,
+          "type": "goToLocation"
+        },
+        {
+          "explain": "",
+          "idx": 4,
+          "instruction": "Go to the Sumo Dojo (すもうどうじょう).",
+          "location_id": "sumoDojo",
+          "matches": [],
+          "mission_id": "explore_temple_dojo",
+          "npc_id": null,
+          "phrase": null,
+          "type": "goToLocation"
+        }
+      ],
+      "sort_order": 15,
+      "summary": "Tour the temple and martial arts dojos. Ask locals for directions or learn the route from Sensei.",
+      "title": "Temple & Dojo",
+      "xp_reward": 100
+    },
+    {
+      "active": true,
+      "giver_npc_id": "traveller",
+      "id": "explore_bath_relax",
+      "kind": "side",
+      "language": "ja",
+      "min_level": 7,
+      "nodes": [
+        {
+          "explain": "",
+          "idx": 0,
+          "instruction": "Go to the Sento Bathhouse (せんとう).",
+          "location_id": "sentoBathhouse",
+          "matches": [],
+          "mission_id": "explore_bath_relax",
+          "npc_id": null,
+          "phrase": null,
+          "type": "goToLocation"
+        },
+        {
+          "explain": "",
+          "idx": 1,
+          "instruction": "Go to the Spa Complex (スパ).",
+          "location_id": "spa",
+          "matches": [],
+          "mission_id": "explore_bath_relax",
+          "npc_id": null,
+          "phrase": null,
+          "type": "goToLocation"
+        },
+        {
+          "explain": "",
+          "idx": 2,
+          "instruction": "Go to the Sauna (サウナ).",
+          "location_id": "sauna",
+          "matches": [],
+          "mission_id": "explore_bath_relax",
+          "npc_id": null,
+          "phrase": null,
+          "type": "goToLocation"
+        },
+        {
+          "explain": "",
+          "idx": 3,
+          "instruction": "Go to the Ryokan (りょかん).",
+          "location_id": "ryokan",
+          "matches": [],
+          "mission_id": "explore_bath_relax",
+          "npc_id": null,
+          "phrase": null,
+          "type": "goToLocation"
+        },
+        {
+          "explain": "",
+          "idx": 4,
+          "instruction": "Go to the Massage Studio (マッサージや).",
+          "location_id": "massageStudio",
+          "matches": [],
+          "mission_id": "explore_bath_relax",
+          "npc_id": null,
+          "phrase": null,
+          "type": "goToLocation"
+        },
+        {
+          "explain": "",
+          "idx": 5,
+          "instruction": "Go to the Hotpot Restaurant (なべや).",
+          "location_id": "hotpotRestaurant",
+          "matches": [],
+          "mission_id": "explore_bath_relax",
+          "npc_id": null,
+          "phrase": null,
+          "type": "goToLocation"
+        },
+        {
+          "explain": "",
+          "idx": 6,
+          "instruction": "Go to the Sushi Class (すしきょうしつ).",
+          "location_id": "sushiClass",
+          "matches": [],
+          "mission_id": "explore_bath_relax",
+          "npc_id": null,
+          "phrase": null,
+          "type": "goToLocation"
+        }
+      ],
+      "sort_order": 16,
+      "summary": "Find the bathhouses, spa, and relaxation spots. People in town will help if you ask for the route.",
+      "title": "Bath & Relax",
+      "xp_reward": 110
+    },
+    {
+      "active": true,
+      "giver_npc_id": "store_server",
+      "id": "explore_cafe_entertainment",
+      "kind": "side",
+      "language": "ja",
+      "min_level": 8,
+      "nodes": [
+        {
+          "explain": "",
+          "idx": 0,
+          "instruction": "Go to the Maid Cafe (メイドカフェ).",
+          "location_id": "maidCafe",
+          "matches": [],
+          "mission_id": "explore_cafe_entertainment",
+          "npc_id": null,
+          "phrase": null,
+          "type": "goToLocation"
+        },
+        {
+          "explain": "",
+          "idx": 1,
+          "instruction": "Go to the Manga Cafe (まんがカフェ).",
+          "location_id": "mangaCafe",
+          "matches": [],
+          "mission_id": "explore_cafe_entertainment",
+          "npc_id": null,
+          "phrase": null,
+          "type": "goToLocation"
+        },
+        {
+          "explain": "",
+          "idx": 2,
+          "instruction": "Go to the Animal Cafe (どうぶつカフェ).",
+          "location_id": "animalCafe",
+          "matches": [],
+          "mission_id": "explore_cafe_entertainment",
+          "npc_id": null,
+          "phrase": null,
+          "type": "goToLocation"
+        },
+        {
+          "explain": "",
+          "idx": 3,
+          "instruction": "Go to the Cafe Lounge (カフェラウンジ).",
+          "location_id": "cafeLounge",
+          "matches": [],
+          "mission_id": "explore_cafe_entertainment",
+          "npc_id": null,
+          "phrase": null,
+          "type": "goToLocation"
+        },
+        {
+          "explain": "",
+          "idx": 4,
+          "instruction": "Go to the Classic Cafe (きっさてん).",
+          "location_id": "cafeClassic",
+          "matches": [],
+          "mission_id": "explore_cafe_entertainment",
+          "npc_id": null,
+          "phrase": null,
+          "type": "goToLocation"
+        },
+        {
+          "explain": "",
+          "idx": 5,
+          "instruction": "Go to the Matcha Tea Room (まっちゃのへや).",
+          "location_id": "matchaTeaRoom",
+          "matches": [],
+          "mission_id": "explore_cafe_entertainment",
+          "npc_id": null,
+          "phrase": null,
+          "type": "goToLocation"
+        },
+        {
+          "explain": "",
+          "idx": 6,
+          "instruction": "Go to the Kimono Dressing shop (きものや).",
+          "location_id": "kimonoDressing",
+          "matches": [],
+          "mission_id": "explore_cafe_entertainment",
+          "npc_id": null,
+          "phrase": null,
+          "type": "goToLocation"
+        }
+      ],
+      "sort_order": 17,
+      "summary": "Hop between themed cafes and entertainment spots. If lost, ask the route or find Sensei near the school.",
+      "title": "Cafes & Entertainment",
+      "xp_reward": 110
+    },
+    {
+      "active": true,
+      "giver_npc_id": "store_server",
+      "id": "explore_shops_stages",
+      "kind": "side",
+      "language": "ja",
+      "min_level": 9,
+      "nodes": [
+        {
+          "explain": "",
+          "idx": 0,
+          "instruction": "Go to the Manga Bookshop (まんがや).",
+          "location_id": "mangaBookshop",
+          "matches": [],
+          "mission_id": "explore_shops_stages",
+          "npc_id": null,
+          "phrase": null,
+          "type": "goToLocation"
+        },
+        {
+          "explain": "",
+          "idx": 1,
+          "instruction": "Go to the Supermarket (スーパー).",
+          "location_id": "supermarket",
+          "matches": [],
+          "mission_id": "explore_shops_stages",
+          "npc_id": null,
+          "phrase": null,
+          "type": "goToLocation"
+        },
+        {
+          "explain": "",
+          "idx": 2,
+          "instruction": "Go to the Karaoke Room (カラオケ).",
+          "location_id": "karaoke",
+          "matches": [],
+          "mission_id": "explore_shops_stages",
+          "npc_id": null,
+          "phrase": null,
+          "type": "goToLocation"
+        },
+        {
+          "explain": "",
+          "idx": 3,
+          "instruction": "Go to the Arcade (ゲームセンター).",
+          "location_id": "arcade",
+          "matches": [],
+          "mission_id": "explore_shops_stages",
+          "npc_id": null,
+          "phrase": null,
+          "type": "goToLocation"
+        },
+        {
+          "explain": "",
+          "idx": 4,
+          "instruction": "Go to the Theatre (げきじょう).",
+          "location_id": "theatre",
+          "matches": [],
+          "mission_id": "explore_shops_stages",
+          "npc_id": null,
+          "phrase": null,
+          "type": "goToLocation"
+        },
+        {
+          "explain": "",
+          "idx": 5,
+          "instruction": "Go to the Kintsugi Workshop (きんつぎこうぼう).",
+          "location_id": "kintsugiWorkshop",
+          "matches": [],
+          "mission_id": "explore_shops_stages",
+          "npc_id": null,
+          "phrase": null,
+          "type": "goToLocation"
+        },
+        {
+          "explain": "",
+          "idx": 6,
+          "instruction": "Go to the Ukiyo-e Studio (うきよえこうぼう).",
+          "location_id": "ukiyoEStudio",
+          "matches": [],
+          "mission_id": "explore_shops_stages",
+          "npc_id": null,
+          "phrase": null,
+          "type": "goToLocation"
+        }
+      ],
+      "sort_order": 18,
+      "summary": "Visit bookshops, supermarkets, arcades, karaoke, and theatres. Ask people for directions along the way.",
+      "title": "Shops, Books & Stages",
+      "xp_reward": 120
+    },
+    {
+      "active": true,
+      "giver_npc_id": "teacher",
+      "id": "explore_city_essentials",
+      "kind": "side",
+      "language": "ja",
+      "min_level": 10,
+      "nodes": [
+        {
+          "explain": "",
+          "idx": 0,
+          "instruction": "Go to the Police Station (こうばん).",
+          "location_id": "policeStation",
+          "matches": [],
+          "mission_id": "explore_city_essentials",
+          "npc_id": null,
+          "phrase": null,
+          "type": "goToLocation"
+        },
+        {
+          "explain": "",
+          "idx": 1,
+          "instruction": "Go to the Embassy (たいしかん).",
+          "location_id": "embassy",
+          "matches": [],
+          "mission_id": "explore_city_essentials",
+          "npc_id": null,
+          "phrase": null,
+          "type": "goToLocation"
+        },
+        {
+          "explain": "",
+          "idx": 2,
+          "instruction": "Go to the Hospital (びょういん).",
+          "location_id": "hospital",
+          "matches": [],
+          "mission_id": "explore_city_essentials",
+          "npc_id": null,
+          "phrase": null,
+          "type": "goToLocation"
+        },
+        {
+          "explain": "",
+          "idx": 3,
+          "instruction": "Go to the Townhouse (いえ).",
+          "location_id": "townhouse",
+          "matches": [],
+          "mission_id": "explore_city_essentials",
+          "npc_id": null,
+          "phrase": null,
+          "type": "goToLocation"
+        },
+        {
+          "explain": "",
+          "idx": 4,
+          "instruction": "Go to the Apartment (アパート).",
+          "location_id": "apartment",
+          "matches": [],
+          "mission_id": "explore_city_essentials",
+          "npc_id": null,
+          "phrase": null,
+          "type": "goToLocation"
+        },
+        {
+          "explain": "",
+          "idx": 5,
+          "instruction": "Go to the Family Home (じたく).",
+          "location_id": "familyHome",
+          "matches": [],
+          "mission_id": "explore_city_essentials",
+          "npc_id": null,
+          "phrase": null,
+          "type": "goToLocation"
+        },
+        {
+          "explain": "",
+          "idx": 6,
+          "instruction": "Go to the Restaurant Counter (しょくどう).",
+          "location_id": "restaurantCounter",
+          "matches": [],
+          "mission_id": "explore_city_essentials",
+          "npc_id": null,
+          "phrase": null,
+          "type": "goToLocation"
+        },
+        {
+          "explain": "",
+          "idx": 7,
+          "instruction": "Go to the Izakaya (いざかや).",
+          "location_id": "restaurantIzakaya",
+          "matches": [],
+          "mission_id": "explore_city_essentials",
+          "npc_id": null,
+          "phrase": null,
+          "type": "goToLocation"
+        }
+      ],
+      "sort_order": 19,
+      "summary": "A final tour of official buildings and homes. Sensei knows every shortcut if you have doubts.",
+      "title": "City Essentials",
       "xp_reward": 150
     },
     {
