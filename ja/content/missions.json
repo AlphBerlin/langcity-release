@@ -3,6 +3,28 @@
     {
       "explain": "",
       "idx": 0,
+      "instruction": "Find Alex in the town (まち).",
+      "location_id": "town",
+      "matches": [],
+      "mission_id": "ask_alex_name",
+      "npc_id": null,
+      "phrase": null,
+      "type": "goToLocation"
+    },
+    {
+      "explain": "",
+      "idx": 0,
+      "instruction": "Go to the station (えき).",
+      "location_id": "station",
+      "matches": [],
+      "mission_id": "ask_name_hiroshi",
+      "npc_id": null,
+      "phrase": null,
+      "type": "goToLocation"
+    },
+    {
+      "explain": "",
+      "idx": 0,
       "instruction": "Go to the station (えき).",
       "location_id": "station",
       "matches": [],
@@ -168,6 +190,50 @@
     {
       "explain": "",
       "idx": 0,
+      "instruction": "Go to the classroom (きょうしつ).",
+      "location_id": "classroom",
+      "matches": [],
+      "mission_id": "intro_to_sensei",
+      "npc_id": null,
+      "phrase": null,
+      "type": "goToLocation"
+    },
+    {
+      "explain": "",
+      "idx": 0,
+      "instruction": "Head out into the town (まち).",
+      "location_id": "town",
+      "matches": [],
+      "mission_id": "introduce_the_town",
+      "npc_id": null,
+      "phrase": null,
+      "type": "goToLocation"
+    },
+    {
+      "explain": "",
+      "idx": 0,
+      "instruction": "Go into the konbini (コンビニ).",
+      "location_id": "konbini",
+      "matches": [],
+      "mission_id": "introduce_to_sato",
+      "npc_id": null,
+      "phrase": null,
+      "type": "goToLocation"
+    },
+    {
+      "explain": "",
+      "idx": 0,
+      "instruction": "Find Hana in the town garden (こうえん).",
+      "location_id": "town",
+      "matches": [],
+      "mission_id": "japan_echo_photo",
+      "npc_id": null,
+      "phrase": null,
+      "type": "goToLocation"
+    },
+    {
+      "explain": "",
+      "idx": 0,
       "instruction": "Go into the konbini (コンビニ).",
       "location_id": "konbini",
       "matches": [],
@@ -190,10 +256,32 @@
     {
       "explain": "",
       "idx": 0,
+      "instruction": "Find Hana in the town garden (こうえん).",
+      "location_id": "town",
+      "matches": [],
+      "mission_id": "meet_hana_garden",
+      "npc_id": null,
+      "phrase": null,
+      "type": "goToLocation"
+    },
+    {
+      "explain": "",
+      "idx": 0,
       "instruction": "Go to the train station (えき).",
       "location_id": "station",
       "matches": [],
       "mission_id": "meet_tanaka_shrine",
+      "npc_id": null,
+      "phrase": null,
+      "type": "goToLocation"
+    },
+    {
+      "explain": "",
+      "idx": 0,
+      "instruction": "Go to the classroom (きょうしつ).",
+      "location_id": "classroom",
+      "matches": [],
+      "mission_id": "name_drill_classroom",
       "npc_id": null,
       "phrase": null,
       "type": "goToLocation"
@@ -216,6 +304,17 @@
       "location_id": "town",
       "matches": [],
       "mission_id": "park_greeting_hana",
+      "npc_id": null,
+      "phrase": null,
+      "type": "goToLocation"
+    },
+    {
+      "explain": "",
+      "idx": 0,
+      "instruction": "Go to the police station (こうばん).",
+      "location_id": "policeStation",
+      "matches": [],
+      "mission_id": "polite_intro_police",
       "npc_id": null,
       "phrase": null,
       "type": "goToLocation"
@@ -249,6 +348,17 @@
       "location_id": "konbini",
       "matches": [],
       "mission_id": "rude_customer_report",
+      "npc_id": null,
+      "phrase": null,
+      "type": "goToLocation"
+    },
+    {
+      "explain": "",
+      "idx": 0,
+      "instruction": "Go to the classroom (きょうしつ) for the review.",
+      "location_id": "classroom",
+      "matches": [],
+      "mission_id": "self_intro_review",
       "npc_id": null,
       "phrase": null,
       "type": "goToLocation"
@@ -296,6 +406,33 @@
       "npc_id": null,
       "phrase": null,
       "type": "goToLocation"
+    },
+    {
+      "explain": "How do I ask someone's name in Japanese? Teach me! Say \"おなまえは なん ですか\".",
+      "idx": 1,
+      "instruction": "Teach Alex how to ask a name: \"onamae wa nan desu ka\".",
+      "location_id": "town",
+      "matches": [
+        "なまえ",
+        "なん"
+      ],
+      "mission_id": "ask_alex_name",
+      "npc_id": "traveller",
+      "phrase": "おなまえは なん ですか",
+      "type": "sayPhrase"
+    },
+    {
+      "explain": "ん？なあに？まず 「すみません」って よんでみて！",
+      "idx": 1,
+      "instruction": "Get Hiroshi's attention: \"sumimasen\".",
+      "location_id": "station",
+      "matches": [
+        "すみません"
+      ],
+      "mission_id": "ask_name_hiroshi",
+      "npc_id": "13",
+      "phrase": "すみません",
+      "type": "sayPhrase"
     },
     {
       "explain": "こんにちは。みちに まよいましたか？「えき は どこ ですか」と きいてみて！",
@@ -474,6 +611,59 @@
       "type": "sayPhrase"
     },
     {
+      "explain": "あら、あたらしい がくせいさん？まず 「こんにちは」と あいさつ して。",
+      "idx": 1,
+      "instruction": "Greet Aoi-sensei: \"konnichiwa\".",
+      "location_id": "classroom",
+      "matches": [
+        "こんにちは"
+      ],
+      "mission_id": "intro_to_sensei",
+      "npc_id": "teacher",
+      "phrase": "こんにちは",
+      "type": "sayPhrase"
+    },
+    {
+      "explain": "あら、はじめまして！「わたしは 〜 です」って どうぞ。",
+      "idx": 1,
+      "instruction": "Introduce yourself to Mika: \"watashi wa [your name] desu\".",
+      "location_id": "town",
+      "matches": [
+        "わたし",
+        "です"
+      ],
+      "mission_id": "introduce_the_town",
+      "npc_id": "store_server",
+      "phrase": "わたしは 〜 です",
+      "type": "sayPhrase"
+    },
+    {
+      "explain": "いらっしゃいませ！まずは げんきに 「こんにちは」と どうぞ。",
+      "idx": 1,
+      "instruction": "Greet Sato: \"konnichiwa\".",
+      "location_id": "konbini",
+      "matches": [
+        "こんにちは"
+      ],
+      "mission_id": "introduce_to_sato",
+      "npc_id": "konbini_clerk",
+      "phrase": "こんにちは",
+      "type": "sayPhrase"
+    },
+    {
+      "explain": "この しゃしん、どこだと おもうね？「にほん ですか」って きいて ごらん。",
+      "idx": 1,
+      "instruction": "Hana shows you an old photo — guess: \"nihon desu ka\" (Is it Japan?).",
+      "location_id": "town",
+      "matches": [
+        "にほん"
+      ],
+      "mission_id": "japan_echo_photo",
+      "npc_id": "old_lady",
+      "phrase": "にほん ですか",
+      "type": "sayPhrase"
+    },
+    {
       "explain": "いらっしゃいませ！ていねいな あいさつ、だいかんげい ですよ。「こんにちは」と どうぞ。",
       "idx": 1,
       "instruction": "Greet Sato: \"konnichiwa\".",
@@ -498,6 +688,19 @@
       "type": "talkToNpc"
     },
     {
+      "explain": "あら、あたらしい かおね。おばあさんに 「こんにちは」と あいさつ してくれる？",
+      "idx": 1,
+      "instruction": "Greet Hana: \"konnichiwa\".",
+      "location_id": "town",
+      "matches": [
+        "こんにちは"
+      ],
+      "mission_id": "meet_hana_garden",
+      "npc_id": "old_lady",
+      "phrase": "こんにちは",
+      "type": "sayPhrase"
+    },
+    {
       "explain": "やあ！えきで あえて うれしいよ。げんきに 「こんにちは」って いってみて！",
       "idx": 1,
       "instruction": "Say hello to Hiroshi at the train station.",
@@ -507,6 +710,20 @@
       "npc_id": "13",
       "phrase": null,
       "type": "talkToNpc"
+    },
+    {
+      "explain": "ドリルの じかんです！まず わたしに 「おなまえは なん ですか」と きいてみて。",
+      "idx": 1,
+      "instruction": "Ask Sensei's name: \"onamae wa nan desu ka\".",
+      "location_id": "classroom",
+      "matches": [
+        "なまえ",
+        "なん"
+      ],
+      "mission_id": "name_drill_classroom",
+      "npc_id": "teacher",
+      "phrase": "おなまえは なん ですか",
+      "type": "sayPhrase"
     },
     {
       "explain": "いらっしゃいませ！なにに しますか？「おにぎり を ください」と いってみて！",
@@ -533,6 +750,19 @@
       "mission_id": "park_greeting_hana",
       "npc_id": "old_lady",
       "phrase": "こんにちは",
+      "type": "sayPhrase"
+    },
+    {
+      "explain": "こんにちは。どうされました？まず 「すみません」と いって みてください。",
+      "idx": 1,
+      "instruction": "Get Officer Yamada's attention: \"sumimasen\".",
+      "location_id": "policeStation",
+      "matches": [
+        "すみません"
+      ],
+      "mission_id": "polite_intro_police",
+      "npc_id": "20",
+      "phrase": "すみません",
       "type": "sayPhrase"
     },
     {
@@ -571,6 +801,19 @@
       "npc_id": "konbini_clerk",
       "phrase": null,
       "type": "talkToNpc"
+    },
+    {
+      "explain": "レベル2 ふくしゅう テストです！まず 「こんにちは」から。",
+      "idx": 1,
+      "instruction": "Start with \"konnichiwa\".",
+      "location_id": "classroom",
+      "matches": [
+        "こんにちは"
+      ],
+      "mission_id": "self_intro_review",
+      "npc_id": "teacher",
+      "phrase": "こんにちは",
+      "type": "sayPhrase"
     },
     {
       "explain": "ようこそ！きょうは 「ありがとう ございます」を れんしゅう しましょう。\"thank you (polite)\" ですよ。",
@@ -621,6 +864,34 @@
       "mission_id": "yes_no_drill",
       "npc_id": "teacher",
       "phrase": "はい",
+      "type": "sayPhrase"
+    },
+    {
+      "explain": "Nice! And how do I introduce myself? Show me — say \"わたしは 〜 です\"!",
+      "idx": 2,
+      "instruction": "Now show Alex a self-introduction: \"watashi wa [your name] desu\".",
+      "location_id": "town",
+      "matches": [
+        "わたし",
+        "です"
+      ],
+      "mission_id": "ask_alex_name",
+      "npc_id": "traveller",
+      "phrase": "わたしは 〜 です",
+      "type": "sayPhrase"
+    },
+    {
+      "explain": "ぼくの なまえ、きいて くれるの？「おなまえは なん ですか」って どうぞ！",
+      "idx": 2,
+      "instruction": "Ask his name: \"onamae wa nan desu ka\".",
+      "location_id": "station",
+      "matches": [
+        "なまえ",
+        "なん"
+      ],
+      "mission_id": "ask_name_hiroshi",
+      "npc_id": "13",
+      "phrase": "おなまえは なん ですか",
       "type": "sayPhrase"
     },
     {
@@ -788,6 +1059,61 @@
       "type": "sayPhrase"
     },
     {
+      "explain": "はじめまして！「わたしは 〜 です」で じこしょうかい してみて。",
+      "idx": 2,
+      "instruction": "Introduce yourself: \"watashi wa [your name] desu\".",
+      "location_id": "classroom",
+      "matches": [
+        "わたし",
+        "です"
+      ],
+      "mission_id": "intro_to_sensei",
+      "npc_id": "teacher",
+      "phrase": "わたしは 〜 です",
+      "type": "sayPhrase"
+    },
+    {
+      "explain": "あら、やさしい こね。おばあさんにも じこしょうかい してくれる？",
+      "idx": 2,
+      "instruction": "Introduce yourself to Hana in the garden.",
+      "location_id": "town",
+      "matches": [
+        "わたし",
+        "です"
+      ],
+      "mission_id": "introduce_the_town",
+      "npc_id": "old_lady",
+      "phrase": "わたしは 〜 です",
+      "type": "sayPhrase"
+    },
+    {
+      "explain": "はじめまして！じょうきゃくさんの おなまえ、「わたしは 〜 です」で おしえて ください。",
+      "idx": 2,
+      "instruction": "Introduce yourself: \"watashi wa [your name] desu\".",
+      "location_id": "konbini",
+      "matches": [
+        "わたし",
+        "です"
+      ],
+      "mission_id": "introduce_to_sato",
+      "npc_id": "konbini_clerk",
+      "phrase": "わたしは 〜 です",
+      "type": "sayPhrase"
+    },
+    {
+      "explain": "せいかい！にほん だよ。にほんは たのしい ですか？「はい」って こたえて おくれ。",
+      "idx": 2,
+      "instruction": "Hana asks if you are enjoying Japan — answer \"hai\" (yes).",
+      "location_id": "town",
+      "matches": [
+        "はい"
+      ],
+      "mission_id": "japan_echo_photo",
+      "npc_id": "old_lady",
+      "phrase": "はい",
+      "type": "sayPhrase"
+    },
+    {
       "explain": "おかいあげ ありがとう ございます！「ありがとう」って いって くれると うれしいな。",
       "idx": 2,
       "instruction": "Say thank you: \"arigatou\".",
@@ -812,6 +1138,34 @@
       "type": "goToLocation"
     },
     {
+      "explain": "はじめまして。おなまえは なあに？「わたしは 〜 です」って いって おくれ。",
+      "idx": 2,
+      "instruction": "Tell her your name: \"watashi wa [your name] desu\".",
+      "location_id": "town",
+      "matches": [
+        "わたし",
+        "です"
+      ],
+      "mission_id": "meet_hana_garden",
+      "npc_id": "old_lady",
+      "phrase": "わたしは 〜 です",
+      "type": "sayPhrase"
+    },
+    {
+      "explain": "わたしは あおい です。つぎは あなたの ばん。「わたしは 〜 です」と どうぞ。",
+      "idx": 2,
+      "instruction": "Now Sensei asks you — answer: \"watashi wa [your name] desu\".",
+      "location_id": "classroom",
+      "matches": [
+        "わたし",
+        "です"
+      ],
+      "mission_id": "name_drill_classroom",
+      "npc_id": "teacher",
+      "phrase": "わたしは 〜 です",
+      "type": "sayPhrase"
+    },
+    {
       "explain": "このまちは たのしいかい？「はい」と こたえて おくれ。",
       "idx": 2,
       "instruction": "Hana asks if you are having fun — answer \"hai\" (yes).",
@@ -822,6 +1176,20 @@
       "mission_id": "park_greeting_hana",
       "npc_id": "old_lady",
       "phrase": "はい",
+      "type": "sayPhrase"
+    },
+    {
+      "explain": "じこしょうかい ですね。「わたしは 〜 です」と ていねいに どうぞ。",
+      "idx": 2,
+      "instruction": "Introduce yourself politely: \"watashi wa [your name] desu\".",
+      "location_id": "policeStation",
+      "matches": [
+        "わたし",
+        "です"
+      ],
+      "mission_id": "polite_intro_police",
+      "npc_id": "20",
+      "phrase": "わたしは 〜 です",
       "type": "sayPhrase"
     },
     {
@@ -848,6 +1216,20 @@
       "npc_id": null,
       "phrase": null,
       "type": "goToLocation"
+    },
+    {
+      "explain": "いいですね！つぎは じこしょうかい。「わたしは 〜 です」と どうぞ。",
+      "idx": 2,
+      "instruction": "Introduce yourself: \"watashi wa [your name] desu\".",
+      "location_id": "classroom",
+      "matches": [
+        "わたし",
+        "です"
+      ],
+      "mission_id": "self_intro_review",
+      "npc_id": "teacher",
+      "phrase": "わたしは 〜 です",
+      "type": "sayPhrase"
     },
     {
       "explain": "さあ、いっしょに。「ありがとう ございます」と いってみて！",
@@ -1034,6 +1416,20 @@
       "type": "sayPhrase"
     },
     {
+      "explain": "やあ、はじめまして！「わたしは 〜 です」で じこしょうかい してみて！",
+      "idx": 3,
+      "instruction": "Introduce yourself to Hiroshi.",
+      "location_id": "town",
+      "matches": [
+        "わたし",
+        "です"
+      ],
+      "mission_id": "introduce_the_town",
+      "npc_id": "13",
+      "phrase": "わたしは 〜 です",
+      "type": "sayPhrase"
+    },
+    {
       "explain": "こんにちは。どうしましたか？おちついて、なにが あったか おしえてください。",
       "idx": 3,
       "instruction": "Talk to Officer Yamada.",
@@ -1045,6 +1441,32 @@
       "type": "talkToNpc"
     },
     {
+      "explain": "この まちは すき ですか？「はい」と こたえて おくれ。",
+      "idx": 3,
+      "instruction": "Hana asks if you like the town — answer \"hai\" (yes).",
+      "location_id": "town",
+      "matches": [
+        "はい"
+      ],
+      "mission_id": "meet_hana_garden",
+      "npc_id": "old_lady",
+      "phrase": "はい",
+      "type": "sayPhrase"
+    },
+    {
+      "explain": "あなたも せんせい ですか？「いいえ」と こたえてね。",
+      "idx": 3,
+      "instruction": "Sensei asks if you are a teacher too — answer \"iie\" (no).",
+      "location_id": "classroom",
+      "matches": [
+        "いいえ"
+      ],
+      "mission_id": "name_drill_classroom",
+      "npc_id": "teacher",
+      "phrase": "いいえ",
+      "type": "sayPhrase"
+    },
+    {
       "explain": "こんにちは。どうしましたか？おちついて、なにが あったか おしえてください。",
       "idx": 3,
       "instruction": "Talk to Officer Yamada.",
@@ -1054,6 +1476,20 @@
       "npc_id": "20",
       "phrase": null,
       "type": "talkToNpc"
+    },
+    {
+      "explain": "つぎは しつもんする ばん。「おなまえは なん ですか」と きいてみて。",
+      "idx": 3,
+      "instruction": "Now ask Sensei's name: \"onamae wa nan desu ka\".",
+      "location_id": "classroom",
+      "matches": [
+        "なまえ",
+        "なん"
+      ],
+      "mission_id": "self_intro_review",
+      "npc_id": "teacher",
+      "phrase": "おなまえは なん ですか",
+      "type": "sayPhrase"
     },
     {
       "explain": "はい、なあに？ていねいに 「すみません」って どうぞ！",
@@ -1219,6 +1655,19 @@
       "mission_id": "rude_customer_report",
       "npc_id": "20",
       "phrase": "しつれいな おきゃくさん に こまって います",
+      "type": "sayPhrase"
+    },
+    {
+      "explain": "レベル3 の じゅんびは いい ですか？「はい」と こたえられたら レベル2 クリア です！",
+      "idx": 4,
+      "instruction": "Sensei asks if you are ready for level 3 — answer \"hai\" (yes).",
+      "location_id": "classroom",
+      "matches": [
+        "はい"
+      ],
+      "mission_id": "self_intro_review",
+      "npc_id": "teacher",
+      "phrase": "はい",
       "type": "sayPhrase"
     },
     {
@@ -3167,6 +3616,595 @@
       "sort_order": 29,
       "summary": "Aoi-sensei's final level 1 check: hello, polite thanks, yes, and no — all in one visit to the classroom.",
       "title": "The Greeting Review",
+      "xp_reward": 60
+    },
+    {
+      "active": true,
+      "giver_npc_id": "teacher",
+      "id": "intro_to_sensei",
+      "kind": "main",
+      "language": "ja",
+      "min_level": 2,
+      "nodes": [
+        {
+          "explain": "",
+          "idx": 0,
+          "instruction": "Go to the classroom (きょうしつ).",
+          "location_id": "classroom",
+          "matches": [],
+          "mission_id": "intro_to_sensei",
+          "npc_id": null,
+          "phrase": null,
+          "type": "goToLocation"
+        },
+        {
+          "explain": "あら、あたらしい がくせいさん？まず 「こんにちは」と あいさつ して。",
+          "idx": 1,
+          "instruction": "Greet Aoi-sensei: \"konnichiwa\".",
+          "location_id": "classroom",
+          "matches": [
+            "こんにちは"
+          ],
+          "mission_id": "intro_to_sensei",
+          "npc_id": "teacher",
+          "phrase": "こんにちは",
+          "type": "sayPhrase"
+        },
+        {
+          "explain": "はじめまして！「わたしは 〜 です」で じこしょうかい してみて。",
+          "idx": 2,
+          "instruction": "Introduce yourself: \"watashi wa [your name] desu\".",
+          "location_id": "classroom",
+          "matches": [
+            "わたし",
+            "です"
+          ],
+          "mission_id": "intro_to_sensei",
+          "npc_id": "teacher",
+          "phrase": "わたしは 〜 です",
+          "type": "sayPhrase"
+        }
+      ],
+      "sort_order": 30,
+      "summary": "Aoi-sensei wants to meet the new student. Greet her and introduce yourself in Japanese.",
+      "title": "Introduce Yourself to Sensei",
+      "xp_reward": 50
+    },
+    {
+      "active": true,
+      "giver_npc_id": "traveller",
+      "id": "ask_name_hiroshi",
+      "kind": "main",
+      "language": "ja",
+      "min_level": 2,
+      "nodes": [
+        {
+          "explain": "",
+          "idx": 0,
+          "instruction": "Go to the station (えき).",
+          "location_id": "station",
+          "matches": [],
+          "mission_id": "ask_name_hiroshi",
+          "npc_id": null,
+          "phrase": null,
+          "type": "goToLocation"
+        },
+        {
+          "explain": "ん？なあに？まず 「すみません」って よんでみて！",
+          "idx": 1,
+          "instruction": "Get Hiroshi's attention: \"sumimasen\".",
+          "location_id": "station",
+          "matches": [
+            "すみません"
+          ],
+          "mission_id": "ask_name_hiroshi",
+          "npc_id": "13",
+          "phrase": "すみません",
+          "type": "sayPhrase"
+        },
+        {
+          "explain": "ぼくの なまえ、きいて くれるの？「おなまえは なん ですか」って どうぞ！",
+          "idx": 2,
+          "instruction": "Ask his name: \"onamae wa nan desu ka\".",
+          "location_id": "station",
+          "matches": [
+            "なまえ",
+            "なん"
+          ],
+          "mission_id": "ask_name_hiroshi",
+          "npc_id": "13",
+          "phrase": "おなまえは なん ですか",
+          "type": "sayPhrase"
+        }
+      ],
+      "sort_order": 31,
+      "summary": "Alex forgot Hiroshi's name again. Go to the station and ask him politely, in Japanese.",
+      "title": "Ask Hiroshi's Name",
+      "xp_reward": 50
+    },
+    {
+      "active": true,
+      "giver_npc_id": "store_server",
+      "id": "introduce_to_sato",
+      "kind": "main",
+      "language": "ja",
+      "min_level": 2,
+      "nodes": [
+        {
+          "explain": "",
+          "idx": 0,
+          "instruction": "Go into the konbini (コンビニ).",
+          "location_id": "konbini",
+          "matches": [],
+          "mission_id": "introduce_to_sato",
+          "npc_id": null,
+          "phrase": null,
+          "type": "goToLocation"
+        },
+        {
+          "explain": "いらっしゃいませ！まずは げんきに 「こんにちは」と どうぞ。",
+          "idx": 1,
+          "instruction": "Greet Sato: \"konnichiwa\".",
+          "location_id": "konbini",
+          "matches": [
+            "こんにちは"
+          ],
+          "mission_id": "introduce_to_sato",
+          "npc_id": "konbini_clerk",
+          "phrase": "こんにちは",
+          "type": "sayPhrase"
+        },
+        {
+          "explain": "はじめまして！じょうきゃくさんの おなまえ、「わたしは 〜 です」で おしえて ください。",
+          "idx": 2,
+          "instruction": "Introduce yourself: \"watashi wa [your name] desu\".",
+          "location_id": "konbini",
+          "matches": [
+            "わたし",
+            "です"
+          ],
+          "mission_id": "introduce_to_sato",
+          "npc_id": "konbini_clerk",
+          "phrase": "わたしは 〜 です",
+          "type": "sayPhrase"
+        }
+      ],
+      "sort_order": 32,
+      "summary": "Mika says regulars always introduce themselves. Greet Sato at the konbini and tell him your name.",
+      "title": "Introduce Yourself at the Konbini",
+      "xp_reward": 50
+    },
+    {
+      "active": true,
+      "giver_npc_id": "old_lady",
+      "id": "polite_intro_police",
+      "kind": "main",
+      "language": "ja",
+      "min_level": 2,
+      "nodes": [
+        {
+          "explain": "",
+          "idx": 0,
+          "instruction": "Go to the police station (こうばん).",
+          "location_id": "policeStation",
+          "matches": [],
+          "mission_id": "polite_intro_police",
+          "npc_id": null,
+          "phrase": null,
+          "type": "goToLocation"
+        },
+        {
+          "explain": "こんにちは。どうされました？まず 「すみません」と いって みてください。",
+          "idx": 1,
+          "instruction": "Get Officer Yamada's attention: \"sumimasen\".",
+          "location_id": "policeStation",
+          "matches": [
+            "すみません"
+          ],
+          "mission_id": "polite_intro_police",
+          "npc_id": "20",
+          "phrase": "すみません",
+          "type": "sayPhrase"
+        },
+        {
+          "explain": "じこしょうかい ですね。「わたしは 〜 です」と ていねいに どうぞ。",
+          "idx": 2,
+          "instruction": "Introduce yourself politely: \"watashi wa [your name] desu\".",
+          "location_id": "policeStation",
+          "matches": [
+            "わたし",
+            "です"
+          ],
+          "mission_id": "polite_intro_police",
+          "npc_id": "20",
+          "phrase": "わたしは 〜 です",
+          "type": "sayPhrase"
+        }
+      ],
+      "sort_order": 33,
+      "summary": "Hana wants Officer Yamada to know the friendly new face in town. Introduce yourself politely.",
+      "title": "A Polite Introduction",
+      "xp_reward": 50
+    },
+    {
+      "active": true,
+      "giver_npc_id": "teacher",
+      "id": "meet_hana_garden",
+      "kind": "main",
+      "language": "ja",
+      "min_level": 2,
+      "nodes": [
+        {
+          "explain": "",
+          "idx": 0,
+          "instruction": "Find Hana in the town garden (こうえん).",
+          "location_id": "town",
+          "matches": [],
+          "mission_id": "meet_hana_garden",
+          "npc_id": null,
+          "phrase": null,
+          "type": "goToLocation"
+        },
+        {
+          "explain": "あら、あたらしい かおね。おばあさんに 「こんにちは」と あいさつ してくれる？",
+          "idx": 1,
+          "instruction": "Greet Hana: \"konnichiwa\".",
+          "location_id": "town",
+          "matches": [
+            "こんにちは"
+          ],
+          "mission_id": "meet_hana_garden",
+          "npc_id": "old_lady",
+          "phrase": "こんにちは",
+          "type": "sayPhrase"
+        },
+        {
+          "explain": "はじめまして。おなまえは なあに？「わたしは 〜 です」って いって おくれ。",
+          "idx": 2,
+          "instruction": "Tell her your name: \"watashi wa [your name] desu\".",
+          "location_id": "town",
+          "matches": [
+            "わたし",
+            "です"
+          ],
+          "mission_id": "meet_hana_garden",
+          "npc_id": "old_lady",
+          "phrase": "わたしは 〜 です",
+          "type": "sayPhrase"
+        },
+        {
+          "explain": "この まちは すき ですか？「はい」と こたえて おくれ。",
+          "idx": 3,
+          "instruction": "Hana asks if you like the town — answer \"hai\" (yes).",
+          "location_id": "town",
+          "matches": [
+            "はい"
+          ],
+          "mission_id": "meet_hana_garden",
+          "npc_id": "old_lady",
+          "phrase": "はい",
+          "type": "sayPhrase"
+        }
+      ],
+      "sort_order": 34,
+      "summary": "Hana is relaxing in the town garden. Greet her, tell her your name, and answer her question.",
+      "title": "Meet Hana in the Garden",
+      "xp_reward": 60
+    },
+    {
+      "active": true,
+      "giver_npc_id": "store_server",
+      "id": "ask_alex_name",
+      "kind": "main",
+      "language": "ja",
+      "min_level": 2,
+      "nodes": [
+        {
+          "explain": "",
+          "idx": 0,
+          "instruction": "Find Alex in the town (まち).",
+          "location_id": "town",
+          "matches": [],
+          "mission_id": "ask_alex_name",
+          "npc_id": null,
+          "phrase": null,
+          "type": "goToLocation"
+        },
+        {
+          "explain": "How do I ask someone's name in Japanese? Teach me! Say \"おなまえは なん ですか\".",
+          "idx": 1,
+          "instruction": "Teach Alex how to ask a name: \"onamae wa nan desu ka\".",
+          "location_id": "town",
+          "matches": [
+            "なまえ",
+            "なん"
+          ],
+          "mission_id": "ask_alex_name",
+          "npc_id": "traveller",
+          "phrase": "おなまえは なん ですか",
+          "type": "sayPhrase"
+        },
+        {
+          "explain": "Nice! And how do I introduce myself? Show me — say \"わたしは 〜 です\"!",
+          "idx": 2,
+          "instruction": "Now show Alex a self-introduction: \"watashi wa [your name] desu\".",
+          "location_id": "town",
+          "matches": [
+            "わたし",
+            "です"
+          ],
+          "mission_id": "ask_alex_name",
+          "npc_id": "traveller",
+          "phrase": "わたしは 〜 です",
+          "type": "sayPhrase"
+        }
+      ],
+      "sort_order": 35,
+      "summary": "Alex wants to learn how to ask people's names in Japanese. Teach him the phrase, then show him a self-introduction.",
+      "title": "Teach Alex to Ask Names",
+      "xp_reward": 40
+    },
+    {
+      "active": true,
+      "giver_npc_id": "old_lady",
+      "id": "japan_echo_photo",
+      "kind": "main",
+      "language": "ja",
+      "min_level": 2,
+      "nodes": [
+        {
+          "explain": "",
+          "idx": 0,
+          "instruction": "Find Hana in the town garden (こうえん).",
+          "location_id": "town",
+          "matches": [],
+          "mission_id": "japan_echo_photo",
+          "npc_id": null,
+          "phrase": null,
+          "type": "goToLocation"
+        },
+        {
+          "explain": "この しゃしん、どこだと おもうね？「にほん ですか」って きいて ごらん。",
+          "idx": 1,
+          "instruction": "Hana shows you an old photo — guess: \"nihon desu ka\" (Is it Japan?).",
+          "location_id": "town",
+          "matches": [
+            "にほん"
+          ],
+          "mission_id": "japan_echo_photo",
+          "npc_id": "old_lady",
+          "phrase": "にほん ですか",
+          "type": "sayPhrase"
+        },
+        {
+          "explain": "せいかい！にほん だよ。にほんは たのしい ですか？「はい」って こたえて おくれ。",
+          "idx": 2,
+          "instruction": "Hana asks if you are enjoying Japan — answer \"hai\" (yes).",
+          "location_id": "town",
+          "matches": [
+            "はい"
+          ],
+          "mission_id": "japan_echo_photo",
+          "npc_id": "old_lady",
+          "phrase": "はい",
+          "type": "sayPhrase"
+        }
+      ],
+      "sort_order": 36,
+      "summary": "Hana found an old photo from her travels. Guess where it was taken — in Japanese.",
+      "title": "Is It Japan?",
+      "xp_reward": 40
+    },
+    {
+      "active": true,
+      "giver_npc_id": "teacher",
+      "id": "name_drill_classroom",
+      "kind": "main",
+      "language": "ja",
+      "min_level": 2,
+      "nodes": [
+        {
+          "explain": "",
+          "idx": 0,
+          "instruction": "Go to the classroom (きょうしつ).",
+          "location_id": "classroom",
+          "matches": [],
+          "mission_id": "name_drill_classroom",
+          "npc_id": null,
+          "phrase": null,
+          "type": "goToLocation"
+        },
+        {
+          "explain": "ドリルの じかんです！まず わたしに 「おなまえは なん ですか」と きいてみて。",
+          "idx": 1,
+          "instruction": "Ask Sensei's name: \"onamae wa nan desu ka\".",
+          "location_id": "classroom",
+          "matches": [
+            "なまえ",
+            "なん"
+          ],
+          "mission_id": "name_drill_classroom",
+          "npc_id": "teacher",
+          "phrase": "おなまえは なん ですか",
+          "type": "sayPhrase"
+        },
+        {
+          "explain": "わたしは あおい です。つぎは あなたの ばん。「わたしは 〜 です」と どうぞ。",
+          "idx": 2,
+          "instruction": "Now Sensei asks you — answer: \"watashi wa [your name] desu\".",
+          "location_id": "classroom",
+          "matches": [
+            "わたし",
+            "です"
+          ],
+          "mission_id": "name_drill_classroom",
+          "npc_id": "teacher",
+          "phrase": "わたしは 〜 です",
+          "type": "sayPhrase"
+        },
+        {
+          "explain": "あなたも せんせい ですか？「いいえ」と こたえてね。",
+          "idx": 3,
+          "instruction": "Sensei asks if you are a teacher too — answer \"iie\" (no).",
+          "location_id": "classroom",
+          "matches": [
+            "いいえ"
+          ],
+          "mission_id": "name_drill_classroom",
+          "npc_id": "teacher",
+          "phrase": "いいえ",
+          "type": "sayPhrase"
+        }
+      ],
+      "sort_order": 37,
+      "summary": "Aoi-sensei has a self-introduction drill: ask her name, answer with yours, then answer \"no\".",
+      "title": "The Name Drill",
+      "xp_reward": 60
+    },
+    {
+      "active": true,
+      "giver_npc_id": "traveller",
+      "id": "introduce_the_town",
+      "kind": "main",
+      "language": "ja",
+      "min_level": 2,
+      "nodes": [
+        {
+          "explain": "",
+          "idx": 0,
+          "instruction": "Head out into the town (まち).",
+          "location_id": "town",
+          "matches": [],
+          "mission_id": "introduce_the_town",
+          "npc_id": null,
+          "phrase": null,
+          "type": "goToLocation"
+        },
+        {
+          "explain": "あら、はじめまして！「わたしは 〜 です」って どうぞ。",
+          "idx": 1,
+          "instruction": "Introduce yourself to Mika: \"watashi wa [your name] desu\".",
+          "location_id": "town",
+          "matches": [
+            "わたし",
+            "です"
+          ],
+          "mission_id": "introduce_the_town",
+          "npc_id": "store_server",
+          "phrase": "わたしは 〜 です",
+          "type": "sayPhrase"
+        },
+        {
+          "explain": "あら、やさしい こね。おばあさんにも じこしょうかい してくれる？",
+          "idx": 2,
+          "instruction": "Introduce yourself to Hana in the garden.",
+          "location_id": "town",
+          "matches": [
+            "わたし",
+            "です"
+          ],
+          "mission_id": "introduce_the_town",
+          "npc_id": "old_lady",
+          "phrase": "わたしは 〜 です",
+          "type": "sayPhrase"
+        },
+        {
+          "explain": "やあ、はじめまして！「わたしは 〜 です」で じこしょうかい してみて！",
+          "idx": 3,
+          "instruction": "Introduce yourself to Hiroshi.",
+          "location_id": "town",
+          "matches": [
+            "わたし",
+            "です"
+          ],
+          "mission_id": "introduce_the_town",
+          "npc_id": "13",
+          "phrase": "わたしは 〜 です",
+          "type": "sayPhrase"
+        }
+      ],
+      "sort_order": 38,
+      "summary": "Alex challenges you: introduce yourself to three townspeople — Mika, Hana, and Hiroshi.",
+      "title": "Introduce Yourself Around Town",
+      "xp_reward": 60
+    },
+    {
+      "active": true,
+      "giver_npc_id": "teacher",
+      "id": "self_intro_review",
+      "kind": "main",
+      "language": "ja",
+      "min_level": 2,
+      "nodes": [
+        {
+          "explain": "",
+          "idx": 0,
+          "instruction": "Go to the classroom (きょうしつ) for the review.",
+          "location_id": "classroom",
+          "matches": [],
+          "mission_id": "self_intro_review",
+          "npc_id": null,
+          "phrase": null,
+          "type": "goToLocation"
+        },
+        {
+          "explain": "レベル2 ふくしゅう テストです！まず 「こんにちは」から。",
+          "idx": 1,
+          "instruction": "Start with \"konnichiwa\".",
+          "location_id": "classroom",
+          "matches": [
+            "こんにちは"
+          ],
+          "mission_id": "self_intro_review",
+          "npc_id": "teacher",
+          "phrase": "こんにちは",
+          "type": "sayPhrase"
+        },
+        {
+          "explain": "いいですね！つぎは じこしょうかい。「わたしは 〜 です」と どうぞ。",
+          "idx": 2,
+          "instruction": "Introduce yourself: \"watashi wa [your name] desu\".",
+          "location_id": "classroom",
+          "matches": [
+            "わたし",
+            "です"
+          ],
+          "mission_id": "self_intro_review",
+          "npc_id": "teacher",
+          "phrase": "わたしは 〜 です",
+          "type": "sayPhrase"
+        },
+        {
+          "explain": "つぎは しつもんする ばん。「おなまえは なん ですか」と きいてみて。",
+          "idx": 3,
+          "instruction": "Now ask Sensei's name: \"onamae wa nan desu ka\".",
+          "location_id": "classroom",
+          "matches": [
+            "なまえ",
+            "なん"
+          ],
+          "mission_id": "self_intro_review",
+          "npc_id": "teacher",
+          "phrase": "おなまえは なん ですか",
+          "type": "sayPhrase"
+        },
+        {
+          "explain": "レベル3 の じゅんびは いい ですか？「はい」と こたえられたら レベル2 クリア です！",
+          "idx": 4,
+          "instruction": "Sensei asks if you are ready for level 3 — answer \"hai\" (yes).",
+          "location_id": "classroom",
+          "matches": [
+            "はい"
+          ],
+          "mission_id": "self_intro_review",
+          "npc_id": "teacher",
+          "phrase": "はい",
+          "type": "sayPhrase"
+        }
+      ],
+      "sort_order": 39,
+      "summary": "Aoi-sensei's final level 2 check: greet, introduce yourself, ask a name, and answer \"yes\".",
+      "title": "The Self-Introduction Review",
       "xp_reward": 60
     },
     {
