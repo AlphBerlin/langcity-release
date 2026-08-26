@@ -14,6 +14,17 @@
     {
       "explain": "",
       "idx": 0,
+      "instruction": "Go to the station (えき).",
+      "location_id": "station",
+      "matches": [],
+      "mission_id": "excuse_me_station",
+      "npc_id": null,
+      "phrase": null,
+      "type": "goToLocation"
+    },
+    {
+      "explain": "",
+      "idx": 0,
       "instruction": "Go to the Gym (ジム).",
       "location_id": "gym",
       "matches": [],
@@ -124,6 +135,50 @@
     {
       "explain": "",
       "idx": 0,
+      "instruction": "Go to the classroom (きょうしつ).",
+      "location_id": "classroom",
+      "matches": [],
+      "mission_id": "greet_sensei_classroom",
+      "npc_id": null,
+      "phrase": null,
+      "type": "goToLocation"
+    },
+    {
+      "explain": "",
+      "idx": 0,
+      "instruction": "Head out into the town (まち).",
+      "location_id": "town",
+      "matches": [],
+      "mission_id": "greet_the_town",
+      "npc_id": null,
+      "phrase": null,
+      "type": "goToLocation"
+    },
+    {
+      "explain": "",
+      "idx": 0,
+      "instruction": "Go to the classroom (きょうしつ) for the review.",
+      "location_id": "classroom",
+      "matches": [],
+      "mission_id": "greeting_review",
+      "npc_id": null,
+      "phrase": null,
+      "type": "goToLocation"
+    },
+    {
+      "explain": "",
+      "idx": 0,
+      "instruction": "Go into the konbini (コンビニ).",
+      "location_id": "konbini",
+      "matches": [],
+      "mission_id": "konbini_greeting",
+      "npc_id": null,
+      "phrase": null,
+      "type": "goToLocation"
+    },
+    {
+      "explain": "",
+      "idx": 0,
       "instruction": "Go find Hana in the garden (こうえん).",
       "location_id": "park",
       "matches": [],
@@ -150,6 +205,28 @@
       "location_id": "konbini",
       "matches": [],
       "mission_id": "onigiri_run",
+      "npc_id": null,
+      "phrase": null,
+      "type": "goToLocation"
+    },
+    {
+      "explain": "",
+      "idx": 0,
+      "instruction": "Find Hana in the town garden (こうえん).",
+      "location_id": "town",
+      "matches": [],
+      "mission_id": "park_greeting_hana",
+      "npc_id": null,
+      "phrase": null,
+      "type": "goToLocation"
+    },
+    {
+      "explain": "",
+      "idx": 0,
+      "instruction": "Go to the police station (こうばん).",
+      "location_id": "policeStation",
+      "matches": [],
+      "mission_id": "polite_police_station",
       "npc_id": null,
       "phrase": null,
       "type": "goToLocation"
@@ -188,6 +265,39 @@
       "type": "goToLocation"
     },
     {
+      "explain": "",
+      "idx": 0,
+      "instruction": "Find Alex in the town (まち).",
+      "location_id": "town",
+      "matches": [],
+      "mission_id": "sumimasen_round",
+      "npc_id": null,
+      "phrase": null,
+      "type": "goToLocation"
+    },
+    {
+      "explain": "",
+      "idx": 0,
+      "instruction": "Go to the station (えき).",
+      "location_id": "station",
+      "matches": [],
+      "mission_id": "thank_you_everywhere",
+      "npc_id": null,
+      "phrase": null,
+      "type": "goToLocation"
+    },
+    {
+      "explain": "",
+      "idx": 0,
+      "instruction": "Go to the classroom (きょうしつ).",
+      "location_id": "classroom",
+      "matches": [],
+      "mission_id": "yes_no_drill",
+      "npc_id": null,
+      "phrase": null,
+      "type": "goToLocation"
+    },
+    {
       "explain": "こんにちは。みちに まよいましたか？「えき は どこ ですか」と きいてみて！",
       "idx": 1,
       "instruction": "Ask Hiroshi where the station is.",
@@ -199,6 +309,19 @@
       "mission_id": "ask_the_way",
       "npc_id": "13",
       "phrase": "えき は どこ ですか",
+      "type": "sayPhrase"
+    },
+    {
+      "explain": "ん？どうかした？まず 「すみません」って よびかけて みて！",
+      "idx": 1,
+      "instruction": "Get Hiroshi's attention: \"sumimasen\".",
+      "location_id": "station",
+      "matches": [
+        "すみません"
+      ],
+      "mission_id": "excuse_me_station",
+      "npc_id": "13",
+      "phrase": "すみません",
       "type": "sayPhrase"
     },
     {
@@ -312,6 +435,58 @@
       "type": "goToLocation"
     },
     {
+      "explain": "あら、いらっしゃい！あいさつから はじめましょう。「こんにちは」と いってみて。",
+      "idx": 1,
+      "instruction": "Greet Aoi-sensei: \"konnichiwa\".",
+      "location_id": "classroom",
+      "matches": [
+        "こんにちは"
+      ],
+      "mission_id": "greet_sensei_classroom",
+      "npc_id": "teacher",
+      "phrase": "こんにちは",
+      "type": "sayPhrase"
+    },
+    {
+      "explain": "あら、あいさつ まわり？すてき！「こんにちは」と いってみて。",
+      "idx": 1,
+      "instruction": "Greet Mika on the shopping street: \"konnichiwa\".",
+      "location_id": "town",
+      "matches": [
+        "こんにちは"
+      ],
+      "mission_id": "greet_the_town",
+      "npc_id": "store_server",
+      "phrase": "こんにちは",
+      "type": "sayPhrase"
+    },
+    {
+      "explain": "レベル1 ふくしゅう テストです！まず 「こんにちは」から。",
+      "idx": 1,
+      "instruction": "Start with \"konnichiwa\".",
+      "location_id": "classroom",
+      "matches": [
+        "こんにちは"
+      ],
+      "mission_id": "greeting_review",
+      "npc_id": "teacher",
+      "phrase": "こんにちは",
+      "type": "sayPhrase"
+    },
+    {
+      "explain": "いらっしゃいませ！ていねいな あいさつ、だいかんげい ですよ。「こんにちは」と どうぞ。",
+      "idx": 1,
+      "instruction": "Greet Sato: \"konnichiwa\".",
+      "location_id": "konbini",
+      "matches": [
+        "こんにちは"
+      ],
+      "mission_id": "konbini_greeting",
+      "npc_id": "konbini_clerk",
+      "phrase": "こんにちは",
+      "type": "sayPhrase"
+    },
+    {
       "explain": "たいへん！さいふを なくしちゃったの。こうばんに とどけを だしてほしいんだけど、いって くれる？",
       "idx": 1,
       "instruction": "Listen to Hana.",
@@ -348,6 +523,32 @@
       "type": "sayPhrase"
     },
     {
+      "explain": "あら、げんきな こね。おばあさんに 「こんにちは」と あいさつ してくれる？",
+      "idx": 1,
+      "instruction": "Greet Hana: \"konnichiwa\".",
+      "location_id": "town",
+      "matches": [
+        "こんにちは"
+      ],
+      "mission_id": "park_greeting_hana",
+      "npc_id": "old_lady",
+      "phrase": "こんにちは",
+      "type": "sayPhrase"
+    },
+    {
+      "explain": "こんにちは。どうされました？まずは 「すみません」と いって みてください。",
+      "idx": 1,
+      "instruction": "Get Officer Yamada's attention: \"sumimasen\".",
+      "location_id": "policeStation",
+      "matches": [
+        "すみません"
+      ],
+      "mission_id": "polite_police_station",
+      "npc_id": "20",
+      "phrase": "すみません",
+      "type": "sayPhrase"
+    },
+    {
       "explain": "いらっしゃい！うちの ラーメン、どうだ？「おいしい です」って いってくれよ！",
       "idx": 1,
       "instruction": "Tell Master Gen the ramen is delicious.",
@@ -381,6 +582,60 @@
       "npc_id": "teacher",
       "phrase": null,
       "type": "talkToNpc"
+    },
+    {
+      "explain": "ん？ぼくを よんだ？「すみません」の れんしゅう なら まかせて！",
+      "idx": 1,
+      "instruction": "Get Alex's attention: \"sumimasen\".",
+      "location_id": "town",
+      "matches": [
+        "すみません"
+      ],
+      "mission_id": "sumimasen_round",
+      "npc_id": "traveller",
+      "phrase": "すみません",
+      "type": "sayPhrase"
+    },
+    {
+      "explain": "きっぷの かいかた、おしえたよ。ていねいに 「ありがとう ございます」って いってみて！",
+      "idx": 1,
+      "instruction": "Thank Hiroshi politely: \"arigatou gozaimasu\".",
+      "location_id": "station",
+      "matches": [
+        "ありがとう",
+        "ございます"
+      ],
+      "mission_id": "thank_you_everywhere",
+      "npc_id": "13",
+      "phrase": "ありがとう ございます",
+      "type": "sayPhrase"
+    },
+    {
+      "explain": "ドリルの じかんです！まず 「はい」と いってみましょう。",
+      "idx": 1,
+      "instruction": "Answer \"hai\" (yes).",
+      "location_id": "classroom",
+      "matches": [
+        "はい"
+      ],
+      "mission_id": "yes_no_drill",
+      "npc_id": "teacher",
+      "phrase": "はい",
+      "type": "sayPhrase"
+    },
+    {
+      "explain": "どういたしまして！ていねいに 「ありがとう ございます」って いってみて！",
+      "idx": 2,
+      "instruction": "Thank Hiroshi politely: \"arigatou gozaimasu\".",
+      "location_id": "station",
+      "matches": [
+        "ありがとう",
+        "ございます"
+      ],
+      "mission_id": "excuse_me_station",
+      "npc_id": "13",
+      "phrase": "ありがとう ございます",
+      "type": "sayPhrase"
     },
     {
       "explain": "",
@@ -493,6 +748,59 @@
       "type": "goToLocation"
     },
     {
+      "explain": "じゅんびは いいですか？おおきな こえで 「はい」と こたえてね。",
+      "idx": 2,
+      "instruction": "Sensei asks if you are ready — answer \"hai\" (yes).",
+      "location_id": "classroom",
+      "matches": [
+        "はい"
+      ],
+      "mission_id": "greet_sensei_classroom",
+      "npc_id": "teacher",
+      "phrase": "はい",
+      "type": "sayPhrase"
+    },
+    {
+      "explain": "ふふ、あいさつ じょうず だね。わたしにも 「こんにちは」を おねがい。",
+      "idx": 2,
+      "instruction": "Greet Hana in the garden: \"konnichiwa\".",
+      "location_id": "town",
+      "matches": [
+        "こんにちは"
+      ],
+      "mission_id": "greet_the_town",
+      "npc_id": "old_lady",
+      "phrase": "こんにちは",
+      "type": "sayPhrase"
+    },
+    {
+      "explain": "いいですね！つぎは 「ありがとう ございます」を ていねいに。",
+      "idx": 2,
+      "instruction": "Now polite thanks: \"arigatou gozaimasu\".",
+      "location_id": "classroom",
+      "matches": [
+        "ありがとう",
+        "ございます"
+      ],
+      "mission_id": "greeting_review",
+      "npc_id": "teacher",
+      "phrase": "ありがとう ございます",
+      "type": "sayPhrase"
+    },
+    {
+      "explain": "おかいあげ ありがとう ございます！「ありがとう」って いって くれると うれしいな。",
+      "idx": 2,
+      "instruction": "Say thank you: \"arigatou\".",
+      "location_id": "konbini",
+      "matches": [
+        "ありがとう"
+      ],
+      "mission_id": "konbini_greeting",
+      "npc_id": "konbini_clerk",
+      "phrase": "ありがとう",
+      "type": "sayPhrase"
+    },
+    {
       "explain": "",
       "idx": 2,
       "instruction": "Go to the police station (こうばん) and report it.",
@@ -502,6 +810,33 @@
       "npc_id": null,
       "phrase": null,
       "type": "goToLocation"
+    },
+    {
+      "explain": "このまちは たのしいかい？「はい」と こたえて おくれ。",
+      "idx": 2,
+      "instruction": "Hana asks if you are having fun — answer \"hai\" (yes).",
+      "location_id": "town",
+      "matches": [
+        "はい"
+      ],
+      "mission_id": "park_greeting_hana",
+      "npc_id": "old_lady",
+      "phrase": "はい",
+      "type": "sayPhrase"
+    },
+    {
+      "explain": "やくに たてて よかったです。「ありがとう ございます」と いって みましょう。",
+      "idx": 2,
+      "instruction": "Thank Officer Yamada politely: \"arigatou gozaimasu\".",
+      "location_id": "policeStation",
+      "matches": [
+        "ありがとう",
+        "ございます"
+      ],
+      "mission_id": "polite_police_station",
+      "npc_id": "20",
+      "phrase": "ありがとう ございます",
+      "type": "sayPhrase"
     },
     {
       "explain": "",
@@ -525,6 +860,41 @@
       "mission_id": "shrine_lesson",
       "npc_id": "teacher",
       "phrase": "ありがとう ございます",
+      "type": "sayPhrase"
+    },
+    {
+      "explain": "",
+      "idx": 2,
+      "instruction": "Then go to the station (えき).",
+      "location_id": "station",
+      "matches": [],
+      "mission_id": "sumimasen_round",
+      "npc_id": null,
+      "phrase": null,
+      "type": "goToLocation"
+    },
+    {
+      "explain": "",
+      "idx": 2,
+      "instruction": "Then go to the konbini (コンビニ).",
+      "location_id": "konbini",
+      "matches": [],
+      "mission_id": "thank_you_everywhere",
+      "npc_id": null,
+      "phrase": null,
+      "type": "goToLocation"
+    },
+    {
+      "explain": "つぎは はんたい。「いいえ」と はっきり いってみて。",
+      "idx": 2,
+      "instruction": "Now answer \"iie\" (no).",
+      "location_id": "classroom",
+      "matches": [
+        "いいえ"
+      ],
+      "mission_id": "yes_no_drill",
+      "npc_id": "teacher",
+      "phrase": "いいえ",
       "type": "sayPhrase"
     },
     {
@@ -638,6 +1008,32 @@
       "type": "goToLocation"
     },
     {
+      "explain": "やあ！まちで あいさつ れんしゅう してるの？ぼくにも 「こんにちは」って いってみて！",
+      "idx": 3,
+      "instruction": "Greet Hiroshi: \"konnichiwa\".",
+      "location_id": "town",
+      "matches": [
+        "こんにちは"
+      ],
+      "mission_id": "greet_the_town",
+      "npc_id": "13",
+      "phrase": "こんにちは",
+      "type": "sayPhrase"
+    },
+    {
+      "explain": "わかりましたか？「はい」と こたえて。",
+      "idx": 3,
+      "instruction": "Answer \"hai\" (yes).",
+      "location_id": "classroom",
+      "matches": [
+        "はい"
+      ],
+      "mission_id": "greeting_review",
+      "npc_id": "teacher",
+      "phrase": "はい",
+      "type": "sayPhrase"
+    },
+    {
       "explain": "こんにちは。どうしましたか？おちついて、なにが あったか おしえてください。",
       "idx": 3,
       "instruction": "Talk to Officer Yamada.",
@@ -658,6 +1054,32 @@
       "npc_id": "20",
       "phrase": null,
       "type": "talkToNpc"
+    },
+    {
+      "explain": "はい、なあに？ていねいに 「すみません」って どうぞ！",
+      "idx": 3,
+      "instruction": "Get Hiroshi's attention: \"sumimasen\".",
+      "location_id": "station",
+      "matches": [
+        "すみません"
+      ],
+      "mission_id": "sumimasen_round",
+      "npc_id": "13",
+      "phrase": "すみません",
+      "type": "sayPhrase"
+    },
+    {
+      "explain": "まいど ありがとう ございます！「ありがとう」の れんしゅう ですね、どうぞ！",
+      "idx": 3,
+      "instruction": "Thank Sato: \"arigatou\".",
+      "location_id": "konbini",
+      "matches": [
+        "ありがとう"
+      ],
+      "mission_id": "thank_you_everywhere",
+      "npc_id": "konbini_clerk",
+      "phrase": "ありがとう",
+      "type": "sayPhrase"
     },
     {
       "explain": "",
@@ -757,6 +1179,19 @@
       "npc_id": null,
       "phrase": null,
       "type": "goToLocation"
+    },
+    {
+      "explain": "さいごに 「いいえ」も いえたら レベル1 クリア です！",
+      "idx": 4,
+      "instruction": "Finally answer \"iie\" (no).",
+      "location_id": "classroom",
+      "matches": [
+        "いいえ"
+      ],
+      "mission_id": "greeting_review",
+      "npc_id": "teacher",
+      "phrase": "いいえ",
+      "type": "sayPhrase"
     },
     {
       "explain": "だいじょうぶ ですよ。なにを なくしたか、いってみてください。",
@@ -2158,6 +2593,581 @@
       "summary": "A final tour of official buildings and homes. Sensei knows every shortcut if you have doubts.",
       "title": "City Essentials",
       "xp_reward": 150
+    },
+    {
+      "active": true,
+      "giver_npc_id": "teacher",
+      "id": "greet_sensei_classroom",
+      "kind": "main",
+      "language": "ja",
+      "min_level": 1,
+      "nodes": [
+        {
+          "explain": "",
+          "idx": 0,
+          "instruction": "Go to the classroom (きょうしつ).",
+          "location_id": "classroom",
+          "matches": [],
+          "mission_id": "greet_sensei_classroom",
+          "npc_id": null,
+          "phrase": null,
+          "type": "goToLocation"
+        },
+        {
+          "explain": "あら、いらっしゃい！あいさつから はじめましょう。「こんにちは」と いってみて。",
+          "idx": 1,
+          "instruction": "Greet Aoi-sensei: \"konnichiwa\".",
+          "location_id": "classroom",
+          "matches": [
+            "こんにちは"
+          ],
+          "mission_id": "greet_sensei_classroom",
+          "npc_id": "teacher",
+          "phrase": "こんにちは",
+          "type": "sayPhrase"
+        },
+        {
+          "explain": "じゅんびは いいですか？おおきな こえで 「はい」と こたえてね。",
+          "idx": 2,
+          "instruction": "Sensei asks if you are ready — answer \"hai\" (yes).",
+          "location_id": "classroom",
+          "matches": [
+            "はい"
+          ],
+          "mission_id": "greet_sensei_classroom",
+          "npc_id": "teacher",
+          "phrase": "はい",
+          "type": "sayPhrase"
+        }
+      ],
+      "sort_order": 20,
+      "summary": "Aoi-sensei is waiting in the classroom. Greet her properly in Japanese and answer her question with \"yes\".",
+      "title": "Good Afternoon, Sensei",
+      "xp_reward": 50
+    },
+    {
+      "active": true,
+      "giver_npc_id": "traveller",
+      "id": "excuse_me_station",
+      "kind": "main",
+      "language": "ja",
+      "min_level": 1,
+      "nodes": [
+        {
+          "explain": "",
+          "idx": 0,
+          "instruction": "Go to the station (えき).",
+          "location_id": "station",
+          "matches": [],
+          "mission_id": "excuse_me_station",
+          "npc_id": null,
+          "phrase": null,
+          "type": "goToLocation"
+        },
+        {
+          "explain": "ん？どうかした？まず 「すみません」って よびかけて みて！",
+          "idx": 1,
+          "instruction": "Get Hiroshi's attention: \"sumimasen\".",
+          "location_id": "station",
+          "matches": [
+            "すみません"
+          ],
+          "mission_id": "excuse_me_station",
+          "npc_id": "13",
+          "phrase": "すみません",
+          "type": "sayPhrase"
+        },
+        {
+          "explain": "どういたしまして！ていねいに 「ありがとう ございます」って いってみて！",
+          "idx": 2,
+          "instruction": "Thank Hiroshi politely: \"arigatou gozaimasu\".",
+          "location_id": "station",
+          "matches": [
+            "ありがとう",
+            "ございます"
+          ],
+          "mission_id": "excuse_me_station",
+          "npc_id": "13",
+          "phrase": "ありがとう ございます",
+          "type": "sayPhrase"
+        }
+      ],
+      "sort_order": 21,
+      "summary": "Alex needs help at the station. Get Hiroshi's attention politely, then thank him.",
+      "title": "Excuse Me at the Station",
+      "xp_reward": 50
+    },
+    {
+      "active": true,
+      "giver_npc_id": "store_server",
+      "id": "konbini_greeting",
+      "kind": "main",
+      "language": "ja",
+      "min_level": 1,
+      "nodes": [
+        {
+          "explain": "",
+          "idx": 0,
+          "instruction": "Go into the konbini (コンビニ).",
+          "location_id": "konbini",
+          "matches": [],
+          "mission_id": "konbini_greeting",
+          "npc_id": null,
+          "phrase": null,
+          "type": "goToLocation"
+        },
+        {
+          "explain": "いらっしゃいませ！ていねいな あいさつ、だいかんげい ですよ。「こんにちは」と どうぞ。",
+          "idx": 1,
+          "instruction": "Greet Sato: \"konnichiwa\".",
+          "location_id": "konbini",
+          "matches": [
+            "こんにちは"
+          ],
+          "mission_id": "konbini_greeting",
+          "npc_id": "konbini_clerk",
+          "phrase": "こんにちは",
+          "type": "sayPhrase"
+        },
+        {
+          "explain": "おかいあげ ありがとう ございます！「ありがとう」って いって くれると うれしいな。",
+          "idx": 2,
+          "instruction": "Say thank you: \"arigatou\".",
+          "location_id": "konbini",
+          "matches": [
+            "ありがとう"
+          ],
+          "mission_id": "konbini_greeting",
+          "npc_id": "konbini_clerk",
+          "phrase": "ありがとう",
+          "type": "sayPhrase"
+        }
+      ],
+      "sort_order": 22,
+      "summary": "Mika says Sato likes polite customers. Go to the konbini, greet Sato, and say thank you.",
+      "title": "A Friendly Konbini Hello",
+      "xp_reward": 50
+    },
+    {
+      "active": true,
+      "giver_npc_id": "old_lady",
+      "id": "polite_police_station",
+      "kind": "main",
+      "language": "ja",
+      "min_level": 1,
+      "nodes": [
+        {
+          "explain": "",
+          "idx": 0,
+          "instruction": "Go to the police station (こうばん).",
+          "location_id": "policeStation",
+          "matches": [],
+          "mission_id": "polite_police_station",
+          "npc_id": null,
+          "phrase": null,
+          "type": "goToLocation"
+        },
+        {
+          "explain": "こんにちは。どうされました？まずは 「すみません」と いって みてください。",
+          "idx": 1,
+          "instruction": "Get Officer Yamada's attention: \"sumimasen\".",
+          "location_id": "policeStation",
+          "matches": [
+            "すみません"
+          ],
+          "mission_id": "polite_police_station",
+          "npc_id": "20",
+          "phrase": "すみません",
+          "type": "sayPhrase"
+        },
+        {
+          "explain": "やくに たてて よかったです。「ありがとう ございます」と いって みましょう。",
+          "idx": 2,
+          "instruction": "Thank Officer Yamada politely: \"arigatou gozaimasu\".",
+          "location_id": "policeStation",
+          "matches": [
+            "ありがとう",
+            "ございます"
+          ],
+          "mission_id": "polite_police_station",
+          "npc_id": "20",
+          "phrase": "ありがとう ございます",
+          "type": "sayPhrase"
+        }
+      ],
+      "sort_order": 23,
+      "summary": "Hana wants you to meet Officer Yamada. Get his attention politely and thank him for his help.",
+      "title": "Polite at the Police Station",
+      "xp_reward": 50
+    },
+    {
+      "active": true,
+      "giver_npc_id": "teacher",
+      "id": "park_greeting_hana",
+      "kind": "main",
+      "language": "ja",
+      "min_level": 1,
+      "nodes": [
+        {
+          "explain": "",
+          "idx": 0,
+          "instruction": "Find Hana in the town garden (こうえん).",
+          "location_id": "town",
+          "matches": [],
+          "mission_id": "park_greeting_hana",
+          "npc_id": null,
+          "phrase": null,
+          "type": "goToLocation"
+        },
+        {
+          "explain": "あら、げんきな こね。おばあさんに 「こんにちは」と あいさつ してくれる？",
+          "idx": 1,
+          "instruction": "Greet Hana: \"konnichiwa\".",
+          "location_id": "town",
+          "matches": [
+            "こんにちは"
+          ],
+          "mission_id": "park_greeting_hana",
+          "npc_id": "old_lady",
+          "phrase": "こんにちは",
+          "type": "sayPhrase"
+        },
+        {
+          "explain": "このまちは たのしいかい？「はい」と こたえて おくれ。",
+          "idx": 2,
+          "instruction": "Hana asks if you are having fun — answer \"hai\" (yes).",
+          "location_id": "town",
+          "matches": [
+            "はい"
+          ],
+          "mission_id": "park_greeting_hana",
+          "npc_id": "old_lady",
+          "phrase": "はい",
+          "type": "sayPhrase"
+        }
+      ],
+      "sort_order": 24,
+      "summary": "Hana is relaxing in the town garden. Say hello to her and answer her question with \"yes\".",
+      "title": "A Greeting in the Garden",
+      "xp_reward": 40
+    },
+    {
+      "active": true,
+      "giver_npc_id": "teacher",
+      "id": "yes_no_drill",
+      "kind": "main",
+      "language": "ja",
+      "min_level": 1,
+      "nodes": [
+        {
+          "explain": "",
+          "idx": 0,
+          "instruction": "Go to the classroom (きょうしつ).",
+          "location_id": "classroom",
+          "matches": [],
+          "mission_id": "yes_no_drill",
+          "npc_id": null,
+          "phrase": null,
+          "type": "goToLocation"
+        },
+        {
+          "explain": "ドリルの じかんです！まず 「はい」と いってみましょう。",
+          "idx": 1,
+          "instruction": "Answer \"hai\" (yes).",
+          "location_id": "classroom",
+          "matches": [
+            "はい"
+          ],
+          "mission_id": "yes_no_drill",
+          "npc_id": "teacher",
+          "phrase": "はい",
+          "type": "sayPhrase"
+        },
+        {
+          "explain": "つぎは はんたい。「いいえ」と はっきり いってみて。",
+          "idx": 2,
+          "instruction": "Now answer \"iie\" (no).",
+          "location_id": "classroom",
+          "matches": [
+            "いいえ"
+          ],
+          "mission_id": "yes_no_drill",
+          "npc_id": "teacher",
+          "phrase": "いいえ",
+          "type": "sayPhrase"
+        }
+      ],
+      "sort_order": 25,
+      "summary": "Aoi-sensei has a quick drill for you in the classroom: answer \"yes\", then answer \"no\".",
+      "title": "Yes and No Drill",
+      "xp_reward": 40
+    },
+    {
+      "active": true,
+      "giver_npc_id": "traveller",
+      "id": "greet_the_town",
+      "kind": "main",
+      "language": "ja",
+      "min_level": 1,
+      "nodes": [
+        {
+          "explain": "",
+          "idx": 0,
+          "instruction": "Head out into the town (まち).",
+          "location_id": "town",
+          "matches": [],
+          "mission_id": "greet_the_town",
+          "npc_id": null,
+          "phrase": null,
+          "type": "goToLocation"
+        },
+        {
+          "explain": "あら、あいさつ まわり？すてき！「こんにちは」と いってみて。",
+          "idx": 1,
+          "instruction": "Greet Mika on the shopping street: \"konnichiwa\".",
+          "location_id": "town",
+          "matches": [
+            "こんにちは"
+          ],
+          "mission_id": "greet_the_town",
+          "npc_id": "store_server",
+          "phrase": "こんにちは",
+          "type": "sayPhrase"
+        },
+        {
+          "explain": "ふふ、あいさつ じょうず だね。わたしにも 「こんにちは」を おねがい。",
+          "idx": 2,
+          "instruction": "Greet Hana in the garden: \"konnichiwa\".",
+          "location_id": "town",
+          "matches": [
+            "こんにちは"
+          ],
+          "mission_id": "greet_the_town",
+          "npc_id": "old_lady",
+          "phrase": "こんにちは",
+          "type": "sayPhrase"
+        },
+        {
+          "explain": "やあ！まちで あいさつ れんしゅう してるの？ぼくにも 「こんにちは」って いってみて！",
+          "idx": 3,
+          "instruction": "Greet Hiroshi: \"konnichiwa\".",
+          "location_id": "town",
+          "matches": [
+            "こんにちは"
+          ],
+          "mission_id": "greet_the_town",
+          "npc_id": "13",
+          "phrase": "こんにちは",
+          "type": "sayPhrase"
+        }
+      ],
+      "sort_order": 26,
+      "summary": "Alex challenges you: greet three townspeople — Mika, Hana, and Hiroshi — with a friendly \"konnichiwa\".",
+      "title": "Greet the Whole Town",
+      "xp_reward": 60
+    },
+    {
+      "active": true,
+      "giver_npc_id": "old_lady",
+      "id": "thank_you_everywhere",
+      "kind": "main",
+      "language": "ja",
+      "min_level": 1,
+      "nodes": [
+        {
+          "explain": "",
+          "idx": 0,
+          "instruction": "Go to the station (えき).",
+          "location_id": "station",
+          "matches": [],
+          "mission_id": "thank_you_everywhere",
+          "npc_id": null,
+          "phrase": null,
+          "type": "goToLocation"
+        },
+        {
+          "explain": "きっぷの かいかた、おしえたよ。ていねいに 「ありがとう ございます」って いってみて！",
+          "idx": 1,
+          "instruction": "Thank Hiroshi politely: \"arigatou gozaimasu\".",
+          "location_id": "station",
+          "matches": [
+            "ありがとう",
+            "ございます"
+          ],
+          "mission_id": "thank_you_everywhere",
+          "npc_id": "13",
+          "phrase": "ありがとう ございます",
+          "type": "sayPhrase"
+        },
+        {
+          "explain": "",
+          "idx": 2,
+          "instruction": "Then go to the konbini (コンビニ).",
+          "location_id": "konbini",
+          "matches": [],
+          "mission_id": "thank_you_everywhere",
+          "npc_id": null,
+          "phrase": null,
+          "type": "goToLocation"
+        },
+        {
+          "explain": "まいど ありがとう ございます！「ありがとう」の れんしゅう ですね、どうぞ！",
+          "idx": 3,
+          "instruction": "Thank Sato: \"arigatou\".",
+          "location_id": "konbini",
+          "matches": [
+            "ありがとう"
+          ],
+          "mission_id": "thank_you_everywhere",
+          "npc_id": "konbini_clerk",
+          "phrase": "ありがとう",
+          "type": "sayPhrase"
+        }
+      ],
+      "sort_order": 27,
+      "summary": "Hana says gratitude opens doors. Thank Hiroshi at the station politely, then thank Sato at the konbini.",
+      "title": "Thank You Everywhere",
+      "xp_reward": 60
+    },
+    {
+      "active": true,
+      "giver_npc_id": "store_server",
+      "id": "sumimasen_round",
+      "kind": "main",
+      "language": "ja",
+      "min_level": 1,
+      "nodes": [
+        {
+          "explain": "",
+          "idx": 0,
+          "instruction": "Find Alex in the town (まち).",
+          "location_id": "town",
+          "matches": [],
+          "mission_id": "sumimasen_round",
+          "npc_id": null,
+          "phrase": null,
+          "type": "goToLocation"
+        },
+        {
+          "explain": "ん？ぼくを よんだ？「すみません」の れんしゅう なら まかせて！",
+          "idx": 1,
+          "instruction": "Get Alex's attention: \"sumimasen\".",
+          "location_id": "town",
+          "matches": [
+            "すみません"
+          ],
+          "mission_id": "sumimasen_round",
+          "npc_id": "traveller",
+          "phrase": "すみません",
+          "type": "sayPhrase"
+        },
+        {
+          "explain": "",
+          "idx": 2,
+          "instruction": "Then go to the station (えき).",
+          "location_id": "station",
+          "matches": [],
+          "mission_id": "sumimasen_round",
+          "npc_id": null,
+          "phrase": null,
+          "type": "goToLocation"
+        },
+        {
+          "explain": "はい、なあに？ていねいに 「すみません」って どうぞ！",
+          "idx": 3,
+          "instruction": "Get Hiroshi's attention: \"sumimasen\".",
+          "location_id": "station",
+          "matches": [
+            "すみません"
+          ],
+          "mission_id": "sumimasen_round",
+          "npc_id": "13",
+          "phrase": "すみません",
+          "type": "sayPhrase"
+        }
+      ],
+      "sort_order": 28,
+      "summary": "Mika wants you to practice getting attention politely: say \"sumimasen\" to Alex in town, then to Hiroshi at the station.",
+      "title": "The Sumimasen Round",
+      "xp_reward": 50
+    },
+    {
+      "active": true,
+      "giver_npc_id": "teacher",
+      "id": "greeting_review",
+      "kind": "main",
+      "language": "ja",
+      "min_level": 1,
+      "nodes": [
+        {
+          "explain": "",
+          "idx": 0,
+          "instruction": "Go to the classroom (きょうしつ) for the review.",
+          "location_id": "classroom",
+          "matches": [],
+          "mission_id": "greeting_review",
+          "npc_id": null,
+          "phrase": null,
+          "type": "goToLocation"
+        },
+        {
+          "explain": "レベル1 ふくしゅう テストです！まず 「こんにちは」から。",
+          "idx": 1,
+          "instruction": "Start with \"konnichiwa\".",
+          "location_id": "classroom",
+          "matches": [
+            "こんにちは"
+          ],
+          "mission_id": "greeting_review",
+          "npc_id": "teacher",
+          "phrase": "こんにちは",
+          "type": "sayPhrase"
+        },
+        {
+          "explain": "いいですね！つぎは 「ありがとう ございます」を ていねいに。",
+          "idx": 2,
+          "instruction": "Now polite thanks: \"arigatou gozaimasu\".",
+          "location_id": "classroom",
+          "matches": [
+            "ありがとう",
+            "ございます"
+          ],
+          "mission_id": "greeting_review",
+          "npc_id": "teacher",
+          "phrase": "ありがとう ございます",
+          "type": "sayPhrase"
+        },
+        {
+          "explain": "わかりましたか？「はい」と こたえて。",
+          "idx": 3,
+          "instruction": "Answer \"hai\" (yes).",
+          "location_id": "classroom",
+          "matches": [
+            "はい"
+          ],
+          "mission_id": "greeting_review",
+          "npc_id": "teacher",
+          "phrase": "はい",
+          "type": "sayPhrase"
+        },
+        {
+          "explain": "さいごに 「いいえ」も いえたら レベル1 クリア です！",
+          "idx": 4,
+          "instruction": "Finally answer \"iie\" (no).",
+          "location_id": "classroom",
+          "matches": [
+            "いいえ"
+          ],
+          "mission_id": "greeting_review",
+          "npc_id": "teacher",
+          "phrase": "いいえ",
+          "type": "sayPhrase"
+        }
+      ],
+      "sort_order": 29,
+      "summary": "Aoi-sensei's final level 1 check: hello, polite thanks, yes, and no — all in one visit to the classroom.",
+      "title": "The Greeting Review",
+      "xp_reward": 60
     },
     {
       "active": true,
