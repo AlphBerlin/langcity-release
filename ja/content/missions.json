@@ -237,7 +237,40 @@
       "instruction": "Go into the konbini (コンビニ).",
       "location_id": "konbini",
       "matches": [],
+      "mission_id": "konbini_full_order",
+      "npc_id": null,
+      "phrase": null,
+      "type": "goToLocation"
+    },
+    {
+      "explain": "",
+      "idx": 0,
+      "instruction": "Go into the konbini (コンビニ).",
+      "location_id": "konbini",
+      "matches": [],
       "mission_id": "konbini_greeting",
+      "npc_id": null,
+      "phrase": null,
+      "type": "goToLocation"
+    },
+    {
+      "explain": "",
+      "idx": 0,
+      "instruction": "Go into the konbini (コンビニ).",
+      "location_id": "konbini",
+      "matches": [],
+      "mission_id": "konbini_price_check",
+      "npc_id": null,
+      "phrase": null,
+      "type": "goToLocation"
+    },
+    {
+      "explain": "",
+      "idx": 0,
+      "instruction": "Go into the konbini (コンビニ).",
+      "location_id": "konbini",
+      "matches": [],
+      "mission_id": "kore_wo_kudasai",
       "npc_id": null,
       "phrase": null,
       "type": "goToLocation"
@@ -292,7 +325,40 @@
       "instruction": "Go into the konbini (コンビニ).",
       "location_id": "konbini",
       "matches": [],
+      "mission_id": "ocha_order",
+      "npc_id": null,
+      "phrase": null,
+      "type": "goToLocation"
+    },
+    {
+      "explain": "",
+      "idx": 0,
+      "instruction": "Go into the konbini (コンビニ).",
+      "location_id": "konbini",
+      "matches": [],
+      "mission_id": "onigiri_order",
+      "npc_id": null,
+      "phrase": null,
+      "type": "goToLocation"
+    },
+    {
+      "explain": "",
+      "idx": 0,
+      "instruction": "Go into the konbini (コンビニ).",
+      "location_id": "konbini",
+      "matches": [],
       "mission_id": "onigiri_run",
+      "npc_id": null,
+      "phrase": null,
+      "type": "goToLocation"
+    },
+    {
+      "explain": "",
+      "idx": 0,
+      "instruction": "Go to the classroom (きょうしつ) for the review.",
+      "location_id": "classroom",
+      "matches": [],
+      "mission_id": "ordering_review",
       "npc_id": null,
       "phrase": null,
       "type": "goToLocation"
@@ -326,6 +392,28 @@
       "location_id": "policeStation",
       "matches": [],
       "mission_id": "polite_police_station",
+      "npc_id": null,
+      "phrase": null,
+      "type": "goToLocation"
+    },
+    {
+      "explain": "",
+      "idx": 0,
+      "instruction": "Go into the ramen shop (らーめんや).",
+      "location_id": "ramen",
+      "matches": [],
+      "mission_id": "ramen_first_visit",
+      "npc_id": null,
+      "phrase": null,
+      "type": "goToLocation"
+    },
+    {
+      "explain": "",
+      "idx": 0,
+      "instruction": "Go into the ramen shop (らーめんや).",
+      "location_id": "ramen",
+      "matches": [],
+      "mission_id": "ramen_price_check",
       "npc_id": null,
       "phrase": null,
       "type": "goToLocation"
@@ -388,10 +476,32 @@
     {
       "explain": "",
       "idx": 0,
+      "instruction": "Find Alex in the town (まち).",
+      "location_id": "town",
+      "matches": [],
+      "mission_id": "teach_alex_order",
+      "npc_id": null,
+      "phrase": null,
+      "type": "goToLocation"
+    },
+    {
+      "explain": "",
+      "idx": 0,
       "instruction": "Go to the station (えき).",
       "location_id": "station",
       "matches": [],
       "mission_id": "thank_you_everywhere",
+      "npc_id": null,
+      "phrase": null,
+      "type": "goToLocation"
+    },
+    {
+      "explain": "",
+      "idx": 0,
+      "instruction": "Go into the konbini (コンビニ).",
+      "location_id": "konbini",
+      "matches": [],
+      "mission_id": "water_for_hana",
       "npc_id": null,
       "phrase": null,
       "type": "goToLocation"
@@ -664,6 +774,19 @@
       "type": "sayPhrase"
     },
     {
+      "explain": "いらっしゃいませ！フルコースの ちゅうもん れんしゅう ですね。まず 「こんにちは」から。",
+      "idx": 1,
+      "instruction": "Greet Sato: \"konnichiwa\".",
+      "location_id": "konbini",
+      "matches": [
+        "こんにちは"
+      ],
+      "mission_id": "konbini_full_order",
+      "npc_id": "konbini_clerk",
+      "phrase": "こんにちは",
+      "type": "sayPhrase"
+    },
+    {
       "explain": "いらっしゃいませ！ていねいな あいさつ、だいかんげい ですよ。「こんにちは」と どうぞ。",
       "idx": 1,
       "instruction": "Greet Sato: \"konnichiwa\".",
@@ -674,6 +797,33 @@
       "mission_id": "konbini_greeting",
       "npc_id": "konbini_clerk",
       "phrase": "こんにちは",
+      "type": "sayPhrase"
+    },
+    {
+      "explain": "ねだんが きになる ものが ありますか？「いくら ですか」と きいてみて。",
+      "idx": 1,
+      "instruction": "Ask the price: \"ikura desu ka\".",
+      "location_id": "konbini",
+      "matches": [
+        "いくら"
+      ],
+      "mission_id": "konbini_price_check",
+      "npc_id": "konbini_clerk",
+      "phrase": "いくら ですか",
+      "type": "sayPhrase"
+    },
+    {
+      "explain": "ジェスチャーは もう いりませんよ。「これを ください」と いってみて。",
+      "idx": 1,
+      "instruction": "Point at a snack and order: \"kore wo kudasai\".",
+      "location_id": "konbini",
+      "matches": [
+        "これ",
+        "ください"
+      ],
+      "mission_id": "kore_wo_kudasai",
+      "npc_id": "konbini_clerk",
+      "phrase": "これを ください",
       "type": "sayPhrase"
     },
     {
@@ -726,6 +876,33 @@
       "type": "sayPhrase"
     },
     {
+      "explain": "おちゃですね、のど かわいて ますか？「おちゃを ください」と どうぞ。",
+      "idx": 1,
+      "instruction": "Order a green tea: \"ocha wo kudasai\".",
+      "location_id": "konbini",
+      "matches": [
+        "おちゃ",
+        "ください"
+      ],
+      "mission_id": "ocha_order",
+      "npc_id": "konbini_clerk",
+      "phrase": "おちゃを ください",
+      "type": "sayPhrase"
+    },
+    {
+      "explain": "いらっしゃいませ！まずは げんきに 「こんにちは」と どうぞ。",
+      "idx": 1,
+      "instruction": "Greet Sato: \"konnichiwa\".",
+      "location_id": "konbini",
+      "matches": [
+        "こんにちは"
+      ],
+      "mission_id": "onigiri_order",
+      "npc_id": "konbini_clerk",
+      "phrase": "こんにちは",
+      "type": "sayPhrase"
+    },
+    {
       "explain": "いらっしゃいませ！なにに しますか？「おにぎり を ください」と いってみて！",
       "idx": 1,
       "instruction": "Order onigiri from Sato.",
@@ -737,6 +914,20 @@
       "mission_id": "onigiri_run",
       "npc_id": "konbini_clerk",
       "phrase": "おにぎり を ください",
+      "type": "sayPhrase"
+    },
+    {
+      "explain": "レベル3 ふくしゅう テストです！コンビニの れんしゅう。まず 「みずを ください」。",
+      "idx": 1,
+      "instruction": "Order a water: \"mizu wo kudasai\".",
+      "location_id": "classroom",
+      "matches": [
+        "みず",
+        "ください"
+      ],
+      "mission_id": "ordering_review",
+      "npc_id": "teacher",
+      "phrase": "みずを ください",
       "type": "sayPhrase"
     },
     {
@@ -776,6 +967,32 @@
       "mission_id": "polite_police_station",
       "npc_id": "20",
       "phrase": "すみません",
+      "type": "sayPhrase"
+    },
+    {
+      "explain": "いらっしゃい！はじめて だな。まず 「こんにちは」と いってみな。",
+      "idx": 1,
+      "instruction": "Greet Master Gen: \"konnichiwa\".",
+      "location_id": "ramen",
+      "matches": [
+        "こんにちは"
+      ],
+      "mission_id": "ramen_first_visit",
+      "npc_id": "ramen_chef",
+      "phrase": "こんにちは",
+      "type": "sayPhrase"
+    },
+    {
+      "explain": "メニューが よめない って？ねだんは 「いくら ですか」って きけば いいんだよ。",
+      "idx": 1,
+      "instruction": "Ask Master Gen the price: \"ikura desu ka\".",
+      "location_id": "ramen",
+      "matches": [
+        "いくら"
+      ],
+      "mission_id": "ramen_price_check",
+      "npc_id": "ramen_chef",
+      "phrase": "いくら ですか",
       "type": "sayPhrase"
     },
     {
@@ -840,6 +1057,20 @@
       "type": "sayPhrase"
     },
     {
+      "explain": "I keep pointing and hoping for the best! How do I say \"this one, please\"? Teach me — say \"これを ください\".",
+      "idx": 1,
+      "instruction": "Teach Alex how to order by pointing: \"kore wo kudasai\".",
+      "location_id": "town",
+      "matches": [
+        "これ",
+        "ください"
+      ],
+      "mission_id": "teach_alex_order",
+      "npc_id": "traveller",
+      "phrase": "これを ください",
+      "type": "sayPhrase"
+    },
+    {
       "explain": "きっぷの かいかた、おしえたよ。ていねいに 「ありがとう ございます」って いってみて！",
       "idx": 1,
       "instruction": "Thank Hiroshi politely: \"arigatou gozaimasu\".",
@@ -851,6 +1082,20 @@
       "mission_id": "thank_you_everywhere",
       "npc_id": "13",
       "phrase": "ありがとう ございます",
+      "type": "sayPhrase"
+    },
+    {
+      "explain": "おみずですね。「みずを ください」と どうぞ。",
+      "idx": 1,
+      "instruction": "Order a water: \"mizu wo kudasai\".",
+      "location_id": "konbini",
+      "matches": [
+        "みず",
+        "ください"
+      ],
+      "mission_id": "water_for_hana",
+      "npc_id": "konbini_clerk",
+      "phrase": "みずを ください",
       "type": "sayPhrase"
     },
     {
@@ -1114,6 +1359,20 @@
       "type": "sayPhrase"
     },
     {
+      "explain": "つぎは ちゅうもん。「おにぎりを ください」と どうぞ。",
+      "idx": 2,
+      "instruction": "Order an onigiri: \"onigiri wo kudasai\".",
+      "location_id": "konbini",
+      "matches": [
+        "おにぎり",
+        "ください"
+      ],
+      "mission_id": "konbini_full_order",
+      "npc_id": "konbini_clerk",
+      "phrase": "おにぎりを ください",
+      "type": "sayPhrase"
+    },
+    {
       "explain": "おかいあげ ありがとう ございます！「ありがとう」って いって くれると うれしいな。",
       "idx": 2,
       "instruction": "Say thank you: \"arigatou\".",
@@ -1124,6 +1383,33 @@
       "mission_id": "konbini_greeting",
       "npc_id": "konbini_clerk",
       "phrase": "ありがとう",
+      "type": "sayPhrase"
+    },
+    {
+      "explain": "300えん です。おしえて もらったら 「ありがとう ございます」ですよ。",
+      "idx": 2,
+      "instruction": "Thank Sato politely: \"arigatou gozaimasu\".",
+      "location_id": "konbini",
+      "matches": [
+        "ありがとう",
+        "ございます"
+      ],
+      "mission_id": "konbini_price_check",
+      "npc_id": "konbini_clerk",
+      "phrase": "ありがとう ございます",
+      "type": "sayPhrase"
+    },
+    {
+      "explain": "これですか？「はい」と こたえて ください。",
+      "idx": 2,
+      "instruction": "Sato holds it up to confirm — answer \"hai\" (yes).",
+      "location_id": "konbini",
+      "matches": [
+        "はい"
+      ],
+      "mission_id": "kore_wo_kudasai",
+      "npc_id": "konbini_clerk",
+      "phrase": "はい",
       "type": "sayPhrase"
     },
     {
@@ -1166,6 +1452,47 @@
       "type": "sayPhrase"
     },
     {
+      "explain": "まいど ありがとう ございます！「ありがとう」の れんしゅうも ばっちり ですね。",
+      "idx": 2,
+      "instruction": "Say thank you: \"arigatou\".",
+      "location_id": "konbini",
+      "matches": [
+        "ありがとう"
+      ],
+      "mission_id": "ocha_order",
+      "npc_id": "konbini_clerk",
+      "phrase": "ありがとう",
+      "type": "sayPhrase"
+    },
+    {
+      "explain": "おにぎりですね！「おにぎりを ください」と いってみて ください。",
+      "idx": 2,
+      "instruction": "Order an onigiri: \"onigiri wo kudasai\".",
+      "location_id": "konbini",
+      "matches": [
+        "おにぎり",
+        "ください"
+      ],
+      "mission_id": "onigiri_order",
+      "npc_id": "konbini_clerk",
+      "phrase": "おにぎりを ください",
+      "type": "sayPhrase"
+    },
+    {
+      "explain": "いいですね！つぎは 「おちゃを ください」と いってみて。",
+      "idx": 2,
+      "instruction": "Now order a green tea: \"ocha wo kudasai\".",
+      "location_id": "classroom",
+      "matches": [
+        "おちゃ",
+        "ください"
+      ],
+      "mission_id": "ordering_review",
+      "npc_id": "teacher",
+      "phrase": "おちゃを ください",
+      "type": "sayPhrase"
+    },
+    {
       "explain": "このまちは たのしいかい？「はい」と こたえて おくれ。",
       "idx": 2,
       "instruction": "Hana asks if you are having fun — answer \"hai\" (yes).",
@@ -1204,6 +1531,33 @@
       "mission_id": "polite_police_station",
       "npc_id": "20",
       "phrase": "ありがとう ございます",
+      "type": "sayPhrase"
+    },
+    {
+      "explain": "おすすめは これだ！ゆびさして 「これを ください」って いってみな。",
+      "idx": 2,
+      "instruction": "Point at the recommended bowl and order: \"kore wo kudasai\".",
+      "location_id": "ramen",
+      "matches": [
+        "これ",
+        "ください"
+      ],
+      "mission_id": "ramen_first_visit",
+      "npc_id": "ramen_chef",
+      "phrase": "これを ください",
+      "type": "sayPhrase"
+    },
+    {
+      "explain": "800えん だよ。それで いいかい？「はい」と こたえな。",
+      "idx": 2,
+      "instruction": "Gen asks if the price is fine — answer \"hai\" (yes).",
+      "location_id": "ramen",
+      "matches": [
+        "はい"
+      ],
+      "mission_id": "ramen_price_check",
+      "npc_id": "ramen_chef",
+      "phrase": "はい",
       "type": "sayPhrase"
     },
     {
@@ -1256,12 +1610,36 @@
       "type": "goToLocation"
     },
     {
+      "explain": "And how do I ask what it costs? Show me — say \"いくら ですか\". This is going to change my life here!",
+      "idx": 2,
+      "instruction": "Teach Alex how to ask the price: \"ikura desu ka\".",
+      "location_id": "town",
+      "matches": [
+        "いくら"
+      ],
+      "mission_id": "teach_alex_order",
+      "npc_id": "traveller",
+      "phrase": "いくら ですか",
+      "type": "sayPhrase"
+    },
+    {
       "explain": "",
       "idx": 2,
       "instruction": "Then go to the konbini (コンビニ).",
       "location_id": "konbini",
       "matches": [],
       "mission_id": "thank_you_everywhere",
+      "npc_id": null,
+      "phrase": null,
+      "type": "goToLocation"
+    },
+    {
+      "explain": "",
+      "idx": 2,
+      "instruction": "Bring the water back to Hana in the town garden (こうえん).",
+      "location_id": "town",
+      "matches": [],
+      "mission_id": "water_for_hana",
       "npc_id": null,
       "phrase": null,
       "type": "goToLocation"
@@ -1430,6 +1808,19 @@
       "type": "sayPhrase"
     },
     {
+      "explain": "はい、おにぎりですね。ねだんは 「いくら ですか」と きいてみて。",
+      "idx": 3,
+      "instruction": "Ask the price: \"ikura desu ka\".",
+      "location_id": "konbini",
+      "matches": [
+        "いくら"
+      ],
+      "mission_id": "konbini_full_order",
+      "npc_id": "konbini_clerk",
+      "phrase": "いくら ですか",
+      "type": "sayPhrase"
+    },
+    {
       "explain": "こんにちは。どうしましたか？おちついて、なにが あったか おしえてください。",
       "idx": 3,
       "instruction": "Talk to Officer Yamada.",
@@ -1464,6 +1855,19 @@
       "mission_id": "name_drill_classroom",
       "npc_id": "teacher",
       "phrase": "いいえ",
+      "type": "sayPhrase"
+    },
+    {
+      "explain": "つぎは ねだんを きく ばん。「いくら ですか」と どうぞ。",
+      "idx": 3,
+      "instruction": "Ask the price: \"ikura desu ka\".",
+      "location_id": "classroom",
+      "matches": [
+        "いくら"
+      ],
+      "mission_id": "ordering_review",
+      "npc_id": "teacher",
+      "phrase": "いくら ですか",
       "type": "sayPhrase"
     },
     {
@@ -1515,6 +1919,19 @@
       "mission_id": "thank_you_everywhere",
       "npc_id": "konbini_clerk",
       "phrase": "ありがとう",
+      "type": "sayPhrase"
+    },
+    {
+      "explain": "みずを かって きて くれたかい？「はい」と こたえて おくれ。",
+      "idx": 3,
+      "instruction": "Hana asks if you bought the water — answer \"hai\" (yes).",
+      "location_id": "town",
+      "matches": [
+        "はい"
+      ],
+      "mission_id": "water_for_hana",
+      "npc_id": "old_lady",
+      "phrase": "はい",
       "type": "sayPhrase"
     },
     {
@@ -1630,6 +2047,20 @@
       "type": "sayPhrase"
     },
     {
+      "explain": "150えん です。さいごは ていねいに 「ありがとう ございます」で かんぺき です！",
+      "idx": 4,
+      "instruction": "Finish with polite thanks: \"arigatou gozaimasu\".",
+      "location_id": "konbini",
+      "matches": [
+        "ありがとう",
+        "ございます"
+      ],
+      "mission_id": "konbini_full_order",
+      "npc_id": "konbini_clerk",
+      "phrase": "ありがとう ございます",
+      "type": "sayPhrase"
+    },
+    {
       "explain": "だいじょうぶ ですよ。なにを なくしたか、いってみてください。",
       "idx": 4,
       "instruction": "Tell Officer Yamada what happened: \"I lost my purse.\"",
@@ -1641,6 +2072,19 @@
       "mission_id": "lost_purse_report",
       "npc_id": "20",
       "phrase": "さいふを なくしました",
+      "type": "sayPhrase"
+    },
+    {
+      "explain": "らーめんやさんでも ちゅうもん できそう ですか？「はい」と こたえられたら レベル3 クリア です！",
+      "idx": 4,
+      "instruction": "Sensei asks if you are ready for the ramen shop — answer \"hai\" (yes).",
+      "location_id": "classroom",
+      "matches": [
+        "はい"
+      ],
+      "mission_id": "ordering_review",
+      "npc_id": "teacher",
+      "phrase": "はい",
       "type": "sayPhrase"
     },
     {
@@ -4205,6 +4649,590 @@
       "sort_order": 39,
       "summary": "Aoi-sensei's final level 2 check: greet, introduce yourself, ask a name, and answer \"yes\".",
       "title": "The Self-Introduction Review",
+      "xp_reward": 60
+    },
+    {
+      "active": true,
+      "giver_npc_id": "store_server",
+      "id": "onigiri_order",
+      "kind": "main",
+      "language": "ja",
+      "min_level": 3,
+      "nodes": [
+        {
+          "explain": "",
+          "idx": 0,
+          "instruction": "Go into the konbini (コンビニ).",
+          "location_id": "konbini",
+          "matches": [],
+          "mission_id": "onigiri_order",
+          "npc_id": null,
+          "phrase": null,
+          "type": "goToLocation"
+        },
+        {
+          "explain": "いらっしゃいませ！まずは げんきに 「こんにちは」と どうぞ。",
+          "idx": 1,
+          "instruction": "Greet Sato: \"konnichiwa\".",
+          "location_id": "konbini",
+          "matches": [
+            "こんにちは"
+          ],
+          "mission_id": "onigiri_order",
+          "npc_id": "konbini_clerk",
+          "phrase": "こんにちは",
+          "type": "sayPhrase"
+        },
+        {
+          "explain": "おにぎりですね！「おにぎりを ください」と いってみて ください。",
+          "idx": 2,
+          "instruction": "Order an onigiri: \"onigiri wo kudasai\".",
+          "location_id": "konbini",
+          "matches": [
+            "おにぎり",
+            "ください"
+          ],
+          "mission_id": "onigiri_order",
+          "npc_id": "konbini_clerk",
+          "phrase": "おにぎりを ください",
+          "type": "sayPhrase"
+        }
+      ],
+      "sort_order": 40,
+      "summary": "Mika swears the konbini onigiri beat hers. Greet Sato and order one in Japanese.",
+      "title": "Order the Onigiri",
+      "xp_reward": 50
+    },
+    {
+      "active": true,
+      "giver_npc_id": "old_lady",
+      "id": "water_for_hana",
+      "kind": "main",
+      "language": "ja",
+      "min_level": 3,
+      "nodes": [
+        {
+          "explain": "",
+          "idx": 0,
+          "instruction": "Go into the konbini (コンビニ).",
+          "location_id": "konbini",
+          "matches": [],
+          "mission_id": "water_for_hana",
+          "npc_id": null,
+          "phrase": null,
+          "type": "goToLocation"
+        },
+        {
+          "explain": "おみずですね。「みずを ください」と どうぞ。",
+          "idx": 1,
+          "instruction": "Order a water: \"mizu wo kudasai\".",
+          "location_id": "konbini",
+          "matches": [
+            "みず",
+            "ください"
+          ],
+          "mission_id": "water_for_hana",
+          "npc_id": "konbini_clerk",
+          "phrase": "みずを ください",
+          "type": "sayPhrase"
+        },
+        {
+          "explain": "",
+          "idx": 2,
+          "instruction": "Bring the water back to Hana in the town garden (こうえん).",
+          "location_id": "town",
+          "matches": [],
+          "mission_id": "water_for_hana",
+          "npc_id": null,
+          "phrase": null,
+          "type": "goToLocation"
+        },
+        {
+          "explain": "みずを かって きて くれたかい？「はい」と こたえて おくれ。",
+          "idx": 3,
+          "instruction": "Hana asks if you bought the water — answer \"hai\" (yes).",
+          "location_id": "town",
+          "matches": [
+            "はい"
+          ],
+          "mission_id": "water_for_hana",
+          "npc_id": "old_lady",
+          "phrase": "はい",
+          "type": "sayPhrase"
+        }
+      ],
+      "sort_order": 41,
+      "summary": "Hana is thirsty from gardening. Buy a water at the konbini and bring it back to her.",
+      "title": "Water for Hana",
+      "xp_reward": 60
+    },
+    {
+      "active": true,
+      "giver_npc_id": "traveller",
+      "id": "kore_wo_kudasai",
+      "kind": "main",
+      "language": "ja",
+      "min_level": 3,
+      "nodes": [
+        {
+          "explain": "",
+          "idx": 0,
+          "instruction": "Go into the konbini (コンビニ).",
+          "location_id": "konbini",
+          "matches": [],
+          "mission_id": "kore_wo_kudasai",
+          "npc_id": null,
+          "phrase": null,
+          "type": "goToLocation"
+        },
+        {
+          "explain": "ジェスチャーは もう いりませんよ。「これを ください」と いってみて。",
+          "idx": 1,
+          "instruction": "Point at a snack and order: \"kore wo kudasai\".",
+          "location_id": "konbini",
+          "matches": [
+            "これ",
+            "ください"
+          ],
+          "mission_id": "kore_wo_kudasai",
+          "npc_id": "konbini_clerk",
+          "phrase": "これを ください",
+          "type": "sayPhrase"
+        },
+        {
+          "explain": "これですか？「はい」と こたえて ください。",
+          "idx": 2,
+          "instruction": "Sato holds it up to confirm — answer \"hai\" (yes).",
+          "location_id": "konbini",
+          "matches": [
+            "はい"
+          ],
+          "mission_id": "kore_wo_kudasai",
+          "npc_id": "konbini_clerk",
+          "phrase": "はい",
+          "type": "sayPhrase"
+        }
+      ],
+      "sort_order": 42,
+      "summary": "Alex ordered lunch with gestures yesterday and it went wrong. Show him how it's done: point and order at the konbini.",
+      "title": "This One, Please",
+      "xp_reward": 50
+    },
+    {
+      "active": true,
+      "giver_npc_id": "teacher",
+      "id": "konbini_price_check",
+      "kind": "main",
+      "language": "ja",
+      "min_level": 3,
+      "nodes": [
+        {
+          "explain": "",
+          "idx": 0,
+          "instruction": "Go into the konbini (コンビニ).",
+          "location_id": "konbini",
+          "matches": [],
+          "mission_id": "konbini_price_check",
+          "npc_id": null,
+          "phrase": null,
+          "type": "goToLocation"
+        },
+        {
+          "explain": "ねだんが きになる ものが ありますか？「いくら ですか」と きいてみて。",
+          "idx": 1,
+          "instruction": "Ask the price: \"ikura desu ka\".",
+          "location_id": "konbini",
+          "matches": [
+            "いくら"
+          ],
+          "mission_id": "konbini_price_check",
+          "npc_id": "konbini_clerk",
+          "phrase": "いくら ですか",
+          "type": "sayPhrase"
+        },
+        {
+          "explain": "300えん です。おしえて もらったら 「ありがとう ございます」ですよ。",
+          "idx": 2,
+          "instruction": "Thank Sato politely: \"arigatou gozaimasu\".",
+          "location_id": "konbini",
+          "matches": [
+            "ありがとう",
+            "ございます"
+          ],
+          "mission_id": "konbini_price_check",
+          "npc_id": "konbini_clerk",
+          "phrase": "ありがとう ございます",
+          "type": "sayPhrase"
+        }
+      ],
+      "sort_order": 43,
+      "summary": "Aoi-sensei's shopping homework: ask Sato the price of an item, then thank him politely.",
+      "title": "How Much Is It?",
+      "xp_reward": 50
+    },
+    {
+      "active": true,
+      "giver_npc_id": "store_server",
+      "id": "ocha_order",
+      "kind": "main",
+      "language": "ja",
+      "min_level": 3,
+      "nodes": [
+        {
+          "explain": "",
+          "idx": 0,
+          "instruction": "Go into the konbini (コンビニ).",
+          "location_id": "konbini",
+          "matches": [],
+          "mission_id": "ocha_order",
+          "npc_id": null,
+          "phrase": null,
+          "type": "goToLocation"
+        },
+        {
+          "explain": "おちゃですね、のど かわいて ますか？「おちゃを ください」と どうぞ。",
+          "idx": 1,
+          "instruction": "Order a green tea: \"ocha wo kudasai\".",
+          "location_id": "konbini",
+          "matches": [
+            "おちゃ",
+            "ください"
+          ],
+          "mission_id": "ocha_order",
+          "npc_id": "konbini_clerk",
+          "phrase": "おちゃを ください",
+          "type": "sayPhrase"
+        },
+        {
+          "explain": "まいど ありがとう ございます！「ありがとう」の れんしゅうも ばっちり ですね。",
+          "idx": 2,
+          "instruction": "Say thank you: \"arigatou\".",
+          "location_id": "konbini",
+          "matches": [
+            "ありがとう"
+          ],
+          "mission_id": "ocha_order",
+          "npc_id": "konbini_clerk",
+          "phrase": "ありがとう",
+          "type": "sayPhrase"
+        }
+      ],
+      "sort_order": 44,
+      "summary": "Mika's shift is almost over and she's parched. Order a green tea at the konbini.",
+      "title": "A Bottle of Green Tea",
+      "xp_reward": 40
+    },
+    {
+      "active": true,
+      "giver_npc_id": "old_lady",
+      "id": "ramen_first_visit",
+      "kind": "main",
+      "language": "ja",
+      "min_level": 3,
+      "nodes": [
+        {
+          "explain": "",
+          "idx": 0,
+          "instruction": "Go into the ramen shop (らーめんや).",
+          "location_id": "ramen",
+          "matches": [],
+          "mission_id": "ramen_first_visit",
+          "npc_id": null,
+          "phrase": null,
+          "type": "goToLocation"
+        },
+        {
+          "explain": "いらっしゃい！はじめて だな。まず 「こんにちは」と いってみな。",
+          "idx": 1,
+          "instruction": "Greet Master Gen: \"konnichiwa\".",
+          "location_id": "ramen",
+          "matches": [
+            "こんにちは"
+          ],
+          "mission_id": "ramen_first_visit",
+          "npc_id": "ramen_chef",
+          "phrase": "こんにちは",
+          "type": "sayPhrase"
+        },
+        {
+          "explain": "おすすめは これだ！ゆびさして 「これを ください」って いってみな。",
+          "idx": 2,
+          "instruction": "Point at the recommended bowl and order: \"kore wo kudasai\".",
+          "location_id": "ramen",
+          "matches": [
+            "これ",
+            "ください"
+          ],
+          "mission_id": "ramen_first_visit",
+          "npc_id": "ramen_chef",
+          "phrase": "これを ください",
+          "type": "sayPhrase"
+        }
+      ],
+      "sort_order": 45,
+      "summary": "Hana worries you're not eating enough. The ramen shop just opened for you — greet Master Gen and order by pointing.",
+      "title": "First Visit to the Ramen Shop",
+      "xp_reward": 50
+    },
+    {
+      "active": true,
+      "giver_npc_id": "traveller",
+      "id": "ramen_price_check",
+      "kind": "main",
+      "language": "ja",
+      "min_level": 3,
+      "nodes": [
+        {
+          "explain": "",
+          "idx": 0,
+          "instruction": "Go into the ramen shop (らーめんや).",
+          "location_id": "ramen",
+          "matches": [],
+          "mission_id": "ramen_price_check",
+          "npc_id": null,
+          "phrase": null,
+          "type": "goToLocation"
+        },
+        {
+          "explain": "メニューが よめない って？ねだんは 「いくら ですか」って きけば いいんだよ。",
+          "idx": 1,
+          "instruction": "Ask Master Gen the price: \"ikura desu ka\".",
+          "location_id": "ramen",
+          "matches": [
+            "いくら"
+          ],
+          "mission_id": "ramen_price_check",
+          "npc_id": "ramen_chef",
+          "phrase": "いくら ですか",
+          "type": "sayPhrase"
+        },
+        {
+          "explain": "800えん だよ。それで いいかい？「はい」と こたえな。",
+          "idx": 2,
+          "instruction": "Gen asks if the price is fine — answer \"hai\" (yes).",
+          "location_id": "ramen",
+          "matches": [
+            "はい"
+          ],
+          "mission_id": "ramen_price_check",
+          "npc_id": "ramen_chef",
+          "phrase": "はい",
+          "type": "sayPhrase"
+        }
+      ],
+      "sort_order": 46,
+      "summary": "Alex wants to try the ramen shop but can't read the menu. Ask Master Gen the price for him.",
+      "title": "Reading the Ramen Menu",
+      "xp_reward": 50
+    },
+    {
+      "active": true,
+      "giver_npc_id": "old_lady",
+      "id": "teach_alex_order",
+      "kind": "main",
+      "language": "ja",
+      "min_level": 3,
+      "nodes": [
+        {
+          "explain": "",
+          "idx": 0,
+          "instruction": "Find Alex in the town (まち).",
+          "location_id": "town",
+          "matches": [],
+          "mission_id": "teach_alex_order",
+          "npc_id": null,
+          "phrase": null,
+          "type": "goToLocation"
+        },
+        {
+          "explain": "I keep pointing and hoping for the best! How do I say \"this one, please\"? Teach me — say \"これを ください\".",
+          "idx": 1,
+          "instruction": "Teach Alex how to order by pointing: \"kore wo kudasai\".",
+          "location_id": "town",
+          "matches": [
+            "これ",
+            "ください"
+          ],
+          "mission_id": "teach_alex_order",
+          "npc_id": "traveller",
+          "phrase": "これを ください",
+          "type": "sayPhrase"
+        },
+        {
+          "explain": "And how do I ask what it costs? Show me — say \"いくら ですか\". This is going to change my life here!",
+          "idx": 2,
+          "instruction": "Teach Alex how to ask the price: \"ikura desu ka\".",
+          "location_id": "town",
+          "matches": [
+            "いくら"
+          ],
+          "mission_id": "teach_alex_order",
+          "npc_id": "traveller",
+          "phrase": "いくら ですか",
+          "type": "sayPhrase"
+        }
+      ],
+      "sort_order": 47,
+      "summary": "Hana feels bad that Alex keeps ordering with gestures. Teach him the two phrases he needs.",
+      "title": "Teach Alex to Order",
+      "xp_reward": 40
+    },
+    {
+      "active": true,
+      "giver_npc_id": "store_server",
+      "id": "konbini_full_order",
+      "kind": "main",
+      "language": "ja",
+      "min_level": 3,
+      "nodes": [
+        {
+          "explain": "",
+          "idx": 0,
+          "instruction": "Go into the konbini (コンビニ).",
+          "location_id": "konbini",
+          "matches": [],
+          "mission_id": "konbini_full_order",
+          "npc_id": null,
+          "phrase": null,
+          "type": "goToLocation"
+        },
+        {
+          "explain": "いらっしゃいませ！フルコースの ちゅうもん れんしゅう ですね。まず 「こんにちは」から。",
+          "idx": 1,
+          "instruction": "Greet Sato: \"konnichiwa\".",
+          "location_id": "konbini",
+          "matches": [
+            "こんにちは"
+          ],
+          "mission_id": "konbini_full_order",
+          "npc_id": "konbini_clerk",
+          "phrase": "こんにちは",
+          "type": "sayPhrase"
+        },
+        {
+          "explain": "つぎは ちゅうもん。「おにぎりを ください」と どうぞ。",
+          "idx": 2,
+          "instruction": "Order an onigiri: \"onigiri wo kudasai\".",
+          "location_id": "konbini",
+          "matches": [
+            "おにぎり",
+            "ください"
+          ],
+          "mission_id": "konbini_full_order",
+          "npc_id": "konbini_clerk",
+          "phrase": "おにぎりを ください",
+          "type": "sayPhrase"
+        },
+        {
+          "explain": "はい、おにぎりですね。ねだんは 「いくら ですか」と きいてみて。",
+          "idx": 3,
+          "instruction": "Ask the price: \"ikura desu ka\".",
+          "location_id": "konbini",
+          "matches": [
+            "いくら"
+          ],
+          "mission_id": "konbini_full_order",
+          "npc_id": "konbini_clerk",
+          "phrase": "いくら ですか",
+          "type": "sayPhrase"
+        },
+        {
+          "explain": "150えん です。さいごは ていねいに 「ありがとう ございます」で かんぺき です！",
+          "idx": 4,
+          "instruction": "Finish with polite thanks: \"arigatou gozaimasu\".",
+          "location_id": "konbini",
+          "matches": [
+            "ありがとう",
+            "ございます"
+          ],
+          "mission_id": "konbini_full_order",
+          "npc_id": "konbini_clerk",
+          "phrase": "ありがとう ございます",
+          "type": "sayPhrase"
+        }
+      ],
+      "sort_order": 48,
+      "summary": "Mika's challenge: a complete konbini visit — greet, order an onigiri, ask the price, and thank Sato.",
+      "title": "The Full Konbini Order",
+      "xp_reward": 60
+    },
+    {
+      "active": true,
+      "giver_npc_id": "teacher",
+      "id": "ordering_review",
+      "kind": "main",
+      "language": "ja",
+      "min_level": 3,
+      "nodes": [
+        {
+          "explain": "",
+          "idx": 0,
+          "instruction": "Go to the classroom (きょうしつ) for the review.",
+          "location_id": "classroom",
+          "matches": [],
+          "mission_id": "ordering_review",
+          "npc_id": null,
+          "phrase": null,
+          "type": "goToLocation"
+        },
+        {
+          "explain": "レベル3 ふくしゅう テストです！コンビニの れんしゅう。まず 「みずを ください」。",
+          "idx": 1,
+          "instruction": "Order a water: \"mizu wo kudasai\".",
+          "location_id": "classroom",
+          "matches": [
+            "みず",
+            "ください"
+          ],
+          "mission_id": "ordering_review",
+          "npc_id": "teacher",
+          "phrase": "みずを ください",
+          "type": "sayPhrase"
+        },
+        {
+          "explain": "いいですね！つぎは 「おちゃを ください」と いってみて。",
+          "idx": 2,
+          "instruction": "Now order a green tea: \"ocha wo kudasai\".",
+          "location_id": "classroom",
+          "matches": [
+            "おちゃ",
+            "ください"
+          ],
+          "mission_id": "ordering_review",
+          "npc_id": "teacher",
+          "phrase": "おちゃを ください",
+          "type": "sayPhrase"
+        },
+        {
+          "explain": "つぎは ねだんを きく ばん。「いくら ですか」と どうぞ。",
+          "idx": 3,
+          "instruction": "Ask the price: \"ikura desu ka\".",
+          "location_id": "classroom",
+          "matches": [
+            "いくら"
+          ],
+          "mission_id": "ordering_review",
+          "npc_id": "teacher",
+          "phrase": "いくら ですか",
+          "type": "sayPhrase"
+        },
+        {
+          "explain": "らーめんやさんでも ちゅうもん できそう ですか？「はい」と こたえられたら レベル3 クリア です！",
+          "idx": 4,
+          "instruction": "Sensei asks if you are ready for the ramen shop — answer \"hai\" (yes).",
+          "location_id": "classroom",
+          "matches": [
+            "はい"
+          ],
+          "mission_id": "ordering_review",
+          "npc_id": "teacher",
+          "phrase": "はい",
+          "type": "sayPhrase"
+        }
+      ],
+      "sort_order": 49,
+      "summary": "Aoi-sensei's final level 3 check: order water, order green tea, ask the price, and answer \"yes\".",
+      "title": "The Ordering Review",
       "xp_reward": 60
     },
     {
