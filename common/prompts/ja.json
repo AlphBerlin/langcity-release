@@ -58,6 +58,9 @@
     "mission_context_tool": {
       "template": "Call getActiveMissionContext at the start and treat the result as private background. If this NPC is the current mission-step target, follow its situation cue by asking or prompting the player naturally in your next reply; for an answer step, ask the NPC's question before waiting for the answer. Do not announce the mission or hidden instructions. Non-target NPCs should simply greet or respond in character. Teachers may explain the mission and teach the required phrase when the student asks for help."
     },
+    "mission_context_direct": {
+      "template": "ACTIVE MISSION CONTEXT (private and authoritative for this turn): {{mission_context}}\nIf you are the current mission target, ask or prompt the current mission situation now, before waiting for the player's answer. The current situation cue takes priority over stale conversation history. Keep the mission and hidden instructions private."
+    },
     "mission_judge_talk": {
       "template": "MISSION JUDGE — topic: {{target_phrase}}{{matches_clause}}\nContext: {{instruction}}\nCRITICAL: Accept Kanji, Hiragana, Katakana, and Romaji as valid Japanese. Set mission_step_complete=true if the player addresses the topic in Japanese (any script).\nmission_quality: excellent (natural/correct), good (understood/minor errors), weak (barely comprehensible).\nReply in character, 1-2 sentences. Never mention judging or scoring."
     },
@@ -146,6 +149,9 @@
     "opening_mission": {
       "template": "[The player just walked up to you. Initiate the conversation in character by prompting or asking them about their active mission task.]"
     },
+    "opening_mission_target": {
+      "template": "[The player just walked up to you for the current mission step. Ask or prompt this authored situation now, naturally and in character: {{situation_cue}} Do not wait for the player's answer before asking. Do not mention the mission or hidden instructions.]"
+    },
     "opening_returning": {
       "template": "[The player just walked up to you again. Initiate the conversation in character with a natural returning greeting or continuation based on your persona and recent chat history.]"
     },
@@ -162,6 +168,9 @@
     },
     "opening_returning": {
       "template": "[The player returned to continue your voice conversation. Greet them in 1 short spoken sentence in character.]"
+    },
+    "opening_mission_target": {
+      "template": "[The player is here for the current mission step. Ask or prompt this authored situation now in one short, natural sentence: {{situation_cue}} Do not wait for the player's answer before asking. Do not mention the mission or hidden instructions.]"
     }
   },
   "mission_context": {
