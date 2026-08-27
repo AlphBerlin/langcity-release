@@ -4462,8 +4462,8 @@
                  "type":"spawn",
                  "visible":true,
                  "width":48,
-                 "x":6192,
-                 "y":672
+                 "x":6246.23728813559,
+                 "y":716.067796610169
                 }, 
                 {
                  "height":127.773883217066,
@@ -6264,6 +6264,24 @@
                  "width":48,
                  "x":836.254083484573,
                  "y":1664.74773139746
+                }, 
+                {
+                 "height":48,
+                 "id":507,
+                 "name":"spawn_hospital",
+                 "opacity":1,
+                 "properties":[
+                        {
+                         "name":"spawnId",
+                         "type":"string",
+                         "value":"station"
+                        }],
+                 "rotation":0,
+                 "type":"spawn",
+                 "visible":true,
+                 "width":48,
+                 "x":4721.76271186441,
+                 "y":962.440677966102
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -6272,7 +6290,7 @@
          "y":0
         }],
  "nextlayerid":11,
- "nextobjectid":501,
+ "nextobjectid":508,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.12.2",
