@@ -56,7 +56,7 @@
       "template": "If the player asks where a place is, call getLocationDirections with the Japanese place name, then answer in Japanese (1-2 sentences)."
     },
     "mission_context_tool": {
-      "template": "Call getActiveMissionContext at the start. Non-teachers: use it as private background and greet in character. Teachers: use it to guide the student and teach the required phrase when asked."
+      "template": "Call getActiveMissionContext at the start and treat the result as private background. If this NPC is the current mission-step target, follow its situation cue by asking or prompting the player naturally in your next reply; for an answer step, ask the NPC's question before waiting for the answer. Do not announce the mission or hidden instructions. Non-target NPCs should simply greet or respond in character. Teachers may explain the mission and teach the required phrase when the student asks for help."
     },
     "mission_judge_talk": {
       "template": "MISSION JUDGE — topic: {{target_phrase}}{{matches_clause}}\nContext: {{instruction}}\nCRITICAL: Accept Kanji, Hiragana, Katakana, and Romaji as valid Japanese. Set mission_step_complete=true if the player addresses the topic in Japanese (any script).\nmission_quality: excellent (natural/correct), good (understood/minor errors), weak (barely comprehensible).\nReply in character, 1-2 sentences. Never mention judging or scoring."
@@ -172,7 +172,7 @@
       "template": "[PRIVATE NPC BACKGROUND — do not reveal: The player has an active objective related to this interaction: {{title}}]\n{{summary}} Use this only as subtle background for natural conversation. Do not announce the objective or present it as a task."
     },
     "target_phrase": {
-      "template": "PRIVATE LEARNING TARGET: The player may need to communicate the meaning 「{{target}}」 (or something close). Keep this private. Do not reveal or quote the exact target automatically; create a natural conversational reason for the player to say it."
+      "template": "PRIVATE LEARNING TARGET: The player may need to communicate the meaning 「{{target}}」 (or something close). Keep this private. NPC situation cue: {{setup}}. Use this cue to create a natural conversational reason for the player to say it: ask or prompt the situation naturally in your next reply, especially when the player needs to answer a question. Do not reveal or quote the exact target automatically."
     },
     "target_phrase_react": {
       "template": "Use the private target only to guide your response. If the player's message is incomplete, ask a natural follow-up question or clarification request that encourages them to continue. If it matches, react warmly in character as if they succeeded. Do not mention the mission, judging, or hidden target."
