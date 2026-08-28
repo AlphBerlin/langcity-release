@@ -4074,35 +4074,7 @@
                  "width":69.1670670826838,
                  "x":2704.10601404056,
                  "y":661.183243525741
-                }, 
-                {
-                 "height":101.944,
-                 "id":477,
-                 "name":"door_tea-ceremony",
-                 "opacity":1,
-                 "properties":[
-                        {
-                         "name":"requiredLevel",
-                         "type":"string",
-                         "value":"1"
-                        }, 
-                        {
-                         "name":"targetSpawn",
-                         "type":"string",
-                         "value":"default"
-                        }, 
-                        {
-                         "name":"targetZone",
-                         "type":"string",
-                         "value":"teaCeremony"
-                        }],
-                 "rotation":0,
-                 "type":"door",
-                 "visible":true,
-                 "width":51.6661,
-                 "x":2482.65708308857,
-                 "y":1667.24736668196
-                }, 
+                },
                 {
                  "height":92.0441,
                  "id":481,
@@ -6459,15 +6431,31 @@
                 {
                  "height":101.944,
                  "id":478,
-                 "name":"door_school_2",
+                 "name":"door_tea-ceremony",
                  "opacity":1,
+                 "properties":[
+                        {
+                         "name":"requiredLevel",
+                         "type":"string",
+                         "value":"1"
+                        },
+                        {
+                         "name":"targetSpawn",
+                         "type":"string",
+                         "value":"default"
+                        },
+                        {
+                         "name":"targetZone",
+                         "type":"string",
+                         "value":"teaCeremony"
+                        }],
                  "rotation":0,
-                 "type":"inactive-door",
+                 "type":"door",
                  "visible":true,
                  "width":51.6661,
                  "x":2483.57493531436,
                  "y":1665.41166223038
-                }, 
+                },
                 {
                  "height":101.944,
                  "id":479,
