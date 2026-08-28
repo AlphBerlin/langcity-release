@@ -14,6 +14,17 @@
     {
       "explain": "",
       "idx": 0,
+      "instruction": "Find Hiroshi in the town (まち).",
+      "location_id": "town",
+      "matches": [],
+      "mission_id": "ask_hiroshi_train",
+      "npc_id": null,
+      "phrase": null,
+      "type": "goToLocation"
+    },
+    {
+      "explain": "",
+      "idx": 0,
       "instruction": "Go to the station (えき).",
       "location_id": "station",
       "matches": [],
@@ -29,6 +40,39 @@
       "location_id": "station",
       "matches": [],
       "mission_id": "ask_the_way",
+      "npc_id": null,
+      "phrase": null,
+      "type": "goToLocation"
+    },
+    {
+      "explain": "",
+      "idx": 0,
+      "instruction": "Go to the station (えき).",
+      "location_id": "station",
+      "matches": [],
+      "mission_id": "buy_a_ticket",
+      "npc_id": null,
+      "phrase": null,
+      "type": "goToLocation"
+    },
+    {
+      "explain": "",
+      "idx": 0,
+      "instruction": "Go to the classroom (きょうしつ).",
+      "location_id": "classroom",
+      "matches": [],
+      "mission_id": "dining_drill",
+      "npc_id": null,
+      "phrase": null,
+      "type": "goToLocation"
+    },
+    {
+      "explain": "",
+      "idx": 0,
+      "instruction": "Go to the classroom (きょうしつ) for the review.",
+      "location_id": "classroom",
+      "matches": [],
+      "mission_id": "dining_review",
       "npc_id": null,
       "phrase": null,
       "type": "goToLocation"
@@ -157,6 +201,39 @@
     {
       "explain": "",
       "idx": 0,
+      "instruction": "Go to the station (えき).",
+      "location_id": "station",
+      "matches": [],
+      "mission_id": "find_the_toilet",
+      "npc_id": null,
+      "phrase": null,
+      "type": "goToLocation"
+    },
+    {
+      "explain": "",
+      "idx": 0,
+      "instruction": "Go into the ramen shop (らーめんや).",
+      "location_id": "ramen",
+      "matches": [],
+      "mission_id": "full_ramen_visit",
+      "npc_id": null,
+      "phrase": null,
+      "type": "goToLocation"
+    },
+    {
+      "explain": "",
+      "idx": 0,
+      "instruction": "Find Mika on the shopping street (まち).",
+      "location_id": "town",
+      "matches": [],
+      "mission_id": "going_to_the_station",
+      "npc_id": null,
+      "phrase": null,
+      "type": "goToLocation"
+    },
+    {
+      "explain": "",
+      "idx": 0,
       "instruction": "Go to the classroom (きょうしつ).",
       "location_id": "classroom",
       "matches": [],
@@ -183,6 +260,17 @@
       "location_id": "classroom",
       "matches": [],
       "mission_id": "greeting_review",
+      "npc_id": null,
+      "phrase": null,
+      "type": "goToLocation"
+    },
+    {
+      "explain": "",
+      "idx": 0,
+      "instruction": "Find Hana in the town garden (こうえん).",
+      "location_id": "town",
+      "matches": [],
+      "mission_id": "hana_station_trip",
       "npc_id": null,
       "phrase": null,
       "type": "goToLocation"
@@ -311,6 +399,28 @@
     {
       "explain": "",
       "idx": 0,
+      "instruction": "Go into the ramen shop (らーめんや).",
+      "location_id": "ramen",
+      "matches": [],
+      "mission_id": "menu_please",
+      "npc_id": null,
+      "phrase": null,
+      "type": "goToLocation"
+    },
+    {
+      "explain": "",
+      "idx": 0,
+      "instruction": "Find Mika on the shopping street (まち).",
+      "location_id": "town",
+      "matches": [],
+      "mission_id": "mika_lunch_order",
+      "npc_id": null,
+      "phrase": null,
+      "type": "goToLocation"
+    },
+    {
+      "explain": "",
+      "idx": 0,
       "instruction": "Go to the classroom (きょうしつ).",
       "location_id": "classroom",
       "matches": [],
@@ -333,6 +443,17 @@
     {
       "explain": "",
       "idx": 0,
+      "instruction": "Go into the ramen shop (らーめんや).",
+      "location_id": "ramen",
+      "matches": [],
+      "mission_id": "oishii_compliment",
+      "npc_id": null,
+      "phrase": null,
+      "type": "goToLocation"
+    },
+    {
+      "explain": "",
+      "idx": 0,
       "instruction": "Go into the konbini (コンビニ).",
       "location_id": "konbini",
       "matches": [],
@@ -348,6 +469,17 @@
       "location_id": "konbini",
       "matches": [],
       "mission_id": "onigiri_run",
+      "npc_id": null,
+      "phrase": null,
+      "type": "goToLocation"
+    },
+    {
+      "explain": "",
+      "idx": 0,
+      "instruction": "Go into the ramen shop (らーめんや).",
+      "location_id": "ramen",
+      "matches": [],
+      "mission_id": "order_ramen_polite",
       "npc_id": null,
       "phrase": null,
       "type": "goToLocation"
@@ -392,6 +524,17 @@
       "location_id": "policeStation",
       "matches": [],
       "mission_id": "polite_police_station",
+      "npc_id": null,
+      "phrase": null,
+      "type": "goToLocation"
+    },
+    {
+      "explain": "",
+      "idx": 0,
+      "instruction": "Go into the ramen shop (らーめんや).",
+      "location_id": "ramen",
+      "matches": [],
+      "mission_id": "price_and_polite",
       "npc_id": null,
       "phrase": null,
       "type": "goToLocation"
@@ -465,10 +608,32 @@
     {
       "explain": "",
       "idx": 0,
+      "instruction": "Go to the classroom (きょうしつ).",
+      "location_id": "classroom",
+      "matches": [],
+      "mission_id": "station_manners_drill",
+      "npc_id": null,
+      "phrase": null,
+      "type": "goToLocation"
+    },
+    {
+      "explain": "",
+      "idx": 0,
       "instruction": "Find Alex in the town (まち).",
       "location_id": "town",
       "matches": [],
       "mission_id": "sumimasen_round",
+      "npc_id": null,
+      "phrase": null,
+      "type": "goToLocation"
+    },
+    {
+      "explain": "",
+      "idx": 0,
+      "instruction": "Find Alex in the town (まち).",
+      "location_id": "town",
+      "matches": [],
+      "mission_id": "teach_alex_directions",
       "npc_id": null,
       "phrase": null,
       "type": "goToLocation"
@@ -487,6 +652,17 @@
     {
       "explain": "",
       "idx": 0,
+      "instruction": "Find Alex in the town (まち).",
+      "location_id": "town",
+      "matches": [],
+      "mission_id": "teach_alex_ramen",
+      "npc_id": null,
+      "phrase": null,
+      "type": "goToLocation"
+    },
+    {
+      "explain": "",
+      "idx": 0,
       "instruction": "Go to the station (えき).",
       "location_id": "station",
       "matches": [],
@@ -498,10 +674,54 @@
     {
       "explain": "",
       "idx": 0,
+      "instruction": "Go into the ramen shop (らーめんや).",
+      "location_id": "ramen",
+      "matches": [],
+      "mission_id": "the_bill_please",
+      "npc_id": null,
+      "phrase": null,
+      "type": "goToLocation"
+    },
+    {
+      "explain": "",
+      "idx": 0,
+      "instruction": "Go to the station (えき).",
+      "location_id": "station",
+      "matches": [],
+      "mission_id": "ticket_and_train",
+      "npc_id": null,
+      "phrase": null,
+      "type": "goToLocation"
+    },
+    {
+      "explain": "",
+      "idx": 0,
+      "instruction": "Go to the classroom (きょうしつ) for the review.",
+      "location_id": "classroom",
+      "matches": [],
+      "mission_id": "travel_review",
+      "npc_id": null,
+      "phrase": null,
+      "type": "goToLocation"
+    },
+    {
+      "explain": "",
+      "idx": 0,
       "instruction": "Go into the konbini (コンビニ).",
       "location_id": "konbini",
       "matches": [],
       "mission_id": "water_for_hana",
+      "npc_id": null,
+      "phrase": null,
+      "type": "goToLocation"
+    },
+    {
+      "explain": "",
+      "idx": 0,
+      "instruction": "Go to the station (えき).",
+      "location_id": "station",
+      "matches": [],
+      "mission_id": "where_is_the_train",
       "npc_id": null,
       "phrase": null,
       "type": "goToLocation"
@@ -532,6 +752,19 @@
       "type": "sayPhrase"
     },
     {
+      "explain": "おつかれさまです…ん？まず 「すみません」って どうぞ。",
+      "idx": 1,
+      "instruction": "Get Hiroshi's attention: \"sumimasen\".",
+      "location_id": "town",
+      "matches": [
+        "すみません"
+      ],
+      "mission_id": "ask_hiroshi_train",
+      "npc_id": "13",
+      "phrase": "すみません",
+      "type": "sayPhrase"
+    },
+    {
       "explain": "ん？なあに？まず 「すみません」って よんでみて！",
       "idx": 1,
       "instruction": "Get Hiroshi's attention: \"sumimasen\".",
@@ -556,6 +789,48 @@
       "mission_id": "ask_the_way",
       "npc_id": "13",
       "phrase": "えき は どこ ですか",
+      "type": "sayPhrase"
+    },
+    {
+      "explain": "きっぷですね。「きっぷを ください」と いってみて。",
+      "idx": 1,
+      "instruction": "Ask for a ticket: \"kippu wo kudasai\".",
+      "location_id": "station",
+      "matches": [
+        "きっぷ",
+        "ください"
+      ],
+      "mission_id": "buy_a_ticket",
+      "npc_id": "13",
+      "phrase": "きっぷを ください",
+      "type": "sayPhrase"
+    },
+    {
+      "explain": "レストランの れんしゅう です！まず 「メニューを おねがいします」から。",
+      "idx": 1,
+      "instruction": "Ask for the menu: \"menyuu wo onegai shimasu\".",
+      "location_id": "classroom",
+      "matches": [
+        "メニュー",
+        "おねがいします"
+      ],
+      "mission_id": "dining_drill",
+      "npc_id": "teacher",
+      "phrase": "メニューを おねがいします",
+      "type": "sayPhrase"
+    },
+    {
+      "explain": "レベル5 ふくしゅう テストです！まず 「ラーメンを おねがいします」から。",
+      "idx": 1,
+      "instruction": "Order ramen politely: \"raamen wo onegai shimasu\".",
+      "location_id": "classroom",
+      "matches": [
+        "ラーメン",
+        "おねがいします"
+      ],
+      "mission_id": "dining_review",
+      "npc_id": "teacher",
+      "phrase": "ラーメンを おねがいします",
       "type": "sayPhrase"
     },
     {
@@ -682,6 +957,46 @@
       "type": "goToLocation"
     },
     {
+      "explain": "ん？どうかした？まず 「すみません」って よびかけて。",
+      "idx": 1,
+      "instruction": "Get Hiroshi's attention: \"sumimasen\".",
+      "location_id": "station",
+      "matches": [
+        "すみません"
+      ],
+      "mission_id": "find_the_toilet",
+      "npc_id": "13",
+      "phrase": "すみません",
+      "type": "sayPhrase"
+    },
+    {
+      "explain": "いらっしゃい！きょうは フルコースで いこう。まず 「こんにちは」から だ。",
+      "idx": 1,
+      "instruction": "Greet Master Gen: \"konnichiwa\".",
+      "location_id": "ramen",
+      "matches": [
+        "こんにちは"
+      ],
+      "mission_id": "full_ramen_visit",
+      "npc_id": "ramen_chef",
+      "phrase": "こんにちは",
+      "type": "sayPhrase"
+    },
+    {
+      "explain": "あら、おでかけ？「えきに いきます」って おしえて。",
+      "idx": 1,
+      "instruction": "Tell Mika where you're going: \"eki ni ikimasu\".",
+      "location_id": "town",
+      "matches": [
+        "えき",
+        "いきます"
+      ],
+      "mission_id": "going_to_the_station",
+      "npc_id": "store_server",
+      "phrase": "えきに いきます",
+      "type": "sayPhrase"
+    },
+    {
       "explain": "あら、いらっしゃい！あいさつから はじめましょう。「こんにちは」と いってみて。",
       "idx": 1,
       "instruction": "Greet Aoi-sensei: \"konnichiwa\".",
@@ -718,6 +1033,20 @@
       "mission_id": "greeting_review",
       "npc_id": "teacher",
       "phrase": "こんにちは",
+      "type": "sayPhrase"
+    },
+    {
+      "explain": "えきまで いきたいの。いっしょに いって くれる？「えきに いきます」って いって おくれ。",
+      "idx": 1,
+      "instruction": "Tell Hana you'll go to the station: \"eki ni ikimasu\".",
+      "location_id": "town",
+      "matches": [
+        "えき",
+        "いきます"
+      ],
+      "mission_id": "hana_station_trip",
+      "npc_id": "old_lady",
+      "phrase": "えきに いきます",
       "type": "sayPhrase"
     },
     {
@@ -862,6 +1191,33 @@
       "type": "talkToNpc"
     },
     {
+      "explain": "いらっしゃい！メニュー だね。「メニューを おねがいします」と いってみな。",
+      "idx": 1,
+      "instruction": "Ask for the menu: \"menyuu wo onegai shimasu\".",
+      "location_id": "ramen",
+      "matches": [
+        "メニュー",
+        "おねがいします"
+      ],
+      "mission_id": "menu_please",
+      "npc_id": "ramen_chef",
+      "phrase": "メニューを おねがいします",
+      "type": "sayPhrase"
+    },
+    {
+      "explain": "レジから はなれられなくて…ゲンさんの ところで ちゅうもん してきて くれる？「はい」って いって！",
+      "idx": 1,
+      "instruction": "Mika asks if you can order for her — answer \"hai\" (yes).",
+      "location_id": "town",
+      "matches": [
+        "はい"
+      ],
+      "mission_id": "mika_lunch_order",
+      "npc_id": "store_server",
+      "phrase": "はい",
+      "type": "sayPhrase"
+    },
+    {
       "explain": "ドリルの じかんです！まず わたしに 「おなまえは なん ですか」と きいてみて。",
       "idx": 1,
       "instruction": "Ask Sensei's name: \"onamae wa nan desu ka\".",
@@ -890,6 +1246,20 @@
       "type": "sayPhrase"
     },
     {
+      "explain": "12じかん ことこと にた スープ だよ。「ラーメンを おねがいします」と どうぞ。",
+      "idx": 1,
+      "instruction": "Order a bowl: \"raamen wo onegai shimasu\".",
+      "location_id": "ramen",
+      "matches": [
+        "ラーメン",
+        "おねがいします"
+      ],
+      "mission_id": "oishii_compliment",
+      "npc_id": "ramen_chef",
+      "phrase": "ラーメンを おねがいします",
+      "type": "sayPhrase"
+    },
+    {
       "explain": "いらっしゃいませ！まずは げんきに 「こんにちは」と どうぞ。",
       "idx": 1,
       "instruction": "Greet Sato: \"konnichiwa\".",
@@ -914,6 +1284,19 @@
       "mission_id": "onigiri_run",
       "npc_id": "konbini_clerk",
       "phrase": "おにぎり を ください",
+      "type": "sayPhrase"
+    },
+    {
+      "explain": "いらっしゃい！まずは あいさつ だな。「こんにちは」と どうぞ。",
+      "idx": 1,
+      "instruction": "Greet Master Gen: \"konnichiwa\".",
+      "location_id": "ramen",
+      "matches": [
+        "こんにちは"
+      ],
+      "mission_id": "order_ramen_polite",
+      "npc_id": "ramen_chef",
+      "phrase": "こんにちは",
       "type": "sayPhrase"
     },
     {
@@ -967,6 +1350,19 @@
       "mission_id": "polite_police_station",
       "npc_id": "20",
       "phrase": "すみません",
+      "type": "sayPhrase"
+    },
+    {
+      "explain": "ねだんが きになる かい？「いくら ですか」と きいてみな。",
+      "idx": 1,
+      "instruction": "Ask the price: \"ikura desu ka\".",
+      "location_id": "ramen",
+      "matches": [
+        "いくら"
+      ],
+      "mission_id": "price_and_polite",
+      "npc_id": "ramen_chef",
+      "phrase": "いくら ですか",
       "type": "sayPhrase"
     },
     {
@@ -1044,6 +1440,19 @@
       "type": "talkToNpc"
     },
     {
+      "explain": "えきでの れんしゅう です！まず 「すみません」で よびかけて。",
+      "idx": 1,
+      "instruction": "Get attention politely: \"sumimasen\".",
+      "location_id": "classroom",
+      "matches": [
+        "すみません"
+      ],
+      "mission_id": "station_manners_drill",
+      "npc_id": "teacher",
+      "phrase": "すみません",
+      "type": "sayPhrase"
+    },
+    {
       "explain": "ん？ぼくを よんだ？「すみません」の れんしゅう なら まかせて！",
       "idx": 1,
       "instruction": "Get Alex's attention: \"sumimasen\".",
@@ -1054,6 +1463,20 @@
       "mission_id": "sumimasen_round",
       "npc_id": "traveller",
       "phrase": "すみません",
+      "type": "sayPhrase"
+    },
+    {
+      "explain": "I keep getting lost! How do I ask where the station is? Teach me — say \"えきは どこ ですか\".",
+      "idx": 1,
+      "instruction": "Teach Alex how to ask where the station is: \"eki wa doko desu ka\".",
+      "location_id": "town",
+      "matches": [
+        "えき",
+        "どこ"
+      ],
+      "mission_id": "teach_alex_directions",
+      "npc_id": "traveller",
+      "phrase": "えきは どこ ですか",
       "type": "sayPhrase"
     },
     {
@@ -1071,6 +1494,20 @@
       "type": "sayPhrase"
     },
     {
+      "explain": "I survived the ramen shop on smiles alone! How do I order politely? Teach me — say \"ラーメンを おねがいします\".",
+      "idx": 1,
+      "instruction": "Teach Alex to order ramen politely: \"raamen wo onegai shimasu\".",
+      "location_id": "town",
+      "matches": [
+        "ラーメン",
+        "おねがいします"
+      ],
+      "mission_id": "teach_alex_ramen",
+      "npc_id": "traveller",
+      "phrase": "ラーメンを おねがいします",
+      "type": "sayPhrase"
+    },
+    {
       "explain": "きっぷの かいかた、おしえたよ。ていねいに 「ありがとう ございます」って いってみて！",
       "idx": 1,
       "instruction": "Thank Hiroshi politely: \"arigatou gozaimasu\".",
@@ -1085,6 +1522,48 @@
       "type": "sayPhrase"
     },
     {
+      "explain": "おかいけい だね。「おかいけいを おねがいします」と いってみな。",
+      "idx": 1,
+      "instruction": "Ask for the bill: \"okaikei wo onegai shimasu\".",
+      "location_id": "ramen",
+      "matches": [
+        "おかいけい",
+        "おねがいします"
+      ],
+      "mission_id": "the_bill_please",
+      "npc_id": "ramen_chef",
+      "phrase": "おかいけいを おねがいします",
+      "type": "sayPhrase"
+    },
+    {
+      "explain": "まずは きっぷですね。「きっぷを ください」と どうぞ。",
+      "idx": 1,
+      "instruction": "Buy a ticket: \"kippu wo kudasai\".",
+      "location_id": "station",
+      "matches": [
+        "きっぷ",
+        "ください"
+      ],
+      "mission_id": "ticket_and_train",
+      "npc_id": "13",
+      "phrase": "きっぷを ください",
+      "type": "sayPhrase"
+    },
+    {
+      "explain": "レベル4 ふくしゅう テストです！まず 「えきに いきます」から。",
+      "idx": 1,
+      "instruction": "Say where you're going: \"eki ni ikimasu\".",
+      "location_id": "classroom",
+      "matches": [
+        "えき",
+        "いきます"
+      ],
+      "mission_id": "travel_review",
+      "npc_id": "teacher",
+      "phrase": "えきに いきます",
+      "type": "sayPhrase"
+    },
+    {
       "explain": "おみずですね。「みずを ください」と どうぞ。",
       "idx": 1,
       "instruction": "Order a water: \"mizu wo kudasai\".",
@@ -1096,6 +1575,20 @@
       "mission_id": "water_for_hana",
       "npc_id": "konbini_clerk",
       "phrase": "みずを ください",
+      "type": "sayPhrase"
+    },
+    {
+      "explain": "でんしゃの のりば ですね。「でんしゃは どこ ですか」と きいてみて。",
+      "idx": 1,
+      "instruction": "Ask where the train is: \"densha wa doko desu ka\".",
+      "location_id": "station",
+      "matches": [
+        "でんしゃ",
+        "どこ"
+      ],
+      "mission_id": "where_is_the_train",
+      "npc_id": "13",
+      "phrase": "でんしゃは どこ ですか",
       "type": "sayPhrase"
     },
     {
@@ -1126,6 +1619,20 @@
       "type": "sayPhrase"
     },
     {
+      "explain": "でんしゃの れんしゅう？いいよ。「でんしゃは どこ ですか」って きいてみて。",
+      "idx": 2,
+      "instruction": "Practice the train question: \"densha wa doko desu ka\".",
+      "location_id": "town",
+      "matches": [
+        "でんしゃ",
+        "どこ"
+      ],
+      "mission_id": "ask_hiroshi_train",
+      "npc_id": "13",
+      "phrase": "でんしゃは どこ ですか",
+      "type": "sayPhrase"
+    },
+    {
       "explain": "ぼくの なまえ、きいて くれるの？「おなまえは なん ですか」って どうぞ！",
       "idx": 2,
       "instruction": "Ask his name: \"onamae wa nan desu ka\".",
@@ -1137,6 +1644,46 @@
       "mission_id": "ask_name_hiroshi",
       "npc_id": "13",
       "phrase": "おなまえは なん ですか",
+      "type": "sayPhrase"
+    },
+    {
+      "explain": "1まいで いいですか？「はい」と こたえて。",
+      "idx": 2,
+      "instruction": "Hiroshi asks if one ticket is fine — answer \"hai\" (yes).",
+      "location_id": "station",
+      "matches": [
+        "はい"
+      ],
+      "mission_id": "buy_a_ticket",
+      "npc_id": "13",
+      "phrase": "はい",
+      "type": "sayPhrase"
+    },
+    {
+      "explain": "いいですね！つぎは 「おかいけいを おねがいします」と いってみて。",
+      "idx": 2,
+      "instruction": "Ask for the bill: \"okaikei wo onegai shimasu\".",
+      "location_id": "classroom",
+      "matches": [
+        "おかいけい",
+        "おねがいします"
+      ],
+      "mission_id": "dining_drill",
+      "npc_id": "teacher",
+      "phrase": "おかいけいを おねがいします",
+      "type": "sayPhrase"
+    },
+    {
+      "explain": "いいですね！つぎは 「おいしい です」と いってみて。",
+      "idx": 2,
+      "instruction": "Say it's delicious: \"oishii desu\".",
+      "location_id": "classroom",
+      "matches": [
+        "おいしい"
+      ],
+      "mission_id": "dining_review",
+      "npc_id": "teacher",
+      "phrase": "おいしい です",
       "type": "sayPhrase"
     },
     {
@@ -1264,6 +1811,46 @@
       "type": "goToLocation"
     },
     {
+      "explain": "トイレ？あそこだよ。「トイレは どこ ですか」って きいてみて。",
+      "idx": 2,
+      "instruction": "Ask where the restroom is: \"toire wa doko desu ka\".",
+      "location_id": "station",
+      "matches": [
+        "トイレ"
+      ],
+      "mission_id": "find_the_toilet",
+      "npc_id": "13",
+      "phrase": "トイレは どこ ですか",
+      "type": "sayPhrase"
+    },
+    {
+      "explain": "つぎは メニュー だな。「メニューを おねがいします」と どうぞ。",
+      "idx": 2,
+      "instruction": "Ask for the menu: \"menyuu wo onegai shimasu\".",
+      "location_id": "ramen",
+      "matches": [
+        "メニュー",
+        "おねがいします"
+      ],
+      "mission_id": "full_ramen_visit",
+      "npc_id": "ramen_chef",
+      "phrase": "メニューを おねがいします",
+      "type": "sayPhrase"
+    },
+    {
+      "explain": "でんしゃに のるの？「はい」と こたえてね。",
+      "idx": 2,
+      "instruction": "Mika asks if you're taking the train — answer \"hai\" (yes).",
+      "location_id": "town",
+      "matches": [
+        "はい"
+      ],
+      "mission_id": "going_to_the_station",
+      "npc_id": "store_server",
+      "phrase": "はい",
+      "type": "sayPhrase"
+    },
+    {
       "explain": "じゅんびは いいですか？おおきな こえで 「はい」と こたえてね。",
       "idx": 2,
       "instruction": "Sensei asks if you are ready — answer \"hai\" (yes).",
@@ -1302,6 +1889,17 @@
       "npc_id": "teacher",
       "phrase": "ありがとう ございます",
       "type": "sayPhrase"
+    },
+    {
+      "explain": "",
+      "idx": 2,
+      "instruction": "Walk with Hana to the station (えき).",
+      "location_id": "station",
+      "matches": [],
+      "mission_id": "hana_station_trip",
+      "npc_id": null,
+      "phrase": null,
+      "type": "goToLocation"
     },
     {
       "explain": "はじめまして！「わたしは 〜 です」で じこしょうかい してみて。",
@@ -1438,6 +2036,30 @@
       "type": "sayPhrase"
     },
     {
+      "explain": "はい、メニュー。もらったら 「ありがとう」だな。",
+      "idx": 2,
+      "instruction": "Thank Gen: \"arigatou\".",
+      "location_id": "ramen",
+      "matches": [
+        "ありがとう"
+      ],
+      "mission_id": "menu_please",
+      "npc_id": "ramen_chef",
+      "phrase": "ありがとう",
+      "type": "sayPhrase"
+    },
+    {
+      "explain": "",
+      "idx": 2,
+      "instruction": "Go to the ramen shop (らーめんや).",
+      "location_id": "ramen",
+      "matches": [],
+      "mission_id": "mika_lunch_order",
+      "npc_id": null,
+      "phrase": null,
+      "type": "goToLocation"
+    },
+    {
       "explain": "わたしは あおい です。つぎは あなたの ばん。「わたしは 〜 です」と どうぞ。",
       "idx": 2,
       "instruction": "Now Sensei asks you — answer: \"watashi wa [your name] desu\".",
@@ -1465,6 +2087,19 @@
       "type": "sayPhrase"
     },
     {
+      "explain": "どうだ、うまい だろ？「おいしい です」って いって くれると うれしいな。",
+      "idx": 2,
+      "instruction": "Tell Gen it's delicious: \"oishii desu\".",
+      "location_id": "ramen",
+      "matches": [
+        "おいしい"
+      ],
+      "mission_id": "oishii_compliment",
+      "npc_id": "ramen_chef",
+      "phrase": "おいしい です",
+      "type": "sayPhrase"
+    },
+    {
       "explain": "おにぎりですね！「おにぎりを ください」と いってみて ください。",
       "idx": 2,
       "instruction": "Order an onigiri: \"onigiri wo kudasai\".",
@@ -1476,6 +2111,20 @@
       "mission_id": "onigiri_order",
       "npc_id": "konbini_clerk",
       "phrase": "おにぎりを ください",
+      "type": "sayPhrase"
+    },
+    {
+      "explain": "ていねいな ちゅうもん、いいね！「ラーメンを おねがいします」と いってみな。",
+      "idx": 2,
+      "instruction": "Order a ramen politely: \"raamen wo onegai shimasu\".",
+      "location_id": "ramen",
+      "matches": [
+        "ラーメン",
+        "おねがいします"
+      ],
+      "mission_id": "order_ramen_polite",
+      "npc_id": "ramen_chef",
+      "phrase": "ラーメンを おねがいします",
       "type": "sayPhrase"
     },
     {
@@ -1531,6 +2180,20 @@
       "mission_id": "polite_police_station",
       "npc_id": "20",
       "phrase": "ありがとう ございます",
+      "type": "sayPhrase"
+    },
+    {
+      "explain": "800えん だよ。さあ、ちゅうもん は 「ラーメンを おねがいします」で どうぞ。",
+      "idx": 2,
+      "instruction": "Now order politely: \"raamen wo onegai shimasu\".",
+      "location_id": "ramen",
+      "matches": [
+        "ラーメン",
+        "おねがいします"
+      ],
+      "mission_id": "price_and_polite",
+      "npc_id": "ramen_chef",
+      "phrase": "ラーメンを おねがいします",
       "type": "sayPhrase"
     },
     {
@@ -1599,6 +2262,19 @@
       "type": "sayPhrase"
     },
     {
+      "explain": "つぎは しつもん。「トイレは どこ ですか」と きいてみて。",
+      "idx": 2,
+      "instruction": "Ask where the restroom is: \"toire wa doko desu ka\".",
+      "location_id": "classroom",
+      "matches": [
+        "トイレ"
+      ],
+      "mission_id": "station_manners_drill",
+      "npc_id": "teacher",
+      "phrase": "トイレは どこ ですか",
+      "type": "sayPhrase"
+    },
+    {
       "explain": "",
       "idx": 2,
       "instruction": "Then go to the station (えき).",
@@ -1608,6 +2284,20 @@
       "npc_id": null,
       "phrase": null,
       "type": "goToLocation"
+    },
+    {
+      "explain": "And how do I say thank you politely? Show me — say \"ありがとう ございます\".",
+      "idx": 2,
+      "instruction": "Teach Alex polite thanks: \"arigatou gozaimasu\".",
+      "location_id": "town",
+      "matches": [
+        "ありがとう",
+        "ございます"
+      ],
+      "mission_id": "teach_alex_directions",
+      "npc_id": "traveller",
+      "phrase": "ありがとう ございます",
+      "type": "sayPhrase"
     },
     {
       "explain": "And how do I ask what it costs? Show me — say \"いくら ですか\". This is going to change my life here!",
@@ -1623,6 +2313,20 @@
       "type": "sayPhrase"
     },
     {
+      "explain": "And when I want to pay? I just pointed at my wallet last time... Show me — say \"おかいけいを おねがいします\".",
+      "idx": 2,
+      "instruction": "Teach Alex to ask for the bill: \"okaikei wo onegai shimasu\".",
+      "location_id": "town",
+      "matches": [
+        "おかいけい",
+        "おねがいします"
+      ],
+      "mission_id": "teach_alex_ramen",
+      "npc_id": "traveller",
+      "phrase": "おかいけいを おねがいします",
+      "type": "sayPhrase"
+    },
+    {
       "explain": "",
       "idx": 2,
       "instruction": "Then go to the konbini (コンビニ).",
@@ -1632,6 +2336,48 @@
       "npc_id": null,
       "phrase": null,
       "type": "goToLocation"
+    },
+    {
+      "explain": "800えん だよ。さいごは 「ありがとう ございます」と ていねいに。",
+      "idx": 2,
+      "instruction": "Thank him politely: \"arigatou gozaimasu\".",
+      "location_id": "ramen",
+      "matches": [
+        "ありがとう",
+        "ございます"
+      ],
+      "mission_id": "the_bill_please",
+      "npc_id": "ramen_chef",
+      "phrase": "ありがとう ございます",
+      "type": "sayPhrase"
+    },
+    {
+      "explain": "はい、きっぷ。つぎは のりば ですね。「でんしゃは どこ ですか」と きいてみて。",
+      "idx": 2,
+      "instruction": "Ask where the train is: \"densha wa doko desu ka\".",
+      "location_id": "station",
+      "matches": [
+        "でんしゃ",
+        "どこ"
+      ],
+      "mission_id": "ticket_and_train",
+      "npc_id": "13",
+      "phrase": "でんしゃは どこ ですか",
+      "type": "sayPhrase"
+    },
+    {
+      "explain": "いいですね！つぎは きっぷ。「きっぷを ください」と どうぞ。",
+      "idx": 2,
+      "instruction": "Buy a ticket: \"kippu wo kudasai\".",
+      "location_id": "classroom",
+      "matches": [
+        "きっぷ",
+        "ください"
+      ],
+      "mission_id": "travel_review",
+      "npc_id": "teacher",
+      "phrase": "きっぷを ください",
+      "type": "sayPhrase"
     },
     {
       "explain": "",
@@ -1645,6 +2391,20 @@
       "type": "goToLocation"
     },
     {
+      "explain": "3ばん のりば です。おしえて もらったら 「ありがとう ございます」と いってみて。",
+      "idx": 2,
+      "instruction": "Thank Hiroshi politely: \"arigatou gozaimasu\".",
+      "location_id": "station",
+      "matches": [
+        "ありがとう",
+        "ございます"
+      ],
+      "mission_id": "where_is_the_train",
+      "npc_id": "13",
+      "phrase": "ありがとう ございます",
+      "type": "sayPhrase"
+    },
+    {
       "explain": "つぎは はんたい。「いいえ」と はっきり いってみて。",
       "idx": 2,
       "instruction": "Now answer \"iie\" (no).",
@@ -1655,6 +2415,33 @@
       "mission_id": "yes_no_drill",
       "npc_id": "teacher",
       "phrase": "いいえ",
+      "type": "sayPhrase"
+    },
+    {
+      "explain": "もう おなかいっぱい ですか？「いいえ」と こたえてね。",
+      "idx": 3,
+      "instruction": "Sensei asks if you are full already — answer \"iie\" (no).",
+      "location_id": "classroom",
+      "matches": [
+        "いいえ"
+      ],
+      "mission_id": "dining_drill",
+      "npc_id": "teacher",
+      "phrase": "いいえ",
+      "type": "sayPhrase"
+    },
+    {
+      "explain": "さいごに おかいけい。「おかいけいを おねがいします」と どうぞ。",
+      "idx": 3,
+      "instruction": "Ask for the bill: \"okaikei wo onegai shimasu\".",
+      "location_id": "classroom",
+      "matches": [
+        "おかいけい",
+        "おねがいします"
+      ],
+      "mission_id": "dining_review",
+      "npc_id": "teacher",
+      "phrase": "おかいけいを おねがいします",
       "type": "sayPhrase"
     },
     {
@@ -1768,6 +2555,20 @@
       "type": "goToLocation"
     },
     {
+      "explain": "はい、メニュー。ちゅうもんは 「ラーメンを おねがいします」で ばっちり だ。",
+      "idx": 3,
+      "instruction": "Order politely: \"raamen wo onegai shimasu\".",
+      "location_id": "ramen",
+      "matches": [
+        "ラーメン",
+        "おねがいします"
+      ],
+      "mission_id": "full_ramen_visit",
+      "npc_id": "ramen_chef",
+      "phrase": "ラーメンを おねがいします",
+      "type": "sayPhrase"
+    },
+    {
       "explain": "やあ！まちで あいさつ れんしゅう してるの？ぼくにも 「こんにちは」って いってみて！",
       "idx": 3,
       "instruction": "Greet Hiroshi: \"konnichiwa\".",
@@ -1791,6 +2592,20 @@
       "mission_id": "greeting_review",
       "npc_id": "teacher",
       "phrase": "はい",
+      "type": "sayPhrase"
+    },
+    {
+      "explain": "おじょうさんの ぶん ですね。「きっぷを ください」と どうぞ。",
+      "idx": 3,
+      "instruction": "Buy Hana's ticket from Hiroshi: \"kippu wo kudasai\".",
+      "location_id": "station",
+      "matches": [
+        "きっぷ",
+        "ください"
+      ],
+      "mission_id": "hana_station_trip",
+      "npc_id": "13",
+      "phrase": "きっぷを ください",
       "type": "sayPhrase"
     },
     {
@@ -1845,6 +2660,20 @@
       "type": "sayPhrase"
     },
     {
+      "explain": "ミカちゃんの ぶん だね。「ラーメンを おねがいします」と どうぞ。",
+      "idx": 3,
+      "instruction": "Order Mika's ramen: \"raamen wo onegai shimasu\".",
+      "location_id": "ramen",
+      "matches": [
+        "ラーメン",
+        "おねがいします"
+      ],
+      "mission_id": "mika_lunch_order",
+      "npc_id": "ramen_chef",
+      "phrase": "ラーメンを おねがいします",
+      "type": "sayPhrase"
+    },
+    {
       "explain": "あなたも せんせい ですか？「いいえ」と こたえてね。",
       "idx": 3,
       "instruction": "Sensei asks if you are a teacher too — answer \"iie\" (no).",
@@ -1896,6 +2725,20 @@
       "type": "sayPhrase"
     },
     {
+      "explain": "さいごは ていねいに 「ありがとう ございます」。じょうず ですね！",
+      "idx": 3,
+      "instruction": "Finish with polite thanks: \"arigatou gozaimasu\".",
+      "location_id": "classroom",
+      "matches": [
+        "ありがとう",
+        "ございます"
+      ],
+      "mission_id": "station_manners_drill",
+      "npc_id": "teacher",
+      "phrase": "ありがとう ございます",
+      "type": "sayPhrase"
+    },
+    {
       "explain": "はい、なあに？ていねいに 「すみません」って どうぞ！",
       "idx": 3,
       "instruction": "Get Hiroshi's attention: \"sumimasen\".",
@@ -1922,6 +2765,33 @@
       "type": "sayPhrase"
     },
     {
+      "explain": "2ばん のりば だよ。さいごは 「ありがとう ございます」で かんぺき！",
+      "idx": 3,
+      "instruction": "Thank him politely: \"arigatou gozaimasu\".",
+      "location_id": "station",
+      "matches": [
+        "ありがとう",
+        "ございます"
+      ],
+      "mission_id": "ticket_and_train",
+      "npc_id": "13",
+      "phrase": "ありがとう ございます",
+      "type": "sayPhrase"
+    },
+    {
+      "explain": "つぎは しつもんする ばん。「トイレは どこ ですか」と きいてみて。",
+      "idx": 3,
+      "instruction": "Ask where the restroom is: \"toire wa doko desu ka\".",
+      "location_id": "classroom",
+      "matches": [
+        "トイレ"
+      ],
+      "mission_id": "travel_review",
+      "npc_id": "teacher",
+      "phrase": "トイレは どこ ですか",
+      "type": "sayPhrase"
+    },
+    {
       "explain": "みずを かって きて くれたかい？「はい」と こたえて おくれ。",
       "idx": 3,
       "instruction": "Hana asks if you bought the water — answer \"hai\" (yes).",
@@ -1931,6 +2801,19 @@
       ],
       "mission_id": "water_for_hana",
       "npc_id": "old_lady",
+      "phrase": "はい",
+      "type": "sayPhrase"
+    },
+    {
+      "explain": "ひとりで おみせに いけそう ですか？「はい」と こたえられたら レベル5 クリア です！",
+      "idx": 4,
+      "instruction": "Sensei asks if you can dine out alone now — answer \"hai\" (yes).",
+      "location_id": "classroom",
+      "matches": [
+        "はい"
+      ],
+      "mission_id": "dining_review",
+      "npc_id": "teacher",
       "phrase": "はい",
       "type": "sayPhrase"
     },
@@ -2034,6 +2917,19 @@
       "type": "goToLocation"
     },
     {
+      "explain": "どうだ？「おいしい です」って いって くれたら うれしいな。",
+      "idx": 4,
+      "instruction": "Compliment the bowl: \"oishii desu\".",
+      "location_id": "ramen",
+      "matches": [
+        "おいしい"
+      ],
+      "mission_id": "full_ramen_visit",
+      "npc_id": "ramen_chef",
+      "phrase": "おいしい です",
+      "type": "sayPhrase"
+    },
+    {
       "explain": "さいごに 「いいえ」も いえたら レベル1 クリア です！",
       "idx": 4,
       "instruction": "Finally answer \"iie\" (no).",
@@ -2075,6 +2971,20 @@
       "type": "sayPhrase"
     },
     {
+      "explain": "はい、できたよ。おかいけい は 「おかいけいを おねがいします」だな。",
+      "idx": 4,
+      "instruction": "Ask for the bill: \"okaikei wo onegai shimasu\".",
+      "location_id": "ramen",
+      "matches": [
+        "おかいけい",
+        "おねがいします"
+      ],
+      "mission_id": "mika_lunch_order",
+      "npc_id": "ramen_chef",
+      "phrase": "おかいけいを おねがいします",
+      "type": "sayPhrase"
+    },
+    {
       "explain": "らーめんやさんでも ちゅうもん できそう ですか？「はい」と こたえられたら レベル3 クリア です！",
       "idx": 4,
       "instruction": "Sensei asks if you are ready for the ramen shop — answer \"hai\" (yes).",
@@ -2110,6 +3020,19 @@
         "はい"
       ],
       "mission_id": "self_intro_review",
+      "npc_id": "teacher",
+      "phrase": "はい",
+      "type": "sayPhrase"
+    },
+    {
+      "explain": "でんしゃに のれそう ですか？「はい」と こたえられたら レベル4 クリア です！",
+      "idx": 4,
+      "instruction": "Sensei asks if you are ready to ride the train — answer \"hai\" (yes).",
+      "location_id": "classroom",
+      "matches": [
+        "はい"
+      ],
+      "mission_id": "travel_review",
       "npc_id": "teacher",
       "phrase": "はい",
       "type": "sayPhrase"
@@ -2179,6 +3102,20 @@
       "npc_id": null,
       "phrase": null,
       "type": "goToLocation"
+    },
+    {
+      "explain": "ごちそうさま！さいごは 「おかいけいを おねがいします」で かんぺき だ。",
+      "idx": 5,
+      "instruction": "Ask for the bill: \"okaikei wo onegai shimasu\".",
+      "location_id": "ramen",
+      "matches": [
+        "おかいけい",
+        "おねがいします"
+      ],
+      "mission_id": "full_ramen_visit",
+      "npc_id": "ramen_chef",
+      "phrase": "おかいけいを おねがいします",
+      "type": "sayPhrase"
     },
     {
       "explain": "",
@@ -5233,6 +6170,1223 @@
       "sort_order": 49,
       "summary": "Aoi-sensei's final level 3 check: order water, order green tea, ask the price, and answer \"yes\".",
       "title": "The Ordering Review",
+      "xp_reward": 60
+    },
+    {
+      "active": true,
+      "giver_npc_id": "traveller",
+      "id": "find_the_toilet",
+      "kind": "main",
+      "language": "ja",
+      "min_level": 4,
+      "nodes": [
+        {
+          "explain": "",
+          "idx": 0,
+          "instruction": "Go to the station (えき).",
+          "location_id": "station",
+          "matches": [],
+          "mission_id": "find_the_toilet",
+          "npc_id": null,
+          "phrase": null,
+          "type": "goToLocation"
+        },
+        {
+          "explain": "ん？どうかした？まず 「すみません」って よびかけて。",
+          "idx": 1,
+          "instruction": "Get Hiroshi's attention: \"sumimasen\".",
+          "location_id": "station",
+          "matches": [
+            "すみません"
+          ],
+          "mission_id": "find_the_toilet",
+          "npc_id": "13",
+          "phrase": "すみません",
+          "type": "sayPhrase"
+        },
+        {
+          "explain": "トイレ？あそこだよ。「トイレは どこ ですか」って きいてみて。",
+          "idx": 2,
+          "instruction": "Ask where the restroom is: \"toire wa doko desu ka\".",
+          "location_id": "station",
+          "matches": [
+            "トイレ"
+          ],
+          "mission_id": "find_the_toilet",
+          "npc_id": "13",
+          "phrase": "トイレは どこ ですか",
+          "type": "sayPhrase"
+        }
+      ],
+      "sort_order": 50,
+      "summary": "Alex really needs the restroom at the station. Ask Hiroshi where it is — in Japanese.",
+      "title": "Where Is the Restroom?",
+      "xp_reward": 50
+    },
+    {
+      "active": true,
+      "giver_npc_id": "teacher",
+      "id": "buy_a_ticket",
+      "kind": "main",
+      "language": "ja",
+      "min_level": 4,
+      "nodes": [
+        {
+          "explain": "",
+          "idx": 0,
+          "instruction": "Go to the station (えき).",
+          "location_id": "station",
+          "matches": [],
+          "mission_id": "buy_a_ticket",
+          "npc_id": null,
+          "phrase": null,
+          "type": "goToLocation"
+        },
+        {
+          "explain": "きっぷですね。「きっぷを ください」と いってみて。",
+          "idx": 1,
+          "instruction": "Ask for a ticket: \"kippu wo kudasai\".",
+          "location_id": "station",
+          "matches": [
+            "きっぷ",
+            "ください"
+          ],
+          "mission_id": "buy_a_ticket",
+          "npc_id": "13",
+          "phrase": "きっぷを ください",
+          "type": "sayPhrase"
+        },
+        {
+          "explain": "1まいで いいですか？「はい」と こたえて。",
+          "idx": 2,
+          "instruction": "Hiroshi asks if one ticket is fine — answer \"hai\" (yes).",
+          "location_id": "station",
+          "matches": [
+            "はい"
+          ],
+          "mission_id": "buy_a_ticket",
+          "npc_id": "13",
+          "phrase": "はい",
+          "type": "sayPhrase"
+        }
+      ],
+      "sort_order": 51,
+      "summary": "Aoi-sensei's travel homework: buy a ticket from Hiroshi at the station, in Japanese.",
+      "title": "One Ticket, Please",
+      "xp_reward": 50
+    },
+    {
+      "active": true,
+      "giver_npc_id": "old_lady",
+      "id": "where_is_the_train",
+      "kind": "main",
+      "language": "ja",
+      "min_level": 4,
+      "nodes": [
+        {
+          "explain": "",
+          "idx": 0,
+          "instruction": "Go to the station (えき).",
+          "location_id": "station",
+          "matches": [],
+          "mission_id": "where_is_the_train",
+          "npc_id": null,
+          "phrase": null,
+          "type": "goToLocation"
+        },
+        {
+          "explain": "でんしゃの のりば ですね。「でんしゃは どこ ですか」と きいてみて。",
+          "idx": 1,
+          "instruction": "Ask where the train is: \"densha wa doko desu ka\".",
+          "location_id": "station",
+          "matches": [
+            "でんしゃ",
+            "どこ"
+          ],
+          "mission_id": "where_is_the_train",
+          "npc_id": "13",
+          "phrase": "でんしゃは どこ ですか",
+          "type": "sayPhrase"
+        },
+        {
+          "explain": "3ばん のりば です。おしえて もらったら 「ありがとう ございます」と いってみて。",
+          "idx": 2,
+          "instruction": "Thank Hiroshi politely: \"arigatou gozaimasu\".",
+          "location_id": "station",
+          "matches": [
+            "ありがとう",
+            "ございます"
+          ],
+          "mission_id": "where_is_the_train",
+          "npc_id": "13",
+          "phrase": "ありがとう ございます",
+          "type": "sayPhrase"
+        }
+      ],
+      "sort_order": 52,
+      "summary": "Hana is visiting her sister and can't find the train. Ask Hiroshi for her.",
+      "title": "Where Is the Train?",
+      "xp_reward": 50
+    },
+    {
+      "active": true,
+      "giver_npc_id": "store_server",
+      "id": "going_to_the_station",
+      "kind": "main",
+      "language": "ja",
+      "min_level": 4,
+      "nodes": [
+        {
+          "explain": "",
+          "idx": 0,
+          "instruction": "Find Mika on the shopping street (まち).",
+          "location_id": "town",
+          "matches": [],
+          "mission_id": "going_to_the_station",
+          "npc_id": null,
+          "phrase": null,
+          "type": "goToLocation"
+        },
+        {
+          "explain": "あら、おでかけ？「えきに いきます」って おしえて。",
+          "idx": 1,
+          "instruction": "Tell Mika where you're going: \"eki ni ikimasu\".",
+          "location_id": "town",
+          "matches": [
+            "えき",
+            "いきます"
+          ],
+          "mission_id": "going_to_the_station",
+          "npc_id": "store_server",
+          "phrase": "えきに いきます",
+          "type": "sayPhrase"
+        },
+        {
+          "explain": "でんしゃに のるの？「はい」と こたえてね。",
+          "idx": 2,
+          "instruction": "Mika asks if you're taking the train — answer \"hai\" (yes).",
+          "location_id": "town",
+          "matches": [
+            "はい"
+          ],
+          "mission_id": "going_to_the_station",
+          "npc_id": "store_server",
+          "phrase": "はい",
+          "type": "sayPhrase"
+        }
+      ],
+      "sort_order": 53,
+      "summary": "Mika sees you heading out with a bag. Tell her where you're going in Japanese.",
+      "title": "I'm Going to the Station",
+      "xp_reward": 40
+    },
+    {
+      "active": true,
+      "giver_npc_id": "old_lady",
+      "id": "teach_alex_directions",
+      "kind": "main",
+      "language": "ja",
+      "min_level": 4,
+      "nodes": [
+        {
+          "explain": "",
+          "idx": 0,
+          "instruction": "Find Alex in the town (まち).",
+          "location_id": "town",
+          "matches": [],
+          "mission_id": "teach_alex_directions",
+          "npc_id": null,
+          "phrase": null,
+          "type": "goToLocation"
+        },
+        {
+          "explain": "I keep getting lost! How do I ask where the station is? Teach me — say \"えきは どこ ですか\".",
+          "idx": 1,
+          "instruction": "Teach Alex how to ask where the station is: \"eki wa doko desu ka\".",
+          "location_id": "town",
+          "matches": [
+            "えき",
+            "どこ"
+          ],
+          "mission_id": "teach_alex_directions",
+          "npc_id": "traveller",
+          "phrase": "えきは どこ ですか",
+          "type": "sayPhrase"
+        },
+        {
+          "explain": "And how do I say thank you politely? Show me — say \"ありがとう ございます\".",
+          "idx": 2,
+          "instruction": "Teach Alex polite thanks: \"arigatou gozaimasu\".",
+          "location_id": "town",
+          "matches": [
+            "ありがとう",
+            "ございます"
+          ],
+          "mission_id": "teach_alex_directions",
+          "npc_id": "traveller",
+          "phrase": "ありがとう ございます",
+          "type": "sayPhrase"
+        }
+      ],
+      "sort_order": 54,
+      "summary": "Hana found Alex staring at his map again. Teach him how to ask where the station is.",
+      "title": "Teach Alex to Ask Directions",
+      "xp_reward": 40
+    },
+    {
+      "active": true,
+      "giver_npc_id": "teacher",
+      "id": "ticket_and_train",
+      "kind": "main",
+      "language": "ja",
+      "min_level": 4,
+      "nodes": [
+        {
+          "explain": "",
+          "idx": 0,
+          "instruction": "Go to the station (えき).",
+          "location_id": "station",
+          "matches": [],
+          "mission_id": "ticket_and_train",
+          "npc_id": null,
+          "phrase": null,
+          "type": "goToLocation"
+        },
+        {
+          "explain": "まずは きっぷですね。「きっぷを ください」と どうぞ。",
+          "idx": 1,
+          "instruction": "Buy a ticket: \"kippu wo kudasai\".",
+          "location_id": "station",
+          "matches": [
+            "きっぷ",
+            "ください"
+          ],
+          "mission_id": "ticket_and_train",
+          "npc_id": "13",
+          "phrase": "きっぷを ください",
+          "type": "sayPhrase"
+        },
+        {
+          "explain": "はい、きっぷ。つぎは のりば ですね。「でんしゃは どこ ですか」と きいてみて。",
+          "idx": 2,
+          "instruction": "Ask where the train is: \"densha wa doko desu ka\".",
+          "location_id": "station",
+          "matches": [
+            "でんしゃ",
+            "どこ"
+          ],
+          "mission_id": "ticket_and_train",
+          "npc_id": "13",
+          "phrase": "でんしゃは どこ ですか",
+          "type": "sayPhrase"
+        },
+        {
+          "explain": "2ばん のりば だよ。さいごは 「ありがとう ございます」で かんぺき！",
+          "idx": 3,
+          "instruction": "Thank him politely: \"arigatou gozaimasu\".",
+          "location_id": "station",
+          "matches": [
+            "ありがとう",
+            "ございます"
+          ],
+          "mission_id": "ticket_and_train",
+          "npc_id": "13",
+          "phrase": "ありがとう ございます",
+          "type": "sayPhrase"
+        }
+      ],
+      "sort_order": 55,
+      "summary": "Aoi-sensei's full station check: buy a ticket, ask where the train is, and thank Hiroshi.",
+      "title": "Ticket and Train",
+      "xp_reward": 60
+    },
+    {
+      "active": true,
+      "giver_npc_id": "old_lady",
+      "id": "hana_station_trip",
+      "kind": "main",
+      "language": "ja",
+      "min_level": 4,
+      "nodes": [
+        {
+          "explain": "",
+          "idx": 0,
+          "instruction": "Find Hana in the town garden (こうえん).",
+          "location_id": "town",
+          "matches": [],
+          "mission_id": "hana_station_trip",
+          "npc_id": null,
+          "phrase": null,
+          "type": "goToLocation"
+        },
+        {
+          "explain": "えきまで いきたいの。いっしょに いって くれる？「えきに いきます」って いって おくれ。",
+          "idx": 1,
+          "instruction": "Tell Hana you'll go to the station: \"eki ni ikimasu\".",
+          "location_id": "town",
+          "matches": [
+            "えき",
+            "いきます"
+          ],
+          "mission_id": "hana_station_trip",
+          "npc_id": "old_lady",
+          "phrase": "えきに いきます",
+          "type": "sayPhrase"
+        },
+        {
+          "explain": "",
+          "idx": 2,
+          "instruction": "Walk with Hana to the station (えき).",
+          "location_id": "station",
+          "matches": [],
+          "mission_id": "hana_station_trip",
+          "npc_id": null,
+          "phrase": null,
+          "type": "goToLocation"
+        },
+        {
+          "explain": "おじょうさんの ぶん ですね。「きっぷを ください」と どうぞ。",
+          "idx": 3,
+          "instruction": "Buy Hana's ticket from Hiroshi: \"kippu wo kudasai\".",
+          "location_id": "station",
+          "matches": [
+            "きっぷ",
+            "ください"
+          ],
+          "mission_id": "hana_station_trip",
+          "npc_id": "13",
+          "phrase": "きっぷを ください",
+          "type": "sayPhrase"
+        }
+      ],
+      "sort_order": 56,
+      "summary": "Hana wants to take the train today. Walk with her to the station and help her buy a ticket.",
+      "title": "To the Station with Hana",
+      "xp_reward": 60
+    },
+    {
+      "active": true,
+      "giver_npc_id": "teacher",
+      "id": "station_manners_drill",
+      "kind": "main",
+      "language": "ja",
+      "min_level": 4,
+      "nodes": [
+        {
+          "explain": "",
+          "idx": 0,
+          "instruction": "Go to the classroom (きょうしつ).",
+          "location_id": "classroom",
+          "matches": [],
+          "mission_id": "station_manners_drill",
+          "npc_id": null,
+          "phrase": null,
+          "type": "goToLocation"
+        },
+        {
+          "explain": "えきでの れんしゅう です！まず 「すみません」で よびかけて。",
+          "idx": 1,
+          "instruction": "Get attention politely: \"sumimasen\".",
+          "location_id": "classroom",
+          "matches": [
+            "すみません"
+          ],
+          "mission_id": "station_manners_drill",
+          "npc_id": "teacher",
+          "phrase": "すみません",
+          "type": "sayPhrase"
+        },
+        {
+          "explain": "つぎは しつもん。「トイレは どこ ですか」と きいてみて。",
+          "idx": 2,
+          "instruction": "Ask where the restroom is: \"toire wa doko desu ka\".",
+          "location_id": "classroom",
+          "matches": [
+            "トイレ"
+          ],
+          "mission_id": "station_manners_drill",
+          "npc_id": "teacher",
+          "phrase": "トイレは どこ ですか",
+          "type": "sayPhrase"
+        },
+        {
+          "explain": "さいごは ていねいに 「ありがとう ございます」。じょうず ですね！",
+          "idx": 3,
+          "instruction": "Finish with polite thanks: \"arigatou gozaimasu\".",
+          "location_id": "classroom",
+          "matches": [
+            "ありがとう",
+            "ございます"
+          ],
+          "mission_id": "station_manners_drill",
+          "npc_id": "teacher",
+          "phrase": "ありがとう ございます",
+          "type": "sayPhrase"
+        }
+      ],
+      "sort_order": 57,
+      "summary": "Aoi-sensei's drill before your next station visit: attention, a question, and polite thanks.",
+      "title": "Station Manners Drill",
+      "xp_reward": 50
+    },
+    {
+      "active": true,
+      "giver_npc_id": "teacher",
+      "id": "ask_hiroshi_train",
+      "kind": "main",
+      "language": "ja",
+      "min_level": 4,
+      "nodes": [
+        {
+          "explain": "",
+          "idx": 0,
+          "instruction": "Find Hiroshi in the town (まち).",
+          "location_id": "town",
+          "matches": [],
+          "mission_id": "ask_hiroshi_train",
+          "npc_id": null,
+          "phrase": null,
+          "type": "goToLocation"
+        },
+        {
+          "explain": "おつかれさまです…ん？まず 「すみません」って どうぞ。",
+          "idx": 1,
+          "instruction": "Get Hiroshi's attention: \"sumimasen\".",
+          "location_id": "town",
+          "matches": [
+            "すみません"
+          ],
+          "mission_id": "ask_hiroshi_train",
+          "npc_id": "13",
+          "phrase": "すみません",
+          "type": "sayPhrase"
+        },
+        {
+          "explain": "でんしゃの れんしゅう？いいよ。「でんしゃは どこ ですか」って きいてみて。",
+          "idx": 2,
+          "instruction": "Practice the train question: \"densha wa doko desu ka\".",
+          "location_id": "town",
+          "matches": [
+            "でんしゃ",
+            "どこ"
+          ],
+          "mission_id": "ask_hiroshi_train",
+          "npc_id": "13",
+          "phrase": "でんしゃは どこ ですか",
+          "type": "sayPhrase"
+        }
+      ],
+      "sort_order": 58,
+      "summary": "Hiroshi the salaryman knows the station inside out. Practice your train question with him in town first.",
+      "title": "Ask the Commuter",
+      "xp_reward": 40
+    },
+    {
+      "active": true,
+      "giver_npc_id": "teacher",
+      "id": "travel_review",
+      "kind": "main",
+      "language": "ja",
+      "min_level": 4,
+      "nodes": [
+        {
+          "explain": "",
+          "idx": 0,
+          "instruction": "Go to the classroom (きょうしつ) for the review.",
+          "location_id": "classroom",
+          "matches": [],
+          "mission_id": "travel_review",
+          "npc_id": null,
+          "phrase": null,
+          "type": "goToLocation"
+        },
+        {
+          "explain": "レベル4 ふくしゅう テストです！まず 「えきに いきます」から。",
+          "idx": 1,
+          "instruction": "Say where you're going: \"eki ni ikimasu\".",
+          "location_id": "classroom",
+          "matches": [
+            "えき",
+            "いきます"
+          ],
+          "mission_id": "travel_review",
+          "npc_id": "teacher",
+          "phrase": "えきに いきます",
+          "type": "sayPhrase"
+        },
+        {
+          "explain": "いいですね！つぎは きっぷ。「きっぷを ください」と どうぞ。",
+          "idx": 2,
+          "instruction": "Buy a ticket: \"kippu wo kudasai\".",
+          "location_id": "classroom",
+          "matches": [
+            "きっぷ",
+            "ください"
+          ],
+          "mission_id": "travel_review",
+          "npc_id": "teacher",
+          "phrase": "きっぷを ください",
+          "type": "sayPhrase"
+        },
+        {
+          "explain": "つぎは しつもんする ばん。「トイレは どこ ですか」と きいてみて。",
+          "idx": 3,
+          "instruction": "Ask where the restroom is: \"toire wa doko desu ka\".",
+          "location_id": "classroom",
+          "matches": [
+            "トイレ"
+          ],
+          "mission_id": "travel_review",
+          "npc_id": "teacher",
+          "phrase": "トイレは どこ ですか",
+          "type": "sayPhrase"
+        },
+        {
+          "explain": "でんしゃに のれそう ですか？「はい」と こたえられたら レベル4 クリア です！",
+          "idx": 4,
+          "instruction": "Sensei asks if you are ready to ride the train — answer \"hai\" (yes).",
+          "location_id": "classroom",
+          "matches": [
+            "はい"
+          ],
+          "mission_id": "travel_review",
+          "npc_id": "teacher",
+          "phrase": "はい",
+          "type": "sayPhrase"
+        }
+      ],
+      "sort_order": 59,
+      "summary": "Aoi-sensei's final level 4 check: say where you're going, buy a ticket, ask for the restroom, and answer \"yes\".",
+      "title": "The Travel Review",
+      "xp_reward": 60
+    },
+    {
+      "active": true,
+      "giver_npc_id": "traveller",
+      "id": "menu_please",
+      "kind": "main",
+      "language": "ja",
+      "min_level": 5,
+      "nodes": [
+        {
+          "explain": "",
+          "idx": 0,
+          "instruction": "Go into the ramen shop (らーめんや).",
+          "location_id": "ramen",
+          "matches": [],
+          "mission_id": "menu_please",
+          "npc_id": null,
+          "phrase": null,
+          "type": "goToLocation"
+        },
+        {
+          "explain": "いらっしゃい！メニュー だね。「メニューを おねがいします」と いってみな。",
+          "idx": 1,
+          "instruction": "Ask for the menu: \"menyuu wo onegai shimasu\".",
+          "location_id": "ramen",
+          "matches": [
+            "メニュー",
+            "おねがいします"
+          ],
+          "mission_id": "menu_please",
+          "npc_id": "ramen_chef",
+          "phrase": "メニューを おねがいします",
+          "type": "sayPhrase"
+        },
+        {
+          "explain": "はい、メニュー。もらったら 「ありがとう」だな。",
+          "idx": 2,
+          "instruction": "Thank Gen: \"arigatou\".",
+          "location_id": "ramen",
+          "matches": [
+            "ありがとう"
+          ],
+          "mission_id": "menu_please",
+          "npc_id": "ramen_chef",
+          "phrase": "ありがとう",
+          "type": "sayPhrase"
+        }
+      ],
+      "sort_order": 60,
+      "summary": "Alex can't read the ramen menu at all. Show him how it's done: ask Master Gen for the menu in Japanese.",
+      "title": "The Menu, Please",
+      "xp_reward": 40
+    },
+    {
+      "active": true,
+      "giver_npc_id": "old_lady",
+      "id": "order_ramen_polite",
+      "kind": "main",
+      "language": "ja",
+      "min_level": 5,
+      "nodes": [
+        {
+          "explain": "",
+          "idx": 0,
+          "instruction": "Go into the ramen shop (らーめんや).",
+          "location_id": "ramen",
+          "matches": [],
+          "mission_id": "order_ramen_polite",
+          "npc_id": null,
+          "phrase": null,
+          "type": "goToLocation"
+        },
+        {
+          "explain": "いらっしゃい！まずは あいさつ だな。「こんにちは」と どうぞ。",
+          "idx": 1,
+          "instruction": "Greet Master Gen: \"konnichiwa\".",
+          "location_id": "ramen",
+          "matches": [
+            "こんにちは"
+          ],
+          "mission_id": "order_ramen_polite",
+          "npc_id": "ramen_chef",
+          "phrase": "こんにちは",
+          "type": "sayPhrase"
+        },
+        {
+          "explain": "ていねいな ちゅうもん、いいね！「ラーメンを おねがいします」と いってみな。",
+          "idx": 2,
+          "instruction": "Order a ramen politely: \"raamen wo onegai shimasu\".",
+          "location_id": "ramen",
+          "matches": [
+            "ラーメン",
+            "おねがいします"
+          ],
+          "mission_id": "order_ramen_polite",
+          "npc_id": "ramen_chef",
+          "phrase": "ラーメンを おねがいします",
+          "type": "sayPhrase"
+        }
+      ],
+      "sort_order": 61,
+      "summary": "Hana says Master Gen appreciates polite customers. Greet him and order a ramen with \"onegai shimasu\".",
+      "title": "One Ramen, Politely",
+      "xp_reward": 50
+    },
+    {
+      "active": true,
+      "giver_npc_id": "store_server",
+      "id": "the_bill_please",
+      "kind": "main",
+      "language": "ja",
+      "min_level": 5,
+      "nodes": [
+        {
+          "explain": "",
+          "idx": 0,
+          "instruction": "Go into the ramen shop (らーめんや).",
+          "location_id": "ramen",
+          "matches": [],
+          "mission_id": "the_bill_please",
+          "npc_id": null,
+          "phrase": null,
+          "type": "goToLocation"
+        },
+        {
+          "explain": "おかいけい だね。「おかいけいを おねがいします」と いってみな。",
+          "idx": 1,
+          "instruction": "Ask for the bill: \"okaikei wo onegai shimasu\".",
+          "location_id": "ramen",
+          "matches": [
+            "おかいけい",
+            "おねがいします"
+          ],
+          "mission_id": "the_bill_please",
+          "npc_id": "ramen_chef",
+          "phrase": "おかいけいを おねがいします",
+          "type": "sayPhrase"
+        },
+        {
+          "explain": "800えん だよ。さいごは 「ありがとう ございます」と ていねいに。",
+          "idx": 2,
+          "instruction": "Thank him politely: \"arigatou gozaimasu\".",
+          "location_id": "ramen",
+          "matches": [
+            "ありがとう",
+            "ございます"
+          ],
+          "mission_id": "the_bill_please",
+          "npc_id": "ramen_chef",
+          "phrase": "ありがとう ございます",
+          "type": "sayPhrase"
+        }
+      ],
+      "sort_order": 62,
+      "summary": "Mika forgot her wallet at the ramen shop last week. Practice asking for the bill with Master Gen.",
+      "title": "The Bill, Please",
+      "xp_reward": 50
+    },
+    {
+      "active": true,
+      "giver_npc_id": "old_lady",
+      "id": "oishii_compliment",
+      "kind": "main",
+      "language": "ja",
+      "min_level": 5,
+      "nodes": [
+        {
+          "explain": "",
+          "idx": 0,
+          "instruction": "Go into the ramen shop (らーめんや).",
+          "location_id": "ramen",
+          "matches": [],
+          "mission_id": "oishii_compliment",
+          "npc_id": null,
+          "phrase": null,
+          "type": "goToLocation"
+        },
+        {
+          "explain": "12じかん ことこと にた スープ だよ。「ラーメンを おねがいします」と どうぞ。",
+          "idx": 1,
+          "instruction": "Order a bowl: \"raamen wo onegai shimasu\".",
+          "location_id": "ramen",
+          "matches": [
+            "ラーメン",
+            "おねがいします"
+          ],
+          "mission_id": "oishii_compliment",
+          "npc_id": "ramen_chef",
+          "phrase": "ラーメンを おねがいします",
+          "type": "sayPhrase"
+        },
+        {
+          "explain": "どうだ、うまい だろ？「おいしい です」って いって くれると うれしいな。",
+          "idx": 2,
+          "instruction": "Tell Gen it's delicious: \"oishii desu\".",
+          "location_id": "ramen",
+          "matches": [
+            "おいしい"
+          ],
+          "mission_id": "oishii_compliment",
+          "npc_id": "ramen_chef",
+          "phrase": "おいしい です",
+          "type": "sayPhrase"
+        }
+      ],
+      "sort_order": 63,
+      "summary": "Hana says Gen's broth takes twelve hours. Order a bowl and tell him it's delicious.",
+      "title": "A Compliment for the Chef",
+      "xp_reward": 60
+    },
+    {
+      "active": true,
+      "giver_npc_id": "teacher",
+      "id": "teach_alex_ramen",
+      "kind": "main",
+      "language": "ja",
+      "min_level": 5,
+      "nodes": [
+        {
+          "explain": "",
+          "idx": 0,
+          "instruction": "Find Alex in the town (まち).",
+          "location_id": "town",
+          "matches": [],
+          "mission_id": "teach_alex_ramen",
+          "npc_id": null,
+          "phrase": null,
+          "type": "goToLocation"
+        },
+        {
+          "explain": "I survived the ramen shop on smiles alone! How do I order politely? Teach me — say \"ラーメンを おねがいします\".",
+          "idx": 1,
+          "instruction": "Teach Alex to order ramen politely: \"raamen wo onegai shimasu\".",
+          "location_id": "town",
+          "matches": [
+            "ラーメン",
+            "おねがいします"
+          ],
+          "mission_id": "teach_alex_ramen",
+          "npc_id": "traveller",
+          "phrase": "ラーメンを おねがいします",
+          "type": "sayPhrase"
+        },
+        {
+          "explain": "And when I want to pay? I just pointed at my wallet last time... Show me — say \"おかいけいを おねがいします\".",
+          "idx": 2,
+          "instruction": "Teach Alex to ask for the bill: \"okaikei wo onegai shimasu\".",
+          "location_id": "town",
+          "matches": [
+            "おかいけい",
+            "おねがいします"
+          ],
+          "mission_id": "teach_alex_ramen",
+          "npc_id": "traveller",
+          "phrase": "おかいけいを おねがいします",
+          "type": "sayPhrase"
+        }
+      ],
+      "sort_order": 64,
+      "summary": "Aoi-sensei wants Alex to survive the ramen shop alone. Teach him to order and to ask for the bill.",
+      "title": "Teach Alex to Order Ramen",
+      "xp_reward": 40
+    },
+    {
+      "active": true,
+      "giver_npc_id": "ramen_chef",
+      "id": "full_ramen_visit",
+      "kind": "main",
+      "language": "ja",
+      "min_level": 5,
+      "nodes": [
+        {
+          "explain": "",
+          "idx": 0,
+          "instruction": "Go into the ramen shop (らーめんや).",
+          "location_id": "ramen",
+          "matches": [],
+          "mission_id": "full_ramen_visit",
+          "npc_id": null,
+          "phrase": null,
+          "type": "goToLocation"
+        },
+        {
+          "explain": "いらっしゃい！きょうは フルコースで いこう。まず 「こんにちは」から だ。",
+          "idx": 1,
+          "instruction": "Greet Master Gen: \"konnichiwa\".",
+          "location_id": "ramen",
+          "matches": [
+            "こんにちは"
+          ],
+          "mission_id": "full_ramen_visit",
+          "npc_id": "ramen_chef",
+          "phrase": "こんにちは",
+          "type": "sayPhrase"
+        },
+        {
+          "explain": "つぎは メニュー だな。「メニューを おねがいします」と どうぞ。",
+          "idx": 2,
+          "instruction": "Ask for the menu: \"menyuu wo onegai shimasu\".",
+          "location_id": "ramen",
+          "matches": [
+            "メニュー",
+            "おねがいします"
+          ],
+          "mission_id": "full_ramen_visit",
+          "npc_id": "ramen_chef",
+          "phrase": "メニューを おねがいします",
+          "type": "sayPhrase"
+        },
+        {
+          "explain": "はい、メニュー。ちゅうもんは 「ラーメンを おねがいします」で ばっちり だ。",
+          "idx": 3,
+          "instruction": "Order politely: \"raamen wo onegai shimasu\".",
+          "location_id": "ramen",
+          "matches": [
+            "ラーメン",
+            "おねがいします"
+          ],
+          "mission_id": "full_ramen_visit",
+          "npc_id": "ramen_chef",
+          "phrase": "ラーメンを おねがいします",
+          "type": "sayPhrase"
+        },
+        {
+          "explain": "どうだ？「おいしい です」って いって くれたら うれしいな。",
+          "idx": 4,
+          "instruction": "Compliment the bowl: \"oishii desu\".",
+          "location_id": "ramen",
+          "matches": [
+            "おいしい"
+          ],
+          "mission_id": "full_ramen_visit",
+          "npc_id": "ramen_chef",
+          "phrase": "おいしい です",
+          "type": "sayPhrase"
+        },
+        {
+          "explain": "ごちそうさま！さいごは 「おかいけいを おねがいします」で かんぺき だ。",
+          "idx": 5,
+          "instruction": "Ask for the bill: \"okaikei wo onegai shimasu\".",
+          "location_id": "ramen",
+          "matches": [
+            "おかいけい",
+            "おねがいします"
+          ],
+          "mission_id": "full_ramen_visit",
+          "npc_id": "ramen_chef",
+          "phrase": "おかいけいを おねがいします",
+          "type": "sayPhrase"
+        }
+      ],
+      "sort_order": 65,
+      "summary": "Master Gen's challenge: the complete polite visit — greet, menu, order, compliment, bill.",
+      "title": "The Full Ramen Visit",
+      "xp_reward": 60
+    },
+    {
+      "active": true,
+      "giver_npc_id": "store_server",
+      "id": "mika_lunch_order",
+      "kind": "main",
+      "language": "ja",
+      "min_level": 5,
+      "nodes": [
+        {
+          "explain": "",
+          "idx": 0,
+          "instruction": "Find Mika on the shopping street (まち).",
+          "location_id": "town",
+          "matches": [],
+          "mission_id": "mika_lunch_order",
+          "npc_id": null,
+          "phrase": null,
+          "type": "goToLocation"
+        },
+        {
+          "explain": "レジから はなれられなくて…ゲンさんの ところで ちゅうもん してきて くれる？「はい」って いって！",
+          "idx": 1,
+          "instruction": "Mika asks if you can order for her — answer \"hai\" (yes).",
+          "location_id": "town",
+          "matches": [
+            "はい"
+          ],
+          "mission_id": "mika_lunch_order",
+          "npc_id": "store_server",
+          "phrase": "はい",
+          "type": "sayPhrase"
+        },
+        {
+          "explain": "",
+          "idx": 2,
+          "instruction": "Go to the ramen shop (らーめんや).",
+          "location_id": "ramen",
+          "matches": [],
+          "mission_id": "mika_lunch_order",
+          "npc_id": null,
+          "phrase": null,
+          "type": "goToLocation"
+        },
+        {
+          "explain": "ミカちゃんの ぶん だね。「ラーメンを おねがいします」と どうぞ。",
+          "idx": 3,
+          "instruction": "Order Mika's ramen: \"raamen wo onegai shimasu\".",
+          "location_id": "ramen",
+          "matches": [
+            "ラーメン",
+            "おねがいします"
+          ],
+          "mission_id": "mika_lunch_order",
+          "npc_id": "ramen_chef",
+          "phrase": "ラーメンを おねがいします",
+          "type": "sayPhrase"
+        },
+        {
+          "explain": "はい、できたよ。おかいけい は 「おかいけいを おねがいします」だな。",
+          "idx": 4,
+          "instruction": "Ask for the bill: \"okaikei wo onegai shimasu\".",
+          "location_id": "ramen",
+          "matches": [
+            "おかいけい",
+            "おねがいします"
+          ],
+          "mission_id": "mika_lunch_order",
+          "npc_id": "ramen_chef",
+          "phrase": "おかいけいを おねがいします",
+          "type": "sayPhrase"
+        }
+      ],
+      "sort_order": 66,
+      "summary": "Mika is stuck at the register on her lunch break. Go to the ramen shop and order for her.",
+      "title": "Lunch Order for Mika",
+      "xp_reward": 60
+    },
+    {
+      "active": true,
+      "giver_npc_id": "teacher",
+      "id": "price_and_polite",
+      "kind": "main",
+      "language": "ja",
+      "min_level": 5,
+      "nodes": [
+        {
+          "explain": "",
+          "idx": 0,
+          "instruction": "Go into the ramen shop (らーめんや).",
+          "location_id": "ramen",
+          "matches": [],
+          "mission_id": "price_and_polite",
+          "npc_id": null,
+          "phrase": null,
+          "type": "goToLocation"
+        },
+        {
+          "explain": "ねだんが きになる かい？「いくら ですか」と きいてみな。",
+          "idx": 1,
+          "instruction": "Ask the price: \"ikura desu ka\".",
+          "location_id": "ramen",
+          "matches": [
+            "いくら"
+          ],
+          "mission_id": "price_and_polite",
+          "npc_id": "ramen_chef",
+          "phrase": "いくら ですか",
+          "type": "sayPhrase"
+        },
+        {
+          "explain": "800えん だよ。さあ、ちゅうもん は 「ラーメンを おねがいします」で どうぞ。",
+          "idx": 2,
+          "instruction": "Now order politely: \"raamen wo onegai shimasu\".",
+          "location_id": "ramen",
+          "matches": [
+            "ラーメン",
+            "おねがいします"
+          ],
+          "mission_id": "price_and_polite",
+          "npc_id": "ramen_chef",
+          "phrase": "ラーメンを おねがいします",
+          "type": "sayPhrase"
+        }
+      ],
+      "sort_order": 67,
+      "summary": "Aoi-sensei's dining homework: ask Master Gen the price, then order politely.",
+      "title": "Price First, Then Order",
+      "xp_reward": 50
+    },
+    {
+      "active": true,
+      "giver_npc_id": "teacher",
+      "id": "dining_drill",
+      "kind": "main",
+      "language": "ja",
+      "min_level": 5,
+      "nodes": [
+        {
+          "explain": "",
+          "idx": 0,
+          "instruction": "Go to the classroom (きょうしつ).",
+          "location_id": "classroom",
+          "matches": [],
+          "mission_id": "dining_drill",
+          "npc_id": null,
+          "phrase": null,
+          "type": "goToLocation"
+        },
+        {
+          "explain": "レストランの れんしゅう です！まず 「メニューを おねがいします」から。",
+          "idx": 1,
+          "instruction": "Ask for the menu: \"menyuu wo onegai shimasu\".",
+          "location_id": "classroom",
+          "matches": [
+            "メニュー",
+            "おねがいします"
+          ],
+          "mission_id": "dining_drill",
+          "npc_id": "teacher",
+          "phrase": "メニューを おねがいします",
+          "type": "sayPhrase"
+        },
+        {
+          "explain": "いいですね！つぎは 「おかいけいを おねがいします」と いってみて。",
+          "idx": 2,
+          "instruction": "Ask for the bill: \"okaikei wo onegai shimasu\".",
+          "location_id": "classroom",
+          "matches": [
+            "おかいけい",
+            "おねがいします"
+          ],
+          "mission_id": "dining_drill",
+          "npc_id": "teacher",
+          "phrase": "おかいけいを おねがいします",
+          "type": "sayPhrase"
+        },
+        {
+          "explain": "もう おなかいっぱい ですか？「いいえ」と こたえてね。",
+          "idx": 3,
+          "instruction": "Sensei asks if you are full already — answer \"iie\" (no).",
+          "location_id": "classroom",
+          "matches": [
+            "いいえ"
+          ],
+          "mission_id": "dining_drill",
+          "npc_id": "teacher",
+          "phrase": "いいえ",
+          "type": "sayPhrase"
+        }
+      ],
+      "sort_order": 68,
+      "summary": "Aoi-sensei's drill before your next restaurant visit: menu, bill, and answering \"no\".",
+      "title": "The Dining Drill",
+      "xp_reward": 50
+    },
+    {
+      "active": true,
+      "giver_npc_id": "teacher",
+      "id": "dining_review",
+      "kind": "main",
+      "language": "ja",
+      "min_level": 5,
+      "nodes": [
+        {
+          "explain": "",
+          "idx": 0,
+          "instruction": "Go to the classroom (きょうしつ) for the review.",
+          "location_id": "classroom",
+          "matches": [],
+          "mission_id": "dining_review",
+          "npc_id": null,
+          "phrase": null,
+          "type": "goToLocation"
+        },
+        {
+          "explain": "レベル5 ふくしゅう テストです！まず 「ラーメンを おねがいします」から。",
+          "idx": 1,
+          "instruction": "Order ramen politely: \"raamen wo onegai shimasu\".",
+          "location_id": "classroom",
+          "matches": [
+            "ラーメン",
+            "おねがいします"
+          ],
+          "mission_id": "dining_review",
+          "npc_id": "teacher",
+          "phrase": "ラーメンを おねがいします",
+          "type": "sayPhrase"
+        },
+        {
+          "explain": "いいですね！つぎは 「おいしい です」と いってみて。",
+          "idx": 2,
+          "instruction": "Say it's delicious: \"oishii desu\".",
+          "location_id": "classroom",
+          "matches": [
+            "おいしい"
+          ],
+          "mission_id": "dining_review",
+          "npc_id": "teacher",
+          "phrase": "おいしい です",
+          "type": "sayPhrase"
+        },
+        {
+          "explain": "さいごに おかいけい。「おかいけいを おねがいします」と どうぞ。",
+          "idx": 3,
+          "instruction": "Ask for the bill: \"okaikei wo onegai shimasu\".",
+          "location_id": "classroom",
+          "matches": [
+            "おかいけい",
+            "おねがいします"
+          ],
+          "mission_id": "dining_review",
+          "npc_id": "teacher",
+          "phrase": "おかいけいを おねがいします",
+          "type": "sayPhrase"
+        },
+        {
+          "explain": "ひとりで おみせに いけそう ですか？「はい」と こたえられたら レベル5 クリア です！",
+          "idx": 4,
+          "instruction": "Sensei asks if you can dine out alone now — answer \"hai\" (yes).",
+          "location_id": "classroom",
+          "matches": [
+            "はい"
+          ],
+          "mission_id": "dining_review",
+          "npc_id": "teacher",
+          "phrase": "はい",
+          "type": "sayPhrase"
+        }
+      ],
+      "sort_order": 69,
+      "summary": "Aoi-sensei's final level 5 check: order ramen, compliment it, ask for the bill, and answer \"yes\".",
+      "title": "The Dining Review",
       "xp_reward": 60
     },
     {
