@@ -1121,17 +1121,40 @@
       "type": "sayPhrase"
     },
     {
-      "ai_instruction": "",
+      "ai_instruction": "This is a real konbini transaction. Stay fully in character as Sato — greet the player when they approach, ask what they'd like when they haven't ordered yet, state a price once they've ordered, and accept their thanks warmly. Never narrate which step of the exchange you're on.",
       "checkpoints": [
         {
-          "aiInstruction": "いらっしゃいませ！フルコースの ちゅうもん れんしゅう ですね。まず 「こんにちは」から。",
-          "hint": "",
+          "aiInstruction": "Target: 「こんにちは」. Look up as the player approaches and wait for them to greet you before addressing what they want — don't greet them first with anything that sounds like a completed exchange.",
+          "hint": "Shopkeepers usually get a greeting before you ask for anything.",
           "matches": [
             "こんにちは"
           ]
+        },
+        {
+          "aiInstruction": "Target: 「おにぎりを ください」. Once greeted, ask naturally what they're looking for today (e.g. なにに しますか) instead of stating the item yourself.",
+          "hint": "Ask for what you'd like, politely, using ください.",
+          "matches": [
+            "おにぎり",
+            "ください"
+          ]
+        },
+        {
+          "aiInstruction": "Target: 「いくら ですか」. After confirming their onigiri order, do not volunteer the price — wait for them to ask, and if they don't after a turn, ask if they'd like to know how much it is.",
+          "hint": "You don't know the price yet — that's worth asking about.",
+          "matches": [
+            "いくら"
+          ]
+        },
+        {
+          "aiInstruction": "Target: 「ありがとう ございます」. State the price (150えん です) and hand over the item, then wait for their thanks — don't thank them first in a way that closes the exchange before they do.",
+          "hint": "A polite send-off is the natural way to close out a purchase.",
+          "matches": [
+            "ありがとう",
+            "ございます"
+          ]
         }
       ],
-      "description": "Greet Sato: \"konnichiwa\".",
+      "description": "Complete a full order with Sato: greet him, order an onigiri, ask the price, and thank him.",
       "idx": 1,
       "location_id": "konbini",
       "mission_id": "konbini_full_order",
@@ -2242,25 +2265,6 @@
       "ai_instruction": "",
       "checkpoints": [
         {
-          "aiInstruction": "つぎは ちゅうもん。「おにぎりを ください」と どうぞ。",
-          "hint": "",
-          "matches": [
-            "おにぎり",
-            "ください"
-          ]
-        }
-      ],
-      "description": "Order an onigiri: \"onigiri wo kudasai\".",
-      "idx": 2,
-      "location_id": "konbini",
-      "mission_id": "konbini_full_order",
-      "npc_id": "konbini_clerk",
-      "type": "sayPhrase"
-    },
-    {
-      "ai_instruction": "",
-      "checkpoints": [
-        {
           "aiInstruction": "おかいあげ ありがとう ございます！「ありがとう」って いって くれると うれしいな。",
           "hint": "",
           "matches": [
@@ -3072,24 +3076,6 @@
       "ai_instruction": "",
       "checkpoints": [
         {
-          "aiInstruction": "はい、おにぎりですね。ねだんは 「いくら ですか」と きいてみて。",
-          "hint": "",
-          "matches": [
-            "いくら"
-          ]
-        }
-      ],
-      "description": "Ask the price: \"ikura desu ka\".",
-      "idx": 3,
-      "location_id": "konbini",
-      "mission_id": "konbini_full_order",
-      "npc_id": "konbini_clerk",
-      "type": "sayPhrase"
-    },
-    {
-      "ai_instruction": "",
-      "checkpoints": [
-        {
           "aiInstruction": "こんにちは。どうしましたか？おちついて、なにが あったか おしえてください。",
           "hint": "",
           "matches": []
@@ -3462,25 +3448,6 @@
       "location_id": "classroom",
       "mission_id": "greeting_review",
       "npc_id": "teacher",
-      "type": "sayPhrase"
-    },
-    {
-      "ai_instruction": "",
-      "checkpoints": [
-        {
-          "aiInstruction": "150えん です。さいごは ていねいに 「ありがとう ございます」で かんぺき です！",
-          "hint": "",
-          "matches": [
-            "ありがとう",
-            "ございます"
-          ]
-        }
-      ],
-      "description": "Finish with polite thanks: \"arigatou gozaimasu\".",
-      "idx": 4,
-      "location_id": "konbini",
-      "mission_id": "konbini_full_order",
-      "npc_id": "konbini_clerk",
       "type": "sayPhrase"
     },
     {
@@ -6883,74 +6850,41 @@
           "type": "goToLocation"
         },
         {
-          "ai_instruction": "",
+          "ai_instruction": "This is a real konbini transaction. Stay fully in character as Sato — greet the player when they approach, ask what they'd like when they haven't ordered yet, state a price once they've ordered, and accept their thanks warmly. Never narrate which step of the exchange you're on.",
           "checkpoints": [
             {
-              "aiInstruction": "いらっしゃいませ！フルコースの ちゅうもん れんしゅう ですね。まず 「こんにちは」から。",
-              "hint": "",
+              "aiInstruction": "Target: 「こんにちは」. Look up as the player approaches and wait for them to greet you before addressing what they want — don't greet them first with anything that sounds like a completed exchange.",
+              "hint": "Shopkeepers usually get a greeting before you ask for anything.",
               "matches": [
                 "こんにちは"
               ]
-            }
-          ],
-          "description": "Greet Sato: \"konnichiwa\".",
-          "idx": 1,
-          "location_id": "konbini",
-          "mission_id": "konbini_full_order",
-          "npc_id": "konbini_clerk",
-          "type": "sayPhrase"
-        },
-        {
-          "ai_instruction": "",
-          "checkpoints": [
+            },
             {
-              "aiInstruction": "つぎは ちゅうもん。「おにぎりを ください」と どうぞ。",
-              "hint": "",
+              "aiInstruction": "Target: 「おにぎりを ください」. Once greeted, ask naturally what they're looking for today (e.g. なにに しますか) instead of stating the item yourself.",
+              "hint": "Ask for what you'd like, politely, using ください.",
               "matches": [
                 "おにぎり",
                 "ください"
               ]
-            }
-          ],
-          "description": "Order an onigiri: \"onigiri wo kudasai\".",
-          "idx": 2,
-          "location_id": "konbini",
-          "mission_id": "konbini_full_order",
-          "npc_id": "konbini_clerk",
-          "type": "sayPhrase"
-        },
-        {
-          "ai_instruction": "",
-          "checkpoints": [
+            },
             {
-              "aiInstruction": "はい、おにぎりですね。ねだんは 「いくら ですか」と きいてみて。",
-              "hint": "",
+              "aiInstruction": "Target: 「いくら ですか」. After confirming their onigiri order, do not volunteer the price — wait for them to ask, and if they don't after a turn, ask if they'd like to know how much it is.",
+              "hint": "You don't know the price yet — that's worth asking about.",
               "matches": [
                 "いくら"
               ]
-            }
-          ],
-          "description": "Ask the price: \"ikura desu ka\".",
-          "idx": 3,
-          "location_id": "konbini",
-          "mission_id": "konbini_full_order",
-          "npc_id": "konbini_clerk",
-          "type": "sayPhrase"
-        },
-        {
-          "ai_instruction": "",
-          "checkpoints": [
+            },
             {
-              "aiInstruction": "150えん です。さいごは ていねいに 「ありがとう ございます」で かんぺき です！",
-              "hint": "",
+              "aiInstruction": "Target: 「ありがとう ございます」. State the price (150えん です) and hand over the item, then wait for their thanks — don't thank them first in a way that closes the exchange before they do.",
+              "hint": "A polite send-off is the natural way to close out a purchase.",
               "matches": [
                 "ありがとう",
                 "ございます"
               ]
             }
           ],
-          "description": "Finish with polite thanks: \"arigatou gozaimasu\".",
-          "idx": 4,
+          "description": "Complete a full order with Sato: greet him, order an onigiri, ask the price, and thank him.",
+          "idx": 1,
           "location_id": "konbini",
           "mission_id": "konbini_full_order",
           "npc_id": "konbini_clerk",
