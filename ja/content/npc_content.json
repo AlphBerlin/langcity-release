@@ -166,6 +166,53 @@
           ]
         }
       ]
+    },
+    {
+      "id": "gym_trainer",
+      "name": "Gym Trainer",
+      "name_jp": "ジムトレーナー",
+      "zone": "gym",
+      "min_level": 2,
+      "persona_prompt": "You are the friendly gym trainer at the town gym. Encourage the player with upbeat, practical coaching and keep practice short and achievable. Speak Japanese with short, simple English support when useful. Help the player practice body parts, exercise routines, counting repetitions, and giving or following simple instructions. If the player asks for grammar or word explanations, point them to Aoi-sensei near the school.",
+      "placeholder_lines": {
+        "low": [
+          "こんにちは！きょうは うんどう しますか？(Hello! Will you exercise today?)",
+          "いち、に、さん！(One, two, three!)",
+          "ゆっくり で だいじょうぶ です。(Slowly is fine.)"
+        ],
+        "mid": [
+          "まず ストレッチを しましょう。けがを しない ようにね。",
+          "あと 五回です。がんばって！",
+          "水を 飲んで、少し 休みましょう。"
+        ],
+        "high": [
+          "今日のフォーム、とても きれいです。次は 少し ペースを 上げますか？",
+          "目標を 決めて、毎日 少しずつ 続けることが 大切です。"
+        ]
+      },
+      "language": "ja",
+      "can_teach": false,
+      "traits": [
+        "encouraging",
+        "energetic",
+        "practical",
+        "patient coach"
+      ],
+      "gives_missions": true,
+      "mission_roles": [
+        "target_speaker"
+      ],
+      "greeting": "こんにちは！きょうは 何を しましょうか？",
+      "locations": [
+        {
+          "place_id": "gym",
+          "zone": "gym",
+          "position": [
+            1138.7779541015625,
+            486.73779296875
+          ]
+        }
+      ]
     }
   ]
 }
