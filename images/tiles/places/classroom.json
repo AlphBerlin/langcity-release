@@ -108,24 +108,16 @@
           "properties": []
         },
         {
-          "name": "wall_separator",
+          "id": 6,
+          "name": "",
           "type": "collision",
-          "x": 390.0,
-          "y": 30.0,
-          "width": 60.0,
-          "height": 650.0,
           "rotation": 0,
-          "visible": true
-        },
-        {
-          "name": "wall_left",
-          "type": "collision",
-          "x": 0.0,
-          "y": 0.0,
-          "width": 42.0,
-          "height": 768.0,
-          "rotation": 0,
-          "visible": true
+          "x": 41.909088134765625,
+          "y": 29.272727966308594,
+          "width": 411.18182373046875,
+          "height": 680.3636474609375,
+          "visible": true,
+          "properties": []
         },
         {
           "id": 7,
@@ -433,10 +425,10 @@
           "name": "",
           "type": "door",
           "rotation": 0,
-          "x": 420.0,
-          "y": 680.0,
-          "width": 65.0,
-          "height": 80.0,
+          "x": 433.1818542480469,
+          "y": 495.00006103515625,
+          "width": 62.6363525390625,
+          "height": 160.90911865234375,
           "visible": true,
           "properties": [
             {
@@ -447,7 +439,7 @@
             {
               "name": "targetSpawn",
               "type": "string",
-              "value": "door_classroom"
+              "value": "spawn_station"
             },
             {
               "name": "requiredLevel",
