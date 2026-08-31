@@ -4,7 +4,7 @@
   "tile_grid": 32,
   "background": "#FF00FF",
   "transparent": false,
-  "asset_count": 235,
+  "asset_count": 231,
   "categories": {
     "buttons": 22,
     "controls": 30,
@@ -1320,45 +1320,6 @@
       "scaling": "stretch"
     },
     {
-      "component": "bar_xp_complete",
-      "category": "hud",
-      "state": "default",
-      "file": "hud/bar_xp_complete.png",
-      "width": 128,
-      "height": 32,
-      "dimensions": "128x32",
-      "suggested_filename": "bar_xp_complete_default.png",
-      "nine_slice": true,
-      "recommended_padding": 4,
-      "scaling": "stretch"
-    },
-    {
-      "component": "bar_xp",
-      "category": "hud",
-      "state": "empty",
-      "file": "hud/bar_xp_empty.png",
-      "width": 128,
-      "height": 32,
-      "dimensions": "128x32",
-      "suggested_filename": "bar_xp_empty.png",
-      "nine_slice": true,
-      "recommended_padding": 4,
-      "scaling": "stretch"
-    },
-    {
-      "component": "bar_xp",
-      "category": "hud",
-      "state": "filled",
-      "file": "hud/bar_xp_filled.png",
-      "width": 128,
-      "height": 32,
-      "dimensions": "128x32",
-      "suggested_filename": "bar_xp_filled.png",
-      "nine_slice": true,
-      "recommended_padding": 4,
-      "scaling": "stretch"
-    },
-    {
       "component": "card_npc_profile",
       "category": "hud",
       "state": "default",
@@ -2045,19 +2006,6 @@
       "suggested_filename": "row_objective_default.png",
       "nine_slice": true,
       "recommended_padding": 8,
-      "scaling": "stretch"
-    },
-    {
-      "component": "tracker_mission_progress",
-      "category": "missions",
-      "state": "default",
-      "file": "missions/tracker_mission_progress.png",
-      "width": 128,
-      "height": 32,
-      "dimensions": "128x32",
-      "suggested_filename": "tracker_mission_progress_default.png",
-      "nine_slice": true,
-      "recommended_padding": 4,
       "scaling": "stretch"
     },
     {

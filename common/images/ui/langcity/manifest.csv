@@ -99,9 +99,6 @@ bar_health,hud,filled,128,32,128x32,bar_health_filled.png,True,4,stretch,hud/bar
 bar_loading_complete,hud,default,128,32,128x32,bar_loading_complete_default.png,True,4,stretch,hud/bar_loading_complete.png
 bar_loading,hud,empty,128,32,128x32,bar_loading_empty.png,True,4,stretch,hud/bar_loading_empty.png
 bar_loading,hud,filled,128,32,128x32,bar_loading_filled.png,True,4,stretch,hud/bar_loading_filled.png
-bar_xp_complete,hud,default,128,32,128x32,bar_xp_complete_default.png,True,4,stretch,hud/bar_xp_complete.png
-bar_xp,hud,empty,128,32,128x32,bar_xp_empty.png,True,4,stretch,hud/bar_xp_empty.png
-bar_xp,hud,filled,128,32,128x32,bar_xp_filled.png,True,4,stretch,hud/bar_xp_filled.png
 card_npc_profile,hud,default,96,128,96x128,card_npc_profile_default.png,True,8,stretch,hud/card_npc_profile.png
 card_player_profile,hud,default,96,128,96x128,card_player_profile_default.png,True,8,stretch,hud/card_player_profile.png
 container_reward,hud,default,96,32,96x32,container_reward_default.png,True,8,stretch,hud/container_reward.png
@@ -126,8 +123,6 @@ padlock,hud,default,32,32,32x32,padlock_default.png,False,4,none,hud/padlock.png
 star_medal,hud,default,32,32,32x32,star_medal_default.png,False,4,none,hud/star_medal.png
 waveform,hud,active,96,32,96x32,waveform_active.png,False,4,none,hud/waveform_active.png
 waveform,hud,empty,96,32,96x32,waveform_empty.png,False,4,none,hud/waveform_empty.png
-glow_loader,loaders,glow,64,64,64x64,glow_loader_glow.png,False,0,none,loaders/loader_glow_glow.png
-glow_loader,loaders,ring,64,64,64x64,glow_loader_ring.png,False,0,none,loaders/loader_glow_ring.png
 arrow_direction,map,default,32,32,32x32,arrow_direction_default.png,True,8,stretch,map/arrow_direction.png
 background_minimap,map,default,128,128,128x128,background_minimap_default.png,False,0,tile,map/background_minimap.png
 clock_analog_face,map,default,128,128,128x128,clock_analog_face_default.png,False,4,none,map/clock_analog_face.png
@@ -157,7 +152,6 @@ entry_quest_failed,missions,default,128,32,128x32,entry_quest_failed_default.png
 entry_quest,missions,locked,128,32,128x32,entry_quest_locked.png,True,8,stretch,missions/entry_quest_locked.png
 row_objective,missions,completed,128,32,128x32,row_objective_completed.png,True,8,stretch,missions/row_objective_completed.png
 row_objective,missions,default,128,32,128x32,row_objective_default.png,True,8,stretch,missions/row_objective_default.png
-tracker_mission_progress,missions,default,128,32,128x32,tracker_mission_progress_default.png,True,4,stretch,missions/tracker_mission_progress.png
 header_accordion,navigation,default,192,32,192x32,header_accordion_default.png,True,8,stretch,navigation/header_accordion.png
 header_section,navigation,default,192,32,192x32,header_section_default.png,True,8,stretch,navigation/header_section.png
 icon_back,navigation,default,32,32,32x32,icon_back_default.png,False,2,none,navigation/icon_back.png
@@ -197,7 +191,6 @@ grid_inventory,panels,default,160,128,160x128,grid_inventory_default.png,False,4
 overlay_pause_menu,panels,default,192,128,192x128,overlay_pause_menu_default.png,False,4,none,panels/overlay_pause_menu.png
 panel_achievements,panels,default,160,128,160x128,panel_achievements_default.png,True,8,stretch,panels/panel_achievements.png
 panel_city_map,panels,default,160,128,160x128,panel_city_map_default.png,True,8,stretch,panels/panel_city_map.png
-panel_drawer,panels,default,96,96,96x96,panel_drawer_default.png,True,24,stretch,panels/panel_drawer_default.png
 panel_help,panels,default,160,128,160x128,panel_help_default.png,True,8,stretch,panels/panel_help.png
 panel_leaderboard,panels,default,160,128,160x128,panel_leaderboard_default.png,True,8,stretch,panels/panel_leaderboard.png
 panel_main_menu,panels,default,192,128,192x128,panel_main_menu_default.png,True,8,stretch,panels/panel_main_menu.png
