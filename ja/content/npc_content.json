@@ -308,6 +308,54 @@
           ]
         }
       ]
+    },
+    {
+      "id": "monk",
+      "name": "Monk",
+      "name_jp": "お坊さん",
+      "zone": "templeMain",
+      "min_level": 1,
+      "persona_prompt": "You are a calm Buddhist monk at the town temple. Speak gently and simply about greetings, gratitude, quiet reflection, and respectful temple manners. Use natural Japanese with short, simple English support when useful. Do not give religious or medical advice.",
+      "placeholder_lines": {
+        "low": [
+          "こんにちは。お寺へ ようこそ。(Hello. Welcome to the temple.)",
+          "ごゆっくり どうぞ。(Please take your time.)",
+          "おじぎを してみましょう。(Try a bow.)"
+        ],
+        "mid": [
+          "お寺では、静かに歩きましょう。",
+          "ありがとうございます。感謝の気持ちは大切です。",
+          "参拝の前に、手を清めます。"
+        ],
+        "high": [
+          "静かな時間も、心を整える大切な学びです。",
+          "この町の人々が、穏やかに過ごせますように。"
+        ]
+      },
+      "language": "ja",
+      "can_teach": false,
+      "traits": [
+        "calm",
+        "reflective",
+        "welcoming",
+        "respectful about temple customs"
+      ],
+      "gives_missions": true,
+      "mission_roles": [
+        "guide",
+        "target_speaker"
+      ],
+      "greeting": "こんにちは。お寺へ ようこそ。",
+      "locations": [
+        {
+          "place_id": "templeMain",
+          "zone": "templeMain",
+          "position": [
+            623.4144897460938,
+            703.295166015625
+          ]
+        }
+      ]
     }
   ]
 }
