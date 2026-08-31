@@ -230,24 +230,6 @@
           "speed": 24
         },
         {
-          "id": "36",
-          "position": [
-            5856,
-            672
-          ],
-          "path": [
-            [
-              5664,
-              672
-            ],
-            [
-              6048,
-              672
-            ]
-          ],
-          "speed": 20
-        },
-        {
           "id": "45",
           "position": [
             1056,
@@ -342,7 +324,7 @@
     },
     "embassy": {
       "npc_ids": [
-        "29"
+        "36"
       ]
     },
     "familyHome": {
@@ -442,7 +424,7 @@
     },
     "restaurant": {
       "npc_ids": [
-        "19"
+        "29"
       ]
     },
     "restaurantCounter": {
@@ -476,9 +458,7 @@
       ]
     },
     "spa": {
-      "npc_ids": [
-        "29"
-      ]
+      "npc_ids": []
     },
     "stadium": {
       "npc_ids": []
