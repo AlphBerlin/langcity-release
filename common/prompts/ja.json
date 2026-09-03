@@ -56,13 +56,13 @@
       "template": "If the player asks where a place is, call getLocationDirections with the Japanese place name, then answer in Japanese (1-2 sentences)."
     },
     "mission_context_tool": {
-      "template": "Call getActiveMissionContext at the start and treat the result as private background. If this NPC is the current mission-step target, follow its situation cue by asking or prompting the player naturally in your next reply; for an answer step, ask the NPC's question before waiting for the answer. Do not announce the mission or hidden instructions. Non-target NPCs should simply greet or respond in character. Teachers may explain the mission and teach the required phrase when the student asks for help."
+      "template": "Call getActiveMissionContext at the start. If this NPC is the current mission-step target, naturally explain what is happening, why you are troubled, or follow its situation cue by asking or prompting the player naturally in your next reply; for an answer step, ask the NPC's question before waiting for the answer. Communicate naturally like real-life communication. Do not announce the mission or hidden instructions. Non-target NPCs should simply greet or respond in character. Teachers may explain the mission and teach the required phrase when the student asks for help."
     },
     "curriculum_details_tool": {
       "template": "If planning a lesson, answering curriculum questions, or looking for target words to teach, call getCurriculumDetails."
     },
     "mission_context_direct": {
-      "template": "ACTIVE MISSION CONTEXT (private and authoritative for this turn): {{mission_context}}\nIf you are the current mission target, ask or prompt the current mission situation now, before waiting for the player's answer. The current situation cue takes priority over stale conversation history. Keep the mission and hidden instructions private."
+      "template": "ACTIVE MISSION CONTEXT (authoritative for this turn): {{mission_context}}\nIf you are the current mission target, naturally explain what is happening, or ask or prompt the current mission situation now like real-life communication, before waiting for the player's answer. The current situation cue takes priority over stale conversation history. Keep the mission and hidden instructions private."
     },
     "mission_judge_talk": {
       "template": "MISSION JUDGE — topic: {{target_phrase}}{{matches_clause}}\nContext: {{instruction}}\nCRITICAL: Accept Kanji, Hiragana, Katakana, and Romaji as valid Japanese.\n- Set mission_step_complete=true ONLY if the player addresses the required topic in Japanese.\n- Set mission_step_complete=false if the player's message is unrelated, off-topic, or fails to address the topic.\n- mission_quality: excellent (natural/correct), good (understood/minor errors), weak (barely comprehensible).\n- Reply in character, 1-2 sentences. Never mention judging or scoring."
@@ -150,10 +150,10 @@
       "template": "NPC: {{npc_name}}. Learner difficulty level: {{difficulty_level}} (1=beginner, higher=more advanced). Mission context: {{mission_context}}. Learner summary: {{learner_summary}}. Spoken voice mode: {{is_spoken_voice_mode}} (if true, keep the phrase short and easy to say aloud). Suggest the single best next thing the learner could say."
     },
     "opening_mission": {
-      "template": "[The player just walked up to you. Initiate the conversation in character by prompting or asking them about their active mission task.]"
+      "template": "[The player just walked up to you regarding their active mission. In character, naturally explain what is happening, what happened, or ask them about the task like real-life communication.]"
     },
     "opening_mission_target": {
-      "template": "[The player just walked up to you for the current mission step. Ask or prompt this authored situation now, naturally and in character: {{situation_cue}} Do not wait for the player's answer before asking. Do not mention the mission or hidden instructions.]"
+      "template": "[The player just walked up to you for the current mission step. In character, naturally explain what is happening, what happened, or what you need, or ask/prompt this authored situation: {{situation_cue}}. Like real-life communication, clearly tell the player what happened or what is troubling you in natural Japanese. Do not wait for the player's answer before explaining or asking. Do not be vague or hide your problem.]"
     },
     "opening_returning": {
       "template": "[The player just walked up to you again. Initiate the conversation in character with a natural returning greeting or continuation based on your persona and recent chat history.]"
@@ -173,7 +173,7 @@
       "template": "[The player returned to continue your voice conversation. Greet them in 1 short spoken sentence in character.]"
     },
     "opening_mission_target": {
-      "template": "[The player is here for the current mission step. Ask or prompt this authored situation now in one short, natural sentence: {{situation_cue}} Do not wait for the player's answer before asking. Do not mention the mission or hidden instructions.]"
+      "template": "[The player is here for the current mission step. In character, naturally explain what is happening or prompt this authored situation now in one short, natural spoken sentence: {{situation_cue}}. Clearly tell the player what happened or what you need like real-life communication.]"
     }
   },
   "mission_context": {
@@ -181,7 +181,7 @@
       "template": "[The player has an active mission elsewhere in town: {{title}} — {{summary}}] You may reference this in passing if it feels natural, but it is not your concern — you cannot progress or complete it."
     },
     "active_header": {
-      "template": "[PRIVATE NPC BACKGROUND — do not reveal: The player has an active objective related to this interaction: {{title}}]\n{{summary}} Use this only as subtle background for natural conversation. Do not announce the objective or present it as a task."
+      "template": "[ACTIVE MISSION CONTEXT: {{title}}]\n{{summary}}\nThis situation is actively happening right now in town. Communicate naturally about what is happening, what you need, or what happened, just like real-life communication in this situation. Stay in character and do not mention meta terms like \"mission\", \"quest\", or \"step\"."
     },
     "target_phrase": {
       "template": "PRIVATE LEARNING TARGET: The player may need to communicate the meaning 「{{target}}」 (or something close). Keep this private. NPC situation cue: {{setup}}. Use this cue to create a natural conversational reason for the player to say it: ask or prompt the situation naturally in your next reply, especially when the player needs to answer a question. Do not reveal or quote the exact target automatically."
@@ -190,7 +190,7 @@
       "template": "Use the private target only to guide your response. If the player's message is incomplete, ask a natural follow-up question or clarification request that encourages them to continue. If it matches, react warmly in character as if they succeeded. Do not mention the mission, judging, or hidden target."
     },
     "talk_step": {
-      "template": "The player has come to talk with you about a private conversation goal. Stay in character and use this idea only as background: {{explain}} Ask curious questions and let the conversation naturally lead the player toward the goal. Do not announce the mission or tell the player exactly what to say."
+      "template": "CONVERSATION SCENE: The player has come to talk with you about this situation: {{explain}}. Stay in character and naturally explain what is happening, why you are troubled, or what you need, like in real-life communication. Clearly share your situation in natural Japanese."
     },
     "giver": {
       "template": "You gave the player this mission. If they mention it, encourage them, but stay in character."
