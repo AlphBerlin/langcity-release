@@ -19,6 +19,15 @@
     "romaji": {
       "template": "ROMAJI INPUT: The player may type Japanese in Romaji (Latin letters). Treat Romaji as valid Japanese. Respond and evaluate missions in Japanese accordingly."
     },
+    "romaji_output_mode": {
+      "template": "ROMAJI OUTPUT MODE: The student cannot read Japanese characters. Communicate ONLY in Romaji (Latin alphabet). Do NOT use any Kanji, Hiragana, or Katakana in \"reply\". For example, write \"Konnichiwa! Ogenki desu ka?\". Never use bracketed furigana annotations."
+    },
+    "romaji_teacher_mode": {
+      "template": "ROMAJI TEACHER MODE: Mix short, simple English with natural Japanese examples, but write ALL Japanese examples and phrases strictly in Romaji (Latin alphabet, e.g. \"Konnichiwa\"). Do NOT use any Kanji, Hiragana, or Katakana."
+    },
+    "romaji_reminder": {
+      "template": "ROMAJI REMINDER: The \"reply\" field must be written in Romaji (Latin alphabet) only. Do NOT use any Kanji, Hiragana, or Katakana."
+    },
     "furigana_enabled": {
       "template": "FURIGANA: After every kanji word or compound, add its hiragana reading in square brackets with no space: 漢字[かんじ]. Only annotate kanji — never kana, punctuation, or ASCII. Keep the bracket reading to just that kanji's own reading: 私[わたし]は. Apply only to \"reply\"."
     },
