@@ -23,9 +23,9 @@
     {
       "ai_instruction": "",
       "checkpoints": [],
-      "description": "Go to the station (えき).",
+      "description": "Find Hiroshi in the town (まち).",
       "idx": 0,
-      "location_id": "station",
+      "location_id": "central_street",
       "mission_id": "ask_name_hiroshi",
       "npc_id": null,
       "type": "goToLocation"
@@ -744,7 +744,7 @@
       ],
       "description": "Get Hiroshi's attention and ask his name in Japanese.",
       "idx": 1,
-      "location_id": "station",
+      "location_id": "town",
       "mission_id": "ask_name_hiroshi",
       "npc_id": "13",
       "type": "sayPhrase"
@@ -761,11 +761,11 @@
           ]
         }
       ],
-      "description": "Ask Hiroshi where the station is.",
+      "description": "Ask Tanaka where the station is.",
       "idx": 1,
       "location_id": "station",
       "mission_id": "ask_the_way",
-      "npc_id": "13",
+      "npc_id": "station_staff",
       "type": "sayPhrase"
     },
     {
@@ -787,11 +787,11 @@
           ]
         }
       ],
-      "description": "Ask Hiroshi for a ticket and confirm with him.",
+      "description": "Ask Tanaka for a ticket and confirm with him.",
       "idx": 1,
       "location_id": "station",
       "mission_id": "buy_a_ticket",
-      "npc_id": "13",
+      "npc_id": "station_staff",
       "type": "sayPhrase"
     },
     {
@@ -873,14 +873,14 @@
       "ai_instruction": "",
       "checkpoints": [
         {
-          "aiInstruction": "ん？どうかした？まず 「すみません」って よびかけて みて！",
+          "aiInstruction": "はい、なんでしょうか？まずは 「すみません」と よびかけて ください。",
           "hint": "",
           "matches": [
             "すみません"
           ]
         },
         {
-          "aiInstruction": "どういたしまして！ていねいに 「ありがとう ございます」って いってみて！",
+          "aiInstruction": "どういたしまして。ていねいに 「ありがとう ございます」と いって みましょう。",
           "hint": "",
           "matches": [
             "ありがとう",
@@ -888,11 +888,11 @@
           ]
         }
       ],
-      "description": "Get Hiroshi's attention with 'sumimasen' and thank him politely.",
+      "description": "Get Tanaka's attention with 'sumimasen' and thank him politely.",
       "idx": 1,
       "location_id": "station",
       "mission_id": "excuse_me_station",
-      "npc_id": "13",
+      "npc_id": "station_staff",
       "type": "sayPhrase"
     },
     {
@@ -999,25 +999,25 @@
       "ai_instruction": "",
       "checkpoints": [
         {
-          "aiInstruction": "ん？どうかした？まず 「すみません」って よびかけて。",
+          "aiInstruction": "はい、なんでしょうか？まずは 「すみません」と よびかけて ください。",
           "hint": "",
           "matches": [
             "すみません"
           ]
         },
         {
-          "aiInstruction": "トイレ？あそこだよ。「トイレは どこ ですか」って きいてみて。",
+          "aiInstruction": "トイレですね。あちらです。「トイレは どこ ですか」と きいて ください。",
           "hint": "",
           "matches": [
             "トイレ"
           ]
         }
       ],
-      "description": "Get Hiroshi's attention and ask where the restroom is.",
+      "description": "Get Tanaka's attention and ask where the restroom is.",
       "idx": 1,
       "location_id": "station",
       "mission_id": "find_the_toilet",
-      "npc_id": "13",
+      "npc_id": "station_staff",
       "type": "sayPhrase"
     },
     {
@@ -1464,16 +1464,16 @@
       "ai_instruction": "",
       "checkpoints": [
         {
-          "aiInstruction": "やあ！えきで あえて うれしいよ。げんきに 「こんにちは」って いってみて！",
+          "aiInstruction": "いらっしゃいませ。えきへ ようこそ。げんきに 「こんにちは」と いって みて ください。",
           "hint": "",
           "matches": []
         }
       ],
-      "description": "Say hello to Hiroshi at the train station.",
+      "description": "Say hello to Tanaka at the train station.",
       "idx": 1,
       "location_id": "station",
       "mission_id": "meet_tanaka_shrine",
-      "npc_id": "13",
+      "npc_id": "station_staff",
       "type": "talkToNpc"
     },
     {
@@ -2098,7 +2098,7 @@
       "ai_instruction": "",
       "checkpoints": [
         {
-          "aiInstruction": "きっぷの かいかた、おしえたよ。ていねいに 「ありがとう ございます」って いってみて！",
+          "aiInstruction": "きっぷの かいかたを ごあんない しました。ていねいに 「ありがとう ございます」と いって みて ください。",
           "hint": "",
           "matches": [
             "ありがとう",
@@ -2106,11 +2106,11 @@
           ]
         }
       ],
-      "description": "Thank Hiroshi politely: \"arigatou gozaimasu\".",
+      "description": "Thank Tanaka politely: \"arigatou gozaimasu\".",
       "idx": 1,
       "location_id": "station",
       "mission_id": "thank_you_everywhere",
-      "npc_id": "13",
+      "npc_id": "station_staff",
       "type": "sayPhrase"
     },
     {
@@ -2152,7 +2152,7 @@
           ]
         },
         {
-          "aiInstruction": "はい、きっぷ。つぎは のりば ですね。「でんしゃは どこ ですか」と きいてみて。",
+          "aiInstruction": "はい、きっぷです。つぎは のりば ですね。「でんしゃは どこ ですか」と きいて ください。",
           "hint": "",
           "matches": [
             "でんしゃ",
@@ -2160,7 +2160,7 @@
           ]
         },
         {
-          "aiInstruction": "2ばん のりば だよ。さいごは 「ありがとう ございます」で かんぺき！",
+          "aiInstruction": "2ばん のりば です。さいごは 「ありがとう ございます」で かんぺき です！",
           "hint": "",
           "matches": [
             "ありがとう",
@@ -2168,11 +2168,11 @@
           ]
         }
       ],
-      "description": "Buy a ticket from Hiroshi, ask where the train is, and thank him.",
+      "description": "Buy a ticket from Tanaka, ask where the train is, and thank him.",
       "idx": 1,
       "location_id": "station",
       "mission_id": "ticket_and_train",
-      "npc_id": "13",
+      "npc_id": "station_staff",
       "type": "sayPhrase"
     },
     {
@@ -2255,11 +2255,11 @@
           ]
         }
       ],
-      "description": "Ask Hiroshi where the train is and thank him politely.",
+      "description": "Ask Tanaka where the train is and thank him politely.",
       "idx": 1,
       "location_id": "station",
       "mission_id": "where_is_the_train",
-      "npc_id": "13",
+      "npc_id": "station_staff",
       "type": "sayPhrase"
     },
     {
@@ -2642,11 +2642,11 @@
           ]
         }
       ],
-      "description": "Buy Hana's ticket from Hiroshi: \"kippu wo kudasai\".",
+      "description": "Buy Hana's ticket from Tanaka: \"kippu wo kudasai\".",
       "idx": 3,
       "location_id": "station",
       "mission_id": "hana_station_trip",
-      "npc_id": "13",
+      "npc_id": "station_staff",
       "type": "sayPhrase"
     },
     {
@@ -2731,18 +2731,18 @@
       "ai_instruction": "",
       "checkpoints": [
         {
-          "aiInstruction": "はい、なあに？ていねいに 「すみません」って どうぞ！",
+          "aiInstruction": "はい、なんでしょうか？ていねいに 「すみません」と どうぞ。",
           "hint": "",
           "matches": [
             "すみません"
           ]
         }
       ],
-      "description": "Get Hiroshi's attention: \"sumimasen\".",
+      "description": "Get Tanaka's attention: \"sumimasen\".",
       "idx": 3,
       "location_id": "station",
       "mission_id": "sumimasen_round",
-      "npc_id": "13",
+      "npc_id": "station_staff",
       "type": "sayPhrase"
     },
     {
@@ -3115,22 +3115,22 @@
           "ai_instruction": "",
           "checkpoints": [
             {
-              "aiInstruction": "やあ！えきで あえて うれしいよ。げんきに 「こんにちは」って いってみて！",
+              "aiInstruction": "いらっしゃいませ。えきへ ようこそ。げんきに 「こんにちは」と いって みて ください。",
               "hint": "",
               "matches": []
             }
           ],
-          "description": "Say hello to Hiroshi at the train station.",
+          "description": "Say hello to Tanaka at the train station.",
           "idx": 1,
           "location_id": "station",
           "mission_id": "meet_tanaka_shrine",
-          "npc_id": "13",
+          "npc_id": "station_staff",
           "type": "talkToNpc"
         }
       ],
       "sort_order": 1,
-      "summary": "Aoi-sensei asks you to meet Hiroshi at the train station and greet him in Japanese.",
-      "title": "Meet Hiroshi at the Train Station",
+      "summary": "Aoi-sensei asks you to meet Tanaka at the train station and greet him in Japanese.",
+      "title": "Meet Tanaka at the Train Station",
       "xp_reward": 60
     },
     {
@@ -3206,16 +3206,16 @@
               ]
             }
           ],
-          "description": "Ask Hiroshi where the station is.",
+          "description": "Ask Tanaka where the station is.",
           "idx": 1,
           "location_id": "station",
           "mission_id": "ask_the_way",
-          "npc_id": "13",
+          "npc_id": "station_staff",
           "type": "sayPhrase"
         }
       ],
       "sort_order": 3,
-      "summary": "Alex is lost. Go to the station and ask Hiroshi where it is, in Japanese.",
+      "summary": "Alex is lost. Go to the station and ask Tanaka where it is, in Japanese.",
       "title": "Ask the Way",
       "xp_reward": 50
     },
@@ -4352,14 +4352,14 @@
           "ai_instruction": "",
           "checkpoints": [
             {
-              "aiInstruction": "ん？どうかした？まず 「すみません」って よびかけて みて！",
+              "aiInstruction": "はい、なんでしょうか？まずは 「すみません」と よびかけて ください。",
               "hint": "",
               "matches": [
                 "すみません"
               ]
             },
             {
-              "aiInstruction": "どういたしまして！ていねいに 「ありがとう ございます」って いってみて！",
+              "aiInstruction": "どういたしまして。ていねいに 「ありがとう ございます」と いって みましょう。",
               "hint": "",
               "matches": [
                 "ありがとう",
@@ -4367,16 +4367,16 @@
               ]
             }
           ],
-          "description": "Get Hiroshi's attention with 'sumimasen' and thank him politely.",
+          "description": "Get Tanaka's attention with 'sumimasen' and thank him politely.",
           "idx": 1,
           "location_id": "station",
           "mission_id": "excuse_me_station",
-          "npc_id": "13",
+          "npc_id": "station_staff",
           "type": "sayPhrase"
         }
       ],
       "sort_order": 21,
-      "summary": "Alex needs help at the station. Get Hiroshi's attention politely, then thank him.",
+      "summary": "Alex needs help at the station. Get Tanaka's attention politely, then thank him.",
       "title": "Excuse Me at the Station",
       "xp_reward": 50
     },
@@ -4677,7 +4677,7 @@
           "ai_instruction": "",
           "checkpoints": [
             {
-              "aiInstruction": "きっぷの かいかた、おしえたよ。ていねいに 「ありがとう ございます」って いってみて！",
+              "aiInstruction": "きっぷの かいかたを ごあんない しました。ていねいに 「ありがとう ございます」と いって みて ください。",
               "hint": "",
               "matches": [
                 "ありがとう",
@@ -4685,11 +4685,11 @@
               ]
             }
           ],
-          "description": "Thank Hiroshi politely: \"arigatou gozaimasu\".",
+          "description": "Thank Tanaka politely: \"arigatou gozaimasu\".",
           "idx": 1,
           "location_id": "station",
           "mission_id": "thank_you_everywhere",
-          "npc_id": "13",
+          "npc_id": "station_staff",
           "type": "sayPhrase"
         },
         {
@@ -4722,7 +4722,7 @@
         }
       ],
       "sort_order": 27,
-      "summary": "Hana says gratitude opens doors. Thank Hiroshi at the station politely, then thank Sato at the konbini.",
+      "summary": "Hana says gratitude opens doors. Thank Tanaka at the station politely, then thank Sato at the konbini.",
       "title": "Thank You Everywhere",
       "xp_reward": 60
     },
@@ -4776,23 +4776,23 @@
           "ai_instruction": "",
           "checkpoints": [
             {
-              "aiInstruction": "はい、なあに？ていねいに 「すみません」って どうぞ！",
+              "aiInstruction": "はい、なんでしょうか？ていねいに 「すみません」と どうぞ。",
               "hint": "",
               "matches": [
                 "すみません"
               ]
             }
           ],
-          "description": "Get Hiroshi's attention: \"sumimasen\".",
+          "description": "Get Tanaka's attention: \"sumimasen\".",
           "idx": 3,
           "location_id": "station",
           "mission_id": "sumimasen_round",
-          "npc_id": "13",
+          "npc_id": "station_staff",
           "type": "sayPhrase"
         }
       ],
       "sort_order": 28,
-      "summary": "Mika wants you to practice getting attention politely: say \"sumimasen\" to Alex in town, then to Hiroshi at the station.",
+      "summary": "Mika wants you to practice getting attention politely: say \"sumimasen\" to Alex in town, then to Tanaka at the station.",
       "title": "The Sumimasen Round",
       "xp_reward": 50
     },
@@ -4854,6 +4854,19 @@
           "npc_id": "teacher",
           "type": "sayPhrase"
         }
+      ],
+      "prerequisite_mission_ids": [
+        "meet_tanaka_shrine",
+        "shrine_lesson",
+        "greet_sensei_classroom",
+        "excuse_me_station",
+        "konbini_greeting",
+        "polite_police_station",
+        "park_greeting_hana",
+        "yes_no_drill",
+        "greet_the_town",
+        "thank_you_everywhere",
+        "sumimasen_round"
       ],
       "sort_order": 29,
       "summary": "Aoi-sensei's final level 1 check: hello, polite thanks, yes, and no — all in one visit to the classroom.",
@@ -4921,9 +4934,9 @@
         {
           "ai_instruction": "",
           "checkpoints": [],
-          "description": "Go to the station (えき).",
+          "description": "Find Hiroshi in the town (まち).",
           "idx": 0,
-          "location_id": "station",
+          "location_id": "central_street",
           "mission_id": "ask_name_hiroshi",
           "npc_id": null,
           "type": "goToLocation"
@@ -4949,14 +4962,14 @@
           ],
           "description": "Get Hiroshi's attention and ask his name in Japanese.",
           "idx": 1,
-          "location_id": "station",
+          "location_id": "town",
           "mission_id": "ask_name_hiroshi",
           "npc_id": "13",
           "type": "sayPhrase"
         }
       ],
       "sort_order": 31,
-      "summary": "Alex forgot Hiroshi's name again. Go to the station and ask him politely, in Japanese.",
+      "summary": "Alex forgot Hiroshi's name again. Find him in the town and ask him politely, in Japanese.",
       "title": "Ask Hiroshi's Name",
       "xp_reward": 50
     },
@@ -5415,6 +5428,19 @@
           "npc_id": "teacher",
           "type": "sayPhrase"
         }
+      ],
+      "prerequisite_mission_ids": [
+        "onigiri_run",
+        "ask_the_way",
+        "intro_to_sensei",
+        "ask_name_hiroshi",
+        "introduce_to_sato",
+        "polite_intro_police",
+        "meet_hana_garden",
+        "ask_alex_name",
+        "japan_echo_photo",
+        "name_drill_classroom",
+        "introduce_the_town"
       ],
       "sort_order": 39,
       "summary": "Aoi-sensei's final level 2 check: greet, introduce yourself, ask a name, and answer \"yes\".",
@@ -5966,6 +5992,18 @@
           "type": "sayPhrase"
         }
       ],
+      "prerequisite_mission_ids": [
+        "ramen_taste_test",
+        "onigiri_order",
+        "water_for_hana",
+        "kore_wo_kudasai",
+        "konbini_price_check",
+        "ocha_order",
+        "ramen_first_visit",
+        "ramen_price_check",
+        "teach_alex_order",
+        "konbini_full_order"
+      ],
       "sort_order": 49,
       "summary": "Aoi-sensei's final level 3 check: order water, order green tea, ask the price, and answer \"yes\".",
       "title": "The Ordering Review",
@@ -5993,30 +6031,30 @@
           "ai_instruction": "",
           "checkpoints": [
             {
-              "aiInstruction": "ん？どうかした？まず 「すみません」って よびかけて。",
+              "aiInstruction": "はい、なんでしょうか？まずは 「すみません」と よびかけて ください。",
               "hint": "",
               "matches": [
                 "すみません"
               ]
             },
             {
-              "aiInstruction": "トイレ？あそこだよ。「トイレは どこ ですか」って きいてみて。",
+              "aiInstruction": "トイレですね。あちらです。「トイレは どこ ですか」と きいて ください。",
               "hint": "",
               "matches": [
                 "トイレ"
               ]
             }
           ],
-          "description": "Get Hiroshi's attention and ask where the restroom is.",
+          "description": "Get Tanaka's attention and ask where the restroom is.",
           "idx": 1,
           "location_id": "station",
           "mission_id": "find_the_toilet",
-          "npc_id": "13",
+          "npc_id": "station_staff",
           "type": "sayPhrase"
         }
       ],
       "sort_order": 50,
-      "summary": "Alex really needs the restroom at the station. Ask Hiroshi where it is — in Japanese.",
+      "summary": "Alex really needs the restroom at the station. Ask Tanaka where it is — in Japanese.",
       "title": "Where Is the Restroom?",
       "xp_reward": 50
     },
@@ -6057,16 +6095,16 @@
               ]
             }
           ],
-          "description": "Ask Hiroshi for a ticket and confirm with him.",
+          "description": "Ask Tanaka for a ticket and confirm with him.",
           "idx": 1,
           "location_id": "station",
           "mission_id": "buy_a_ticket",
-          "npc_id": "13",
+          "npc_id": "station_staff",
           "type": "sayPhrase"
         }
       ],
       "sort_order": 51,
-      "summary": "Aoi-sensei's travel homework: buy a ticket from Hiroshi at the station, in Japanese.",
+      "summary": "Aoi-sensei's travel homework: buy a ticket from Tanaka at the station, in Japanese.",
       "title": "One Ticket, Please",
       "xp_reward": 50
     },
@@ -6108,16 +6146,16 @@
               ]
             }
           ],
-          "description": "Ask Hiroshi where the train is and thank him politely.",
+          "description": "Ask Tanaka where the train is and thank him politely.",
           "idx": 1,
           "location_id": "station",
           "mission_id": "where_is_the_train",
-          "npc_id": "13",
+          "npc_id": "station_staff",
           "type": "sayPhrase"
         }
       ],
       "sort_order": 52,
-      "summary": "Hana is visiting her sister and can't find the train. Ask Hiroshi for her.",
+      "summary": "Hana is visiting her sister and can't find the train. Ask Tanaka for her.",
       "title": "Where Is the Train?",
       "xp_reward": 50
     },
@@ -6252,7 +6290,7 @@
               ]
             },
             {
-              "aiInstruction": "はい、きっぷ。つぎは のりば ですね。「でんしゃは どこ ですか」と きいてみて。",
+              "aiInstruction": "はい、きっぷです。つぎは のりば ですね。「でんしゃは どこ ですか」と きいて ください。",
               "hint": "",
               "matches": [
                 "でんしゃ",
@@ -6260,7 +6298,7 @@
               ]
             },
             {
-              "aiInstruction": "2ばん のりば だよ。さいごは 「ありがとう ございます」で かんぺき！",
+              "aiInstruction": "2ばん のりば です。さいごは 「ありがとう ございます」で かんぺき です！",
               "hint": "",
               "matches": [
                 "ありがとう",
@@ -6268,16 +6306,16 @@
               ]
             }
           ],
-          "description": "Buy a ticket from Hiroshi, ask where the train is, and thank him.",
+          "description": "Buy a ticket from Tanaka, ask where the train is, and thank him.",
           "idx": 1,
           "location_id": "station",
           "mission_id": "ticket_and_train",
-          "npc_id": "13",
+          "npc_id": "station_staff",
           "type": "sayPhrase"
         }
       ],
       "sort_order": 55,
-      "summary": "Aoi-sensei's full station check: buy a ticket, ask where the train is, and thank Hiroshi.",
+      "summary": "Aoi-sensei's full station check: buy a ticket, ask where the train is, and thank Tanaka.",
       "title": "Ticket and Train",
       "xp_reward": 60
     },
@@ -6340,11 +6378,11 @@
               ]
             }
           ],
-          "description": "Buy Hana's ticket from Hiroshi: \"kippu wo kudasai\".",
+          "description": "Buy Hana's ticket from Tanaka: \"kippu wo kudasai\".",
           "idx": 3,
           "location_id": "station",
           "mission_id": "hana_station_trip",
-          "npc_id": "13",
+          "npc_id": "station_staff",
           "type": "sayPhrase"
         }
       ],
@@ -6519,6 +6557,17 @@
           "npc_id": "teacher",
           "type": "sayPhrase"
         }
+      ],
+      "prerequisite_mission_ids": [
+        "find_the_toilet",
+        "buy_a_ticket",
+        "where_is_the_train",
+        "going_to_the_station",
+        "teach_alex_directions",
+        "ticket_and_train",
+        "hana_station_trip",
+        "station_manners_drill",
+        "ask_hiroshi_train"
       ],
       "sort_order": 59,
       "summary": "Aoi-sensei's final level 4 check: say where you're going, buy a ticket, ask for the restroom, and answer \"yes\".",
@@ -7096,6 +7145,17 @@
           "npc_id": "teacher",
           "type": "sayPhrase"
         }
+      ],
+      "prerequisite_mission_ids": [
+        "menu_please",
+        "order_ramen_polite",
+        "the_bill_please",
+        "oishii_compliment",
+        "teach_alex_ramen",
+        "full_ramen_visit",
+        "mika_lunch_order",
+        "price_and_polite",
+        "dining_drill"
       ],
       "sort_order": 69,
       "summary": "Aoi-sensei's final level 5 check: order ramen, compliment it, ask for the bill, and answer \"yes\".",
