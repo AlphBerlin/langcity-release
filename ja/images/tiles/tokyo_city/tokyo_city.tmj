@@ -1623,8 +1623,8 @@
                  "type":"",
                  "visible":true,
                  "width":48,
-                 "x":0,
-                 "y":0
+                 "x":-49.1525423728814,
+                 "y":1.69491525423734
                 }, 
                 {
                  "height":2304,
@@ -1635,8 +1635,8 @@
                  "type":"",
                  "visible":true,
                  "width":48,
-                 "x":7728,
-                 "y":0
+                 "x":7778.84745762712,
+                 "y":1.6949152542374
                 }, 
                 {
                  "height":48,
@@ -1647,8 +1647,8 @@
                  "type":"",
                  "visible":true,
                  "width":7776,
-                 "x":0,
-                 "y":2256
+                 "x":3.38983050847492,
+                 "y":2305.15254237288
                 }, 
                 {
                  "height":147.266427668021,
@@ -4074,7 +4074,7 @@
                  "width":69.1670670826838,
                  "x":2704.10601404056,
                  "y":661.183243525741
-                },
+                }, 
                 {
                  "height":92.0441,
                  "id":481,
@@ -4278,6 +4278,18 @@
                  "width":131.828756163512,
                  "x":98.711039446477,
                  "y":408.30867596628
+                }, 
+                {
+                 "height":48,
+                 "id":534,
+                 "name":"",
+                 "opacity":1,
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":7776,
+                 "x":0.135593220339729,
+                 "y":-49.4237288135593
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -6438,12 +6450,12 @@
                          "name":"requiredLevel",
                          "type":"string",
                          "value":"1"
-                        },
+                        }, 
                         {
                          "name":"targetSpawn",
                          "type":"string",
                          "value":"default"
-                        },
+                        }, 
                         {
                          "name":"targetZone",
                          "type":"string",
@@ -6455,7 +6467,7 @@
                  "width":51.6661,
                  "x":2483.57493531436,
                  "y":1665.41166223038
-                },
+                }, 
                 {
                  "height":101.944,
                  "id":479,
@@ -6565,7 +6577,7 @@
          "y":0
         }],
  "nextlayerid":12,
- "nextobjectid":534,
+ "nextobjectid":535,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.12.2",
