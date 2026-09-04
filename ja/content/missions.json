@@ -674,16 +674,16 @@
       "ai_instruction": "",
       "checkpoints": [
         {
-          "aiInstruction": "How do I ask someone's name in Japanese? Teach me! Say \"おなまえは なん ですか\".",
-          "hint": "",
+          "aiInstruction": "Alex looks lost and asks what question he should ask someone in Japanese to find out their name.",
+          "hint": "Ask their name in polite Japanese.",
           "matches": [
             "なまえ",
             "なん"
           ]
         },
         {
-          "aiInstruction": "Nice! And how do I introduce myself? Show me — say \"わたしは 〜 です\"!",
-          "hint": "",
+          "aiInstruction": "Alex nods and asks what sentence he should use to introduce his own name in return.",
+          "hint": "Introduce your own name.",
           "matches": [
             "わたし",
             "です"
@@ -701,15 +701,15 @@
       "ai_instruction": "",
       "checkpoints": [
         {
-          "aiInstruction": "おつかれさまです…ん？まず 「すみません」って どうぞ。",
-          "hint": "",
+          "aiInstruction": "Hiroshi is staring down at his phone on the platform until someone politely calls out to him.",
+          "hint": "Get his attention politely first.",
           "matches": [
             "すみません"
           ]
         },
         {
-          "aiInstruction": "でんしゃの れんしゅう？いいよ。「でんしゃは どこ ですか」って きいてみて。",
-          "hint": "",
+          "aiInstruction": "Hiroshi looks up and asks which line or platform the traveler is trying to find.",
+          "hint": "Ask where the train or platform is.",
           "matches": [
             "でんしゃ",
             "どこ"
@@ -727,15 +727,15 @@
       "ai_instruction": "",
       "checkpoints": [
         {
-          "aiInstruction": "ん？なあに？まず 「すみません」って よんでみて！",
-          "hint": "",
+          "aiInstruction": "Hiroshi is checking his pocket watch on the platform; wait for the player to get his attention.",
+          "hint": "Get his attention politely first.",
           "matches": [
             "すみません"
           ]
         },
         {
-          "aiInstruction": "ぼくの なまえ、きいて くれるの？「おなまえは なん ですか」って どうぞ！",
-          "hint": "",
+          "aiInstruction": "Hiroshi looks up curiously and waits for the player to ask his name.",
+          "hint": "Ask his name politely.",
           "matches": [
             "なまえ",
             "なん"
@@ -753,8 +753,8 @@
       "ai_instruction": "",
       "checkpoints": [
         {
-          "aiInstruction": "こんにちは。みちに まよいましたか？「えき は どこ ですか」と きいてみて！",
-          "hint": "",
+          "aiInstruction": "Hiroshi is waiting near the crossing; wait for the player to ask directions to the train station.",
+          "hint": "Ask where the train station is.",
           "matches": [
             "えき",
             "どこ"
@@ -772,16 +772,16 @@
       "ai_instruction": "",
       "checkpoints": [
         {
-          "aiInstruction": "きっぷですね。「きっぷを ください」と いってみて。",
-          "hint": "",
+          "aiInstruction": "Tanaka slides open the ticket window and asks how he can help with train travel today.",
+          "hint": "Ask for a ticket politely.",
           "matches": [
             "きっぷ",
             "ください"
           ]
         },
         {
-          "aiInstruction": "1まいで いいですか？「はい」と こたえて。",
-          "hint": "",
+          "aiInstruction": "Tanaka confirms whether you need a single ticket, waiting for an affirmative answer.",
+          "hint": "Confirm affirmatively.",
           "matches": [
             "はい"
           ]
@@ -798,24 +798,24 @@
       "ai_instruction": "",
       "checkpoints": [
         {
-          "aiInstruction": "レストランの れんしゅう です！まず 「メニューを おねがいします」から。",
-          "hint": "",
+          "aiInstruction": "Sensei acts as a restaurant server approaching your table and asks how she can help.",
+          "hint": "Ask for the menu politely.",
           "matches": [
             "メニュー",
             "おねがいします"
           ]
         },
         {
-          "aiInstruction": "いいですね！つぎは 「おかいけいを おねがいします」と いってみて。",
-          "hint": "",
+          "aiInstruction": "Sensei clears the mock dishes and asks if you are finished and ready to settle up.",
+          "hint": "Ask for the bill politely.",
           "matches": [
             "おかいけい",
             "おねがいします"
           ]
         },
         {
-          "aiInstruction": "もう おなかいっぱい ですか？「いいえ」と こたえてね。",
-          "hint": "",
+          "aiInstruction": "Sensei asks with a smile if you are already full, checking for a polite negative answer.",
+          "hint": "Answer 'no' politely.",
           "matches": [
             "いいえ"
           ]
@@ -832,31 +832,31 @@
       "ai_instruction": "",
       "checkpoints": [
         {
-          "aiInstruction": "レベル5 ふくしゅう テストです！まず 「ラーメンを おねがいします」から。",
-          "hint": "",
+          "aiInstruction": "Sensei acts as a noodle shop master and asks what you feel like ordering today.",
+          "hint": "Order ramen politely.",
           "matches": [
             "ラーメン",
             "おねがいします"
           ]
         },
         {
-          "aiInstruction": "いいですね！つぎは 「おいしい です」と いってみて。",
-          "hint": "",
+          "aiInstruction": "Sensei asks how you find the taste of the noodle broth she prepared.",
+          "hint": "Compliment the food.",
           "matches": [
             "おいしい"
           ]
         },
         {
-          "aiInstruction": "さいごに おかいけい。「おかいけいを おねがいします」と どうぞ。",
-          "hint": "",
+          "aiInstruction": "Sensei sets down the check and waits for you to politely ask to pay.",
+          "hint": "Ask for the bill politely.",
           "matches": [
             "おかいけい",
             "おねがいします"
           ]
         },
         {
-          "aiInstruction": "ひとりで おみせに いけそう ですか？「はい」と こたえられたら レベル5 クリア です！",
-          "hint": "",
+          "aiInstruction": "Sensei asks warmly whether you feel confident ordering at restaurants now, waiting for an affirmative 'yes'.",
+          "hint": "Answer 'yes' affirmatively.",
           "matches": [
             "はい"
           ]
@@ -873,15 +873,15 @@
       "ai_instruction": "",
       "checkpoints": [
         {
-          "aiInstruction": "はい、なんでしょうか？まずは 「すみません」と よびかけて ください。",
-          "hint": "",
+          "aiInstruction": "Tanaka is busy sorting timetable papers behind the information desk; wait for the player to get his attention.",
+          "hint": "Get his attention politely first.",
           "matches": [
             "すみません"
           ]
         },
         {
-          "aiInstruction": "どういたしまして。ていねいに 「ありがとう ございます」と いって みましょう。",
-          "hint": "",
+          "aiInstruction": "Tanaka provides helpful station directions and waits for the player's polite thanks.",
+          "hint": "Thank him politely.",
           "matches": [
             "ありがとう",
             "ございます"
@@ -999,15 +999,15 @@
       "ai_instruction": "",
       "checkpoints": [
         {
-          "aiInstruction": "はい、なんでしょうか？まずは 「すみません」と よびかけて ください。",
-          "hint": "",
+          "aiInstruction": "Tanaka is checking the departure board at the station; wait for the player to get his attention.",
+          "hint": "Get his attention politely first.",
           "matches": [
             "すみません"
           ]
         },
         {
-          "aiInstruction": "トイレですね。あちらです。「トイレは どこ ですか」と きいて ください。",
-          "hint": "",
+          "aiInstruction": "Tanaka turns and asks what facility in the station the traveler is searching for.",
+          "hint": "Ask where the restroom is.",
           "matches": [
             "トイレ"
           ]
@@ -1024,38 +1024,38 @@
       "ai_instruction": "",
       "checkpoints": [
         {
-          "aiInstruction": "いらっしゃい！きょうは フルコースで いこう。まず 「こんにちは」から だ。",
-          "hint": "",
+          "aiInstruction": "Master Gen wipes down the counter and shouts a hearty welcome, waiting for a greeting.",
+          "hint": "Greet Master Gen.",
           "matches": [
             "こんにちは"
           ]
         },
         {
-          "aiInstruction": "つぎは メニュー だな。「メニューを おねがいします」と どうぞ。",
-          "hint": "",
+          "aiInstruction": "Master Gen asks what he can get for you today, waiting for you to ask for the menu.",
+          "hint": "Ask for the menu.",
           "matches": [
             "メニュー",
             "おねがいします"
           ]
         },
         {
-          "aiInstruction": "はい、メニュー。ちゅうもんは 「ラーメンを おねがいします」で ばっちり だ。",
-          "hint": "",
+          "aiInstruction": "Master Gen nods and asks what dish you'd like to order from the menu.",
+          "hint": "Order ramen politely.",
           "matches": [
             "ラーメン",
             "おねがいします"
           ]
         },
         {
-          "aiInstruction": "どうだ？「おいしい です」って いって くれたら うれしいな。",
-          "hint": "",
+          "aiInstruction": "Master Gen serves the steaming bowl and asks how the first mouthful tastes.",
+          "hint": "Compliment the ramen.",
           "matches": [
             "おいしい"
           ]
         },
         {
-          "aiInstruction": "ごちそうさま！さいごは 「おかいけいを おねがいします」で かんぺき だ。",
-          "hint": "",
+          "aiInstruction": "Master Gen sees the empty bowl and waits for you to request the bill.",
+          "hint": "Ask for the bill.",
           "matches": [
             "おかいけい",
             "おねがいします"
@@ -1073,16 +1073,16 @@
       "ai_instruction": "",
       "checkpoints": [
         {
-          "aiInstruction": "あら、おでかけ？「えきに いきます」って おしえて。",
-          "hint": "",
+          "aiInstruction": "Mika spots you outside the store with a bag and asks where you are heading off to today.",
+          "hint": "Say you are going to the station.",
           "matches": [
             "えき",
             "いきます"
           ]
         },
         {
-          "aiInstruction": "でんしゃに のるの？「はい」と こたえてね。",
-          "hint": "",
+          "aiInstruction": "Mika asks if you're taking the train from the station, waiting for an affirmative 'yes'.",
+          "hint": "Answer 'yes'.",
           "matches": [
             "はい"
           ]
@@ -1099,15 +1099,15 @@
       "ai_instruction": "",
       "checkpoints": [
         {
-          "aiInstruction": "あら、いらっしゃい！あいさつから はじめましょう。「こんにちは」と いってみて。",
-          "hint": "",
+          "aiInstruction": "Aoi-sensei looks up from her desk with a warm smile, waiting for a polite classroom greeting.",
+          "hint": "Greet Sensei politely.",
           "matches": [
             "こんにちは"
           ]
         },
         {
-          "aiInstruction": "じゅんびは いいですか？おおきな こえで 「はい」と こたえてね。",
-          "hint": "",
+          "aiInstruction": "Aoi-sensei asks if you are ready to begin today's lesson, waiting for an affirmative 'yes'.",
+          "hint": "Answer 'yes' when asked if ready.",
           "matches": [
             "はい"
           ]
@@ -1124,8 +1124,8 @@
       "ai_instruction": "",
       "checkpoints": [
         {
-          "aiInstruction": "あら、あいさつ まわり？すてき！「こんにちは」と いってみて。",
-          "hint": "",
+          "aiInstruction": "Mika is sweeping outside the shop and waves, waiting for a cheerful neighborhood greeting.",
+          "hint": "Greet Mika politely.",
           "matches": [
             "こんにちは"
           ]
@@ -1142,30 +1142,30 @@
       "ai_instruction": "",
       "checkpoints": [
         {
-          "aiInstruction": "レベル1 ふくしゅう テストです！まず 「こんにちは」から。",
-          "hint": "",
+          "aiInstruction": "Aoi-sensei welcomes you into the classroom and pauses for a proper greeting.",
+          "hint": "Greet Sensei politely.",
           "matches": [
             "こんにちは"
           ]
         },
         {
-          "aiInstruction": "いいですね！つぎは 「ありがとう ございます」を ていねいに。",
-          "hint": "",
+          "aiInstruction": "Aoi-sensei hands you a helpful reference handout and waits for your polite thanks.",
+          "hint": "Thank her politely.",
           "matches": [
             "ありがとう",
             "ございます"
           ]
         },
         {
-          "aiInstruction": "わかりましたか？「はい」と こたえて。",
-          "hint": "",
+          "aiInstruction": "Aoi-sensei asks whether the explanation was clear, waiting for a confident 'yes'.",
+          "hint": "Answer 'yes' affirmatively.",
           "matches": [
             "はい"
           ]
         },
         {
-          "aiInstruction": "さいごに 「いいえ」も いえたら レベル1 クリア です！",
-          "hint": "",
+          "aiInstruction": "Aoi-sensei asks if you have any doubts left about the greetings, waiting for a clear 'no'.",
+          "hint": "Answer 'no' clearly.",
           "matches": [
             "いいえ"
           ]
@@ -1182,8 +1182,8 @@
       "ai_instruction": "",
       "checkpoints": [
         {
-          "aiInstruction": "えきまで いきたいの。いっしょに いって くれる？「えきに いきます」って いって おくれ。",
-          "hint": "",
+          "aiInstruction": "Hana meets you by the garden gate and asks where the two of you are walking together.",
+          "hint": "Say you are going to the station.",
           "matches": [
             "えき",
             "いきます"
@@ -1201,15 +1201,15 @@
       "ai_instruction": "",
       "checkpoints": [
         {
-          "aiInstruction": "あら、あたらしい がくせいさん？まず 「こんにちは」と あいさつ して。",
-          "hint": "",
+          "aiInstruction": "Aoi-sensei welcomes the new student at the classroom door and waits for an initial greeting.",
+          "hint": "Greet Sensei politely.",
           "matches": [
             "こんにちは"
           ]
         },
         {
-          "aiInstruction": "はじめまして！「わたしは 〜 です」で じこしょうかい してみて。",
-          "hint": "",
+          "aiInstruction": "Aoi-sensei introduces herself and kindly asks what she should call the new student.",
+          "hint": "Introduce your name.",
           "matches": [
             "わたし",
             "です"
@@ -1227,8 +1227,8 @@
       "ai_instruction": "",
       "checkpoints": [
         {
-          "aiInstruction": "あら、はじめまして！「わたしは 〜 です」って どうぞ。",
-          "hint": "",
+          "aiInstruction": "Mika introduces herself with a bright smile and asks for your name.",
+          "hint": "Introduce yourself to Mika.",
           "matches": [
             "わたし",
             "です"
@@ -1246,15 +1246,8 @@
       "ai_instruction": "",
       "checkpoints": [
         {
-          "aiInstruction": "いらっしゃいませ！まずは げんきに 「こんにちは」と どうぞ。",
-          "hint": "",
-          "matches": [
-            "こんにちは"
-          ]
-        },
-        {
-          "aiInstruction": "はじめまして！じょうきゃくさんの おなまえ、「わたしは 〜 です」で おしえて ください。",
-          "hint": "",
+          "aiInstruction": "Sato bows at the cash register, introduces himself warmly, and asks for the regular customer's name.",
+          "hint": "Introduce yourself to Sato.",
           "matches": [
             "わたし",
             "です"
@@ -1272,17 +1265,10 @@
       "ai_instruction": "",
       "checkpoints": [
         {
-          "aiInstruction": "この しゃしん、どこだと おもうね？「にほん ですか」って きいて ごらん。",
-          "hint": "",
+          "aiInstruction": "Hana holds up an old scenic photograph and asks whether you can tell if it shows Japan.",
+          "hint": "Ask if it's Japan.",
           "matches": [
             "にほん"
-          ]
-        },
-        {
-          "aiInstruction": "せいかい！にほん だよ。にほんは たのしい ですか？「はい」って こたえて おくれ。",
-          "hint": "",
-          "matches": [
-            "はい"
           ]
         }
       ],
@@ -1297,14 +1283,14 @@
       "ai_instruction": "This is a real konbini transaction. Stay fully in character as Sato — greet the player when they approach, ask what they'd like when they haven't ordered yet, state a price once they've ordered, and accept their thanks warmly. Never narrate which step of the exchange you're on.",
       "checkpoints": [
         {
-          "aiInstruction": "Target: 「こんにちは」. Look up as the player approaches and wait for them to greet you before addressing what they want — don't greet them first with anything that sounds like a completed exchange.",
+          "aiInstruction": "Look up as the player approaches and wait for them to greet you before addressing what they want — don't greet them first with anything that sounds like a completed exchange.",
           "hint": "Shopkeepers usually get a greeting before you ask for anything.",
           "matches": [
             "こんにちは"
           ]
         },
         {
-          "aiInstruction": "Target: 「おにぎりを ください」. Once greeted, ask naturally what they're looking for today (e.g. なにに しますか) instead of stating the item yourself.",
+          "aiInstruction": "Once greeted, ask naturally what they're looking for today (e.g. なにに しますか) instead of stating the item yourself.",
           "hint": "Ask for what you'd like, politely, using ください.",
           "matches": [
             "おにぎり",
@@ -1312,14 +1298,14 @@
           ]
         },
         {
-          "aiInstruction": "Target: 「いくら ですか」. After confirming their onigiri order, do not volunteer the price — wait for them to ask, and if they don't after a turn, ask if they'd like to know how much it is.",
+          "aiInstruction": "After confirming their onigiri order, do not volunteer the price — wait for them to ask, and if they don't after a turn, ask if they'd like to know how much it is.",
           "hint": "You don't know the price yet — that's worth asking about.",
           "matches": [
             "いくら"
           ]
         },
         {
-          "aiInstruction": "Target: 「ありがとう ございます」. State the price (150えん です) and hand over the item, then wait for their thanks — don't thank them first in a way that closes the exchange before they do.",
+          "aiInstruction": "State the price (150えん です) and hand over the item, then wait for their thanks — don't thank them first in a way that closes the exchange before they do.",
           "hint": "A polite send-off is the natural way to close out a purchase.",
           "matches": [
             "ありがとう",
@@ -1338,15 +1324,15 @@
       "ai_instruction": "",
       "checkpoints": [
         {
-          "aiInstruction": "いらっしゃいませ！ていねいな あいさつ、だいかんげい ですよ。「こんにちは」と どうぞ。",
-          "hint": "",
+          "aiInstruction": "Sato welcomes you cheerfully as you walk through the automatic doors, prompting a greeting.",
+          "hint": "Greet Sato politely.",
           "matches": [
             "こんにちは"
           ]
         },
         {
-          "aiInstruction": "おかいあげ ありがとう ございます！「ありがとう」って いって くれると うれしいな。",
-          "hint": "",
+          "aiInstruction": "Sato hands you your receipt and bagged purchase with a smile, waiting for your thanks.",
+          "hint": "Thank him after shopping.",
           "matches": [
             "ありがとう"
           ]
@@ -1363,15 +1349,15 @@
       "ai_instruction": "",
       "checkpoints": [
         {
-          "aiInstruction": "ねだんが きになる ものが ありますか？「いくら ですか」と きいてみて。",
-          "hint": "",
+          "aiInstruction": "Sato notices you inspecting an item on the shelf without a tag and asks if you have a question about it.",
+          "hint": "Ask how much it costs.",
           "matches": [
             "いくら"
           ]
         },
         {
-          "aiInstruction": "300えん です。おしえて もらったら 「ありがとう ございます」ですよ。",
-          "hint": "",
+          "aiInstruction": "Sato clearly states the price of the item and waits for your polite thanks.",
+          "hint": "Thank him politely.",
           "matches": [
             "ありがとう",
             "ございます"
@@ -1389,16 +1375,16 @@
       "ai_instruction": "",
       "checkpoints": [
         {
-          "aiInstruction": "ジェスチャーは もう いりませんよ。「これを ください」と いってみて。",
-          "hint": "",
+          "aiInstruction": "Sato looks up attentively from the counter and asks which snack you have chosen from the display.",
+          "hint": "Order 'this one please'.",
           "matches": [
             "これ",
             "ください"
           ]
         },
         {
-          "aiInstruction": "これですか？「はい」と こたえて ください。",
-          "hint": "",
+          "aiInstruction": "Sato holds up the selected snack package to confirm if this is the one you wanted, waiting for 'yes'.",
+          "hint": "Answer 'yes' to confirm.",
           "matches": [
             "はい"
           ]
@@ -1415,7 +1401,7 @@
       "ai_instruction": "",
       "checkpoints": [
         {
-          "aiInstruction": "たいへん！さいふを なくしちゃったの。こうばんに とどけを だしてほしいんだけど、いって くれる？",
+          "aiInstruction": "Hana is flustered near the shrine entrance and tells you she has misplaced her purse, asking for your help.",
           "hint": "",
           "matches": []
         }
@@ -1431,25 +1417,18 @@
       "ai_instruction": "",
       "checkpoints": [
         {
-          "aiInstruction": "あら、あたらしい かおね。おばあさんに 「こんにちは」と あいさつ してくれる？",
-          "hint": "",
+          "aiInstruction": "Hana looks up from trimming flowers in the community garden, waiting for a friendly greeting.",
+          "hint": "Greet Hana politely.",
           "matches": [
             "こんにちは"
           ]
         },
         {
-          "aiInstruction": "はじめまして。おなまえは なあに？「わたしは 〜 です」って いって おくれ。",
-          "hint": "",
+          "aiInstruction": "Hana introduces herself warmly and asks what name she may call you by.",
+          "hint": "Introduce your name.",
           "matches": [
             "わたし",
             "です"
-          ]
-        },
-        {
-          "aiInstruction": "この まちは すき ですか？「はい」と こたえて おくれ。",
-          "hint": "",
-          "matches": [
-            "はい"
           ]
         }
       ],
@@ -1464,7 +1443,7 @@
       "ai_instruction": "",
       "checkpoints": [
         {
-          "aiInstruction": "いらっしゃいませ。えきへ ようこそ。げんきに 「こんにちは」と いって みて ください。",
+          "aiInstruction": "Tanaka greets you warmly near the station gate, asking how your day in town is going.",
           "hint": "",
           "matches": []
         }
@@ -1480,16 +1459,16 @@
       "ai_instruction": "",
       "checkpoints": [
         {
-          "aiInstruction": "いらっしゃい！メニュー だね。「メニューを おねがいします」と いってみな。",
-          "hint": "",
+          "aiInstruction": "Master Gen welcomes you to the counter seat and waits for you to request to see the menu.",
+          "hint": "Ask for the menu politely.",
           "matches": [
             "メニュー",
             "おねがいします"
           ]
         },
         {
-          "aiInstruction": "はい、メニュー。もらったら 「ありがとう」だな。",
-          "hint": "",
+          "aiInstruction": "Master Gen slides a laminated menu across the counter and waits for your thanks.",
+          "hint": "Say thank you.",
           "matches": [
             "ありがとう"
           ]
@@ -1506,8 +1485,8 @@
       "ai_instruction": "",
       "checkpoints": [
         {
-          "aiInstruction": "レジから はなれられなくて…ゲンさんの ところで ちゅうもん してきて くれる？「はい」って いって！",
-          "hint": "",
+          "aiInstruction": "Mika is stuck minding the shop register alone and asks if you could fetch lunch from Gen's ramen shop, waiting for 'yes'.",
+          "hint": "Agree to help.",
           "matches": [
             "はい"
           ]
@@ -1524,24 +1503,24 @@
       "ai_instruction": "",
       "checkpoints": [
         {
-          "aiInstruction": "ドリルの じかんです！まず わたしに 「おなまえは なん ですか」と きいてみて。",
-          "hint": "",
+          "aiInstruction": "Aoi-sensei stands at the blackboard and prompts the student to ask her name in Japanese.",
+          "hint": "Ask Sensei her name.",
           "matches": [
             "なまえ",
             "なん"
           ]
         },
         {
-          "aiInstruction": "わたしは あおい です。つぎは あなたの ばん。「わたしは 〜 です」と どうぞ。",
-          "hint": "",
+          "aiInstruction": "Aoi-sensei answers with her name and gently invites the student to introduce themselves.",
+          "hint": "Introduce your name.",
           "matches": [
             "わたし",
             "です"
           ]
         },
         {
-          "aiInstruction": "あなたも せんせい ですか？「いいえ」と こたえてね。",
-          "hint": "",
+          "aiInstruction": "Aoi-sensei asks with a grin if you are also a teacher, waiting for a polite negative 'no'.",
+          "hint": "Answer 'no' politely.",
           "matches": [
             "いいえ"
           ]
@@ -1558,16 +1537,16 @@
       "ai_instruction": "",
       "checkpoints": [
         {
-          "aiInstruction": "おちゃですね、のど かわいて ますか？「おちゃを ください」と どうぞ。",
-          "hint": "",
+          "aiInstruction": "Sato welcomes you into the cool convenience store and asks what beverage you would like to buy.",
+          "hint": "Ask for tea politely.",
           "matches": [
             "おちゃ",
             "ください"
           ]
         },
         {
-          "aiInstruction": "まいど ありがとう ございます！「ありがとう」の れんしゅうも ばっちり ですね。",
-          "hint": "",
+          "aiInstruction": "Sato bags the bottle of green tea with a friendly bow, waiting for your thanks.",
+          "hint": "Say thank you.",
           "matches": [
             "ありがとう"
           ]
@@ -1584,16 +1563,16 @@
       "ai_instruction": "",
       "checkpoints": [
         {
-          "aiInstruction": "12じかん ことこと にた スープ だよ。「ラーメンを おねがいします」と どうぞ。",
-          "hint": "",
+          "aiInstruction": "Master Gen boasts about his rich pork broth and asks what you'd like to order today.",
+          "hint": "Order ramen politely.",
           "matches": [
             "ラーメン",
             "おねがいします"
           ]
         },
         {
-          "aiInstruction": "どうだ、うまい だろ？「おいしい です」って いって くれると うれしいな。",
-          "hint": "",
+          "aiInstruction": "Master Gen watches you take your first slurp of noodles and asks how it tastes.",
+          "hint": "Compliment the flavor.",
           "matches": [
             "おいしい"
           ]
@@ -1610,15 +1589,15 @@
       "ai_instruction": "",
       "checkpoints": [
         {
-          "aiInstruction": "いらっしゃいませ！まずは げんきに 「こんにちは」と どうぞ。",
-          "hint": "",
+          "aiInstruction": "Sato bows cheerfully behind the register, waiting for a customer greeting.",
+          "hint": "Greet Sato politely.",
           "matches": [
             "こんにちは"
           ]
         },
         {
-          "aiInstruction": "おにぎりですね！「おにぎりを ください」と いってみて ください。",
-          "hint": "",
+          "aiInstruction": "Sato asks what kind of lunch item you'd like from the display shelf today.",
+          "hint": "Order an onigiri.",
           "matches": [
             "おにぎり",
             "ください"
@@ -1636,8 +1615,8 @@
       "ai_instruction": "",
       "checkpoints": [
         {
-          "aiInstruction": "いらっしゃいませ！なにに しますか？「おにぎり を ください」と いってみて！",
-          "hint": "",
+          "aiInstruction": "Sato smiles from behind the counter and asks what snack you would like to purchase.",
+          "hint": "Order an onigiri.",
           "matches": [
             "おにぎり",
             "ください"
@@ -1655,15 +1634,15 @@
       "ai_instruction": "",
       "checkpoints": [
         {
-          "aiInstruction": "いらっしゃい！まずは あいさつ だな。「こんにちは」と どうぞ。",
-          "hint": "",
+          "aiInstruction": "Master Gen looks up from boiling noodles and shouts a hearty welcome, waiting for a greeting.",
+          "hint": "Greet Master Gen.",
           "matches": [
             "こんにちは"
           ]
         },
         {
-          "aiInstruction": "ていねいな ちゅうもん、いいね！「ラーメンを おねがいします」と いってみな。",
-          "hint": "",
+          "aiInstruction": "Master Gen asks what bowl of noodles you would like to order today.",
+          "hint": "Order ramen politely.",
           "matches": [
             "ラーメン",
             "おねがいします"
@@ -1681,31 +1660,31 @@
       "ai_instruction": "",
       "checkpoints": [
         {
-          "aiInstruction": "レベル3 ふくしゅう テストです！コンビニの れんしゅう。まず 「みずを ください」。",
-          "hint": "",
+          "aiInstruction": "Sensei acts as a shop clerk behind a mock counter and asks what you'd like to drink.",
+          "hint": "Ask for water politely.",
           "matches": [
             "みず",
             "ください"
           ]
         },
         {
-          "aiInstruction": "いいですね！つぎは 「おちゃを ください」と いってみて。",
-          "hint": "",
+          "aiInstruction": "Sensei says the water is currently out of stock and asks what other drink you would like.",
+          "hint": "Ask for tea politely.",
           "matches": [
             "おちゃ",
             "ください"
           ]
         },
         {
-          "aiInstruction": "つぎは ねだんを きく ばん。「いくら ですか」と どうぞ。",
-          "hint": "",
+          "aiInstruction": "Sensei sets a tea bottle on the counter without a price tag and pauses expectantly.",
+          "hint": "Ask how much it is.",
           "matches": [
             "いくら"
           ]
         },
         {
-          "aiInstruction": "らーめんやさんでも ちゅうもん できそう ですか？「はい」と こたえられたら レベル3 クリア です！",
-          "hint": "",
+          "aiInstruction": "Sensei asks if you feel ready to order drinks and food anywhere in town, waiting for 'yes'.",
+          "hint": "Answer 'yes' affirmatively.",
           "matches": [
             "はい"
           ]
@@ -1722,15 +1701,15 @@
       "ai_instruction": "",
       "checkpoints": [
         {
-          "aiInstruction": "あら、げんきな こね。おばあさんに 「こんにちは」と あいさつ してくれる？",
-          "hint": "",
+          "aiInstruction": "Hana sits on the park bench enjoying the breeze and smiles, waiting for a pleasant greeting.",
+          "hint": "Greet Hana politely.",
           "matches": [
             "こんにちは"
           ]
         },
         {
-          "aiInstruction": "このまちは たのしいかい？「はい」と こたえて おくれ。",
-          "hint": "",
+          "aiInstruction": "Hana asks kindly whether you are having a pleasant time in the neighborhood today, waiting for 'yes'.",
+          "hint": "Answer 'yes' politely.",
           "matches": [
             "はい"
           ]
@@ -1747,15 +1726,15 @@
       "ai_instruction": "",
       "checkpoints": [
         {
-          "aiInstruction": "こんにちは。どうされました？まず 「すみません」と いって みてください。",
-          "hint": "",
+          "aiInstruction": "Officer Yamada is writing reports at the police desk; wait for the visitor to get his attention.",
+          "hint": "Get the officer's attention politely.",
           "matches": [
             "すみません"
           ]
         },
         {
-          "aiInstruction": "じこしょうかい ですね。「わたしは 〜 です」と ていねいに どうぞ。",
-          "hint": "",
+          "aiInstruction": "Officer Yamada asks for your name so he can log your visit to the station.",
+          "hint": "Introduce your name.",
           "matches": [
             "わたし",
             "です"
@@ -1773,15 +1752,15 @@
       "ai_instruction": "",
       "checkpoints": [
         {
-          "aiInstruction": "こんにちは。どうされました？まずは 「すみません」と いって みてください。",
-          "hint": "",
+          "aiInstruction": "Officer Yamada is reviewing neighborhood patrol logs; wait for the citizen to politely call out.",
+          "hint": "Get his attention politely first.",
           "matches": [
             "すみません"
           ]
         },
         {
-          "aiInstruction": "やくに たてて よかったです。「ありがとう ございます」と いって みましょう。",
-          "hint": "",
+          "aiInstruction": "Officer Yamada provides reassuring local guidance and waits for polite thanks.",
+          "hint": "Thank him politely.",
           "matches": [
             "ありがとう",
             "ございます"
@@ -1799,15 +1778,15 @@
       "ai_instruction": "",
       "checkpoints": [
         {
-          "aiInstruction": "ねだんが きになる かい？「いくら ですか」と きいてみな。",
-          "hint": "",
+          "aiInstruction": "Master Gen points at the special ramen board and waits for the customer to ask the price.",
+          "hint": "Ask the price.",
           "matches": [
             "いくら"
           ]
         },
         {
-          "aiInstruction": "800えん だよ。さあ、ちゅうもん は 「ラーメンを おねがいします」で どうぞ。",
-          "hint": "",
+          "aiInstruction": "Master Gen confirms the price and asks if you are ready to place your ramen order.",
+          "hint": "Order ramen politely.",
           "matches": [
             "ラーメン",
             "おねがいします"
@@ -1825,15 +1804,15 @@
       "ai_instruction": "",
       "checkpoints": [
         {
-          "aiInstruction": "いらっしゃい！はじめて だな。まず 「こんにちは」と いってみな。",
-          "hint": "",
+          "aiInstruction": "Master Gen bangs a pot with a spoon and yells a booming welcome, waiting for a greeting.",
+          "hint": "Greet Master Gen.",
           "matches": [
             "こんにちは"
           ]
         },
         {
-          "aiInstruction": "おすすめは これだ！ゆびさして 「これを ください」って いってみな。",
-          "hint": "",
+          "aiInstruction": "Master Gen points at the top item on the counter menu and asks which one you'll take.",
+          "hint": "Order 'this one please'.",
           "matches": [
             "これ",
             "ください"
@@ -1851,15 +1830,15 @@
       "ai_instruction": "",
       "checkpoints": [
         {
-          "aiInstruction": "メニューが よめない って？ねだんは 「いくら ですか」って きけば いいんだよ。",
-          "hint": "",
+          "aiInstruction": "Master Gen notices you squinting at the menu chalkboard and waits for you to ask what a bowl costs.",
+          "hint": "Ask how much it is.",
           "matches": [
             "いくら"
           ]
         },
         {
-          "aiInstruction": "800えん だよ。それで いいかい？「はい」と こたえな。",
-          "hint": "",
+          "aiInstruction": "Master Gen states the price and asks if that sounds good for lunch today, waiting for an agreeable 'yes'.",
+          "hint": "Answer 'yes' to agree.",
           "matches": [
             "はい"
           ]
@@ -1876,8 +1855,8 @@
       "ai_instruction": "",
       "checkpoints": [
         {
-          "aiInstruction": "いらっしゃい！うちの ラーメン、どうだ？「おいしい です」って いってくれよ！",
-          "hint": "",
+          "aiInstruction": "Master Gen sets down a tester bowl of broth and eagerly asks how you like the flavor.",
+          "hint": "Compliment the flavor.",
           "matches": [
             "おいしい"
           ]
@@ -1894,7 +1873,7 @@
       "ai_instruction": "",
       "checkpoints": [
         {
-          "aiInstruction": "たいへんなの！しつれいな おきゃくさん が いて…こうばんに そうだん してきて くれない？",
+          "aiInstruction": "Sato looks distressed behind the konbini counter and explains someone has been causing trouble, asking you to report it.",
           "hint": "",
           "matches": []
         }
@@ -1910,31 +1889,31 @@
       "ai_instruction": "",
       "checkpoints": [
         {
-          "aiInstruction": "レベル2 ふくしゅう テストです！まず 「こんにちは」から。",
-          "hint": "",
+          "aiInstruction": "Aoi-sensei stands by the classroom podium and pauses expectantly for a proper greeting.",
+          "hint": "Greet Sensei politely.",
           "matches": [
             "こんにちは"
           ]
         },
         {
-          "aiInstruction": "いいですね！つぎは じこしょうかい。「わたしは 〜 です」と どうぞ。",
-          "hint": "",
+          "aiInstruction": "Aoi-sensei introduces herself and kindly asks the student to state their name.",
+          "hint": "Introduce your name.",
           "matches": [
             "わたし",
             "です"
           ]
         },
         {
-          "aiInstruction": "つぎは しつもんする ばん。「おなまえは なん ですか」と きいてみて。",
-          "hint": "",
+          "aiInstruction": "Aoi-sensei prompts the student to ask what her name is in Japanese.",
+          "hint": "Ask Sensei her name.",
           "matches": [
             "なまえ",
             "なん"
           ]
         },
         {
-          "aiInstruction": "レベル3 の じゅんびは いい ですか？「はい」と こたえられたら レベル2 クリア です！",
-          "hint": "",
+          "aiInstruction": "Aoi-sensei asks if you feel confident meeting and greeting people on your own now, waiting for 'yes'.",
+          "hint": "Answer 'yes' affirmatively.",
           "matches": [
             "はい"
           ]
@@ -1951,7 +1930,7 @@
       "ai_instruction": "",
       "checkpoints": [
         {
-          "aiInstruction": "ようこそ！きょうは 「ありがとう ございます」を れんしゅう しましょう。\"thank you (polite)\" ですよ。",
+          "aiInstruction": "Aoi-sensei welcomes you warmly to the school grounds and explains today's polite expression.",
           "hint": "",
           "matches": []
         }
@@ -1967,22 +1946,22 @@
       "ai_instruction": "",
       "checkpoints": [
         {
-          "aiInstruction": "えきでの れんしゅう です！まず 「すみません」で よびかけて。",
-          "hint": "",
+          "aiInstruction": "Sensei acts as a busy commuter on a crowded platform; wait for the student to get her attention.",
+          "hint": "Get her attention politely first.",
           "matches": [
             "すみません"
           ]
         },
         {
-          "aiInstruction": "つぎは しつもん。「トイレは どこ ですか」と きいてみて。",
-          "hint": "",
+          "aiInstruction": "Sensei turns around in character and asks what location in the station you are looking for.",
+          "hint": "Ask for the restroom.",
           "matches": [
             "トイレ"
           ]
         },
         {
-          "aiInstruction": "さいごは ていねいに 「ありがとう ございます」。じょうず ですね！",
-          "hint": "",
+          "aiInstruction": "Sensei gives clear directions and waits for the student's polite thanks.",
+          "hint": "Thank her politely.",
           "matches": [
             "ありがとう",
             "ございます"
@@ -2000,8 +1979,8 @@
       "ai_instruction": "",
       "checkpoints": [
         {
-          "aiInstruction": "ん？ぼくを よんだ？「すみません」の れんしゅう なら まかせて！",
-          "hint": "",
+          "aiInstruction": "Alex is listening to music on his headphones on the sidewalk until someone gets his attention.",
+          "hint": "Get Alex's attention politely.",
           "matches": [
             "すみません"
           ]
@@ -2018,16 +1997,16 @@
       "ai_instruction": "",
       "checkpoints": [
         {
-          "aiInstruction": "I keep getting lost! How do I ask where the station is? Teach me — say \"えきは どこ ですか\".",
-          "hint": "",
+          "aiInstruction": "Alex holds an upside-down town map looking completely lost and asks what question to ask for the station.",
+          "hint": "Teach Alex how to ask for the station.",
           "matches": [
             "えき",
             "どこ"
           ]
         },
         {
-          "aiInstruction": "And how do I say thank you politely? Show me — say \"ありがとう ございます\".",
-          "hint": "",
+          "aiInstruction": "Alex asks how to thank someone politely in Japanese once they point the way.",
+          "hint": "Teach Alex how to say thank you politely.",
           "matches": [
             "ありがとう",
             "ございます"
@@ -2045,16 +2024,16 @@
       "ai_instruction": "",
       "checkpoints": [
         {
-          "aiInstruction": "I keep pointing and hoping for the best! How do I say \"this one, please\"? Teach me — say \"これを ください\".",
-          "hint": "",
+          "aiInstruction": "Alex points nervously at display items and asks what Japanese phrase to say when pointing at food to order.",
+          "hint": "Teach Alex how to order 'this one please'.",
           "matches": [
             "これ",
             "ください"
           ]
         },
         {
-          "aiInstruction": "And how do I ask what it costs? Show me — say \"いくら ですか\". This is going to change my life here!",
-          "hint": "",
+          "aiInstruction": "Alex shows a coin purse and asks how to ask shopkeepers how much an item costs.",
+          "hint": "Teach Alex how to ask the price.",
           "matches": [
             "いくら"
           ]
@@ -2071,16 +2050,16 @@
       "ai_instruction": "",
       "checkpoints": [
         {
-          "aiInstruction": "I survived the ramen shop on smiles alone! How do I order politely? Teach me — say \"ラーメンを おねがいします\".",
-          "hint": "",
+          "aiInstruction": "Alex asks what polite phrasing he should use to order ramen when sitting at the counter.",
+          "hint": "Teach Alex how to order ramen politely.",
           "matches": [
             "ラーメン",
             "おねがいします"
           ]
         },
         {
-          "aiInstruction": "And when I want to pay? I just pointed at my wallet last time... Show me — say \"おかいけいを おねがいします\".",
-          "hint": "",
+          "aiInstruction": "Alex asks what phrase he should say when he finishes eating and wants to ask for the bill.",
+          "hint": "Teach Alex how to ask for the bill.",
           "matches": [
             "おかいけい",
             "おねがいします"
@@ -2098,8 +2077,8 @@
       "ai_instruction": "",
       "checkpoints": [
         {
-          "aiInstruction": "きっぷの かいかたを ごあんない しました。ていねいに 「ありがとう ございます」と いって みて ください。",
-          "hint": "",
+          "aiInstruction": "Tanaka finishes explaining ticket rules and steps back with a smile, waiting for polite thanks.",
+          "hint": "Thank Tanaka politely.",
           "matches": [
             "ありがとう",
             "ございます"
@@ -2117,16 +2096,16 @@
       "ai_instruction": "",
       "checkpoints": [
         {
-          "aiInstruction": "おかいけい だね。「おかいけいを おねがいします」と いってみな。",
-          "hint": "",
+          "aiInstruction": "Master Gen notices your empty bowl and wipes the counter, waiting for you to ask for the bill.",
+          "hint": "Ask for the bill politely.",
           "matches": [
             "おかいけい",
             "おねがいします"
           ]
         },
         {
-          "aiInstruction": "800えん だよ。さいごは 「ありがとう ございます」と ていねいに。",
-          "hint": "",
+          "aiInstruction": "Master Gen hands you your change with two hands and waits for polite thanks.",
+          "hint": "Thank him politely.",
           "matches": [
             "ありがとう",
             "ございます"
@@ -2144,24 +2123,24 @@
       "ai_instruction": "",
       "checkpoints": [
         {
-          "aiInstruction": "まずは きっぷですね。「きっぷを ください」と どうぞ。",
-          "hint": "",
+          "aiInstruction": "Tanaka welcomes you to the ticket counter and asks what ticket you need today.",
+          "hint": "Ask for a ticket.",
           "matches": [
             "きっぷ",
             "ください"
           ]
         },
         {
-          "aiInstruction": "はい、きっぷです。つぎは のりば ですね。「でんしゃは どこ ですか」と きいて ください。",
-          "hint": "",
+          "aiInstruction": "Tanaka stamps the ticket, hands it over, and asks which platform you are searching for.",
+          "hint": "Ask for the platform.",
           "matches": [
             "でんしゃ",
             "どこ"
           ]
         },
         {
-          "aiInstruction": "2ばん のりば です。さいごは 「ありがとう ございます」で かんぺき です！",
-          "hint": "",
+          "aiInstruction": "Tanaka gives detailed track directions and waits for your polite thanks.",
+          "hint": "Thank him politely.",
           "matches": [
             "ありがとう",
             "ございます"
@@ -2179,31 +2158,31 @@
       "ai_instruction": "",
       "checkpoints": [
         {
-          "aiInstruction": "レベル4 ふくしゅう テストです！まず 「えきに いきます」から。",
-          "hint": "",
+          "aiInstruction": "Sensei acts as a town resident walking by and asks where you are traveling to today.",
+          "hint": "Say where you are going.",
           "matches": [
             "えき",
             "いきます"
           ]
         },
         {
-          "aiInstruction": "いいですね！つぎは きっぷ。「きっぷを ください」と どうぞ。",
-          "hint": "",
+          "aiInstruction": "Sensei switches roles to a station attendant behind a counter and asks how she can help.",
+          "hint": "Ask for a ticket.",
           "matches": [
             "きっぷ",
             "ください"
           ]
         },
         {
-          "aiInstruction": "つぎは しつもんする ばん。「トイレは どこ ですか」と きいてみて。",
-          "hint": "",
+          "aiInstruction": "Sensei pauses during the station tour and asks what essential facility you might need to find.",
+          "hint": "Ask for the restroom.",
           "matches": [
             "トイレ"
           ]
         },
         {
-          "aiInstruction": "でんしゃに のれそう ですか？「はい」と こたえられたら レベル4 クリア です！",
-          "hint": "",
+          "aiInstruction": "Sensei asks if you feel ready to navigate trains and stations anywhere in Japan, waiting for 'yes'.",
+          "hint": "Answer 'yes' affirmatively.",
           "matches": [
             "はい"
           ]
@@ -2220,8 +2199,8 @@
       "ai_instruction": "",
       "checkpoints": [
         {
-          "aiInstruction": "おみずですね。「みずを ください」と どうぞ。",
-          "hint": "",
+          "aiInstruction": "Sato notices you heading for the drink cooler and asks what item you came to buy.",
+          "hint": "Order water politely.",
           "matches": [
             "みず",
             "ください"
@@ -2239,16 +2218,16 @@
       "ai_instruction": "",
       "checkpoints": [
         {
-          "aiInstruction": "でんしゃの のりば ですね。「でんしゃは どこ ですか」と きいてみて。",
-          "hint": "",
+          "aiInstruction": "Tanaka notices a confused traveler standing by the concourse and asks which train they are trying to find.",
+          "hint": "Ask where the train is.",
           "matches": [
             "でんしゃ",
             "どこ"
           ]
         },
         {
-          "aiInstruction": "3ばん のりば です。おしえて もらったら 「ありがとう ございます」と いってみて。",
-          "hint": "",
+          "aiInstruction": "Tanaka points out the overhead platform signs clearly and waits for polite thanks.",
+          "hint": "Thank him politely.",
           "matches": [
             "ありがとう",
             "ございます"
@@ -2266,15 +2245,15 @@
       "ai_instruction": "",
       "checkpoints": [
         {
-          "aiInstruction": "ドリルの じかんです！まず 「はい」と いってみましょう。",
-          "hint": "",
+          "aiInstruction": "Sensei asks with a warm smile if you are ready to start today's lesson, waiting for an affirmative 'yes'.",
+          "hint": "Answer 'yes' affirmatively.",
           "matches": [
             "はい"
           ]
         },
         {
-          "aiInstruction": "つぎは はんたい。「いいえ」と はっきり いってみて。",
-          "hint": "",
+          "aiInstruction": "Sensei asks if you are feeling tired or having trouble keeping up today, waiting for a clear 'no'.",
+          "hint": "Answer 'no' politely.",
           "matches": [
             "いいえ"
           ]
@@ -2391,8 +2370,8 @@
       "ai_instruction": "",
       "checkpoints": [
         {
-          "aiInstruction": "ふふ、あいさつ じょうず だね。わたしにも 「こんにちは」を おねがい。",
-          "hint": "",
+          "aiInstruction": "Hana sits by the flower garden and smiles warmly, waiting for a friendly greeting.",
+          "hint": "Greet Hana politely.",
           "matches": [
             "こんにちは"
           ]
@@ -2419,8 +2398,8 @@
       "ai_instruction": "",
       "checkpoints": [
         {
-          "aiInstruction": "あら、やさしい こね。おばあさんにも じこしょうかい してくれる？",
-          "hint": "",
+          "aiInstruction": "Hana pours tea on the bench, introduces herself gently, and asks who her new friend is.",
+          "hint": "Introduce yourself to Hana.",
           "matches": [
             "わたし",
             "です"
@@ -2468,8 +2447,8 @@
       "ai_instruction": "",
       "checkpoints": [
         {
-          "aiInstruction": "さあ、いっしょに。「ありがとう ございます」と いってみて！",
-          "hint": "",
+          "aiInstruction": "Aoi-sensei shares an encouraging story about learning Japanese and waits for your polite thanks.",
+          "hint": "Thank Sensei politely.",
           "matches": [
             "ありがとう"
           ]
@@ -2616,8 +2595,8 @@
       "ai_instruction": "",
       "checkpoints": [
         {
-          "aiInstruction": "やあ！まちで あいさつ れんしゅう してるの？ぼくにも 「こんにちは」って いってみて！",
-          "hint": "",
+          "aiInstruction": "Hiroshi pauses on the street corner on his way to work, waiting for a polite morning greeting.",
+          "hint": "Greet Hiroshi politely.",
           "matches": [
             "こんにちは"
           ]
@@ -2634,8 +2613,8 @@
       "ai_instruction": "",
       "checkpoints": [
         {
-          "aiInstruction": "おじょうさんの ぶん ですね。「きっぷを ください」と どうぞ。",
-          "hint": "",
+          "aiInstruction": "Tanaka greets Hana and you at the ticket window and asks how he can help with your journey.",
+          "hint": "Ask for tickets politely.",
           "matches": [
             "きっぷ",
             "ください"
@@ -2653,8 +2632,8 @@
       "ai_instruction": "",
       "checkpoints": [
         {
-          "aiInstruction": "やあ、はじめまして！「わたしは 〜 です」で じこしょうかい してみて！",
-          "hint": "",
+          "aiInstruction": "Hiroshi bows politely, gives his own name, and asks who he has the pleasure of speaking with.",
+          "hint": "Introduce yourself to Hiroshi.",
           "matches": [
             "わたし",
             "です"
@@ -2672,7 +2651,7 @@
       "ai_instruction": "",
       "checkpoints": [
         {
-          "aiInstruction": "こんにちは。どうしましたか？おちついて、なにが あったか おしえてください。",
+          "aiInstruction": "Officer Yamada looks up from the koban desk and asks calmly what emergency brought you in today.",
           "hint": "",
           "matches": []
         }
@@ -2688,16 +2667,16 @@
       "ai_instruction": "",
       "checkpoints": [
         {
-          "aiInstruction": "ミカちゃんの ぶん だね。「ラーメンを おねがいします」と どうぞ。",
-          "hint": "",
+          "aiInstruction": "Master Gen recognizes you are picking up Mika's lunch order and asks what dish she requested.",
+          "hint": "Order the ramen.",
           "matches": [
             "ラーメン",
             "おねがいします"
           ]
         },
         {
-          "aiInstruction": "はい、できたよ。おかいけい は 「おかいけいを おねがいします」だな。",
-          "hint": "",
+          "aiInstruction": "Master Gen finishes packing the takeout container and waits for you to ask to settle the bill.",
+          "hint": "Ask for the bill.",
           "matches": [
             "おかいけい",
             "おねがいします"
@@ -2715,7 +2694,7 @@
       "ai_instruction": "",
       "checkpoints": [
         {
-          "aiInstruction": "こんにちは。どうしましたか？おちついて、なにが あったか おしえてください。",
+          "aiInstruction": "Officer Yamada looks up with concern as you arrive at the koban and asks what incident took place.",
           "hint": "",
           "matches": []
         }
@@ -2731,8 +2710,8 @@
       "ai_instruction": "",
       "checkpoints": [
         {
-          "aiInstruction": "はい、なんでしょうか？ていねいに 「すみません」と どうぞ。",
-          "hint": "",
+          "aiInstruction": "Tanaka is inspecting departure schedules by the ticket barriers; wait for the traveler to call out.",
+          "hint": "Get Tanaka's attention politely.",
           "matches": [
             "すみません"
           ]
@@ -2749,8 +2728,8 @@
       "ai_instruction": "",
       "checkpoints": [
         {
-          "aiInstruction": "まいど ありがとう ございます！「ありがとう」の れんしゅう ですね、どうぞ！",
-          "hint": "",
+          "aiInstruction": "Sato finishes scanning and bagging your items with a smile, waiting for your thanks.",
+          "hint": "Thank Sato warmly.",
           "matches": [
             "ありがとう"
           ]
@@ -2767,8 +2746,8 @@
       "ai_instruction": "",
       "checkpoints": [
         {
-          "aiInstruction": "みずを かって きて くれたかい？「はい」と こたえて おくれ。",
-          "hint": "",
+          "aiInstruction": "Hana sits resting on the park bench and asks hopefully if you were able to bring water, waiting for 'yes'.",
+          "hint": "Confirm you brought water.",
           "matches": [
             "はい"
           ]
@@ -2875,8 +2854,8 @@
       "ai_instruction": "",
       "checkpoints": [
         {
-          "aiInstruction": "だいじょうぶ ですよ。なにを なくしたか、いってみてください。",
-          "hint": "",
+          "aiInstruction": "Officer Yamada prepares a lost property report form and asks what item was lost and what happened.",
+          "hint": "Say you lost a purse.",
           "matches": [
             "さいふ",
             "なくしました"
@@ -2894,8 +2873,8 @@
       "ai_instruction": "",
       "checkpoints": [
         {
-          "aiInstruction": "だいじょうぶ ですよ。「しつれいな おきゃくさん に こまって います」と いってみてください。",
-          "hint": "",
+          "aiInstruction": "Officer Yamada opens an incident report and asks you to describe what trouble occurred at the store.",
+          "hint": "Report the troubled situation.",
           "matches": [
             "おきゃくさん",
             "こまって"
@@ -3033,7 +3012,7 @@
       "ai_instruction": "",
       "checkpoints": [
         {
-          "aiInstruction": "ああ、よかった！ほんとうに ありがとう、わかい人。たすかったわ。",
+          "aiInstruction": "Hana smiles with immense relief upon hearing the police found the purse, thanking you warmly.",
           "hint": "",
           "matches": []
         }
@@ -3049,7 +3028,7 @@
       "ai_instruction": "",
       "checkpoints": [
         {
-          "aiInstruction": "けいさつに いってくれたんだね！ほんとうに ありがとう、たすかったよ！",
+          "aiInstruction": "Sato beams with gratitude when you return, thanking you warmly for reporting the incident to the police.",
           "hint": "",
           "matches": []
         }
@@ -3115,7 +3094,7 @@
           "ai_instruction": "",
           "checkpoints": [
             {
-              "aiInstruction": "いらっしゃいませ。えきへ ようこそ。げんきに 「こんにちは」と いって みて ください。",
+              "aiInstruction": "Tanaka greets you warmly near the station gate, asking how your day in town is going.",
               "hint": "",
               "matches": []
             }
@@ -3155,8 +3134,8 @@
           "ai_instruction": "",
           "checkpoints": [
             {
-              "aiInstruction": "いらっしゃいませ！なにに しますか？「おにぎり を ください」と いってみて！",
-              "hint": "",
+              "aiInstruction": "Sato smiles from behind the counter and asks what snack you would like to purchase.",
+              "hint": "Order an onigiri.",
               "matches": [
                 "おにぎり",
                 "ください"
@@ -3198,8 +3177,8 @@
           "ai_instruction": "",
           "checkpoints": [
             {
-              "aiInstruction": "こんにちは。みちに まよいましたか？「えき は どこ ですか」と きいてみて！",
-              "hint": "",
+              "aiInstruction": "Hiroshi is waiting near the crossing; wait for the player to ask directions to the train station.",
+              "hint": "Ask where the train station is.",
               "matches": [
                 "えき",
                 "どこ"
@@ -3241,7 +3220,7 @@
           "ai_instruction": "",
           "checkpoints": [
             {
-              "aiInstruction": "ようこそ！きょうは 「ありがとう ございます」を れんしゅう しましょう。\"thank you (polite)\" ですよ。",
+              "aiInstruction": "Aoi-sensei welcomes you warmly to the school grounds and explains today's polite expression.",
               "hint": "",
               "matches": []
             }
@@ -3257,8 +3236,8 @@
           "ai_instruction": "",
           "checkpoints": [
             {
-              "aiInstruction": "さあ、いっしょに。「ありがとう ございます」と いってみて！",
-              "hint": "",
+              "aiInstruction": "Aoi-sensei shares an encouraging story about learning Japanese and waits for your polite thanks.",
+              "hint": "Thank Sensei politely.",
               "matches": [
                 "ありがとう"
               ]
@@ -3299,8 +3278,8 @@
           "ai_instruction": "",
           "checkpoints": [
             {
-              "aiInstruction": "いらっしゃい！うちの ラーメン、どうだ？「おいしい です」って いってくれよ！",
-              "hint": "",
+              "aiInstruction": "Master Gen sets down a tester bowl of broth and eagerly asks how you like the flavor.",
+              "hint": "Compliment the flavor.",
               "matches": [
                 "おいしい"
               ]
@@ -3341,7 +3320,7 @@
           "ai_instruction": "",
           "checkpoints": [
             {
-              "aiInstruction": "たいへん！さいふを なくしちゃったの。こうばんに とどけを だしてほしいんだけど、いって くれる？",
+              "aiInstruction": "Hana is flustered near the shrine entrance and tells you she has misplaced her purse, asking for your help.",
               "hint": "",
               "matches": []
             }
@@ -3367,7 +3346,7 @@
           "ai_instruction": "",
           "checkpoints": [
             {
-              "aiInstruction": "こんにちは。どうしましたか？おちついて、なにが あったか おしえてください。",
+              "aiInstruction": "Officer Yamada looks up from the koban desk and asks calmly what emergency brought you in today.",
               "hint": "",
               "matches": []
             }
@@ -3383,8 +3362,8 @@
           "ai_instruction": "",
           "checkpoints": [
             {
-              "aiInstruction": "だいじょうぶ ですよ。なにを なくしたか、いってみてください。",
-              "hint": "",
+              "aiInstruction": "Officer Yamada prepares a lost property report form and asks what item was lost and what happened.",
+              "hint": "Say you lost a purse.",
               "matches": [
                 "さいふ",
                 "なくしました"
@@ -3412,7 +3391,7 @@
           "ai_instruction": "",
           "checkpoints": [
             {
-              "aiInstruction": "ああ、よかった！ほんとうに ありがとう、わかい人。たすかったわ。",
+              "aiInstruction": "Hana smiles with immense relief upon hearing the police found the purse, thanking you warmly.",
               "hint": "",
               "matches": []
             }
@@ -3452,7 +3431,7 @@
           "ai_instruction": "",
           "checkpoints": [
             {
-              "aiInstruction": "たいへんなの！しつれいな おきゃくさん が いて…こうばんに そうだん してきて くれない？",
+              "aiInstruction": "Sato looks distressed behind the konbini counter and explains someone has been causing trouble, asking you to report it.",
               "hint": "",
               "matches": []
             }
@@ -3478,7 +3457,7 @@
           "ai_instruction": "",
           "checkpoints": [
             {
-              "aiInstruction": "こんにちは。どうしましたか？おちついて、なにが あったか おしえてください。",
+              "aiInstruction": "Officer Yamada looks up with concern as you arrive at the koban and asks what incident took place.",
               "hint": "",
               "matches": []
             }
@@ -3494,8 +3473,8 @@
           "ai_instruction": "",
           "checkpoints": [
             {
-              "aiInstruction": "だいじょうぶ ですよ。「しつれいな おきゃくさん に こまって います」と いってみてください。",
-              "hint": "",
+              "aiInstruction": "Officer Yamada opens an incident report and asks you to describe what trouble occurred at the store.",
+              "hint": "Report the troubled situation.",
               "matches": [
                 "おきゃくさん",
                 "こまって"
@@ -3523,7 +3502,7 @@
           "ai_instruction": "",
           "checkpoints": [
             {
-              "aiInstruction": "けいさつに いってくれたんだね！ほんとうに ありがとう、たすかったよ！",
+              "aiInstruction": "Sato beams with gratitude when you return, thanking you warmly for reporting the incident to the police.",
               "hint": "",
               "matches": []
             }
@@ -4303,15 +4282,15 @@
           "ai_instruction": "",
           "checkpoints": [
             {
-              "aiInstruction": "あら、いらっしゃい！あいさつから はじめましょう。「こんにちは」と いってみて。",
-              "hint": "",
+              "aiInstruction": "Aoi-sensei looks up from her desk with a warm smile, waiting for a polite classroom greeting.",
+              "hint": "Greet Sensei politely.",
               "matches": [
                 "こんにちは"
               ]
             },
             {
-              "aiInstruction": "じゅんびは いいですか？おおきな こえで 「はい」と こたえてね。",
-              "hint": "",
+              "aiInstruction": "Aoi-sensei asks if you are ready to begin today's lesson, waiting for an affirmative 'yes'.",
+              "hint": "Answer 'yes' when asked if ready.",
               "matches": [
                 "はい"
               ]
@@ -4352,15 +4331,15 @@
           "ai_instruction": "",
           "checkpoints": [
             {
-              "aiInstruction": "はい、なんでしょうか？まずは 「すみません」と よびかけて ください。",
-              "hint": "",
+              "aiInstruction": "Tanaka is busy sorting timetable papers behind the information desk; wait for the player to get his attention.",
+              "hint": "Get his attention politely first.",
               "matches": [
                 "すみません"
               ]
             },
             {
-              "aiInstruction": "どういたしまして。ていねいに 「ありがとう ございます」と いって みましょう。",
-              "hint": "",
+              "aiInstruction": "Tanaka provides helpful station directions and waits for the player's polite thanks.",
+              "hint": "Thank him politely.",
               "matches": [
                 "ありがとう",
                 "ございます"
@@ -4402,15 +4381,15 @@
           "ai_instruction": "",
           "checkpoints": [
             {
-              "aiInstruction": "いらっしゃいませ！ていねいな あいさつ、だいかんげい ですよ。「こんにちは」と どうぞ。",
-              "hint": "",
+              "aiInstruction": "Sato welcomes you cheerfully as you walk through the automatic doors, prompting a greeting.",
+              "hint": "Greet Sato politely.",
               "matches": [
                 "こんにちは"
               ]
             },
             {
-              "aiInstruction": "おかいあげ ありがとう ございます！「ありがとう」って いって くれると うれしいな。",
-              "hint": "",
+              "aiInstruction": "Sato hands you your receipt and bagged purchase with a smile, waiting for your thanks.",
+              "hint": "Thank him after shopping.",
               "matches": [
                 "ありがとう"
               ]
@@ -4451,15 +4430,15 @@
           "ai_instruction": "",
           "checkpoints": [
             {
-              "aiInstruction": "こんにちは。どうされました？まずは 「すみません」と いって みてください。",
-              "hint": "",
+              "aiInstruction": "Officer Yamada is reviewing neighborhood patrol logs; wait for the citizen to politely call out.",
+              "hint": "Get his attention politely first.",
               "matches": [
                 "すみません"
               ]
             },
             {
-              "aiInstruction": "やくに たてて よかったです。「ありがとう ございます」と いって みましょう。",
-              "hint": "",
+              "aiInstruction": "Officer Yamada provides reassuring local guidance and waits for polite thanks.",
+              "hint": "Thank him politely.",
               "matches": [
                 "ありがとう",
                 "ございます"
@@ -4501,15 +4480,15 @@
           "ai_instruction": "",
           "checkpoints": [
             {
-              "aiInstruction": "あら、げんきな こね。おばあさんに 「こんにちは」と あいさつ してくれる？",
-              "hint": "",
+              "aiInstruction": "Hana sits on the park bench enjoying the breeze and smiles, waiting for a pleasant greeting.",
+              "hint": "Greet Hana politely.",
               "matches": [
                 "こんにちは"
               ]
             },
             {
-              "aiInstruction": "このまちは たのしいかい？「はい」と こたえて おくれ。",
-              "hint": "",
+              "aiInstruction": "Hana asks kindly whether you are having a pleasant time in the neighborhood today, waiting for 'yes'.",
+              "hint": "Answer 'yes' politely.",
               "matches": [
                 "はい"
               ]
@@ -4550,15 +4529,15 @@
           "ai_instruction": "",
           "checkpoints": [
             {
-              "aiInstruction": "ドリルの じかんです！まず 「はい」と いってみましょう。",
-              "hint": "",
+              "aiInstruction": "Sensei asks with a warm smile if you are ready to start today's lesson, waiting for an affirmative 'yes'.",
+              "hint": "Answer 'yes' affirmatively.",
               "matches": [
                 "はい"
               ]
             },
             {
-              "aiInstruction": "つぎは はんたい。「いいえ」と はっきり いってみて。",
-              "hint": "",
+              "aiInstruction": "Sensei asks if you are feeling tired or having trouble keeping up today, waiting for a clear 'no'.",
+              "hint": "Answer 'no' politely.",
               "matches": [
                 "いいえ"
               ]
@@ -4599,8 +4578,8 @@
           "ai_instruction": "",
           "checkpoints": [
             {
-              "aiInstruction": "あら、あいさつ まわり？すてき！「こんにちは」と いってみて。",
-              "hint": "",
+              "aiInstruction": "Mika is sweeping outside the shop and waves, waiting for a cheerful neighborhood greeting.",
+              "hint": "Greet Mika politely.",
               "matches": [
                 "こんにちは"
               ]
@@ -4617,8 +4596,8 @@
           "ai_instruction": "",
           "checkpoints": [
             {
-              "aiInstruction": "ふふ、あいさつ じょうず だね。わたしにも 「こんにちは」を おねがい。",
-              "hint": "",
+              "aiInstruction": "Hana sits by the flower garden and smiles warmly, waiting for a friendly greeting.",
+              "hint": "Greet Hana politely.",
               "matches": [
                 "こんにちは"
               ]
@@ -4635,8 +4614,8 @@
           "ai_instruction": "",
           "checkpoints": [
             {
-              "aiInstruction": "やあ！まちで あいさつ れんしゅう してるの？ぼくにも 「こんにちは」って いってみて！",
-              "hint": "",
+              "aiInstruction": "Hiroshi pauses on the street corner on his way to work, waiting for a polite morning greeting.",
+              "hint": "Greet Hiroshi politely.",
               "matches": [
                 "こんにちは"
               ]
@@ -4677,8 +4656,8 @@
           "ai_instruction": "",
           "checkpoints": [
             {
-              "aiInstruction": "きっぷの かいかたを ごあんない しました。ていねいに 「ありがとう ございます」と いって みて ください。",
-              "hint": "",
+              "aiInstruction": "Tanaka finishes explaining ticket rules and steps back with a smile, waiting for polite thanks.",
+              "hint": "Thank Tanaka politely.",
               "matches": [
                 "ありがとう",
                 "ございます"
@@ -4706,8 +4685,8 @@
           "ai_instruction": "",
           "checkpoints": [
             {
-              "aiInstruction": "まいど ありがとう ございます！「ありがとう」の れんしゅう ですね、どうぞ！",
-              "hint": "",
+              "aiInstruction": "Sato finishes scanning and bagging your items with a smile, waiting for your thanks.",
+              "hint": "Thank Sato warmly.",
               "matches": [
                 "ありがとう"
               ]
@@ -4748,8 +4727,8 @@
           "ai_instruction": "",
           "checkpoints": [
             {
-              "aiInstruction": "ん？ぼくを よんだ？「すみません」の れんしゅう なら まかせて！",
-              "hint": "",
+              "aiInstruction": "Alex is listening to music on his headphones on the sidewalk until someone gets his attention.",
+              "hint": "Get Alex's attention politely.",
               "matches": [
                 "すみません"
               ]
@@ -4776,8 +4755,8 @@
           "ai_instruction": "",
           "checkpoints": [
             {
-              "aiInstruction": "はい、なんでしょうか？ていねいに 「すみません」と どうぞ。",
-              "hint": "",
+              "aiInstruction": "Tanaka is inspecting departure schedules by the ticket barriers; wait for the traveler to call out.",
+              "hint": "Get Tanaka's attention politely.",
               "matches": [
                 "すみません"
               ]
@@ -4818,30 +4797,30 @@
           "ai_instruction": "",
           "checkpoints": [
             {
-              "aiInstruction": "レベル1 ふくしゅう テストです！まず 「こんにちは」から。",
-              "hint": "",
+              "aiInstruction": "Aoi-sensei welcomes you into the classroom and pauses for a proper greeting.",
+              "hint": "Greet Sensei politely.",
               "matches": [
                 "こんにちは"
               ]
             },
             {
-              "aiInstruction": "いいですね！つぎは 「ありがとう ございます」を ていねいに。",
-              "hint": "",
+              "aiInstruction": "Aoi-sensei hands you a helpful reference handout and waits for your polite thanks.",
+              "hint": "Thank her politely.",
               "matches": [
                 "ありがとう",
                 "ございます"
               ]
             },
             {
-              "aiInstruction": "わかりましたか？「はい」と こたえて。",
-              "hint": "",
+              "aiInstruction": "Aoi-sensei asks whether the explanation was clear, waiting for a confident 'yes'.",
+              "hint": "Answer 'yes' affirmatively.",
               "matches": [
                 "はい"
               ]
             },
             {
-              "aiInstruction": "さいごに 「いいえ」も いえたら レベル1 クリア です！",
-              "hint": "",
+              "aiInstruction": "Aoi-sensei asks if you have any doubts left about the greetings, waiting for a clear 'no'.",
+              "hint": "Answer 'no' clearly.",
               "matches": [
                 "いいえ"
               ]
@@ -4895,15 +4874,15 @@
           "ai_instruction": "",
           "checkpoints": [
             {
-              "aiInstruction": "あら、あたらしい がくせいさん？まず 「こんにちは」と あいさつ して。",
-              "hint": "",
+              "aiInstruction": "Aoi-sensei welcomes the new student at the classroom door and waits for an initial greeting.",
+              "hint": "Greet Sensei politely.",
               "matches": [
                 "こんにちは"
               ]
             },
             {
-              "aiInstruction": "はじめまして！「わたしは 〜 です」で じこしょうかい してみて。",
-              "hint": "",
+              "aiInstruction": "Aoi-sensei introduces herself and kindly asks what she should call the new student.",
+              "hint": "Introduce your name.",
               "matches": [
                 "わたし",
                 "です"
@@ -4945,15 +4924,15 @@
           "ai_instruction": "",
           "checkpoints": [
             {
-              "aiInstruction": "ん？なあに？まず 「すみません」って よんでみて！",
-              "hint": "",
+              "aiInstruction": "Hiroshi is checking his pocket watch on the platform; wait for the player to get his attention.",
+              "hint": "Get his attention politely first.",
               "matches": [
                 "すみません"
               ]
             },
             {
-              "aiInstruction": "ぼくの なまえ、きいて くれるの？「おなまえは なん ですか」って どうぞ！",
-              "hint": "",
+              "aiInstruction": "Hiroshi looks up curiously and waits for the player to ask his name.",
+              "hint": "Ask his name politely.",
               "matches": [
                 "なまえ",
                 "なん"
@@ -4995,15 +4974,8 @@
           "ai_instruction": "",
           "checkpoints": [
             {
-              "aiInstruction": "いらっしゃいませ！まずは げんきに 「こんにちは」と どうぞ。",
-              "hint": "",
-              "matches": [
-                "こんにちは"
-              ]
-            },
-            {
-              "aiInstruction": "はじめまして！じょうきゃくさんの おなまえ、「わたしは 〜 です」で おしえて ください。",
-              "hint": "",
+              "aiInstruction": "Sato bows at the cash register, introduces himself warmly, and asks for the regular customer's name.",
+              "hint": "Introduce yourself to Sato.",
               "matches": [
                 "わたし",
                 "です"
@@ -5045,15 +5017,15 @@
           "ai_instruction": "",
           "checkpoints": [
             {
-              "aiInstruction": "こんにちは。どうされました？まず 「すみません」と いって みてください。",
-              "hint": "",
+              "aiInstruction": "Officer Yamada is writing reports at the police desk; wait for the visitor to get his attention.",
+              "hint": "Get the officer's attention politely.",
               "matches": [
                 "すみません"
               ]
             },
             {
-              "aiInstruction": "じこしょうかい ですね。「わたしは 〜 です」と ていねいに どうぞ。",
-              "hint": "",
+              "aiInstruction": "Officer Yamada asks for your name so he can log your visit to the station.",
+              "hint": "Introduce your name.",
               "matches": [
                 "わたし",
                 "です"
@@ -5095,25 +5067,18 @@
           "ai_instruction": "",
           "checkpoints": [
             {
-              "aiInstruction": "あら、あたらしい かおね。おばあさんに 「こんにちは」と あいさつ してくれる？",
-              "hint": "",
+              "aiInstruction": "Hana looks up from trimming flowers in the community garden, waiting for a friendly greeting.",
+              "hint": "Greet Hana politely.",
               "matches": [
                 "こんにちは"
               ]
             },
             {
-              "aiInstruction": "はじめまして。おなまえは なあに？「わたしは 〜 です」って いって おくれ。",
-              "hint": "",
+              "aiInstruction": "Hana introduces herself warmly and asks what name she may call you by.",
+              "hint": "Introduce your name.",
               "matches": [
                 "わたし",
                 "です"
-              ]
-            },
-            {
-              "aiInstruction": "この まちは すき ですか？「はい」と こたえて おくれ。",
-              "hint": "",
-              "matches": [
-                "はい"
               ]
             }
           ],
@@ -5152,16 +5117,16 @@
           "ai_instruction": "",
           "checkpoints": [
             {
-              "aiInstruction": "How do I ask someone's name in Japanese? Teach me! Say \"おなまえは なん ですか\".",
-              "hint": "",
+              "aiInstruction": "Alex looks lost and asks what question he should ask someone in Japanese to find out their name.",
+              "hint": "Ask their name in polite Japanese.",
               "matches": [
                 "なまえ",
                 "なん"
               ]
             },
             {
-              "aiInstruction": "Nice! And how do I introduce myself? Show me — say \"わたしは 〜 です\"!",
-              "hint": "",
+              "aiInstruction": "Alex nods and asks what sentence he should use to introduce his own name in return.",
+              "hint": "Introduce your own name.",
               "matches": [
                 "わたし",
                 "です"
@@ -5203,17 +5168,10 @@
           "ai_instruction": "",
           "checkpoints": [
             {
-              "aiInstruction": "この しゃしん、どこだと おもうね？「にほん ですか」って きいて ごらん。",
-              "hint": "",
+              "aiInstruction": "Hana holds up an old scenic photograph and asks whether you can tell if it shows Japan.",
+              "hint": "Ask if it's Japan.",
               "matches": [
                 "にほん"
-              ]
-            },
-            {
-              "aiInstruction": "せいかい！にほん だよ。にほんは たのしい ですか？「はい」って こたえて おくれ。",
-              "hint": "",
-              "matches": [
-                "はい"
               ]
             }
           ],
@@ -5252,24 +5210,24 @@
           "ai_instruction": "",
           "checkpoints": [
             {
-              "aiInstruction": "ドリルの じかんです！まず わたしに 「おなまえは なん ですか」と きいてみて。",
-              "hint": "",
+              "aiInstruction": "Aoi-sensei stands at the blackboard and prompts the student to ask her name in Japanese.",
+              "hint": "Ask Sensei her name.",
               "matches": [
                 "なまえ",
                 "なん"
               ]
             },
             {
-              "aiInstruction": "わたしは あおい です。つぎは あなたの ばん。「わたしは 〜 です」と どうぞ。",
-              "hint": "",
+              "aiInstruction": "Aoi-sensei answers with her name and gently invites the student to introduce themselves.",
+              "hint": "Introduce your name.",
               "matches": [
                 "わたし",
                 "です"
               ]
             },
             {
-              "aiInstruction": "あなたも せんせい ですか？「いいえ」と こたえてね。",
-              "hint": "",
+              "aiInstruction": "Aoi-sensei asks with a grin if you are also a teacher, waiting for a polite negative 'no'.",
+              "hint": "Answer 'no' politely.",
               "matches": [
                 "いいえ"
               ]
@@ -5310,8 +5268,8 @@
           "ai_instruction": "",
           "checkpoints": [
             {
-              "aiInstruction": "あら、はじめまして！「わたしは 〜 です」って どうぞ。",
-              "hint": "",
+              "aiInstruction": "Mika introduces herself with a bright smile and asks for your name.",
+              "hint": "Introduce yourself to Mika.",
               "matches": [
                 "わたし",
                 "です"
@@ -5329,8 +5287,8 @@
           "ai_instruction": "",
           "checkpoints": [
             {
-              "aiInstruction": "あら、やさしい こね。おばあさんにも じこしょうかい してくれる？",
-              "hint": "",
+              "aiInstruction": "Hana pours tea on the bench, introduces herself gently, and asks who her new friend is.",
+              "hint": "Introduce yourself to Hana.",
               "matches": [
                 "わたし",
                 "です"
@@ -5348,8 +5306,8 @@
           "ai_instruction": "",
           "checkpoints": [
             {
-              "aiInstruction": "やあ、はじめまして！「わたしは 〜 です」で じこしょうかい してみて！",
-              "hint": "",
+              "aiInstruction": "Hiroshi bows politely, gives his own name, and asks who he has the pleasure of speaking with.",
+              "hint": "Introduce yourself to Hiroshi.",
               "matches": [
                 "わたし",
                 "です"
@@ -5391,31 +5349,31 @@
           "ai_instruction": "",
           "checkpoints": [
             {
-              "aiInstruction": "レベル2 ふくしゅう テストです！まず 「こんにちは」から。",
-              "hint": "",
+              "aiInstruction": "Aoi-sensei stands by the classroom podium and pauses expectantly for a proper greeting.",
+              "hint": "Greet Sensei politely.",
               "matches": [
                 "こんにちは"
               ]
             },
             {
-              "aiInstruction": "いいですね！つぎは じこしょうかい。「わたしは 〜 です」と どうぞ。",
-              "hint": "",
+              "aiInstruction": "Aoi-sensei introduces herself and kindly asks the student to state their name.",
+              "hint": "Introduce your name.",
               "matches": [
                 "わたし",
                 "です"
               ]
             },
             {
-              "aiInstruction": "つぎは しつもんする ばん。「おなまえは なん ですか」と きいてみて。",
-              "hint": "",
+              "aiInstruction": "Aoi-sensei prompts the student to ask what her name is in Japanese.",
+              "hint": "Ask Sensei her name.",
               "matches": [
                 "なまえ",
                 "なん"
               ]
             },
             {
-              "aiInstruction": "レベル3 の じゅんびは いい ですか？「はい」と こたえられたら レベル2 クリア です！",
-              "hint": "",
+              "aiInstruction": "Aoi-sensei asks if you feel confident meeting and greeting people on your own now, waiting for 'yes'.",
+              "hint": "Answer 'yes' affirmatively.",
               "matches": [
                 "はい"
               ]
@@ -5469,15 +5427,15 @@
           "ai_instruction": "",
           "checkpoints": [
             {
-              "aiInstruction": "いらっしゃいませ！まずは げんきに 「こんにちは」と どうぞ。",
-              "hint": "",
+              "aiInstruction": "Sato bows cheerfully behind the register, waiting for a customer greeting.",
+              "hint": "Greet Sato politely.",
               "matches": [
                 "こんにちは"
               ]
             },
             {
-              "aiInstruction": "おにぎりですね！「おにぎりを ください」と いってみて ください。",
-              "hint": "",
+              "aiInstruction": "Sato asks what kind of lunch item you'd like from the display shelf today.",
+              "hint": "Order an onigiri.",
               "matches": [
                 "おにぎり",
                 "ください"
@@ -5519,8 +5477,8 @@
           "ai_instruction": "",
           "checkpoints": [
             {
-              "aiInstruction": "おみずですね。「みずを ください」と どうぞ。",
-              "hint": "",
+              "aiInstruction": "Sato notices you heading for the drink cooler and asks what item you came to buy.",
+              "hint": "Order water politely.",
               "matches": [
                 "みず",
                 "ください"
@@ -5548,8 +5506,8 @@
           "ai_instruction": "",
           "checkpoints": [
             {
-              "aiInstruction": "みずを かって きて くれたかい？「はい」と こたえて おくれ。",
-              "hint": "",
+              "aiInstruction": "Hana sits resting on the park bench and asks hopefully if you were able to bring water, waiting for 'yes'.",
+              "hint": "Confirm you brought water.",
               "matches": [
                 "はい"
               ]
@@ -5590,16 +5548,16 @@
           "ai_instruction": "",
           "checkpoints": [
             {
-              "aiInstruction": "ジェスチャーは もう いりませんよ。「これを ください」と いってみて。",
-              "hint": "",
+              "aiInstruction": "Sato looks up attentively from the counter and asks which snack you have chosen from the display.",
+              "hint": "Order 'this one please'.",
               "matches": [
                 "これ",
                 "ください"
               ]
             },
             {
-              "aiInstruction": "これですか？「はい」と こたえて ください。",
-              "hint": "",
+              "aiInstruction": "Sato holds up the selected snack package to confirm if this is the one you wanted, waiting for 'yes'.",
+              "hint": "Answer 'yes' to confirm.",
               "matches": [
                 "はい"
               ]
@@ -5640,15 +5598,15 @@
           "ai_instruction": "",
           "checkpoints": [
             {
-              "aiInstruction": "ねだんが きになる ものが ありますか？「いくら ですか」と きいてみて。",
-              "hint": "",
+              "aiInstruction": "Sato notices you inspecting an item on the shelf without a tag and asks if you have a question about it.",
+              "hint": "Ask how much it costs.",
               "matches": [
                 "いくら"
               ]
             },
             {
-              "aiInstruction": "300えん です。おしえて もらったら 「ありがとう ございます」ですよ。",
-              "hint": "",
+              "aiInstruction": "Sato clearly states the price of the item and waits for your polite thanks.",
+              "hint": "Thank him politely.",
               "matches": [
                 "ありがとう",
                 "ございます"
@@ -5690,16 +5648,16 @@
           "ai_instruction": "",
           "checkpoints": [
             {
-              "aiInstruction": "おちゃですね、のど かわいて ますか？「おちゃを ください」と どうぞ。",
-              "hint": "",
+              "aiInstruction": "Sato welcomes you into the cool convenience store and asks what beverage you would like to buy.",
+              "hint": "Ask for tea politely.",
               "matches": [
                 "おちゃ",
                 "ください"
               ]
             },
             {
-              "aiInstruction": "まいど ありがとう ございます！「ありがとう」の れんしゅうも ばっちり ですね。",
-              "hint": "",
+              "aiInstruction": "Sato bags the bottle of green tea with a friendly bow, waiting for your thanks.",
+              "hint": "Say thank you.",
               "matches": [
                 "ありがとう"
               ]
@@ -5740,15 +5698,15 @@
           "ai_instruction": "",
           "checkpoints": [
             {
-              "aiInstruction": "いらっしゃい！はじめて だな。まず 「こんにちは」と いってみな。",
-              "hint": "",
+              "aiInstruction": "Master Gen bangs a pot with a spoon and yells a booming welcome, waiting for a greeting.",
+              "hint": "Greet Master Gen.",
               "matches": [
                 "こんにちは"
               ]
             },
             {
-              "aiInstruction": "おすすめは これだ！ゆびさして 「これを ください」って いってみな。",
-              "hint": "",
+              "aiInstruction": "Master Gen points at the top item on the counter menu and asks which one you'll take.",
+              "hint": "Order 'this one please'.",
               "matches": [
                 "これ",
                 "ください"
@@ -5790,15 +5748,15 @@
           "ai_instruction": "",
           "checkpoints": [
             {
-              "aiInstruction": "メニューが よめない って？ねだんは 「いくら ですか」って きけば いいんだよ。",
-              "hint": "",
+              "aiInstruction": "Master Gen notices you squinting at the menu chalkboard and waits for you to ask what a bowl costs.",
+              "hint": "Ask how much it is.",
               "matches": [
                 "いくら"
               ]
             },
             {
-              "aiInstruction": "800えん だよ。それで いいかい？「はい」と こたえな。",
-              "hint": "",
+              "aiInstruction": "Master Gen states the price and asks if that sounds good for lunch today, waiting for an agreeable 'yes'.",
+              "hint": "Answer 'yes' to agree.",
               "matches": [
                 "はい"
               ]
@@ -5839,16 +5797,16 @@
           "ai_instruction": "",
           "checkpoints": [
             {
-              "aiInstruction": "I keep pointing and hoping for the best! How do I say \"this one, please\"? Teach me — say \"これを ください\".",
-              "hint": "",
+              "aiInstruction": "Alex points nervously at display items and asks what Japanese phrase to say when pointing at food to order.",
+              "hint": "Teach Alex how to order 'this one please'.",
               "matches": [
                 "これ",
                 "ください"
               ]
             },
             {
-              "aiInstruction": "And how do I ask what it costs? Show me — say \"いくら ですか\". This is going to change my life here!",
-              "hint": "",
+              "aiInstruction": "Alex shows a coin purse and asks how to ask shopkeepers how much an item costs.",
+              "hint": "Teach Alex how to ask the price.",
               "matches": [
                 "いくら"
               ]
@@ -5889,14 +5847,14 @@
           "ai_instruction": "This is a real konbini transaction. Stay fully in character as Sato — greet the player when they approach, ask what they'd like when they haven't ordered yet, state a price once they've ordered, and accept their thanks warmly. Never narrate which step of the exchange you're on.",
           "checkpoints": [
             {
-              "aiInstruction": "Target: 「こんにちは」. Look up as the player approaches and wait for them to greet you before addressing what they want — don't greet them first with anything that sounds like a completed exchange.",
+              "aiInstruction": "Look up as the player approaches and wait for them to greet you before addressing what they want — don't greet them first with anything that sounds like a completed exchange.",
               "hint": "Shopkeepers usually get a greeting before you ask for anything.",
               "matches": [
                 "こんにちは"
               ]
             },
             {
-              "aiInstruction": "Target: 「おにぎりを ください」. Once greeted, ask naturally what they're looking for today (e.g. なにに しますか) instead of stating the item yourself.",
+              "aiInstruction": "Once greeted, ask naturally what they're looking for today (e.g. なにに しますか) instead of stating the item yourself.",
               "hint": "Ask for what you'd like, politely, using ください.",
               "matches": [
                 "おにぎり",
@@ -5904,14 +5862,14 @@
               ]
             },
             {
-              "aiInstruction": "Target: 「いくら ですか」. After confirming their onigiri order, do not volunteer the price — wait for them to ask, and if they don't after a turn, ask if they'd like to know how much it is.",
+              "aiInstruction": "After confirming their onigiri order, do not volunteer the price — wait for them to ask, and if they don't after a turn, ask if they'd like to know how much it is.",
               "hint": "You don't know the price yet — that's worth asking about.",
               "matches": [
                 "いくら"
               ]
             },
             {
-              "aiInstruction": "Target: 「ありがとう ございます」. State the price (150えん です) and hand over the item, then wait for their thanks — don't thank them first in a way that closes the exchange before they do.",
+              "aiInstruction": "State the price (150えん です) and hand over the item, then wait for their thanks — don't thank them first in a way that closes the exchange before they do.",
               "hint": "A polite send-off is the natural way to close out a purchase.",
               "matches": [
                 "ありがとう",
@@ -5954,31 +5912,31 @@
           "ai_instruction": "",
           "checkpoints": [
             {
-              "aiInstruction": "レベル3 ふくしゅう テストです！コンビニの れんしゅう。まず 「みずを ください」。",
-              "hint": "",
+              "aiInstruction": "Sensei acts as a shop clerk behind a mock counter and asks what you'd like to drink.",
+              "hint": "Ask for water politely.",
               "matches": [
                 "みず",
                 "ください"
               ]
             },
             {
-              "aiInstruction": "いいですね！つぎは 「おちゃを ください」と いってみて。",
-              "hint": "",
+              "aiInstruction": "Sensei says the water is currently out of stock and asks what other drink you would like.",
+              "hint": "Ask for tea politely.",
               "matches": [
                 "おちゃ",
                 "ください"
               ]
             },
             {
-              "aiInstruction": "つぎは ねだんを きく ばん。「いくら ですか」と どうぞ。",
-              "hint": "",
+              "aiInstruction": "Sensei sets a tea bottle on the counter without a price tag and pauses expectantly.",
+              "hint": "Ask how much it is.",
               "matches": [
                 "いくら"
               ]
             },
             {
-              "aiInstruction": "らーめんやさんでも ちゅうもん できそう ですか？「はい」と こたえられたら レベル3 クリア です！",
-              "hint": "",
+              "aiInstruction": "Sensei asks if you feel ready to order drinks and food anywhere in town, waiting for 'yes'.",
+              "hint": "Answer 'yes' affirmatively.",
               "matches": [
                 "はい"
               ]
@@ -6031,15 +5989,15 @@
           "ai_instruction": "",
           "checkpoints": [
             {
-              "aiInstruction": "はい、なんでしょうか？まずは 「すみません」と よびかけて ください。",
-              "hint": "",
+              "aiInstruction": "Tanaka is checking the departure board at the station; wait for the player to get his attention.",
+              "hint": "Get his attention politely first.",
               "matches": [
                 "すみません"
               ]
             },
             {
-              "aiInstruction": "トイレですね。あちらです。「トイレは どこ ですか」と きいて ください。",
-              "hint": "",
+              "aiInstruction": "Tanaka turns and asks what facility in the station the traveler is searching for.",
+              "hint": "Ask where the restroom is.",
               "matches": [
                 "トイレ"
               ]
@@ -6080,16 +6038,16 @@
           "ai_instruction": "",
           "checkpoints": [
             {
-              "aiInstruction": "きっぷですね。「きっぷを ください」と いってみて。",
-              "hint": "",
+              "aiInstruction": "Tanaka slides open the ticket window and asks how he can help with train travel today.",
+              "hint": "Ask for a ticket politely.",
               "matches": [
                 "きっぷ",
                 "ください"
               ]
             },
             {
-              "aiInstruction": "1まいで いいですか？「はい」と こたえて。",
-              "hint": "",
+              "aiInstruction": "Tanaka confirms whether you need a single ticket, waiting for an affirmative answer.",
+              "hint": "Confirm affirmatively.",
               "matches": [
                 "はい"
               ]
@@ -6130,16 +6088,16 @@
           "ai_instruction": "",
           "checkpoints": [
             {
-              "aiInstruction": "でんしゃの のりば ですね。「でんしゃは どこ ですか」と きいてみて。",
-              "hint": "",
+              "aiInstruction": "Tanaka notices a confused traveler standing by the concourse and asks which train they are trying to find.",
+              "hint": "Ask where the train is.",
               "matches": [
                 "でんしゃ",
                 "どこ"
               ]
             },
             {
-              "aiInstruction": "3ばん のりば です。おしえて もらったら 「ありがとう ございます」と いってみて。",
-              "hint": "",
+              "aiInstruction": "Tanaka points out the overhead platform signs clearly and waits for polite thanks.",
+              "hint": "Thank him politely.",
               "matches": [
                 "ありがとう",
                 "ございます"
@@ -6181,16 +6139,16 @@
           "ai_instruction": "",
           "checkpoints": [
             {
-              "aiInstruction": "あら、おでかけ？「えきに いきます」って おしえて。",
-              "hint": "",
+              "aiInstruction": "Mika spots you outside the store with a bag and asks where you are heading off to today.",
+              "hint": "Say you are going to the station.",
               "matches": [
                 "えき",
                 "いきます"
               ]
             },
             {
-              "aiInstruction": "でんしゃに のるの？「はい」と こたえてね。",
-              "hint": "",
+              "aiInstruction": "Mika asks if you're taking the train from the station, waiting for an affirmative 'yes'.",
+              "hint": "Answer 'yes'.",
               "matches": [
                 "はい"
               ]
@@ -6231,16 +6189,16 @@
           "ai_instruction": "",
           "checkpoints": [
             {
-              "aiInstruction": "I keep getting lost! How do I ask where the station is? Teach me — say \"えきは どこ ですか\".",
-              "hint": "",
+              "aiInstruction": "Alex holds an upside-down town map looking completely lost and asks what question to ask for the station.",
+              "hint": "Teach Alex how to ask for the station.",
               "matches": [
                 "えき",
                 "どこ"
               ]
             },
             {
-              "aiInstruction": "And how do I say thank you politely? Show me — say \"ありがとう ございます\".",
-              "hint": "",
+              "aiInstruction": "Alex asks how to thank someone politely in Japanese once they point the way.",
+              "hint": "Teach Alex how to say thank you politely.",
               "matches": [
                 "ありがとう",
                 "ございます"
@@ -6282,24 +6240,24 @@
           "ai_instruction": "",
           "checkpoints": [
             {
-              "aiInstruction": "まずは きっぷですね。「きっぷを ください」と どうぞ。",
-              "hint": "",
+              "aiInstruction": "Tanaka welcomes you to the ticket counter and asks what ticket you need today.",
+              "hint": "Ask for a ticket.",
               "matches": [
                 "きっぷ",
                 "ください"
               ]
             },
             {
-              "aiInstruction": "はい、きっぷです。つぎは のりば ですね。「でんしゃは どこ ですか」と きいて ください。",
-              "hint": "",
+              "aiInstruction": "Tanaka stamps the ticket, hands it over, and asks which platform you are searching for.",
+              "hint": "Ask for the platform.",
               "matches": [
                 "でんしゃ",
                 "どこ"
               ]
             },
             {
-              "aiInstruction": "2ばん のりば です。さいごは 「ありがとう ございます」で かんぺき です！",
-              "hint": "",
+              "aiInstruction": "Tanaka gives detailed track directions and waits for your polite thanks.",
+              "hint": "Thank him politely.",
               "matches": [
                 "ありがとう",
                 "ございます"
@@ -6341,8 +6299,8 @@
           "ai_instruction": "",
           "checkpoints": [
             {
-              "aiInstruction": "えきまで いきたいの。いっしょに いって くれる？「えきに いきます」って いって おくれ。",
-              "hint": "",
+              "aiInstruction": "Hana meets you by the garden gate and asks where the two of you are walking together.",
+              "hint": "Say you are going to the station.",
               "matches": [
                 "えき",
                 "いきます"
@@ -6370,8 +6328,8 @@
           "ai_instruction": "",
           "checkpoints": [
             {
-              "aiInstruction": "おじょうさんの ぶん ですね。「きっぷを ください」と どうぞ。",
-              "hint": "",
+              "aiInstruction": "Tanaka greets Hana and you at the ticket window and asks how he can help with your journey.",
+              "hint": "Ask for tickets politely.",
               "matches": [
                 "きっぷ",
                 "ください"
@@ -6413,22 +6371,22 @@
           "ai_instruction": "",
           "checkpoints": [
             {
-              "aiInstruction": "えきでの れんしゅう です！まず 「すみません」で よびかけて。",
-              "hint": "",
+              "aiInstruction": "Sensei acts as a busy commuter on a crowded platform; wait for the student to get her attention.",
+              "hint": "Get her attention politely first.",
               "matches": [
                 "すみません"
               ]
             },
             {
-              "aiInstruction": "つぎは しつもん。「トイレは どこ ですか」と きいてみて。",
-              "hint": "",
+              "aiInstruction": "Sensei turns around in character and asks what location in the station you are looking for.",
+              "hint": "Ask for the restroom.",
               "matches": [
                 "トイレ"
               ]
             },
             {
-              "aiInstruction": "さいごは ていねいに 「ありがとう ございます」。じょうず ですね！",
-              "hint": "",
+              "aiInstruction": "Sensei gives clear directions and waits for the student's polite thanks.",
+              "hint": "Thank her politely.",
               "matches": [
                 "ありがとう",
                 "ございます"
@@ -6470,15 +6428,15 @@
           "ai_instruction": "",
           "checkpoints": [
             {
-              "aiInstruction": "おつかれさまです…ん？まず 「すみません」って どうぞ。",
-              "hint": "",
+              "aiInstruction": "Hiroshi is staring down at his phone on the platform until someone politely calls out to him.",
+              "hint": "Get his attention politely first.",
               "matches": [
                 "すみません"
               ]
             },
             {
-              "aiInstruction": "でんしゃの れんしゅう？いいよ。「でんしゃは どこ ですか」って きいてみて。",
-              "hint": "",
+              "aiInstruction": "Hiroshi looks up and asks which line or platform the traveler is trying to find.",
+              "hint": "Ask where the train or platform is.",
               "matches": [
                 "でんしゃ",
                 "どこ"
@@ -6520,31 +6478,31 @@
           "ai_instruction": "",
           "checkpoints": [
             {
-              "aiInstruction": "レベル4 ふくしゅう テストです！まず 「えきに いきます」から。",
-              "hint": "",
+              "aiInstruction": "Sensei acts as a town resident walking by and asks where you are traveling to today.",
+              "hint": "Say where you are going.",
               "matches": [
                 "えき",
                 "いきます"
               ]
             },
             {
-              "aiInstruction": "いいですね！つぎは きっぷ。「きっぷを ください」と どうぞ。",
-              "hint": "",
+              "aiInstruction": "Sensei switches roles to a station attendant behind a counter and asks how she can help.",
+              "hint": "Ask for a ticket.",
               "matches": [
                 "きっぷ",
                 "ください"
               ]
             },
             {
-              "aiInstruction": "つぎは しつもんする ばん。「トイレは どこ ですか」と きいてみて。",
-              "hint": "",
+              "aiInstruction": "Sensei pauses during the station tour and asks what essential facility you might need to find.",
+              "hint": "Ask for the restroom.",
               "matches": [
                 "トイレ"
               ]
             },
             {
-              "aiInstruction": "でんしゃに のれそう ですか？「はい」と こたえられたら レベル4 クリア です！",
-              "hint": "",
+              "aiInstruction": "Sensei asks if you feel ready to navigate trains and stations anywhere in Japan, waiting for 'yes'.",
+              "hint": "Answer 'yes' affirmatively.",
               "matches": [
                 "はい"
               ]
@@ -6596,16 +6554,16 @@
           "ai_instruction": "",
           "checkpoints": [
             {
-              "aiInstruction": "いらっしゃい！メニュー だね。「メニューを おねがいします」と いってみな。",
-              "hint": "",
+              "aiInstruction": "Master Gen welcomes you to the counter seat and waits for you to request to see the menu.",
+              "hint": "Ask for the menu politely.",
               "matches": [
                 "メニュー",
                 "おねがいします"
               ]
             },
             {
-              "aiInstruction": "はい、メニュー。もらったら 「ありがとう」だな。",
-              "hint": "",
+              "aiInstruction": "Master Gen slides a laminated menu across the counter and waits for your thanks.",
+              "hint": "Say thank you.",
               "matches": [
                 "ありがとう"
               ]
@@ -6646,15 +6604,15 @@
           "ai_instruction": "",
           "checkpoints": [
             {
-              "aiInstruction": "いらっしゃい！まずは あいさつ だな。「こんにちは」と どうぞ。",
-              "hint": "",
+              "aiInstruction": "Master Gen looks up from boiling noodles and shouts a hearty welcome, waiting for a greeting.",
+              "hint": "Greet Master Gen.",
               "matches": [
                 "こんにちは"
               ]
             },
             {
-              "aiInstruction": "ていねいな ちゅうもん、いいね！「ラーメンを おねがいします」と いってみな。",
-              "hint": "",
+              "aiInstruction": "Master Gen asks what bowl of noodles you would like to order today.",
+              "hint": "Order ramen politely.",
               "matches": [
                 "ラーメン",
                 "おねがいします"
@@ -6696,16 +6654,16 @@
           "ai_instruction": "",
           "checkpoints": [
             {
-              "aiInstruction": "おかいけい だね。「おかいけいを おねがいします」と いってみな。",
-              "hint": "",
+              "aiInstruction": "Master Gen notices your empty bowl and wipes the counter, waiting for you to ask for the bill.",
+              "hint": "Ask for the bill politely.",
               "matches": [
                 "おかいけい",
                 "おねがいします"
               ]
             },
             {
-              "aiInstruction": "800えん だよ。さいごは 「ありがとう ございます」と ていねいに。",
-              "hint": "",
+              "aiInstruction": "Master Gen hands you your change with two hands and waits for polite thanks.",
+              "hint": "Thank him politely.",
               "matches": [
                 "ありがとう",
                 "ございます"
@@ -6747,16 +6705,16 @@
           "ai_instruction": "",
           "checkpoints": [
             {
-              "aiInstruction": "12じかん ことこと にた スープ だよ。「ラーメンを おねがいします」と どうぞ。",
-              "hint": "",
+              "aiInstruction": "Master Gen boasts about his rich pork broth and asks what you'd like to order today.",
+              "hint": "Order ramen politely.",
               "matches": [
                 "ラーメン",
                 "おねがいします"
               ]
             },
             {
-              "aiInstruction": "どうだ、うまい だろ？「おいしい です」って いって くれると うれしいな。",
-              "hint": "",
+              "aiInstruction": "Master Gen watches you take your first slurp of noodles and asks how it tastes.",
+              "hint": "Compliment the flavor.",
               "matches": [
                 "おいしい"
               ]
@@ -6797,16 +6755,16 @@
           "ai_instruction": "",
           "checkpoints": [
             {
-              "aiInstruction": "I survived the ramen shop on smiles alone! How do I order politely? Teach me — say \"ラーメンを おねがいします\".",
-              "hint": "",
+              "aiInstruction": "Alex asks what polite phrasing he should use to order ramen when sitting at the counter.",
+              "hint": "Teach Alex how to order ramen politely.",
               "matches": [
                 "ラーメン",
                 "おねがいします"
               ]
             },
             {
-              "aiInstruction": "And when I want to pay? I just pointed at my wallet last time... Show me — say \"おかいけいを おねがいします\".",
-              "hint": "",
+              "aiInstruction": "Alex asks what phrase he should say when he finishes eating and wants to ask for the bill.",
+              "hint": "Teach Alex how to ask for the bill.",
               "matches": [
                 "おかいけい",
                 "おねがいします"
@@ -6848,38 +6806,38 @@
           "ai_instruction": "",
           "checkpoints": [
             {
-              "aiInstruction": "いらっしゃい！きょうは フルコースで いこう。まず 「こんにちは」から だ。",
-              "hint": "",
+              "aiInstruction": "Master Gen wipes down the counter and shouts a hearty welcome, waiting for a greeting.",
+              "hint": "Greet Master Gen.",
               "matches": [
                 "こんにちは"
               ]
             },
             {
-              "aiInstruction": "つぎは メニュー だな。「メニューを おねがいします」と どうぞ。",
-              "hint": "",
+              "aiInstruction": "Master Gen asks what he can get for you today, waiting for you to ask for the menu.",
+              "hint": "Ask for the menu.",
               "matches": [
                 "メニュー",
                 "おねがいします"
               ]
             },
             {
-              "aiInstruction": "はい、メニュー。ちゅうもんは 「ラーメンを おねがいします」で ばっちり だ。",
-              "hint": "",
+              "aiInstruction": "Master Gen nods and asks what dish you'd like to order from the menu.",
+              "hint": "Order ramen politely.",
               "matches": [
                 "ラーメン",
                 "おねがいします"
               ]
             },
             {
-              "aiInstruction": "どうだ？「おいしい です」って いって くれたら うれしいな。",
-              "hint": "",
+              "aiInstruction": "Master Gen serves the steaming bowl and asks how the first mouthful tastes.",
+              "hint": "Compliment the ramen.",
               "matches": [
                 "おいしい"
               ]
             },
             {
-              "aiInstruction": "ごちそうさま！さいごは 「おかいけいを おねがいします」で かんぺき だ。",
-              "hint": "",
+              "aiInstruction": "Master Gen sees the empty bowl and waits for you to request the bill.",
+              "hint": "Ask for the bill.",
               "matches": [
                 "おかいけい",
                 "おねがいします"
@@ -6921,8 +6879,8 @@
           "ai_instruction": "",
           "checkpoints": [
             {
-              "aiInstruction": "レジから はなれられなくて…ゲンさんの ところで ちゅうもん してきて くれる？「はい」って いって！",
-              "hint": "",
+              "aiInstruction": "Mika is stuck minding the shop register alone and asks if you could fetch lunch from Gen's ramen shop, waiting for 'yes'.",
+              "hint": "Agree to help.",
               "matches": [
                 "はい"
               ]
@@ -6949,16 +6907,16 @@
           "ai_instruction": "",
           "checkpoints": [
             {
-              "aiInstruction": "ミカちゃんの ぶん だね。「ラーメンを おねがいします」と どうぞ。",
-              "hint": "",
+              "aiInstruction": "Master Gen recognizes you are picking up Mika's lunch order and asks what dish she requested.",
+              "hint": "Order the ramen.",
               "matches": [
                 "ラーメン",
                 "おねがいします"
               ]
             },
             {
-              "aiInstruction": "はい、できたよ。おかいけい は 「おかいけいを おねがいします」だな。",
-              "hint": "",
+              "aiInstruction": "Master Gen finishes packing the takeout container and waits for you to ask to settle the bill.",
+              "hint": "Ask for the bill.",
               "matches": [
                 "おかいけい",
                 "おねがいします"
@@ -7000,15 +6958,15 @@
           "ai_instruction": "",
           "checkpoints": [
             {
-              "aiInstruction": "ねだんが きになる かい？「いくら ですか」と きいてみな。",
-              "hint": "",
+              "aiInstruction": "Master Gen points at the special ramen board and waits for the customer to ask the price.",
+              "hint": "Ask the price.",
               "matches": [
                 "いくら"
               ]
             },
             {
-              "aiInstruction": "800えん だよ。さあ、ちゅうもん は 「ラーメンを おねがいします」で どうぞ。",
-              "hint": "",
+              "aiInstruction": "Master Gen confirms the price and asks if you are ready to place your ramen order.",
+              "hint": "Order ramen politely.",
               "matches": [
                 "ラーメン",
                 "おねがいします"
@@ -7050,24 +7008,24 @@
           "ai_instruction": "",
           "checkpoints": [
             {
-              "aiInstruction": "レストランの れんしゅう です！まず 「メニューを おねがいします」から。",
-              "hint": "",
+              "aiInstruction": "Sensei acts as a restaurant server approaching your table and asks how she can help.",
+              "hint": "Ask for the menu politely.",
               "matches": [
                 "メニュー",
                 "おねがいします"
               ]
             },
             {
-              "aiInstruction": "いいですね！つぎは 「おかいけいを おねがいします」と いってみて。",
-              "hint": "",
+              "aiInstruction": "Sensei clears the mock dishes and asks if you are finished and ready to settle up.",
+              "hint": "Ask for the bill politely.",
               "matches": [
                 "おかいけい",
                 "おねがいします"
               ]
             },
             {
-              "aiInstruction": "もう おなかいっぱい ですか？「いいえ」と こたえてね。",
-              "hint": "",
+              "aiInstruction": "Sensei asks with a smile if you are already full, checking for a polite negative answer.",
+              "hint": "Answer 'no' politely.",
               "matches": [
                 "いいえ"
               ]
@@ -7108,31 +7066,31 @@
           "ai_instruction": "",
           "checkpoints": [
             {
-              "aiInstruction": "レベル5 ふくしゅう テストです！まず 「ラーメンを おねがいします」から。",
-              "hint": "",
+              "aiInstruction": "Sensei acts as a noodle shop master and asks what you feel like ordering today.",
+              "hint": "Order ramen politely.",
               "matches": [
                 "ラーメン",
                 "おねがいします"
               ]
             },
             {
-              "aiInstruction": "いいですね！つぎは 「おいしい です」と いってみて。",
-              "hint": "",
+              "aiInstruction": "Sensei asks how you find the taste of the noodle broth she prepared.",
+              "hint": "Compliment the food.",
               "matches": [
                 "おいしい"
               ]
             },
             {
-              "aiInstruction": "さいごに おかいけい。「おかいけいを おねがいします」と どうぞ。",
-              "hint": "",
+              "aiInstruction": "Sensei sets down the check and waits for you to politely ask to pay.",
+              "hint": "Ask for the bill politely.",
               "matches": [
                 "おかいけい",
                 "おねがいします"
               ]
             },
             {
-              "aiInstruction": "ひとりで おみせに いけそう ですか？「はい」と こたえられたら レベル5 クリア です！",
-              "hint": "",
+              "aiInstruction": "Sensei asks warmly whether you feel confident ordering at restaurants now, waiting for an affirmative 'yes'.",
+              "hint": "Answer 'yes' affirmatively.",
               "matches": [
                 "はい"
               ]
