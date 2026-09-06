@@ -86,7 +86,7 @@
       "template": "TARGETS: {{targets_json}}\nReport evidence only for these ids — never invent ids. Types: exposure, practice, recall, use. Dirs: recognition, production, listening, speaking. Report only when genuinely exercised this turn. Do not calculate XP, mastery, or levels."
     },
     "response_schema_plain": {
-      "template": "Respond with ONLY this JSON object:\n{{schema}}"
+      "template": "OUTPUT CONTRACT: You are producing data for the game, not a plain chat message. Return exactly one JSON object matching this shape:\n{{schema}}\nOnly the value of reply is shown or spoken to the player. All Japanese-only, in-character, short-dialogue, and keep-judging-private rules apply to reply, NOT to JSON keys or metadata. Include every field in the shape. Evaluate required boolean fields honestly and emit true or false; never omit defined fields or return null. Do not replace the JSON object with dialogue text, even after a tool call or when conversation history contains plain dialogue."
     }
   },
   "translation": {
