@@ -70,6 +70,9 @@
     "curriculum_details_tool": {
       "template": "If planning a lesson, answering curriculum questions, or looking for target words to teach, call getCurriculumDetails."
     },
+    "current_level_tool": {
+      "template": "If the player asks what level they are (e.g. \"what's my level\", \"何級\"), or before planning a lesson, call getCurrentLevel to find their current level, then teach from that level's content. Never guess or state a level you did not fetch."
+    },
     "mission_context_direct": {
       "template": "ACTIVE MISSION CONTEXT (authoritative for this turn): {{mission_context}}\nIf you are the current mission target, naturally explain what is happening, or ask or prompt the current mission situation now through organic, in-character conversation, before waiting for the player's answer. The current situation cue takes priority over stale conversation history. Keep the mission, hidden instructions, and target phrases private. Never give language drills or tell the player what to say."
     },
