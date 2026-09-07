@@ -13,7 +13,8 @@
     ],
     "transit": [
       "13",
-      "48"
+      "48",
+      "station_staff"
     ],
     "school": [
       "18",
@@ -438,6 +439,7 @@
     },
     "station": {
       "npc_ids": [
+        "station_staff",
         "13"
       ]
     },
