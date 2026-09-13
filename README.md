@@ -10,7 +10,7 @@ Learn Japanese by living in a pixel-art town. Explore, meet AI characters, compl
 ### Play LangCity
 
 <a href="https://apps.apple.com/us/app/langcity/id6798121267"><img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download LangCity on the App Store" height="54"></a>
-<a href="https://play.google.com/store/apps/details?id=com.alphberlin.langcity"><img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Get LangCity on Google Play" height="74"></a>
+<a href="https://play.google.com/store/apps/details?id=com.alphberlin.langcity"><img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Get LangCity on Google Play" height="54"></a>
 
 <br>
 
@@ -26,7 +26,7 @@ Learn Japanese by living in a pixel-art town. Explore, meet AI characters, compl
 
 Walk through Tokyo-inspired streets, visit shops and stations, and talk to characters in Japanese. Missions give you a reason to practise, while XP and new areas reward your progress. Start as a guest or sign in to sync your journey.
 
-![LangCity preview](https://github-production-user-asset-6210df.s3.amazonaws.com/35306746/650892552-6dc89263-d9df-49e2-b5be-852dd96885f8.png)
+![LangCity game preview](ad/langcity_001.jpg)
 
 ## Downloads and game data
 
