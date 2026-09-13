@@ -26,7 +26,11 @@ Learn Japanese by living in a pixel-art town. Explore, meet AI characters, compl
 
 Walk through Tokyo-inspired streets, visit shops and stations, and talk to characters in Japanese. Missions give you a reason to practise, while XP and new areas reward your progress. Start as a guest or sign in to sync your journey.
 
-![LangCity game preview](ad/langcity_001.jpg)
+### See the game in action
+
+![Explore the LangCity town and follow a learning mission](assets/langcity-town.webp)
+
+![Practise Japanese with Aoi-sensei in the LangCity conversation interface](assets/langcity-conversation.webp)
 
 ## Downloads and game data
 
